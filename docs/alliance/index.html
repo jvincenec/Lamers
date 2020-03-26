@@ -1,0 +1,76 @@
+<meta charset="UTF-8"><style type="text/css">
+body {
+ background-image: url("../i/more_faded_logo.jpg");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+</style><style type="text/css">
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background: #dddddd}
+tr:nth-child(odd) {background: #ffffff}
+
+.toggleable {
+	display: none;
+}
+</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
+<link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
+<script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/fixedheader/3.1.5/js/dataTables.fixedHeader.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/fixedcolumns/3.2.6/js/dataTables.fixedColumns.min.js"></script>	<script>
+	$(document).ready( function () {
+		$('#data').DataTable({
+		"paging":   false,
+		"info":     false,
+		
+		
+		
+		
+		});
+	} );
+	</script><script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="../j/graph.js"></script><script>
+c1 = new Chart("alliance-gp-stats.json", "alliance", "total")
+c1.id = "alliance-gp-chart"
+c1.title = "Alliance Total GP"
+c1.tightScale = true
+c1.round = 100000000
+c1.height = 400
+c1.display()
+
+c3 = new Chart("alliance-player-counts.json", "alliance", "players")
+c3.id = "alliance-player-chart"
+c3.title = "Alliance Total Players"
+c3.tightScale = true
+c3.round = 100
+c3.height = 400
+c3.display()
+
+c2 = new Chart("alliance-guilds-gp-stats.json", null, "total")
+c2.id = "guild-gp-chart"
+c2.title = "Guild Total GP"
+c2.tightScale = true
+c2.round = 10000000
+c2.display()
+</script><title>BRG Alliance Guild Reports: Alliance Guild Index</title>
+<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance Guild Reports: Alliance Guild Index</h1></div>
+
+<div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
+<a href="index.html">Alliance</a> |
+<div style="float:right;"><a href="https://discord.gg/S2GbEKU">BRG Alliance Discord</a></div>
+<a href="players.html">Player</a> | <a href="characters.html">Characters</a>
+</div>
+<br/><table id="data"><thead><tr><th>Guild</th><th>Members</th><th>Units GP</th><th>Ships GP</th><th>Total GP</th></tr></thead><tr><td data-order="BRG Baltic Fleet"><a href="../guild/baltic/index.html">BRG Baltic Fleet</a></td><td data-order="43"><a href="../player/baltic.html">43</a></td><td data-order="102581102">102m</td><td data-order="69464410">69m</td><td data-order="172045512">172m</td></tr><tr><td data-order="BRG Censored"><a href="../guild/censored/index.html">BRG Censored</a></td><td data-order="50"><a href="../player/censored.html">50</a></td><td data-order="116817506">116m</td><td data-order="82530279">82m</td><td data-order="199347785">199m</td></tr><tr><td data-order="BRG Exile"><a href="../guild/exile/index.html">BRG Exile</a></td><td data-order="48"><a href="../player/exile.html">48</a></td><td data-order="95209370">95m</td><td data-order="64391411">64m</td><td data-order="159600781">159m</td></tr><tr><td data-order="BRG Hope"><a href="../guild/hope/index.html">BRG Hope</a></td><td data-order="50"><a href="../player/hope.html">50</a></td><td data-order="121460346">121m</td><td data-order="82151803">82m</td><td data-order="203612149">203m</td></tr><tr><td data-order="[BRG]DropItLikeIt'sHoth"><a href="../guild/hoth/index.html">[BRG]DropItLikeIt'sHoth</a></td><td data-order="36"><a href="../player/hoth.html">36</a></td><td data-order="67252060">67m</td><td data-order="44349406">44.3m</td><td data-order="111601466">111m</td></tr><tr><td data-order="BRG Jyn and Juice"><a href="../guild/jnj/index.html">BRG Jyn and Juice</a></td><td data-order="49"><a href="../player/jnj.html">49</a></td><td data-order="114707336">114m</td><td data-order="75909724">75m</td><td data-order="190617060">190m</td></tr><tr><td data-order="BRG Livin La Vida Y0da"><a href="../guild/llvy/index.html">BRG Livin La Vida Y0da</a></td><td data-order="48"><a href="../player/llvy.html">48</a></td><td data-order="90251589">90m</td><td data-order="61252119">61m</td><td data-order="151503708">151m</td></tr><tr><td data-order="BRG Laxed Out Pros"><a href="../guild/lop/index.html">BRG Laxed Out Pros</a></td><td data-order="49"><a href="../player/lop.html">49</a></td><td data-order="97742868">97m</td><td data-order="67656542">67m</td><td data-order="165399410">165m</td></tr><tr><td data-order="BRG Mandalorians Inc"><a href="../guild/mandalorians/index.html">BRG Mandalorians Inc</a></td><td data-order="48"><a href="../player/mandalorians.html">48</a></td><td data-order="64147139">64m</td><td data-order="42508492">42.5m</td><td data-order="106655631">106m</td></tr><tr><td data-order="BRG KNIGHTS Of OZZERG"><a href="../guild/ozzerg/index.html">BRG KNIGHTS Of OZZERG</a></td><td data-order="50"><a href="../player/ozzerg.html">50</a></td><td data-order="135039895">135m</td><td data-order="92250983">92m</td><td data-order="227290878">227m</td></tr><tr><td data-order="BRG Improbability of Porgs"><a href="../guild/porgs/index.html">BRG Improbability of Porgs</a></td><td data-order="49"><a href="../player/porgs.html">49</a></td><td data-order="123288793">123m</td><td data-order="81957534">81m</td><td data-order="205246327">205m</td></tr><tr><td data-order="BRG Sent By Ravens"><a href="../guild/sbr/index.html">BRG Sent By Ravens</a></td><td data-order="50"><a href="../player/sbr.html">50</a></td><td data-order="109070975">109m</td><td data-order="72095103">72m</td><td data-order="181166078">181m</td></tr><tr><td data-order="BRG Space Dragons"><a href="../guild/space-dragons/index.html">BRG Space Dragons</a></td><td data-order="48"><a href="../player/space-dragons.html">48</a></td><td data-order="93467991">93m</td><td data-order="62679982">62m</td><td data-order="156147973">156m</td></tr><tr><td data-order="BRG Tattooine Tumbleweed"><a href="../guild/tumbleweed/index.html">BRG Tattooine Tumbleweed</a></td><td data-order="50"><a href="../player/tumbleweed.html">50</a></td><td data-order="34252099">34.2m</td><td data-order="21970672">21.9m</td><td data-order="56222771">56m</td></tr><tr><td data-order="BRG The Wampa Den"><a href="../guild/twd/index.html">BRG The Wampa Den</a></td><td data-order="44"><a href="../player/twd.html">44</a></td><td data-order="94408530">94m</td><td data-order="63202559">63m</td><td data-order="157611089">157m</td></tr><tr><td data-order="BRG Wayward Knights"><a href="../guild/wk/index.html">BRG Wayward Knights</a></td><td data-order="50"><a href="../player/wk.html">50</a></td><td data-order="123894563">123m</td><td data-order="82266423">82m</td><td data-order="206160986">206m</td></tr><tfoot><tr><td>16</td><td>762</td><td>1583m</td><td>1066m</td><td>2650m</td></tr></tfoot></table><div id="alliance-gp-chart"></div><div id="alliance-player-chart"></div><div id="guild-gp-chart"></div><br/>
+<font size="-2">Generated 2020-03-25 15:47:34 +0000</font>
