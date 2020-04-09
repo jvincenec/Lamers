@@ -17,6 +17,7 @@ guilds=(
 	'twd 414232583'
 	'wk 861877851'
 	'tumbleweed 115961515'
+	'badbatch 814449267'
 )
 
 for g in $guilds ; do 
