@@ -15,9 +15,11 @@ guilds=(
 	'sbr 141812836'
 	'space-dragons 831264412'
 	'twd 414232583'
-	'wk 861877851'
+	'wk 221913824'
 	'tumbleweed 115961515'
 	'badbatch 814449267'
+	'templar 135722653'
+	'cursed-legacy 259119853'
 )
 
 for g in $guilds ; do 
@@ -26,15 +28,15 @@ for g in $guilds ; do
 	echo "$args[1]"
 	
 	echo "FETCH: $guild"
-	echo "python ~/bin/swgoh.help.py $args[2] $args[1]"
+
+	echo "~/bin/swgoh-tool --fetch $args[2] $args[1]"
+	time ~/bin/swgoh-tool --fetch $args[2] $args[1] || exit 1
 	
-	python ~/bin/swgoh.help.py $args[2] $args[1] || (sleep 60 && python ~/bin/swgoh.help.py $args[2] $args[1]) || (sleep 120 && python ~/bin/swgoh.help.py $args[2] $args[1]) || (sleep 60 && python ~/bin/swgoh.help.py $args[2] $args[1]) || (sleep 60 && python ~/bin/swgoh.help.py $args[2] $args[1]) || (sleep 60 && python ~/bin/swgoh.help.py $args[2] $args[1]) || (sleep 60 && python ~/bin/swgoh.help.py $args[2] $args[1]) || (sleep 60 && python ~/bin/swgoh.help.py $args[2] $args[1]) || exit 1
-	
-	time ~/bin/swgoh --guild $args[1].json --site docs 
-	sleep 60
+	echo "~/bin/swgoh-tool --guild $args[1].json --site docs"
+	time ~/bin/swgoh-tool --guild $args[1].json --site docs
 done
 
 echo "==============="
 echo "ALLIANCE"
 
-time ~/bin/swgoh --alliance docs *.json
+time ~/bin/swgoh-tool --alliance docs *.json

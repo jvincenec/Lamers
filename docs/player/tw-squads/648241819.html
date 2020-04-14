@@ -80,6 +80,7 @@ tr:nth-child(odd) {background: #ffffff}
 <a href="648241819.html">TW+GA Squads</a> |
 <a href="../counters/648241819.html">Counters</a> |
 <a href="../target/648241819.html">Targets</a> |
+<a href="../unlock/648241819.html">Unlocks</a> |
 <a href="../zeta/648241819.html">Zetas</a> |
 <a href="../farm/648241819.html">Farming</a> |
 <a href="../dsgeotb/648241819.html">DS Geo TB</a>
@@ -91,6 +92,9 @@ c1.filter = function(data) {
     data.series = data.series.filter(function (x) {
         if (x.name == "HansMF") { return false }
         if (x.name == "Negotiator") { return false }
+        if (x.name == "Malevolence") { return false }
+        if (x.name == "Raddus") { return false }
+        if (x.name == "Executrix") { return false }
         if (x.name == "NestSolo") { return false }
         return true
     })
@@ -138,6 +142,11 @@ not hard facts.
 &#9432;: Show more info about subs, how the team works, counters and targets
 </p>
 
+<button onclick="$('.squadRow').show()">Show All</button>
+<button onclick="$('.squadRow').hide(); $('.gearNeeded').show()">Show Only Gear Needed</button>
+<button onclick="$('.squadRow').hide(); $('.viable').show()">Show Only Viable</button>
+<button onclick="$('.squadRow').hide(); $('.distinct').show()">Show Only Non Overlapping</button>
+
 <table id="squads" class="display">
 <thead>
 <tr>
@@ -146,7 +155,33 @@ not hard facts.
 <th>GP</th>
 <th>Squad</th>
 </tr>
-</thead><tr id="Phoenix" onclick="$('#PHOENIX_details').toggle()"><td data-order="Phoenix" align="center"><a href="../target/648241819.html#PHOENIX"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/HERASYNDULLAS3/" title="Phoenix"/></a><br/>Phoenix</td><td data-order="defense"><img src="../../i/shield24.png"/></td><td data-order="51572">51k</td><td nowrap style="position: relative"><div style="display: flex" title="Zeb: low gear.  Kanan: low gear.  " onclick="$('#squad1').toggle()"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/HERASYNDULLAS3/"/><br/>Hera G8</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/CHOPPERS3/"/><br/>Chopper G8</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/EZRABRIDGERS3/"/><br/>Ezra G8</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/ZEBS3/"/><br/>Zeb G7</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/KANANJARRUSS3/"/><br/>Kanan G7</div><div style="margin-left: 10px"><img src="../../i/tractor24.png"></div></div><div id="squad1" class="toggleable verbage"><br/><b>Zeb: low gear.  Kanan: low gear.  </b></div>
+</thead><tr id="BH" onclick="$('#BH_BOSSK_details').toggle()" class="squadRow distinct gearNeeded"><td data-order="BH" align="center"><a href="../target/648241819.html#BH_BOSSK"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/BOSSK/" title="BH"/></a><br/>BH</td><td data-order="defense"><img src="../../i/shield24.png"/></td><td data-order="60447">60k</td><td nowrap style="position: relative"><div style="display: flex" title="Bossk: missing zetas.  Dengar: low stars.  IG-88: low stars.  Jango: low stars.  " onclick="$('#squad1').toggle()"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/BOSSK/"/><br/>Bossk 4* G8</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/BOBAFETT/"/><br/>zBoba</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/DENGAR/"/><br/>Dengar 6* G8</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/IG88/"/><br/>IG-88 6* G8</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/JANGOFETT/"/><br/>Jango 2* G8</div><div style="margin-left: 10px"><img src="../../i/tractor24.png"></div></div><div id="squad1" class="toggleable verbage"><br/><b>Bossk: missing zetas.  Dengar: low stars.  IG-88: low stars.  Jango: low stars.  </b></div>
+<span style="position: absolute; top: 10px; right: 10px; font-size: 150%;">&#9432;</span>
+<table id="BH_BOSSK_details" class="toggleable detailsTable">
+<tr class="details"><td colspan="2"><h3>Subs</h3>Any leftover Bounty Hunters, B2 Super Battle Droid, zBarriss Offee, L3-37</td></tr>
+<tr class="details"><td colspan="2"><h3>Description</h3>Hard to kill defensive lead with protection/health recovery, high defense, and protection bonuses to all BH.</td></tr>
+<tr class="details">
+<td valign="top"><h3>Counter</h3><b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/REYJEDITRAINING/"/>Resistance (JTR L)</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/COMMANDERLUKESKYWALKER/"/>Rebels (CLS Quad)</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/BASTILASHAN/"/>Jedi (Bastila L)</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/SHAAKTI/"/>Clones (Shaak Ti L)</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/GEONOSIANBROODALPHA/"/>Geonosians</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/DARTHREVAN/"/>Sith Empire (w/o Malak)</b><br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/VEERS/"/>Imperial Troopers<br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/KYLORENUNMASKED/"/>First Order (KRU L)<br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/EMPERORPALPATINE/"/>EP L<br/>
+</td><td valign="top"><h3><a href="../target/648241819.html#BH_BOSSK">Targets</a></h3><b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/MAUL/"/>Sith (Maul L)</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/JYNERSO/"/>Rogue One</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/ASAJVENTRESS/"/>Nightsisters (w/ Nest)</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/MOTHERTALZIN/"/>Nightsisters (Talzin L)</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/CHIEFCHIRPA/"/>Ewoks</b><br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/QIRA/"/>Qi'ra L<br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/BASTILASHAN/"/>Jedi (Bastila L)<br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/EMPERORPALPATINE/"/>EP L<br/>
+</td></tr>
+</table>
+</td></tr>
+<tr id="Phoenix" onclick="$('#PHOENIX_details').toggle()" class="squadRow distinct gearNeeded"><td data-order="Phoenix" align="center"><a href="../target/648241819.html#PHOENIX"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/HERASYNDULLAS3/" title="Phoenix"/></a><br/>Phoenix</td><td data-order="defense"><img src="../../i/shield24.png"/></td><td data-order="65061">65k</td><td nowrap style="position: relative"><div style="display: flex" title="Zeb: low gear.  Kanan: low gear.  " onclick="$('#squad2').toggle()"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/HERASYNDULLAS3/"/><br/>Hera G8</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/CHOPPERS3/"/><br/>Chopper G9</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/EZRABRIDGERS3/"/><br/>Ezra G9</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/ZEBS3/"/><br/>Zeb G7</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/KANANJARRUSS3/"/><br/>Kanan G7</div><div style="margin-left: 10px"><img src="../../i/tractor24.png"></div></div><div id="squad2" class="toggleable verbage"><br/><b>Zeb: low gear.  Kanan: low gear.  </b></div>
 <span style="position: absolute; top: 10px; right: 10px; font-size: 150%;">&#9432;</span>
 <table id="PHOENIX_details" class="toggleable detailsTable">
 <tr class="details"><td colspan="2"><h3>Subs</h3>Chopper</td></tr>
@@ -169,4 +204,4 @@ not hard facts.
 </table>
 </td></tr>
 </table><br/>
-<font size="-2">Generated 2020-04-12 22:55:57 +0000</font>
+<font size="-2">Generated 2020-06-15 15:52:49 +0000</font>

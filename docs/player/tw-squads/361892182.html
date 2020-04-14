@@ -80,6 +80,7 @@ tr:nth-child(odd) {background: #ffffff}
 <a href="361892182.html">TW+GA Squads</a> |
 <a href="../counters/361892182.html">Counters</a> |
 <a href="../target/361892182.html">Targets</a> |
+<a href="../unlock/361892182.html">Unlocks</a> |
 <a href="../zeta/361892182.html">Zetas</a> |
 <a href="../farm/361892182.html">Farming</a> |
 <a href="../dsgeotb/361892182.html">DS Geo TB</a>
@@ -91,6 +92,9 @@ c1.filter = function(data) {
     data.series = data.series.filter(function (x) {
         if (x.name == "HansMF") { return false }
         if (x.name == "Negotiator") { return false }
+        if (x.name == "Malevolence") { return false }
+        if (x.name == "Raddus") { return false }
+        if (x.name == "Executrix") { return false }
         if (x.name == "NestSolo") { return false }
         return true
     })
@@ -147,4 +151,4 @@ not hard facts.
 <th>Squad</th>
 </tr>
 </thead></table><br/>
-<font size="-2">Generated 2020-04-12 22:55:57 +0000</font>
+<font size="-2">Generated 2020-04-22 17:29:26 +0000</font>

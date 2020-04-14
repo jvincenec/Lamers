@@ -80,6 +80,7 @@ tr:nth-child(odd) {background: #ffffff}
 <a href="495679948.html">TW+GA Squads</a> |
 <a href="../counters/495679948.html">Counters</a> |
 <a href="../target/495679948.html">Targets</a> |
+<a href="../unlock/495679948.html">Unlocks</a> |
 <a href="../zeta/495679948.html">Zetas</a> |
 <a href="../farm/495679948.html">Farming</a> |
 <a href="../dsgeotb/495679948.html">DS Geo TB</a>
@@ -91,6 +92,9 @@ c1.filter = function(data) {
     data.series = data.series.filter(function (x) {
         if (x.name == "HansMF") { return false }
         if (x.name == "Negotiator") { return false }
+        if (x.name == "Malevolence") { return false }
+        if (x.name == "Raddus") { return false }
+        if (x.name == "Executrix") { return false }
         if (x.name == "NestSolo") { return false }
         return true
     })
@@ -138,6 +142,11 @@ not hard facts.
 &#9432;: Show more info about subs, how the team works, counters and targets
 </p>
 
+<button onclick="$('.squadRow').show()">Show All</button>
+<button onclick="$('.squadRow').hide(); $('.gearNeeded').show()">Show Only Gear Needed</button>
+<button onclick="$('.squadRow').hide(); $('.viable').show()">Show Only Viable</button>
+<button onclick="$('.squadRow').hide(); $('.distinct').show()">Show Only Non Overlapping</button>
+
 <table id="squads" class="display">
 <thead>
 <tr>
@@ -146,7 +155,7 @@ not hard facts.
 <th>GP</th>
 <th>Squad</th>
 </tr>
-</thead><tr id="BS" onclick="$('#JEDI_BASTILA_details').toggle()"><td data-order="BS" align="center"><a href="../target/495679948.html#JEDI_BASTILA"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/BASTILASHAN/" title="BS"/></a><br/>BS</td><td data-order="defense"><img src="../../i/shield24.png"/></td><td data-order="75877">75k</td><td nowrap style="position: relative"><div style="display: flex" title="BS: missing zetas.  GK: low stars.  " onclick="$('#squad1').toggle()"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/BASTILASHAN/"/><br/>BS G10</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GRANDMASTERYODA/"/><br/>GMY</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/OLDBENKENOBI/"/><br/>Old Ben G9</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GENERALKENOBI/"/><br/>GK 6* G8</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/AHSOKATANO/"/><br/>Ahsoka G8</div><div style="margin-left: 10px"><img src="../../i/tractor24.png"></div></div><div id="squad1" class="toggleable verbage"><br/><b>BS: missing zetas.  GK: low stars.  </b></div>
+</thead><tr id="BS" onclick="$('#JEDI_BASTILA_details').toggle()" class="squadRow distinct gearNeeded"><td data-order="BS" align="center"><a href="../target/495679948.html#JEDI_BASTILA"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/BASTILASHAN/" title="BS"/></a><br/>BS</td><td data-order="defense"><img src="../../i/shield24.png"/></td><td data-order="80238">80k</td><td nowrap style="position: relative"><div style="display: flex" title="GK: low stars.  " onclick="$('#squad1').toggle()"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/BASTILASHAN/"/><br/>zBS</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GRANDMASTERYODA/"/><br/>GMY</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/OLDBENKENOBI/"/><br/>Old Ben G10</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GENERALKENOBI/"/><br/>GK 6* G8</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/AHSOKATANO/"/><br/>Ahsoka G8</div><div style="margin-left: 10px"><img src="../../i/tractor24.png"></div></div><div id="squad1" class="toggleable verbage"><br/><b>GK: low stars.  </b></div>
 <span style="position: absolute; top: 10px; right: 10px; font-size: 150%;">&#9432;</span>
 <table id="JEDI_BASTILA_details" class="toggleable detailsTable">
 <tr class="details"><td colspan="2"><h3>Subs</h3>Aayla Secura, Jedi Knight Anakin, Obi-Wan Kenobi (Old Ben), Any leftover Jedi</td></tr>
@@ -177,7 +186,7 @@ not hard facts.
 </td></tr>
 </table>
 </td></tr>
-<tr id="Zader" onclick="$('#ZADER_details').toggle()"><td data-order="Zader" align="center"><a href="../target/495679948.html#ZADER"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/VADER/" title="Zader"/></a><br/>Zader</td><td data-order="offense"><img src="../../i/ls24.png"/></td><td data-order="70216">70k</td><td nowrap style="position: relative"><div style="display: flex" title="Sidious: low level.  " onclick="$('#squad2').toggle()"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/VADER/"/><br/>zVader</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GRANDMOFFTARKIN/"/><br/>Tarkin G9</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/DARTHSIDIOUS/"/><br/>Sidious G7</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/BOBAFETT/"/><br/>Boba G8</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/STORMTROOPER/"/><br/>Stormtrooper G9</div><div style="margin-left: 10px"><img src="../../i/tractor24.png"></div></div><div id="squad2" class="toggleable verbage"><br/><b>Sidious: low level.  </b></div>
+<tr id="Zader (Counter)" onclick="$('#ZADER_details').toggle()" class="squadRow distinct gearNeeded"><td data-order="Zader (Counter)" align="center"><a href="../target/495679948.html#ZADER"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/VADER/" title="Zader (Counter)"/></a><br/>Zader (Counter)</td><td data-order="offense"><img src="../../i/ls24.png"/></td><td data-order="67409">67k</td><td nowrap style="position: relative"><div style="display: flex" title="Mission: low stars.  Zaalbar: low stars.  " onclick="$('#squad2').toggle()"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/VADER/"/><br/>zVader</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/MISSIONVAO/"/><br/>Mission 4* G8</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/ZAALBAR/"/><br/>Zaalbar 4* G8</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GRANDMOFFTARKIN/"/><br/>Tarkin G9</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/STORMTROOPER/"/><br/>Stormtrooper G10</div><div style="margin-left: 10px"><img src="../../i/tractor24.png"></div></div><div id="squad2" class="toggleable verbage"><br/><b>Mission: low stars.  Zaalbar: low stars.  </b></div>
 <span style="position: absolute; top: 10px; right: 10px; font-size: 150%;">&#9432;</span>
 <table id="ZADER_details" class="toggleable detailsTable">
 <tr class="details"><td colspan="2"><h3>Subs</h3>zBarriss Offee (for long fights), Mission + Zaalbar, Canderous Ordo, Sith Empire Trooper/Shoretrooper/Stormtrooper, Mother Talzin</td></tr>
@@ -189,4 +198,4 @@ not hard facts.
 </table>
 </td></tr>
 </table><br/>
-<font size="-2">Generated 2020-04-12 22:34:18 +0000</font>
+<font size="-2">Generated 2020-06-15 15:45:32 +0000</font>

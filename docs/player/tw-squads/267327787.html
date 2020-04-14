@@ -80,6 +80,7 @@ tr:nth-child(odd) {background: #ffffff}
 <a href="267327787.html">TW+GA Squads</a> |
 <a href="../counters/267327787.html">Counters</a> |
 <a href="../target/267327787.html">Targets</a> |
+<a href="../unlock/267327787.html">Unlocks</a> |
 <a href="../zeta/267327787.html">Zetas</a> |
 <a href="../farm/267327787.html">Farming</a> |
 <a href="../dsgeotb/267327787.html">DS Geo TB</a>
@@ -91,6 +92,9 @@ c1.filter = function(data) {
     data.series = data.series.filter(function (x) {
         if (x.name == "HansMF") { return false }
         if (x.name == "Negotiator") { return false }
+        if (x.name == "Malevolence") { return false }
+        if (x.name == "Raddus") { return false }
+        if (x.name == "Executrix") { return false }
         if (x.name == "NestSolo") { return false }
         return true
     })
@@ -138,6 +142,11 @@ not hard facts.
 &#9432;: Show more info about subs, how the team works, counters and targets
 </p>
 
+<button onclick="$('.squadRow').show()">Show All</button>
+<button onclick="$('.squadRow').hide(); $('.gearNeeded').show()">Show Only Gear Needed</button>
+<button onclick="$('.squadRow').hide(); $('.viable').show()">Show Only Viable</button>
+<button onclick="$('.squadRow').hide(); $('.distinct').show()">Show Only Non Overlapping</button>
+
 <table id="squads" class="display">
 <thead>
 <tr>
@@ -147,4 +156,4 @@ not hard facts.
 <th>Squad</th>
 </tr>
 </thead></table><br/>
-<font size="-2">Generated 2020-04-12 22:55:57 +0000</font>
+<font size="-2">Generated 2020-04-30 17:21:34 +0000</font>

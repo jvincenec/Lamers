@@ -80,6 +80,7 @@ tr:nth-child(odd) {background: #ffffff}
 <a href="782528241.html">TW+GA Squads</a> |
 <a href="../counters/782528241.html">Counters</a> |
 <a href="../target/782528241.html">Targets</a> |
+<a href="../unlock/782528241.html">Unlocks</a> |
 <a href="../zeta/782528241.html">Zetas</a> |
 <a href="../farm/782528241.html">Farming</a> |
 <a href="../dsgeotb/782528241.html">DS Geo TB</a>
@@ -91,6 +92,9 @@ c1.filter = function(data) {
     data.series = data.series.filter(function (x) {
         if (x.name == "HansMF") { return false }
         if (x.name == "Negotiator") { return false }
+        if (x.name == "Malevolence") { return false }
+        if (x.name == "Raddus") { return false }
+        if (x.name == "Executrix") { return false }
         if (x.name == "NestSolo") { return false }
         return true
     })
@@ -138,6 +142,11 @@ not hard facts.
 &#9432;: Show more info about subs, how the team works, counters and targets
 </p>
 
+<button onclick="$('.squadRow').show()">Show All</button>
+<button onclick="$('.squadRow').hide(); $('.gearNeeded').show()">Show Only Gear Needed</button>
+<button onclick="$('.squadRow').hide(); $('.viable').show()">Show Only Viable</button>
+<button onclick="$('.squadRow').hide(); $('.distinct').show()">Show Only Non Overlapping</button>
+
 <table id="squads" class="display">
 <thead>
 <tr>
@@ -146,7 +155,75 @@ not hard facts.
 <th>GP</th>
 <th>Squad</th>
 </tr>
-</thead><tr id="FO" onclick="$('#FO_KRU_details').toggle()"><td data-order="FO" align="center"><a href="../target/782528241.html#FO_KRU"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/KYLORENUNMASKED/" title="FO"/></a><br/>FO</td><td data-order="defense"><img src="../../i/shield24.png"/></td><td data-order="75826">75k</td><td nowrap style="position: relative"><div style="display: flex"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/KYLORENUNMASKED/"/><br/>zzKRU G10</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/KYLOREN/"/><br/>Kylo G8</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/FIRSTORDEREXECUTIONER/"/><br/>FOE G9</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/FIRSTORDEROFFICERMALE/"/><br/>FOO</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/FIRSTORDERSPECIALFORCESPILOT/"/><br/>FOSFTP G9</div></div>
+</thead><tr id="501st" onclick="$('#REX_501_details').toggle()" class="squadRow gearNeeded"><td data-order="501st" align="center"><a href="../target/782528241.html#REX_501"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/CT7567/" title="501st"/></a><br/>501st</td><td data-order="offense"><img src="../../i/ls24.png"/></td><td data-order="71679">71k</td><td nowrap style="position: relative"><div style="display: flex" title="Rex: low gear.  Clone Sergeant: low gear.  Echo: low gear.  Fives: low gear.  " onclick="$('#squad1').toggle()"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/CT7567/"/><br/>Rex G9</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/CLONESERGEANTPHASEI/"/><br/>Clone Sergeant G8</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/CT210408/"/><br/>Echo G9</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/CT5555/"/><br/>Fives G9</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/AHSOKATANO/"/><br/>zAhsoka</div><div style="margin-left: 10px"><img src="../../i/tractor24.png"></div></div><div id="squad1" class="toggleable verbage"><br/><b>Rex: low gear.  Clone Sergeant: low gear.  Echo: low gear.  Fives: low gear.  </b></div>
+<span style="position: absolute; top: 10px; right: 10px; font-size: 150%;">&#9432;</span>
+<table id="REX_501_details" class="toggleable detailsTable">
+<tr class="details"><td colspan="2"><h3>Subs</h3>(no subs, this team comp is used for a specific purpose)</td></tr>
+<tr class="details">
+<td valign="top"><h3>Counter</h3></td><td valign="top"><h3><a href="../target/782528241.html#REX_501">Targets</a></h3><img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/GRIEVOUS/"/>Separatist Droids<br/>
+</td></tr>
+</table>
+</td></tr>
+<tr id="BS" onclick="$('#JEDI_BASTILA_details').toggle()" class="squadRow viable"><td data-order="BS" align="center"><a href="../target/782528241.html#JEDI_BASTILA"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/BASTILASHAN/" title="BS"/></a><br/>BS</td><td data-order="defense"><img src="../../i/shield24.png"/></td><td data-order="97566">97k</td><td nowrap style="position: relative"><div style="display: flex"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/BASTILASHAN/"/><br/>zBS</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GRANDMASTERYODA/"/><br/>zGMY</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/JOLEEBINDO/"/><br/>zJolee</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GENERALKENOBI/"/><br/>zGK</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/HERMITYODA/"/><br/>HYoda G8</div></div>
+<span style="position: absolute; top: 10px; right: 10px; font-size: 150%;">&#9432;</span>
+<table id="JEDI_BASTILA_details" class="toggleable detailsTable">
+<tr class="details"><td colspan="2"><h3>Subs</h3>Aayla Secura, Jedi Knight Anakin, Obi-Wan Kenobi (Old Ben), Any leftover Jedi</td></tr>
+<tr class="details"><td colspan="2"><h3>Description</h3>Buffs, high protection pool, and high tenacity.</td></tr>
+<tr class="details">
+<td valign="top"><h3>Counter</h3><b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/SHAAKTI/"/>Clones (Shaak Ti L)</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/GEONOSIANBROODALPHA/"/>Geonosians</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/REYJEDITRAINING/"/>Resistance (JTR L)</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/DARTHTRAYA/"/>Sith Triumvirate</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/QIRA/"/>Qi'ra (w/ Nest and Hoda)</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/ENFYSNEST/"/>Enfys Nest (solo)</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/DARTHREVAN/"/>Sith Empire (w/o Malak)</b><br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/MOTHERTALZIN/"/>Nightsisters (Talzin L w/ Acolyte)<br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/BOSSK/"/>Bounty Hunters (Bossk L)<br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/COMMANDERLUKESKYWALKER/"/>Rebels (CLS Quad)<br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/KYLORENUNMASKED/"/>First Order (KRU L)<br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/GRANDADMIRALTHRAWN/"/>Thrawn Troopers<br/>
+</td><td valign="top"><h3><a href="../target/782528241.html#JEDI_BASTILA">Targets</a></h3><b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/COMMANDERLUKESKYWALKER/"/>Rebels (CLS Quad)</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/QIRA/"/>Qi'ra L</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/CARTHONASI/"/>Old Republic (Carth L)</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/ASAJVENTRESS/"/>Nightsisters (w/ Nest)</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/MOTHERTALZIN/"/>Nightsisters (Talzin L)</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/EMPERORPALPATINE/"/>EP L</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/JANGOFETT/"/>Bounty Hunters (Jango L)</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/BOSSK/"/>Bounty Hunters (Bossk L)</b><br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/DARTHTRAYA/"/>Sith Triumvirate<br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/MAUL/"/>Sith (Maul L)<br/>
+</td></tr>
+</table>
+</td></tr>
+<tr id="BS+Revan" onclick="$('#JEDI_BASTILA_REVAN_details').toggle()" class="squadRow viable"><td data-order="BS+Revan" align="center"><a href="../target/782528241.html#JEDI_BASTILA_REVAN"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/BASTILASHAN/" title="BS+Revan"/></a><br/>BS+Revan</td><td data-order="offense"><img src="../../i/ls24.png"/></td><td data-order="110240">110k</td><td nowrap style="position: relative"><div style="display: flex"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/BASTILASHAN/"/><br/>zBS</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GRANDMASTERYODA/"/><br/>zGMY</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/JOLEEBINDO/"/><br/>zJolee</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GENERALKENOBI/"/><br/>zGK</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/JEDIKNIGHTREVAN/"/><br/>zzzJKR</div><div style="margin-left: 10px">&#11088;</div></div>
+<span style="position: absolute; top: 10px; right: 10px; font-size: 150%;">&#9432;</span>
+<table id="JEDI_BASTILA_REVAN_details" class="toggleable detailsTable">
+<tr class="details"><td colspan="2"><h3>Subs</h3>Ezra Bridger, Any leftover Jedi</td></tr>
+<tr class="details">
+<td valign="top"><h3>Counter</h3></td><td valign="top"><h3><a href="../target/782528241.html#JEDI_BASTILA_REVAN">Targets</a></h3><img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/GRIEVOUS/"/>Separatist Droids<br/>
+</td></tr>
+</table>
+</td></tr>
+<tr id="Clones" onclick="$('#CLONES_CODY_details').toggle()" class="squadRow gearNeeded"><td data-order="Clones" align="center"><a href="../target/782528241.html#CLONES_CODY"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/CC2224/" title="Clones"/></a><br/>Clones</td><td data-order="offense"><img src="../../i/ls24.png"/></td><td data-order="65597">65k</td><td nowrap style="position: relative"><div style="display: flex" title="Cody: low gear.  Rex: low gear.  Echo: low gear.  Fives: low gear.  Clone Sergeant: low gear.  " onclick="$('#squad4').toggle()"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/CC2224/"/><br/>Cody G8</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/CT7567/"/><br/>Rex G9</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/CT210408/"/><br/>Echo G9</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/CT5555/"/><br/>Fives G9</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/CLONESERGEANTPHASEI/"/><br/>Clone Sergeant G8</div><div style="margin-left: 10px"><img src="../../i/tractor24.png"></div></div><div id="squad4" class="toggleable verbage"><br/><b>Cody: low gear.  Rex: low gear.  Echo: low gear.  Fives: low gear.  Clone Sergeant: low gear.  </b></div>
+<span style="position: absolute; top: 10px; right: 10px; font-size: 150%;">&#9432;</span>
+<table id="CLONES_CODY_details" class="toggleable detailsTable">
+<tr class="details"><td colspan="2"><h3>Subs</h3>(no subs, this team comp is used for a specific purpose)</td></tr>
+<tr class="details">
+<td valign="top"><h3>Counter</h3></td><td valign="top"><h3><a href="../target/782528241.html#CLONES_CODY">Targets</a></h3><img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/JYNERSO/"/>Rogue One<br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/HERASYNDULLAS3/"/>Phoenix<br/>
+</td></tr>
+</table>
+</td></tr>
+<tr id="EP (Counter, Rebel)" onclick="$('#EP_ANTI_REBEL_details').toggle()" class="squadRow viable"><td data-order="EP (Counter, Rebel)" align="center"><a href="../target/782528241.html#EP_ANTI_REBEL"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/EMPERORPALPATINE/" title="EP (Counter, Rebel)"/></a><br/>EP (Counter, Rebel)</td><td data-order="offense"><img src="../../i/ls24.png"/></td><td data-order="83837">83k</td><td nowrap style="position: relative"><div style="display: flex"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/EMPERORPALPATINE/"/><br/>zEP</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/SHORETROOPER/"/><br/>Shoretrooper G10</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/DEATHTROOPER/"/><br/>DT G10</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/ENFYSNEST/"/><br/>zNest</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/RANGETROOPER/"/><br/>Range Trooper</div></div>
+<span style="position: absolute; top: 10px; right: 10px; font-size: 150%;">&#9432;</span>
+<table id="EP_ANTI_REBEL_details" class="toggleable detailsTable">
+<tr class="details"><td colspan="2"><h3>Subs</h3>Enfys Nest, Range Trooper, Stormtrooper, Colonel Starck</td></tr>
+<tr class="details">
+<td valign="top"><h3>Counter</h3></td><td valign="top"><h3><a href="../target/782528241.html#EP_ANTI_REBEL">Targets</a></h3><b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/COMMANDERLUKESKYWALKER/"/>Rebels (CLS Quad)</b><br/>
+</td></tr>
+</table>
+</td></tr>
+<tr id="FO" onclick="$('#FO_KRU_details').toggle()" class="squadRow distinct viable"><td data-order="FO" align="center"><a href="../target/782528241.html#FO_KRU"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/KYLORENUNMASKED/" title="FO"/></a><br/>FO</td><td data-order="defense"><img src="../../i/shield24.png"/></td><td data-order="81856">81k</td><td nowrap style="position: relative"><div style="display: flex"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/KYLORENUNMASKED/"/><br/>zzKRU G10</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/KYLOREN/"/><br/>zKylo G9</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/FIRSTORDEREXECUTIONER/"/><br/>FOE G10</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/FIRSTORDEROFFICERMALE/"/><br/>FOO</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/FIRSTORDERSPECIALFORCESPILOT/"/><br/>FOSFTP G9</div></div>
 <span style="position: absolute; top: 10px; right: 10px; font-size: 150%;">&#9432;</span>
 <table id="FO_KRU_details" class="toggleable detailsTable">
 <tr class="details"><td colspan="2"><h3>Subs</h3>Enfys Nest, zBarriss Offee, Captain Phasma, First Order SF TIE Pilot</td></tr>
@@ -176,7 +253,7 @@ not hard facts.
 </td></tr>
 </table>
 </td></tr>
-<tr id="Geonosians" onclick="$('#GEONOSIANS_details').toggle()"><td data-order="Geonosians" align="center"><a href="../target/782528241.html#GEONOSIANS"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GEONOSIANBROODALPHA/" title="Geonosians"/></a><br/>Geonosians</td><td data-order="defense"><img src="../../i/shield24.png"/></td><td data-order="82353">82k</td><td nowrap style="position: relative"><div style="display: flex"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GEONOSIANBROODALPHA/"/><br/>zzGBA G10</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/POGGLETHELESSER/"/><br/>Poggle G10</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GEONOSIANSOLDIER/"/><br/>Geo Soldier</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GEONOSIANSPY/"/><br/>Geo Spy</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/SUNFAC/"/><br/>Sun Fac G10</div></div>
+<tr id="Geonosians" onclick="$('#GEONOSIANS_details').toggle()" class="squadRow distinct viable"><td data-order="Geonosians" align="center"><a href="../target/782528241.html#GEONOSIANS"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GEONOSIANBROODALPHA/" title="Geonosians"/></a><br/>Geonosians</td><td data-order="defense"><img src="../../i/shield24.png"/></td><td data-order="82562">82k</td><td nowrap style="position: relative"><div style="display: flex"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GEONOSIANBROODALPHA/"/><br/>zzGBA G10</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/POGGLETHELESSER/"/><br/>Poggle G10</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GEONOSIANSOLDIER/"/><br/>Geo Soldier</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GEONOSIANSPY/"/><br/>Geo Spy</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/SUNFAC/"/><br/>Sun Fac G10</div></div>
 <span style="position: absolute; top: 10px; right: 10px; font-size: 150%;">&#9432;</span>
 <table id="GEONOSIANS_details" class="toggleable detailsTable">
 <tr class="details"><td colspan="2"><h3>Subs</h3>(no subs, this team comp is used for a specific purpose)</td></tr>
@@ -204,7 +281,7 @@ not hard facts.
 </td></tr>
 </table>
 </td></tr>
-<tr id="NestSolo" onclick="$('#NEST_SOLO_details').toggle()"><td data-order="NestSolo" align="center"><a href="../target/782528241.html#NEST_SOLO"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/ENFYSNEST/" title="NestSolo"/></a><br/>NestSolo</td><td data-order="offense"><img src="../../i/ls24.png"/></td><td data-order="18474">18k</td><td nowrap style="position: relative"><div style="display: flex"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/ENFYSNEST/"/><br/>zNest</div></div>
+<tr id="NestSolo (Counter)" onclick="$('#NEST_SOLO_details').toggle()" class="squadRow distinct viable"><td data-order="NestSolo (Counter)" align="center"><a href="../target/782528241.html#NEST_SOLO"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/ENFYSNEST/" title="NestSolo (Counter)"/></a><br/>NestSolo (Counter)</td><td data-order="offense"><img src="../../i/ls24.png"/></td><td data-order="18474">18k</td><td nowrap style="position: relative"><div style="display: flex"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/ENFYSNEST/"/><br/>zNest</div></div>
 <span style="position: absolute; top: 10px; right: 10px; font-size: 150%;">&#9432;</span>
 <table id="NEST_SOLO_details" class="toggleable detailsTable">
 <tr class="details"><td colspan="2"><h3>Subs</h3>Qi'ra (L), Hermit Yoda</td></tr>
@@ -220,7 +297,29 @@ not hard facts.
 </td></tr>
 </table>
 </td></tr>
-<tr id="Revan" onclick="$('#JEDI_REVAN_details').toggle()"><td data-order="Revan" align="center"><a href="../target/782528241.html#JEDI_REVAN"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/JEDIKNIGHTREVAN/" title="Revan"/></a><br/>Revan</td><td data-order="both"><img src="../../i/ls24.png"/><img src="../../i/shield24.png"/></td><td data-order="110240">110k</td><td nowrap style="position: relative"><div style="display: flex"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/JEDIKNIGHTREVAN/"/><br/>zzzJKR</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/BASTILASHAN/"/><br/>zBS</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GRANDMASTERYODA/"/><br/>zGMY</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/JOLEEBINDO/"/><br/>zJolee</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GENERALKENOBI/"/><br/>zGK</div><div style="margin-left: 10px">&#11088;</div></div>
+<tr id="Phoenix" onclick="$('#PHOENIX_details').toggle()" class="squadRow distinct viable"><td data-order="Phoenix" align="center"><a href="../target/782528241.html#PHOENIX"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/HERASYNDULLAS3/" title="Phoenix"/></a><br/>Phoenix</td><td data-order="defense"><img src="../../i/shield24.png"/></td><td data-order="71873">71k</td><td nowrap style="position: relative"><div style="display: flex"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/HERASYNDULLAS3/"/><br/>Hera G9</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/CHOPPERS3/"/><br/>Chopper G9</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/EZRABRIDGERS3/"/><br/>Ezra</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/ZEBS3/"/><br/>Zeb G9</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/KANANJARRUSS3/"/><br/>Kanan G8</div></div>
+<span style="position: absolute; top: 10px; right: 10px; font-size: 150%;">&#9432;</span>
+<table id="PHOENIX_details" class="toggleable detailsTable">
+<tr class="details"><td colspan="2"><h3>Subs</h3>Chopper</td></tr>
+<tr class="details"><td colspan="2"><h3>Description</h3>High synergy team with a lot of counter attacking, dispelling (or loving the debuffs), and HP + protection recovery. Be careful with G12 zeta Phoenix, use equally geared zeta'd teams.</td></tr>
+<tr class="details">
+<td valign="top"><h3>Counter</h3><b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/WAMPA/"/>Wampa (solo)</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/ENFYSNEST/"/>Enfys Nest (solo)</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/EMPERORPALPATINE/"/>EP L</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/COMMANDERLUKESKYWALKER/"/>Rebels (CLS Quad)</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/DARTHREVAN/"/>Sith Empire (w/o Malak)</b><br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/CHIEFCHIRPA/"/>Ewoks<br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/MAUL/"/>Sith (Maul L)<br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/CC2224/"/>Clones (Cody L)<br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/QUIGONJINN/"/>Jedi (QGJ L)<br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/WEDGEANTILLES/"/>Rebels (Wiggs)<br/>
+</td><td valign="top"><h3><a href="../target/782528241.html#PHOENIX">Targets</a></h3><img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/MAUL/"/>Sith (Maul L)<br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/MOTHERTALZIN/"/>Nightsisters (Talzin L)<br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/KYLORENUNMASKED/"/>First Order (KRU L)<br/>
+</td></tr>
+</table>
+</td></tr>
+<tr id="Revan" onclick="$('#JEDI_REVAN_details').toggle()" class="squadRow distinct viable"><td data-order="Revan" align="center"><a href="../target/782528241.html#JEDI_REVAN"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/JEDIKNIGHTREVAN/" title="Revan"/></a><br/>Revan</td><td data-order="both"><img src="../../i/ls24.png"/><img src="../../i/shield24.png"/></td><td data-order="110240">110k</td><td nowrap style="position: relative"><div style="display: flex"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/JEDIKNIGHTREVAN/"/><br/>zzzJKR</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/BASTILASHAN/"/><br/>zBS</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GRANDMASTERYODA/"/><br/>zGMY</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/JOLEEBINDO/"/><br/>zJolee</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GENERALKENOBI/"/><br/>zGK</div><div style="margin-left: 10px">&#11088;</div></div>
 <span style="position: absolute; top: 10px; right: 10px; font-size: 150%;">&#9432;</span>
 <table id="JEDI_REVAN_details" class="toggleable detailsTable">
 <tr class="details"><td colspan="2"><h3>Subs</h3>Ezra Bridger, Hermit Yoda, Obi-Wan Kenobi (Old Ben), Juhani, Plo Koon</td></tr>
@@ -246,7 +345,33 @@ not hard facts.
 </td></tr>
 </table>
 </td></tr>
-<tr id="ShaakClones" onclick="$('#CLONES_SHAAKTI_details').toggle()"><td data-order="ShaakClones" align="center"><a href="../target/782528241.html#CLONES_SHAAKTI"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/SHAAKTI/" title="ShaakClones"/></a><br/>ShaakClones</td><td data-order="offense"><img src="../../i/ls24.png"/></td><td data-order="70799">70k</td><td nowrap style="position: relative"><div style="display: flex" title="Shaak Ti: missing zetas.  Rex: low gear.  Echo: low gear.  Fives: low gear.  Clone Sergeant: low gear.  " onclick="$('#squad5').toggle()"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/SHAAKTI/"/><br/>zShaak Ti G9</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/CT7567/"/><br/>Rex G9</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/CT210408/"/><br/>Echo G9</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/CT5555/"/><br/>Fives G9</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/CLONESERGEANTPHASEI/"/><br/>Clone Sergeant G8</div><div style="margin-left: 10px"><img src="../../i/tractor24.png"></div></div><div id="squad5" class="toggleable verbage"><br/><b>Shaak Ti: missing zetas.  Rex: low gear.  Echo: low gear.  Fives: low gear.  Clone Sergeant: low gear.  </b></div>
+<tr id="Revan Offense" onclick="$('#JEDI_REVAN_details').toggle()" class="squadRow viable"><td data-order="Revan Offense" align="center"><a href="../target/782528241.html#JEDI_REVAN"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/JEDIKNIGHTREVAN/" title="Revan Offense"/></a><br/>Revan Offense</td><td data-order="both"><img src="../../i/ls24.png"/><img src="../../i/shield24.png"/></td><td data-order="103778">103k</td><td nowrap style="position: relative"><div style="display: flex"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/JEDIKNIGHTREVAN/"/><br/>zzzJKR</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GRANDMASTERYODA/"/><br/>zGMY</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/BASTILASHAN/"/><br/>zBS</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/JOLEEBINDO/"/><br/>zJolee</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/HERMITYODA/"/><br/>HYoda G8</div></div>
+<span style="position: absolute; top: 10px; right: 10px; font-size: 150%;">&#9432;</span>
+<table id="JEDI_REVAN_details" class="toggleable detailsTable">
+<tr class="details"><td colspan="2"><h3>Subs</h3>Ezra Bridger, Hermit Yoda, Obi-Wan Kenobi (Old Ben), Juhani, Plo Koon</td></tr>
+<tr class="details"><td colspan="2"><h3>Description</h3>Buffs, heals, protection regeneration, revive, and lot of damage.</td></tr>
+<tr class="details">
+<td valign="top"><h3>Counter</h3><b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/PADMEAMIDALA/"/>Galactic Republic</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/GRIEVOUS/"/>Separatist Droids</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/DARTHREVAN/"/>Sith Empire (w/o Malak)</b><br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/GEONOSIANBROODALPHA/"/>Geonosians<br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/DARTHTRAYA/"/>Sith Triumvirate<br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/MOTHERTALZIN/"/>Nightsisters (Talzin L)<br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/REYJEDITRAINING/"/>Resistance (JTR L)<br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/COMMANDERLUKESKYWALKER/"/>Rebels (CLS Quad w/ Thrawn)<br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/EMPERORPALPATINE/"/>EP (Sith Triumvirate)<br/>
+</td><td valign="top"><h3><a href="../target/782528241.html#JEDI_REVAN">Targets</a></h3><b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/DARTHTRAYA/"/>Sith Triumvirate</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/DARTHREVAN/"/>Sith Empire (w/o Malak)</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/MOTHERTALZIN/"/>Nightsisters (Talzin L)</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/MOTHERTALZIN/"/>Nightsisters (Talzin L w/ Acolyte)</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/ASAJVENTRESS/"/>Nightsisters (Asajj L)</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/SHAAKTI/"/>Clones (Shaak Ti L)</b><br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/DARTHREVAN/"/>Sith Empire (w/ Malak)<br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/GEONOSIANBROODALPHA/"/>Geonosians<br/>
+</td></tr>
+</table>
+</td></tr>
+<tr id="ShaakClones" onclick="$('#CLONES_SHAAKTI_details').toggle()" class="squadRow distinct gearNeeded"><td data-order="ShaakClones" align="center"><a href="../target/782528241.html#CLONES_SHAAKTI"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/SHAAKTI/" title="ShaakClones"/></a><br/>ShaakClones</td><td data-order="offense"><img src="../../i/ls24.png"/></td><td data-order="70964">70k</td><td nowrap style="position: relative"><div style="display: flex" title="Shaak Ti: missing zetas.  Rex: low gear.  Echo: low gear.  Fives: low gear.  Clone Sergeant: low gear.  " onclick="$('#squad12').toggle()"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/SHAAKTI/"/><br/>zShaak Ti G9</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/CT7567/"/><br/>Rex G9</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/CT210408/"/><br/>Echo G9</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/CT5555/"/><br/>Fives G9</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/CLONESERGEANTPHASEI/"/><br/>Clone Sergeant G8</div><div style="margin-left: 10px"><img src="../../i/tractor24.png"></div></div><div id="squad12" class="toggleable verbage"><br/><b>Shaak Ti: missing zetas.  Rex: low gear.  Echo: low gear.  Fives: low gear.  Clone Sergeant: low gear.  </b></div>
 <span style="position: absolute; top: 10px; right: 10px; font-size: 150%;">&#9432;</span>
 <table id="CLONES_SHAAKTI_details" class="toggleable detailsTable">
 <tr class="details"><td colspan="2"><h3>Subs</h3>CC-2224 "Cody", Barriss Offee, Ahsoka Tano, R2-D2</td></tr>
@@ -274,7 +399,30 @@ not hard facts.
 </td></tr>
 </table>
 </td></tr>
-<tr id="Troopers" onclick="$('#IT_details').toggle()"><td data-order="Troopers" align="center"><a href="../target/782528241.html#IT"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/VEERS/" title="Troopers"/></a><br/>Troopers</td><td data-order="offense"><img src="../../i/ls24.png"/></td><td data-order="71381">71k</td><td nowrap style="position: relative"><div style="display: flex" title="Snowtrooper: should be G9 (G8).  Stormtrooper: should be G9 (G8).  " onclick="$('#squad6').toggle()"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/VEERS/"/><br/>Veers G10</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/COLONELSTARCK/"/><br/>Starck G10</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/RANGETROOPER/"/><br/>Range Trooper</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/SNOWTROOPER/"/><br/>Snowtrooper G8</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/STORMTROOPER/"/><br/>Stormtrooper G8</div><div style="margin-left: 10px"><img src="../../i/wrench24.png"></div></div><div id="squad6" class="toggleable verbage"><br/><b>Snowtrooper: should be G9 (G8).  Stormtrooper: should be G9 (G8).  </b></div>
+<tr id="Thragma (Counter)" onclick="$('#MAGMA_details').toggle()" class="squadRow viable gearNeeded"><td data-order="Thragma (Counter)" align="center"><a href="../target/782528241.html#MAGMA"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GRANDADMIRALTHRAWN/" title="Thragma (Counter)"/></a><br/>Thragma (Counter)</td><td data-order="offense"><img src="../../i/ls24.png"/></td><td data-order="78452">78k</td><td nowrap style="position: relative"><div style="display: flex" title="Magma: should be G9 (G7).  " onclick="$('#squad13').toggle()"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GRANDADMIRALTHRAWN/"/><br/>zThrawn</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/MAGMATROOPER/"/><br/>Magma G7</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/DEATHTROOPER/"/><br/>DT G10</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GRANDMOFFTARKIN/"/><br/>Tarkin</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/SHORETROOPER/"/><br/>Shoretrooper G10</div><div style="margin-left: 10px"><img src="../../i/wrench24.png"></div></div><div id="squad13" class="toggleable verbage"><br/><b>Magma: should be G9 (G7).  </b></div>
+<span style="position: absolute; top: 10px; right: 10px; font-size: 150%;">&#9432;</span>
+<table id="MAGMA_details" class="toggleable detailsTable">
+<tr class="details"><td colspan="2"><h3>Subs</h3>Imperial Probe Droid, Stormtrooper, Shoretrooper</td></tr>
+<tr class="details">
+<td valign="top"><h3>Counter</h3></td><td valign="top"><h3><a href="../target/782528241.html#MAGMA">Targets</a></h3><b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/DARTHTRAYA/"/>Sith Triumvirate</b><br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/DARTHREVAN/"/>Sith Empire (w/ Malak)<br/>
+</td></tr>
+</table>
+</td></tr>
+<tr id="ThrawnTroopers" onclick="$('#IT_THRAWN_details').toggle()" class="squadRow viable"><td data-order="ThrawnTroopers" align="center"><a href="../target/782528241.html#IT_THRAWN"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GRANDADMIRALTHRAWN/" title="ThrawnTroopers"/></a><br/>ThrawnTroopers</td><td data-order="offense"><img src="../../i/ls24.png"/></td><td data-order="84326">84k</td><td nowrap style="position: relative"><div style="display: flex"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GRANDADMIRALTHRAWN/"/><br/>zThrawn</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/RANGETROOPER/"/><br/>Range Trooper</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/DEATHTROOPER/"/><br/>DT G10</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/SHORETROOPER/"/><br/>Shoretrooper G10</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/VEERS/"/><br/>zVeers G10</div></div>
+<span style="position: absolute; top: 10px; right: 10px; font-size: 150%;">&#9432;</span>
+<table id="IT_THRAWN_details" class="toggleable detailsTable">
+<tr class="details"><td colspan="2"><h3>Subs</h3>Fill in last slot with an Imperial Trooper or Empire</td></tr>
+<tr class="details">
+<td valign="top"><h3>Counter</h3></td><td valign="top"><h3><a href="../target/782528241.html#IT_THRAWN">Targets</a></h3><b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/ASAJVENTRESS/"/>Nightsisters (w/ Nest)</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/MOTHERTALZIN/"/>Nightsisters (Talzin L)</b><br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/REYJEDITRAINING/"/>Resistance (JTR L)<br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/CARTHONASI/"/>Old Republic (Carth L)<br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/BASTILASHAN/"/>Jedi (Bastila L)<br/>
+</td></tr>
+</table>
+</td></tr>
+<tr id="Troopers" onclick="$('#IT_details').toggle()" class="squadRow distinct viable"><td data-order="Troopers" align="center"><a href="../target/782528241.html#IT"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/VEERS/" title="Troopers"/></a><br/>Troopers</td><td data-order="offense"><img src="../../i/ls24.png"/></td><td data-order="78716">78k</td><td nowrap style="position: relative"><div style="display: flex"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/VEERS/"/><br/>zVeers G10</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/COLONELSTARCK/"/><br/>Starck G10</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/DEATHTROOPER/"/><br/>DT G10</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/RANGETROOPER/"/><br/>Range Trooper</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/SHORETROOPER/"/><br/>Shoretrooper G10</div></div>
 <span style="position: absolute; top: 10px; right: 10px; font-size: 150%;">&#9432;</span>
 <table id="IT_details" class="toggleable detailsTable">
 <tr class="details"><td colspan="2"><h3>Subs</h3>Grand Admiral Thrawn, Stormtrooper, Shoretrooper</td></tr>
@@ -302,7 +450,7 @@ not hard facts.
 </td></tr>
 </table>
 </td></tr>
-<tr id="Wiggs" onclick="$('#REBELS_DANGER_ZONE_details').toggle()"><td data-order="Wiggs" align="center"><a href="../target/782528241.html#REBELS_DANGER_ZONE"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/WEDGEANTILLES/" title="Wiggs"/></a><br/>Wiggs</td><td data-order="offense"><img src="../../i/ls24.png"/></td><td data-order="64392">64k</td><td nowrap style="position: relative"><div style="display: flex" title="Wedge: should be G9 (G7), stars is 4/7.  Biggs: should be G9 (G8).  " onclick="$('#squad7').toggle()"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/WEDGEANTILLES/"/><br/>Wedge 4* G7</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/BIGGSDARKLIGHTER/"/><br/>Biggs G8</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/COMMANDERLUKESKYWALKER/"/><br/>CLS G9</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/HANSOLO/"/><br/>Han G9</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/EZRABRIDGERS3/"/><br/>Ezra</div><div style="margin-left: 10px"><img src="../../i/tractor24.png"></div></div><div id="squad7" class="toggleable verbage"><br/><b>Wedge: should be G9 (G7), stars is 4/7.  Biggs: should be G9 (G8).  </b></div>
+<tr id="Wiggs" onclick="$('#REBELS_DANGER_ZONE_details').toggle()" class="squadRow distinct gearNeeded"><td data-order="Wiggs" align="center"><a href="../target/782528241.html#REBELS_DANGER_ZONE"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/WEDGEANTILLES/" title="Wiggs"/></a><br/>Wiggs</td><td data-order="offense"><img src="../../i/ls24.png"/></td><td data-order="64439">64k</td><td nowrap style="position: relative"><div style="display: flex" title="Wedge: should be G9 (G7), stars is 4/7.  Biggs: should be G9 (G8).  " onclick="$('#squad16').toggle()"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/WEDGEANTILLES/"/><br/>Wedge 4* G7</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/BIGGSDARKLIGHTER/"/><br/>Biggs G8</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/COMMANDERLUKESKYWALKER/"/><br/>CLS G9</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/HANSOLO/"/><br/>Han G9</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/EZRABRIDGERS3/"/><br/>Ezra</div><div style="margin-left: 10px"><img src="../../i/tractor24.png"></div></div><div id="squad16" class="toggleable verbage"><br/><b>Wedge: should be G9 (G7), stars is 4/7.  Biggs: should be G9 (G8).  </b></div>
 <span style="position: absolute; top: 10px; right: 10px; font-size: 150%;">&#9432;</span>
 <table id="REBELS_DANGER_ZONE_details" class="toggleable detailsTable">
 <tr class="details"><td colspan="2"><h3>Subs</h3>Ahsoka Tano (Fulcrum), Ezra Bridger, C-3PO, Princess Leia</td></tr>
@@ -312,7 +460,45 @@ not hard facts.
 </td></tr>
 </table>
 </td></tr>
-<tr id="zEP" onclick="$('#EP_details').toggle()"><td data-order="zEP" align="center"><a href="../target/782528241.html#EP"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/EMPERORPALPATINE/" title="zEP"/></a><br/>zEP</td><td data-order="both"><img src="../../i/ls24.png"/><img src="../../i/shield24.png"/></td><td data-order="77679">77k</td><td nowrap style="position: relative"><div style="display: flex" title="EP: missing zetas.  DT: low stars.  " onclick="$('#squad8').toggle()"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/EMPERORPALPATINE/"/><br/>zEP</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/VADER/"/><br/>Vader</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GRANDMOFFTARKIN/"/><br/>Tarkin</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/DEATHTROOPER/"/><br/>DT 6* G9</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/TIEFIGHTERPILOT/"/><br/>TFP G9</div><div style="margin-left: 10px"><img src="../../i/tractor24.png"></div></div><div id="squad8" class="toggleable verbage"><br/><b>EP: missing zetas.  DT: low stars.  </b></div>
+<tr id="Zader (Counter)" onclick="$('#ZADER_details').toggle()" class="squadRow distinct viable"><td data-order="Zader (Counter)" align="center"><a href="../target/782528241.html#ZADER"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/VADER/" title="Zader (Counter)"/></a><br/>Zader (Counter)</td><td data-order="offense"><img src="../../i/ls24.png"/></td><td data-order="74975">74k</td><td nowrap style="position: relative"><div style="display: flex"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/VADER/"/><br/>Vader</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/MISSIONVAO/"/><br/>Mission G8</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/ZAALBAR/"/><br/>Zaalbar G8</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GRANDMOFFTARKIN/"/><br/>Tarkin</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/SHORETROOPER/"/><br/>Shoretrooper G10</div></div>
+<span style="position: absolute; top: 10px; right: 10px; font-size: 150%;">&#9432;</span>
+<table id="ZADER_details" class="toggleable detailsTable">
+<tr class="details"><td colspan="2"><h3>Subs</h3>zBarriss Offee (for long fights), Mission + Zaalbar, Canderous Ordo, Sith Empire Trooper/Shoretrooper/Stormtrooper, Mother Talzin</td></tr>
+<tr class="details">
+<td valign="top"><h3>Counter</h3></td><td valign="top"><h3><a href="../target/782528241.html#ZADER">Targets</a></h3><img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/QIRA/"/>Qi'ra L<br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/GENERALKENOBI/"/>General Kenobi L<br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/CHIEFCHIRPA/"/>Ewoks<br/>
+</td></tr>
+</table>
+</td></tr>
+<tr id="padme" onclick="$('#GALACTIC_REPUBLIC_details').toggle()" class="squadRow viable"><td data-order="padme" align="center"><a href="../target/782528241.html#GALACTIC_REPUBLIC"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/PADMEAMIDALA/" title="padme"/></a><br/>padme</td><td data-order="defense"><img src="../../i/shield24.png"/></td><td data-order="91252">91k</td><td nowrap style="position: relative"><div style="display: flex"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/PADMEAMIDALA/"/><br/>zzPadme</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GENERALKENOBI/"/><br/>zGK</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/ANAKINKNIGHT/"/><br/>zJKA</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/AHSOKATANO/"/><br/>zAhsoka</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/CT5555/"/><br/>Fives G9</div></div>
+<span style="position: absolute; top: 10px; right: 10px; font-size: 150%;">&#9432;</span>
+<table id="GALACTIC_REPUBLIC_details" class="toggleable detailsTable">
+<tr class="details"><td colspan="2"><h3>Subs</h3>Grand Master Yoda, C-3PO, CT-7567 "Rex", Clone Wars Chewbacca, CT-5555 "Fives",</td></tr>
+<tr class="details"><td colspan="2"><h3>Description</h3>Super tanky team, immunity to debuffs (with many options to dispel), protection-up spamming, damage based on % of target's health, and benefits when enemies attack out of turn.</td></tr>
+<tr class="details">
+<td valign="top"><h3>Counter</h3><b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/DARTHTRAYA/"/>Sith Triumvirate</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/GRIEVOUS/"/>Separatist Droids</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/PADMEAMIDALA/"/>Galactic Republic</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/PADMEAMIDALA/"/>Galactic Republic (w/ C-3PO)</b><br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/EMPERORPALPATINE/"/>EP L<br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/DARTHREVAN/"/>Sith Empire (w/ Malak)<br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/ENFYSNEST/"/>Enfys Nest (solo)<br/>
+</td><td valign="top"><h3><a href="../target/782528241.html#GALACTIC_REPUBLIC">Targets</a></h3><b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/DARTHREVAN/"/>Sith Empire (w/o Malak)</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/CARTHONASI/"/>Old Republic (Carth L)</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/JEDIKNIGHTREVAN/"/>Jedi (Revan L)</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/VEERS/"/>Imperial Troopers</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/PADMEAMIDALA/"/>Galactic Republic</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/KYLORENUNMASKED/"/>First Order (KRU L)</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/CHIEFCHIRPA/"/>Ewoks</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/SHAAKTI/"/>Clones (Shaak Ti L)</b><br/>
+<b><img style="vertical-align:middle" class="smallToonImg hardCounter" src="https://swgoh.gg/game-asset/u/JANGOFETT/"/>Bounty Hunters (Jango L)</b><br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/GRIEVOUS/"/>Separatist Droids<br/>
+<img style="vertical-align:middle" class="smallToonImg softCounter" src="https://swgoh.gg/game-asset/u/GEONOSIANBROODALPHA/"/>Geonosians<br/>
+</td></tr>
+</table>
+</td></tr>
+<tr id="zEP" onclick="$('#EP_details').toggle()" class="squadRow gearNeeded"><td data-order="zEP" align="center"><a href="../target/782528241.html#EP"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/EMPERORPALPATINE/" title="zEP"/></a><br/>zEP</td><td data-order="both"><img src="../../i/ls24.png"/><img src="../../i/shield24.png"/></td><td data-order="81887">81k</td><td nowrap style="position: relative"><div style="display: flex" title="EP: missing zetas.  " onclick="$('#squad19').toggle()"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/EMPERORPALPATINE/"/><br/>zEP</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/VADER/"/><br/>Vader</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GRANDMOFFTARKIN/"/><br/>Tarkin</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/DEATHTROOPER/"/><br/>DT G10</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/TIEFIGHTERPILOT/"/><br/>TFP G9</div><div style="margin-left: 10px"><img src="../../i/tractor24.png"></div></div><div id="squad19" class="toggleable verbage"><br/><b>EP: missing zetas.  </b></div>
 <span style="position: absolute; top: 10px; right: 10px; font-size: 150%;">&#9432;</span>
 <table id="EP_details" class="toggleable detailsTable">
 <tr class="details"><td colspan="2"><h3>Subs</h3>Count Dooku, Death Trooper, Director Krennic</td></tr>
@@ -341,4 +527,4 @@ not hard facts.
 </table>
 </td></tr>
 </table><br/>
-<font size="-2">Generated 2020-04-12 22:17:20 +0000</font>
+<font size="-2">Generated 2020-06-15 15:41:23 +0000</font>
