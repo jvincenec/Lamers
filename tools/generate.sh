@@ -22,6 +22,8 @@ guilds=(
 	'cursed-legacy 259119853'
 	'order66 195638347'
 	'kotd 126515217'
+	'honor 558111281'
+	'giggity 431616455'
 )
 
 for g in $guilds ; do 
