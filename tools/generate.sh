@@ -24,6 +24,8 @@ guilds=(
 	'kotd 126515217'
 	'honor 558111281'
 	'giggity 431616455'
+	'phoenixhawk 767641473'
+	'ebonhand 783828985'
 )
 
 for g in $guilds ; do 
