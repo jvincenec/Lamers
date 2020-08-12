@@ -5,14 +5,16 @@ body {
  background-repeat: no-repeat;
  background-size: cover;
 }
-</style><style type="text/css">
-.toonImg {
+</style><link rel="stylesheet" type="text/css" href="../../toons.css">
+<style type="text/css">
+.toT { text-align:center; font-size: 60%; }
+.toI {
 	width: 65px;
 	height: 65px;
 	border-radius: 50%;
 	margin: 0 2.5px;
 }
-.smallToonImg {
+.toIs {
 	width: 25px;
 	height: 25px;
 	border-radius: 50%;
@@ -51,7 +53,7 @@ td, th {
 .toggleable {
 	display: none;
 }
-</style><title>BRG Alliance - BRG Tattooine Tumbleweed: Anaid Battlestar Targets</title>
+</style><link rel="stylesheet" type="text/css" href="../teams.css"><title>BRG Alliance - BRG Tattooine Tumbleweed: Anaid Battlestar Targets</title>
 <div style="display: flex; align-items:baseline"><img src="../../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance - BRG Tattooine Tumbleweed: Anaid Battlestar Targets</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
@@ -81,35 +83,35 @@ td, th {
 <th>Squad</th>
 </tr>
 </thead><tr onclick="$('.target').hide(0, function() { $('.JEDI_BASTILA_Target').show() });" id="JEDI_BASTILA" style="background: #aaaaff">
-<td><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/BASTILASHAN/"/><br/>Jedi (Bastila L)<br/>71541</div></td>
-<td class="verbage" style="position: relative"><div style="display: flex"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/BASTILASHAN/"/><br/>BS G10</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/GRANDMASTERYODA/"/><br/>GMY</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/HERMITYODA/"/><br/>HYoda G9</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/OLDBENKENOBI/"/><br/>Old Ben G10</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/ANAKINKNIGHT/"/><br/>JKA G8</div><div style="text-align:center; font-size: 60%"><a href="../tw-squads/232639512.html#BS"><img title="BS: missing zetas.  " src="../../i/tractor24.png"></a></div></div></td>
+<td><div class="toT"><img class="toI squad BASTILASHAN-i"/><br/>Jedi (Bastila L)<br/>73072</div></td>
+<td class="verbage" style="position: relative"><div style="display: flex"><div class="toT"><img class="toI squad BASTILASHAN-i"><br/>BS G10</div> <div class="toT"><img class="toI squad GRANDMASTERYODA-i"><br/>GMY</div> <div class="toT"><img class="toI squad HERMITYODA-i"><br/>HYoda G9</div> <div class="toT"><img class="toI squad OLDBENKENOBI-i"><br/>Old Ben G10</div> <div class="toT"><img class="toI squad ANAKINKNIGHT-i"><br/>JKA G8</div><div class="toT"><a href="../tw-squads/232639512.html#BS"><img title="BS: missing zetas.  " src="../../i/tractor24.png"></a></div></div></td>
 </tr>
 <tr class="target JEDI_BASTILA_Target toggleable">
 <td></td>
 <td class="verbage">
-	<h3>Subs</h3>Aayla Secura, Jedi Knight Anakin, Obi-Wan Kenobi (Old Ben), Any leftover Jedi
-	<h3>Strategy</h3>Buffs, high protection pool, and high tenacity.
+	<h3>Subs</h3><div class="JEDI_BASTILA-subs"></div>
+	<h3>Strategy</h3><div class="JEDI_BASTILA-desc"></div>
 </td>
 </tr><tr onclick="$('.JEDI_BASTILA_Target_BH_BOSSK').toggle()" class="target JEDI_BASTILA_Target toggleable">
 <td class="verbage"><b>Bounty Hunters (Bossk L)</b></td>
 <td>
 <div style="display: flex">
-	<div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/BOSSK/" /><br/>Bossk</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/BOBAFETT/" /><br/>Boba</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/DENGAR/" /><br/>Dengar</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/JANGOFETT/" /><br/>Jango</div>
+	<div class="toT"><img class="toI hardCounter BOSSK-i" /><br/>Bossk</div><div class="toT"><img class="toI hardCounter BOBAFETT-i" /><br/>Boba</div><div class="toT"><img class="toI hardCounter DENGAR-i" /><br/>Dengar</div><div class="toT"><img class="toI hardCounter JANGOFETT-i" /><br/>Jango</div>
 </div>
 </td>
 </tr>
 <tr class="target JEDI_BASTILA_Target_BH_BOSSK toggleable">
 <td>&nbsp;</td>
 <td class="verbage">
-<h3>Description</h3>Hard to kill defensive lead with protection/health recovery, high defense, and protection bonuses to all BH.
-<h3>Strategy: How to Beat Bounty Hunters (Bossk L) with Jedi (Bastila L)</h3>Best counter.  No debuffs can stick.  Kill Boba Fett first.  Remember Boba Fett and Jango Fett will revive.  If they are using Enfys Nest, kill her last.
-<h3>General Strategy</h3>The contract is exploitable, you can slow activation of their payouts by using taunters.  Focus on the weaker guys first (low HP+ Protection) so dispellers are must.  Need good damage and turn meter gains to kill fast.  Kill order: Boba Fett, Jango Fett, and other Bounty Hunters, Bossk, then Dengar last.
+<h3>Description</h3><div class="BH_BOSSK-desc"></div>
+<h3>Strategy: How to Beat Bounty Hunters (Bossk L) with Jedi (Bastila L)</h3><div class="BH_BOSSK-JEDI_BASTILA-strat"></div>
+<h3>General Strategy</h3><div class="BH_BOSSK-strat"></div>
 </td>
 </tr><tr onclick="$('.JEDI_BASTILA_Target_BH_JANGO').toggle()" class="target JEDI_BASTILA_Target toggleable">
 <td class="verbage"><b>Bounty Hunters (Jango L)</b></td>
 <td>
 <div style="display: flex">
-	<div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/JANGOFETT/" /><br/>Jango</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/BOSSK/" /><br/>Bossk</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/BOBAFETT/" /><br/>Boba</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/DENGAR/" /><br/>Dengar</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/ZAMWESELL/" /><br/>Zam</div>
+	<div class="toT"><img class="toI hardCounter JANGOFETT-i" /><br/>Jango</div><div class="toT"><img class="toI hardCounter BOSSK-i" /><br/>Bossk</div><div class="toT"><img class="toI hardCounter BOBAFETT-i" /><br/>Boba</div><div class="toT"><img class="toI hardCounter DENGAR-i" /><br/>Dengar</div><div class="toT"><img class="toI hardCounter ZAMWESELL-i" /><br/>Zam</div>
 </div>
 </td>
 </tr>
@@ -117,283 +119,283 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 
-<h3>Strategy: How to Beat Bounty Hunters (Jango L) with Jedi (Bastila L)</h3>Best counter.  No debuffs can stick.  Kill Boba Fett first.  Remember Boba Fett and Jango Fett will revive.  If they are using Enfys Nest, kill her last.
-<h3>General Strategy</h3>The contract is exploitable, you can slow activation of their payouts by using taunters.  Focus on the weaker guys first (low HP+ Protection) so dispellers are must.  Need good damage and turn meter gains to kill fast.  Kill order: Boba Fett, Jango Fett, and other Bounty Hunters, Bossk, then Dengar last.  Look at Bounty Hunters (Bossk L) for additional counter options.
+<h3>Strategy: How to Beat Bounty Hunters (Jango L) with Jedi (Bastila L)</h3><div class="BH_JANGO-JEDI_BASTILA-strat"></div>
+<h3>General Strategy</h3><div class="BH_JANGO-strat"></div>
 </td>
 </tr><tr onclick="$('.JEDI_BASTILA_Target_EP').toggle()" class="target JEDI_BASTILA_Target toggleable">
 <td class="verbage"><b>EP L</b></td>
 <td>
 <div style="display: flex">
-	<div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/EMPERORPALPATINE/" /><br/>EP</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/VADER/" /><br/>Vader</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/GRANDMOFFTARKIN/" /><br/>Tarkin</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/TIEFIGHTERPILOT/" /><br/>TFP</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/IMPERIALPROBEDROID/" /><br/>IPD</div>
+	<div class="toT"><img class="toI hardCounter EMPERORPALPATINE-i" /><br/>EP</div><div class="toT"><img class="toI hardCounter VADER-i" /><br/>Vader</div><div class="toT"><img class="toI hardCounter GRANDMOFFTARKIN-i" /><br/>Tarkin</div><div class="toT"><img class="toI hardCounter TIEFIGHTERPILOT-i" /><br/>TFP</div><div class="toT"><img class="toI hardCounter IMPERIALPROBEDROID-i" /><br/>IPD</div>
 </div>
 </td>
 </tr>
 <tr class="target JEDI_BASTILA_Target_EP toggleable">
 <td>&nbsp;</td>
 <td class="verbage">
-<h3>Description</h3>Fast, offensive lead. Built on debuffs and lot of turn meter gain.
-<h3>Strategy: How to Beat EP L with Jedi (Bastila L)</h3>Bastila Shan's leadership ability provides enough tenacity to stop Emperor Palpatine's leadership ability giving them tons of turn meters based on debuffs.  If you don't have Bastila Shan, your next best option would be a Grand Master Yoda lead (if leadership is zeta'd) for a soft counter.
-<h3>General Strategy</h3>Stop the turn meter gain with daze, high tenacity, and/or outspeed them.  Kill order: Grand Admiral Thrawn or Emperor Palpatine, Grand Moff Tarkin or TIE Fighter Pilot, Darth Vader.
+<h3>Description</h3><div class="EP-desc"></div>
+<h3>Strategy: How to Beat EP L with Jedi (Bastila L)</h3><div class="EP-JEDI_BASTILA-strat"></div>
+<h3>General Strategy</h3><div class="EP-strat"></div>
 </td>
 </tr><tr onclick="$('.JEDI_BASTILA_Target_NS_MT').toggle()" class="target JEDI_BASTILA_Target toggleable">
 <td class="verbage"><b>Nightsisters (Talzin L)</b></td>
 <td>
 <div style="display: flex">
-	<div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/MOTHERTALZIN/" /><br/>MT</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/ASAJVENTRESS/" /><br/>AV</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/DAKA/" /><br/>Daka</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/NIGHTSISTERZOMBIE/" /><br/>Zombie</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/NIGHTSISTERSPIRIT/" /><br/>Spirit</div>
+	<div class="toT"><img class="toI hardCounter MOTHERTALZIN-i" /><br/>MT</div><div class="toT"><img class="toI hardCounter ASAJVENTRESS-i" /><br/>AV</div><div class="toT"><img class="toI hardCounter DAKA-i" /><br/>Daka</div><div class="toT"><img class="toI hardCounter NIGHTSISTERZOMBIE-i" /><br/>Zombie</div><div class="toT"><img class="toI hardCounter NIGHTSISTERSPIRIT-i" /><br/>Spirit</div>
 </div>
 </td>
 </tr>
 <tr class="target JEDI_BASTILA_Target_NS_MT toggleable">
 <td>&nbsp;</td>
 <td class="verbage">
-<h3>Description</h3>Infinite revives potential with Nightsister Zombie, damage through protection, healing, and cleansing.
-<h3>Strategy: How to Beat Nightsisters (Talzin L) with Jedi (Bastila L)</h3>Use General Kenobi, Jolee Bindo, Obi-Wan Kenobi (Old Ben), and Grand Master Yoda.  This team will provide so much healing and taunting that the Nightsisters won't be able to get through Old Ben or General Kenobi before the revives.  If they are using Nightsister Acolyte, you can use Hermit Yoda, Ezra Bridger, Jedi Knight Anakin, and Ahsoka Tano.  JKA's AOE helps deal damage around the taunt, and Ahsoka/Ezra dispel the taunt.
-<h3>General Strategy</h3>Avoid Nightsister Zombie's constant taunting [dispel / buff immunity] or work around it [strong AoEs].  Having healers or high health steal is effective.  You want to kill Old Daka 3 times (to stop the auto revives and her revives), kill Mother Talzin, then kill Asajj Ventress (because she's more powerful now due to the deaths).  If no Enfys Nest, then kill whichever 4th character is used, then finally Nightsister Zombie.  If 4th is Nightsister Acolyte, you definitely want a dispeller or you can easily get caught between her stealth and Nightsister Zombie's taunt.  If Enfys Nest, save her for last.
+<h3>Description</h3><div class="NS_MT-desc"></div>
+<h3>Strategy: How to Beat Nightsisters (Talzin L) with Jedi (Bastila L)</h3><div class="NS_MT-JEDI_BASTILA-strat"></div>
+<h3>General Strategy</h3><div class="NS_MT-strat"></div>
 </td>
 </tr><tr onclick="$('.JEDI_BASTILA_Target_NS_NEST').toggle()" class="target JEDI_BASTILA_Target toggleable">
 <td class="verbage"><b>Nightsisters (w/ Nest)</b></td>
 <td>
 <div style="display: flex">
-	<div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/ASAJVENTRESS/" /><br/>AV</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/MOTHERTALZIN/" /><br/>MT</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/DAKA/" /><br/>Daka</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/NIGHTSISTERZOMBIE/" /><br/>Zombie</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/ENFYSNEST/" /><br/>Nest</div>
+	<div class="toT"><img class="toI hardCounter ASAJVENTRESS-i" /><br/>AV</div><div class="toT"><img class="toI hardCounter MOTHERTALZIN-i" /><br/>MT</div><div class="toT"><img class="toI hardCounter DAKA-i" /><br/>Daka</div><div class="toT"><img class="toI hardCounter NIGHTSISTERZOMBIE-i" /><br/>Zombie</div><div class="toT"><img class="toI hardCounter ENFYSNEST-i" /><br/>Nest</div>
 </div>
 </td>
 </tr>
 <tr class="target JEDI_BASTILA_Target_NS_NEST toggleable">
 <td>&nbsp;</td>
 <td class="verbage">
-<h3>Description</h3>Infinite revives potential with Nightsister Zombie, damage through protection, healing, and cleansing.
-<h3>Strategy: How to Beat Nightsisters (w/ Nest) with Jedi (Bastila L)</h3>Use General Kenobi, Jolee Bindo, Obi-Wan Kenobi (Old Ben), and Grand Master Yoda.  This team will provide so much healing and taunting that the Nightsisters won't be able to get through Old Ben or General Kenobi before the revives.  If they are using Nightsister Acolyte, you can use Hermit Yoda, Ezra Bridger, Jedi Knight Anakin, and Ahsoka Tano.  JKA's AOE helps deal damage around the taunt, and Ahsoka/Ezra dispel the taunt.
-<h3>General Strategy</h3>Avoid Nightsister Zombie's constant taunting [dispel / buff immunity] or work around it [strong AoEs].  Having healers or high health steal is effective.  You want to kill Old Daka 3 times (to stop the auto revives and her revives), kill Mother Talzin, kill Asajj Ventress (because she's more powerful now due to the deaths), kill 4th, then kill Enfys Nest last.
+<h3>Description</h3><div class="NS_NEST-desc"></div>
+<h3>Strategy: How to Beat Nightsisters (w/ Nest) with Jedi (Bastila L)</h3><div class="NS_NEST-JEDI_BASTILA-strat"></div>
+<h3>General Strategy</h3><div class="NS_NEST-strat"></div>
 </td>
 </tr><tr onclick="$('.JEDI_BASTILA_Target_OR_CARTH').toggle()" class="target JEDI_BASTILA_Target toggleable">
 <td class="verbage"><b>Old Republic (Carth L)</b></td>
 <td>
 <div style="display: flex">
-	<div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/CARTHONASI/" /><br/>Carth Onasi</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/CANDEROUSORDO/" /><br/>Canderous</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/MISSIONVAO/" /><br/>Mission</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/ZAALBAR/" /><br/>Zaalbar</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/JUHANI/" /><br/>Juhani</div>
+	<div class="toT"><img class="toI hardCounter CARTHONASI-i" /><br/>Carth Onasi</div><div class="toT"><img class="toI hardCounter CANDEROUSORDO-i" /><br/>Canderous</div><div class="toT"><img class="toI hardCounter MISSIONVAO-i" /><br/>Mission</div><div class="toT"><img class="toI hardCounter ZAALBAR-i" /><br/>Zaalbar</div><div class="toT"><img class="toI hardCounter JUHANI-i" /><br/>Juhani</div>
 </div>
 </td>
 </tr>
 <tr class="target JEDI_BASTILA_Target_OR_CARTH toggleable">
 <td>&nbsp;</td>
 <td class="verbage">
-<h3>Description</h3>Lot of damage over time and nice bonus synergy shared between each other [offense, tenacity, assists and defense/crit avoidance, protection recovery].
-<h3>Strategy: How to Beat Old Republic (Carth L) with Jedi (Bastila L)</h3>Bastila Shan's leadership ability provides enough tenacity to completely stop the damage over time at the beginning of the battle.  You want to dispel Zaalbar's taunt and focus on Canderous Ordo first, then Carth Onasi, then the rest.  To work around the crit avoidance, make sure you have high offense (e.g. Grand Master Yoda, Ezra Bridger, Hermit Yoda for his Master's Training)
-<h3>General Strategy</h3>Stop the damage over time from spreading, dispel Zaalbar frequently from his taunt to focus on attackers/support first.  Can't rely on debuffs/have really high potency (Bastila Shan (Fallen) and Carth will have 80% tenacity, rest 30%).  Bypass the crit avoidance (Zaalbar+Mission have 55% Crit Avoidance, rest 30%).  Use their slow speed against them with turn meter gain, you should have speed advantage.  Kill order: Canderous Ordo, Carth Onasi or Mission Vao.
+<h3>Description</h3><div class="OR_CARTH-desc"></div>
+<h3>Strategy: How to Beat Old Republic (Carth L) with Jedi (Bastila L)</h3><div class="OR_CARTH-JEDI_BASTILA-strat"></div>
+<h3>General Strategy</h3><div class="OR_CARTH-strat"></div>
 </td>
 </tr><tr onclick="$('.JEDI_BASTILA_Target_QIRA').toggle()" class="target JEDI_BASTILA_Target toggleable">
 <td class="verbage"><b>Qi'ra L</b></td>
 <td>
 <div style="display: flex">
-	<div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/QIRA/" /><br/>Qira</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/YOUNGCHEWBACCA/" /><br/>Vandor Chewbacca</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/L3_37/" /><br/>L3-37</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/MISSIONVAO/" /><br/>Mission</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/ZAALBAR/" /><br/>Zaalbar</div>
+	<div class="toT"><img class="toI hardCounter QIRA-i" /><br/>Qira</div><div class="toT"><img class="toI hardCounter YOUNGCHEWBACCA-i" /><br/>Vandor Chewbacca</div><div class="toT"><img class="toI hardCounter L3_37-i" /><br/>L3-37</div><div class="toT"><img class="toI hardCounter MISSIONVAO-i" /><br/>Mission</div><div class="toT"><img class="toI hardCounter ZAALBAR-i" /><br/>Zaalbar</div>
 </div>
 </td>
 </tr>
 <tr class="target JEDI_BASTILA_Target_QIRA toggleable">
 <td>&nbsp;</td>
 <td class="verbage">
-<h3>Description</h3>Heals, revives, protection regeneration, and lot of taunts.  This is a very hard team to beat.
+<h3>Description</h3><div class="QIRA-desc"></div>
 
-<h3>General Strategy</h3>Requires dispelling, healing immunity, lot of turn meter gain, and AoE attackers.  Kill Vandor Chewbacca first and don't let him revive his allies.  Keep Zaalbar and L3-37 shutdown by dispelling them.  Kill order: Vandor Chewbacca, Qi'ra/Mission Vao/Young Han Solo/Young Lando Calrissian, L3-37, Enfys Nest, Zaalbar.
+<h3>General Strategy</h3><div class="QIRA-strat"></div>
 </td>
 </tr><tr onclick="$('.JEDI_BASTILA_Target_REBELS_CLS').toggle()" class="target JEDI_BASTILA_Target toggleable">
 <td class="verbage"><b>Rebels (CLS Quad)</b></td>
 <td>
 <div style="display: flex">
-	<div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/COMMANDERLUKESKYWALKER/" /><br/>CLS</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/HANSOLO/" /><br/>Han</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/CHEWBACCALEGENDARY/" /><br/>Chewbacca</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/C3POLEGENDARY/" /><br/>C-3PO</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/R2D2_LEGENDARY/" /><br/>R2-D2</div>
+	<div class="toT"><img class="toI hardCounter COMMANDERLUKESKYWALKER-i" /><br/>CLS</div><div class="toT"><img class="toI hardCounter HANSOLO-i" /><br/>Han</div><div class="toT"><img class="toI hardCounter CHEWBACCALEGENDARY-i" /><br/>Chewbacca</div><div class="toT"><img class="toI hardCounter C3POLEGENDARY-i" /><br/>C-3PO</div><div class="toT"><img class="toI hardCounter R2D2_LEGENDARY-i" /><br/>R2-D2</div>
 </div>
 </td>
 </tr>
 <tr class="target JEDI_BASTILA_Target_REBELS_CLS toggleable">
 <td>&nbsp;</td>
 <td class="verbage">
-<h3>Description</h3>Double (Han+CLS): offensive team, high crits, high damage, high TM gain, and lot of counter attacks. Trio - addition of Chewbacca brings crit immunity and can't be stunned/daze for Han and another toon. Quartet - addition of C3PO brings this team to whole new level and lot of attackers will do 40% HP damage (expose+chewbacca' unique).
-<h3>Strategy: How to Beat Rebels (CLS Quad) with Jedi (Bastila L)</h3>vs CLS Trio and Quartet:  For non-Revan users, use Grand Master Yoda and Hermit Yoda against CLS Quartet.  Focus on Chewbacca from the start.  Use Hermit Yoda's Master's Training on Grand Master Yoda (or another attacker if GMY is stunned).  This is a very hard match if facing CLS Quartet without Grand Master Yoda.
-<h3>General Strategy</h3>Double & Trio - go for anti-crit team/anti-rebel team, don't get countered - no AoEs, attack from stealth/assist/have taunting tank while attacking, that can survive some hits.  Kill order: Chewbacca, Han Solo, Commander Luke Skywalker.
+<h3>Description</h3><div class="REBELS_CLS-desc"></div>
+<h3>Strategy: How to Beat Rebels (CLS Quad) with Jedi (Bastila L)</h3><div class="REBELS_CLS-JEDI_BASTILA-strat"></div>
+<h3>General Strategy</h3><div class="REBELS_CLS-strat"></div>
 </td>
 </tr><tr onclick="$('.JEDI_BASTILA_Target_SITH_MAUL').toggle()" class="target JEDI_BASTILA_Target toggleable">
 <td class="verbage">Sith (Maul L)</td>
 <td>
 <div style="display: flex">
-	<div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/MAUL/" /><br/>Maul</div><div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/SAVAGEOPRESS/" /><br/>Savage</div><div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/SITHTROOPER/" /><br/>Sith Empire Trooper</div><div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/SITHASSASSIN/" /><br/>Sith Assassin</div><div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/COUNTDOOKU/" /><br/>Dooku</div>
+	<div class="toT"><img class="toI softCounter MAUL-i" /><br/>Maul</div><div class="toT"><img class="toI softCounter SAVAGEOPRESS-i" /><br/>Savage</div><div class="toT"><img class="toI softCounter SITHTROOPER-i" /><br/>Sith Empire Trooper</div><div class="toT"><img class="toI softCounter SITHASSASSIN-i" /><br/>Sith Assassin</div><div class="toT"><img class="toI softCounter COUNTDOOKU-i" /><br/>Dooku</div>
 </div>
 </td>
 </tr>
 <tr class="target JEDI_BASTILA_Target_SITH_MAUL toggleable">
 <td>&nbsp;</td>
 <td class="verbage">
-<h3>Description</h3>Stealthy team with mass dispel of debuffs, fast turn meter gain, first turn advantage, and lots of AoE.  Dazing Maul is effective.
+<h3>Description</h3><div class="SITH_MAUL-desc"></div>
 
-<h3>General Strategy</h3>Cleanse and deal big damage with single-hitters.
+<h3>General Strategy</h3><div class="SITH_MAUL-strat"></div>
 </td>
 </tr><tr onclick="$('.JEDI_BASTILA_Target_SITH_TRI').toggle()" class="target JEDI_BASTILA_Target toggleable">
 <td class="verbage">Sith Triumvirate</td>
 <td>
 <div style="display: flex">
-	<div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/DARTHTRAYA/" /><br/>Traya</div><div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/DARTHSION/" /><br/>Sion</div><div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/DARTHNIHILUS/" /><br/>DN</div><div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/SITHTROOPER/" /><br/>Sith Empire Trooper</div><div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/GRANDADMIRALTHRAWN/" /><br/>Thrawn</div>
+	<div class="toT"><img class="toI softCounter DARTHTRAYA-i" /><br/>Traya</div><div class="toT"><img class="toI softCounter DARTHSION-i" /><br/>Sion</div><div class="toT"><img class="toI softCounter DARTHNIHILUS-i" /><br/>DN</div><div class="toT"><img class="toI softCounter SITHTROOPER-i" /><br/>Sith Empire Trooper</div><div class="toT"><img class="toI softCounter GRANDADMIRALTHRAWN-i" /><br/>Thrawn</div>
 </div>
 </td>
 </tr>
 <tr class="target JEDI_BASTILA_Target_SITH_TRI toggleable">
 <td>&nbsp;</td>
 <td class="verbage">
-<h3>Description</h3>Defensive lead that cripples the other team (Isolate, Pain, debuff removal).
-<h3>Strategy: How to Beat Sith Triumvirate with Jedi (Bastila L)</h3>Use when you don't have Jedi Knight Revan.  This team has high offense and Bastila Shan's leadership will grant enough tenacity to help against debuffs.
-<h3>General Strategy</h3>Need better offensive capabilities than Traya's defense capabilities. There's no escape from annihilate, isolate or fracture. Just kill them before Darth Nihilus starts his groove by dealing huge amount of damage.  This team has big damage with turn meter gain / turn meter removal.  Normal kill order should be stun Thrawn then kill Bastila Shan (Fallen) (if used), Traya, Thrawn, Palpatine (if used), Sion, Nihilus, then whoever is left.
+<h3>Description</h3><div class="SITH_TRI-desc"></div>
+<h3>Strategy: How to Beat Sith Triumvirate with Jedi (Bastila L)</h3><div class="SITH_TRI-JEDI_BASTILA-strat"></div>
+<h3>General Strategy</h3><div class="SITH_TRI-strat"></div>
 </td>
 </tr><tr onclick="$('.target').hide(0, function() { $('.NEST_SOLO_Target').show() });" id="NEST_SOLO" style="background: #aaaaff">
-<td><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/ENFYSNEST/"/><br/>Enfys Nest (solo)<br/>8592</div></td>
-<td class="verbage" style="position: relative"><div style="display: flex"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/ENFYSNEST/"/><br/>Nest 4* G9</div><div style="text-align:center; font-size: 60%"><a href="../tw-squads/232639512.html#NestSolo (Counter)"><img title="Nest: low stars.  " src="../../i/tractor24.png"></a></div></div></td>
+<td><div class="toT"><img class="toI squad ENFYSNEST-i"/><br/>Enfys Nest (solo)<br/>9013</div></td>
+<td class="verbage" style="position: relative"><div style="display: flex"><div class="toT"><img class="toI squad ENFYSNEST-i"><br/>Nest 4* G9</div><div class="toT"><a href="../tw-squads/232639512.html#NestSolo (Counter)"><img title="Nest: low stars.  " src="../../i/tractor24.png"></a></div></div></td>
 </tr>
 <tr class="target NEST_SOLO_Target toggleable">
 <td></td>
 <td class="verbage">
-	<h3>Subs</h3>Qi'ra (L), Hermit Yoda
+	<h3>Subs</h3><div class="NEST_SOLO-subs"></div>
 	
 </td>
 </tr><tr onclick="$('.NEST_SOLO_Target_EWOKS').toggle()" class="target NEST_SOLO_Target toggleable">
 <td class="verbage"><b>Ewoks</b></td>
 <td>
 <div style="display: flex">
-	<div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/CHIEFCHIRPA/" /><br/>Chirpa</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/WICKET/" /><br/>Wicket</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/EWOKELDER/" /><br/>Elder</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/PAPLOO/" /><br/>Paploo</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/LOGRAY/" /><br/>Logray</div>
+	<div class="toT"><img class="toI hardCounter CHIEFCHIRPA-i" /><br/>Chirpa</div><div class="toT"><img class="toI hardCounter WICKET-i" /><br/>Wicket</div><div class="toT"><img class="toI hardCounter EWOKELDER-i" /><br/>Elder</div><div class="toT"><img class="toI hardCounter PAPLOO-i" /><br/>Paploo</div><div class="toT"><img class="toI hardCounter LOGRAY-i" /><br/>Logray</div>
 </div>
 </td>
 </tr>
 <tr class="target NEST_SOLO_Target_EWOKS toggleable">
 <td>&nbsp;</td>
 <td class="verbage">
-<h3>Description</h3>Crit team with lot of assists, buffs, and usually daze and revive. High TM gain from Chief Chirpa's zeta lead.
-<h3>Strategy: How to Beat Ewoks with Enfys Nest (solo)</h3>Useful dispel, and Ewoks don't have enough damage to kill her.  Can use a Luke Skywalker (Farmboy) lead for extra tenacity or CT-7567 "Rex"s lead for extra health and turn meter when taking crit hits.  Can add Hermit Yoda for 25% offense, defence, tenacity, and potency.
+<h3>Description</h3><div class="EWOKS-desc"></div>
+<h3>Strategy: How to Beat Ewoks with Enfys Nest (solo)</h3><div class="EWOKS-NEST_SOLO-strat"></div>
 
 </td>
 </tr><tr onclick="$('.NEST_SOLO_Target_JEDI_BASTILA').toggle()" class="target NEST_SOLO_Target toggleable">
 <td class="verbage"><b>Jedi (Bastila L)</b></td>
 <td>
 <div style="display: flex">
-	<div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/BASTILASHAN/" /><br/>BS</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/JOLEEBINDO/" /><br/>Jolee</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/GRANDMASTERYODA/" /><br/>GMY</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/GENERALKENOBI/" /><br/>GK</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/EZRABRIDGERS3/" /><br/>Ezra</div>
+	<div class="toT"><img class="toI hardCounter BASTILASHAN-i" /><br/>BS</div><div class="toT"><img class="toI hardCounter JOLEEBINDO-i" /><br/>Jolee</div><div class="toT"><img class="toI hardCounter GRANDMASTERYODA-i" /><br/>GMY</div><div class="toT"><img class="toI hardCounter GENERALKENOBI-i" /><br/>GK</div><div class="toT"><img class="toI hardCounter EZRABRIDGERS3-i" /><br/>Ezra</div>
 </div>
 </td>
 </tr>
 <tr class="target NEST_SOLO_Target_JEDI_BASTILA toggleable">
 <td>&nbsp;</td>
 <td class="verbage">
-<h3>Description</h3>Buffs, high protection pool, and high tenacity.
+<h3>Description</h3><div class="JEDI_BASTILA-desc"></div>
 
-<h3>General Strategy</h3>Stop the spreading buffs by Grand Master Yoda. Taunt to soak up the damage while you working on removing the Jedi protection.  Need to have enough damage to finish in 5 mins, this team will require strong teams to beat.  Defensive leads that buy you time with passive healings are best options (Bossk, KRU, Traya).  Kill high damage characters first, like Ezra Bridger.
+<h3>General Strategy</h3><div class="JEDI_BASTILA-strat"></div>
 </td>
 </tr><tr onclick="$('.NEST_SOLO_Target_PHOENIX').toggle()" class="target NEST_SOLO_Target toggleable">
 <td class="verbage"><b>Phoenix</b></td>
 <td>
 <div style="display: flex">
-	<div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/HERASYNDULLAS3/" /><br/>Hera</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/KANANJARRUSS3/" /><br/>Kanan</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/ZEBS3/" /><br/>Zeb</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/SABINEWRENS3/" /><br/>Sabine</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/EZRABRIDGERS3/" /><br/>Ezra</div>
+	<div class="toT"><img class="toI hardCounter HERASYNDULLAS3-i" /><br/>Hera</div><div class="toT"><img class="toI hardCounter KANANJARRUSS3-i" /><br/>Kanan</div><div class="toT"><img class="toI hardCounter ZEBS3-i" /><br/>Zeb</div><div class="toT"><img class="toI hardCounter SABINEWRENS3-i" /><br/>Sabine</div><div class="toT"><img class="toI hardCounter EZRABRIDGERS3-i" /><br/>Ezra</div>
 </div>
 </td>
 </tr>
 <tr class="target NEST_SOLO_Target_PHOENIX toggleable">
 <td>&nbsp;</td>
 <td class="verbage">
-<h3>Description</h3>High synergy team with a lot of counter attacking, dispelling (or loving the debuffs), and HP + protection recovery. Be careful with G12 zeta Phoenix, use equally geared zeta'd teams.
-<h3>Strategy: How to Beat Phoenix with Enfys Nest (solo)</h3>You want your Enfys Nest to be modded with high Tenacity to prevent Daze and Stun.  Take out Sabine Wren first, then Garazeb "Zeb" Orrelios.
-<h3>General Strategy</h3>Avoid getting countered [daze or attacking from stealth/assists]. Deal good damage in a single turn that surpasses their heals (calling assist/simply high damage/high turn meter gain).  There's no point in debuffing because of Kanan's unique (besides Daze/Stun).  Focus on one character at a time to remove the unique ability they are sharing with the team.  Killing Chopper removes health/protection regeneration.  Killing Ezra removes stacking offense up.  Killing Sabine removes increased crit chance and crit damage.  Killing Kanan removes counter chance and health regen on debuff.  Killing Zeb removes protection regen.  Killing Hera removes turn meter gain on using special ability.
+<h3>Description</h3><div class="PHOENIX-desc"></div>
+<h3>Strategy: How to Beat Phoenix with Enfys Nest (solo)</h3><div class="PHOENIX-NEST_SOLO-strat"></div>
+<h3>General Strategy</h3><div class="PHOENIX-strat"></div>
 </td>
 </tr><tr onclick="$('.NEST_SOLO_Target_CLONES_SHAAKTI').toggle()" class="target NEST_SOLO_Target toggleable">
 <td class="verbage">Clones (Shaak Ti L)</td>
 <td>
 <div style="display: flex">
-	<div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/SHAAKTI/" /><br/>Shaak Ti</div><div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/CLONESERGEANTPHASEI/" /><br/>Clone Sergeant</div><div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/CT7567/" /><br/>Rex</div><div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/CT210408/" /><br/>Echo</div><div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/CT5555/" /><br/>Fives</div>
+	<div class="toT"><img class="toI softCounter SHAAKTI-i" /><br/>Shaak Ti</div><div class="toT"><img class="toI softCounter CLONESERGEANTPHASEI-i" /><br/>Clone Sergeant</div><div class="toT"><img class="toI softCounter CT7567-i" /><br/>Rex</div><div class="toT"><img class="toI softCounter CT210408-i" /><br/>Echo</div><div class="toT"><img class="toI softCounter CT5555-i" /><br/>Fives</div>
 </div>
 </td>
 </tr>
 <tr class="target NEST_SOLO_Target_CLONES_SHAAKTI toggleable">
 <td>&nbsp;</td>
 <td class="verbage">
-<h3>Description</h3>High synergy team with tons of assists and health/protection regeneration when attacking out of turn.  
+<h3>Description</h3><div class="CLONES_SHAAKTI-desc"></div>
 
-<h3>General Strategy</h3>You need to kill CT-5555 "Fives" before you kill any other 501st clones, or else you'll super charge this team.
+<h3>General Strategy</h3><div class="CLONES_SHAAKTI-strat"></div>
 </td>
 </tr><tr onclick="$('.NEST_SOLO_Target_GALACTIC_REPUBLIC').toggle()" class="target NEST_SOLO_Target toggleable">
 <td class="verbage">Galactic Republic</td>
 <td>
 <div style="display: flex">
-	<div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/PADMEAMIDALA/" /><br/>Padme</div><div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/ANAKINKNIGHT/" /><br/>JKA</div><div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/AHSOKATANO/" /><br/>Ahsoka</div><div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/GENERALKENOBI/" /><br/>GK</div><div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/BARRISSOFFEE/" /><br/>Barriss</div>
+	<div class="toT"><img class="toI softCounter PADMEAMIDALA-i" /><br/>Padme</div><div class="toT"><img class="toI softCounter ANAKINKNIGHT-i" /><br/>JKA</div><div class="toT"><img class="toI softCounter AHSOKATANO-i" /><br/>Ahsoka</div><div class="toT"><img class="toI softCounter GENERALKENOBI-i" /><br/>GK</div><div class="toT"><img class="toI softCounter BARRISSOFFEE-i" /><br/>Barriss</div>
 </div>
 </td>
 </tr>
 <tr class="target NEST_SOLO_Target_GALACTIC_REPUBLIC toggleable">
 <td>&nbsp;</td>
 <td class="verbage">
-<h3>Description</h3>Super tanky team, immunity to debuffs (with many options to dispel), protection-up spamming, damage based on % of target's health, and benefits when enemies attack out of turn.
-<h3>Strategy: How to Beat Galactic Republic with Enfys Nest (solo)</h3>Only top-modded Enfys Nest is viable.  Highly recommended to have a Qi'ra lead (for protection regeneration) and Hermit Yoda (for the Master's Training buffs).  She'll survive the hits and recover protection through counters.  The counters won't hurt Padmé, but Enfys Nest will eventually stack so much crit damage that she'll kill them in her turn (unlike with other teams where Nest kills them on the counter attack).  High tenacity is a must because getting stunned stops the strategy.
-<h3>General Strategy</h3>Buff immunities (+Isolate + Fracture + zeta Imperial Probe Droid) to deny buffing and stacking of protection-up and bonus % damage.  Kill order: Padmé Amidala, Jedi Knight Anakin.
+<h3>Description</h3><div class="GALACTIC_REPUBLIC-desc"></div>
+<h3>Strategy: How to Beat Galactic Republic with Enfys Nest (solo)</h3><div class="GALACTIC_REPUBLIC-NEST_SOLO-strat"></div>
+<h3>General Strategy</h3><div class="GALACTIC_REPUBLIC-strat"></div>
 </td>
 </tr><tr onclick="$('.NEST_SOLO_Target_IT').toggle()" class="target NEST_SOLO_Target toggleable">
 <td class="verbage">Imperial Troopers</td>
 <td>
 <div style="display: flex">
-	<div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/VEERS/" /><br/>Veers</div><div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/COLONELSTARCK/" /><br/>Starck</div><div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/RANGETROOPER/" /><br/>Range Trooper</div><div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/SNOWTROOPER/" /><br/>Snowtrooper</div><div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/DEATHTROOPER/" /><br/>DT</div>
+	<div class="toT"><img class="toI softCounter VEERS-i" /><br/>Veers</div><div class="toT"><img class="toI softCounter COLONELSTARCK-i" /><br/>Starck</div><div class="toT"><img class="toI softCounter RANGETROOPER-i" /><br/>Range Trooper</div><div class="toT"><img class="toI softCounter SNOWTROOPER-i" /><br/>Snowtrooper</div><div class="toT"><img class="toI softCounter DEATHTROOPER-i" /><br/>DT</div>
 </div>
 </td>
 </tr>
 <tr class="target NEST_SOLO_Target_IT toggleable">
 <td>&nbsp;</td>
 <td class="verbage">
-<h3>Description</h3>Fast, offensive team that's focused on getting a kill to gain massive turn meter.  Death Trooper's Deathmark makes sequential kills easier.  This team isn't effective against tankier squads or squads that require more than two dispels.
+<h3>Description</h3><div class="IT-desc"></div>
 
-<h3>General Strategy</h3>Don't let the turn meter train run or stop it with a tank, good healer, or daze.  Go after Snowtrooper first.  If Shoretrooper is present, bring a dispeller in.  Also counter toons can be effective due to lots of AoE attacks.  Kill order: General Veers/Colonel Starck, Snowtrooper/Death Trooper, Range Trooper.
+<h3>General Strategy</h3><div class="IT-strat"></div>
 </td>
 </tr><tr onclick="$('.NEST_SOLO_Target_REBELS_CLS').toggle()" class="target NEST_SOLO_Target toggleable">
 <td class="verbage">Rebels (CLS Quad)</td>
 <td>
 <div style="display: flex">
-	<div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/COMMANDERLUKESKYWALKER/" /><br/>CLS</div><div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/HANSOLO/" /><br/>Han</div><div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/CHEWBACCALEGENDARY/" /><br/>Chewbacca</div><div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/C3POLEGENDARY/" /><br/>C-3PO</div><div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/R2D2_LEGENDARY/" /><br/>R2-D2</div>
+	<div class="toT"><img class="toI softCounter COMMANDERLUKESKYWALKER-i" /><br/>CLS</div><div class="toT"><img class="toI softCounter HANSOLO-i" /><br/>Han</div><div class="toT"><img class="toI softCounter CHEWBACCALEGENDARY-i" /><br/>Chewbacca</div><div class="toT"><img class="toI softCounter C3POLEGENDARY-i" /><br/>C-3PO</div><div class="toT"><img class="toI softCounter R2D2_LEGENDARY-i" /><br/>R2-D2</div>
 </div>
 </td>
 </tr>
 <tr class="target NEST_SOLO_Target_REBELS_CLS toggleable">
 <td>&nbsp;</td>
 <td class="verbage">
-<h3>Description</h3>Double (Han+CLS): offensive team, high crits, high damage, high TM gain, and lot of counter attacks. Trio - addition of Chewbacca brings crit immunity and can't be stunned/daze for Han and another toon. Quartet - addition of C3PO brings this team to whole new level and lot of attackers will do 40% HP damage (expose+chewbacca' unique).
+<h3>Description</h3><div class="REBELS_CLS-desc"></div>
 
-<h3>General Strategy</h3>Double & Trio - go for anti-crit team/anti-rebel team, don't get countered - no AoEs, attack from stealth/assist/have taunting tank while attacking, that can survive some hits.  Kill order: Chewbacca, Han Solo, Commander Luke Skywalker.
+<h3>General Strategy</h3><div class="REBELS_CLS-strat"></div>
 </td>
 </tr><tr onclick="$('.NEST_SOLO_Target_ROGUE_ONE').toggle()" class="target NEST_SOLO_Target toggleable">
 <td class="verbage">Rogue One</td>
 <td>
 <div style="display: flex">
-	<div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/JYNERSO/" /><br/>Jyn</div><div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/CASSIANANDOR/" /><br/>Cassian</div><div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/K2SO/" /><br/>K-2SO</div><div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/CHIRRUTIMWE/" /><br/>Chirrut</div><div style="text-align:center; font-size: 60%"><img class="toonImg softCounter" src="https://swgoh.gg/game-asset/u/BAZEMALBUS/" /><br/>Baze</div>
+	<div class="toT"><img class="toI softCounter JYNERSO-i" /><br/>Jyn</div><div class="toT"><img class="toI softCounter CASSIANANDOR-i" /><br/>Cassian</div><div class="toT"><img class="toI softCounter K2SO-i" /><br/>K-2SO</div><div class="toT"><img class="toI softCounter CHIRRUTIMWE-i" /><br/>Chirrut</div><div class="toT"><img class="toI softCounter BAZEMALBUS-i" /><br/>Baze</div>
 </div>
 </td>
 </tr>
 <tr class="target NEST_SOLO_Target_ROGUE_ONE toggleable">
 <td>&nbsp;</td>
 <td class="verbage">
-<h3>Description</h3>Team with heal, protection recovery (if zJyn Erso), lot of debuffs, and Chaze (Chirrut Îmwe and Baze Malbus) make this a formidable team.
+<h3>Description</h3><div class="ROGUE_ONE-desc"></div>
 
-<h3>General Strategy</h3>Killing Chirrut Îmwe will stop the heal over time [or stop with Buff Immunity using Jedi Knight Anakin].  Need to dispel Baze's taunt while removing Chirrut's protection and focusing on Chirrut hard. [Veers Mass attack] Also try to avoid the debuffs from Cassian, K-2SO and Baze. [tenacity up/ high tenacity] another option is simply anti-rebel power [Wampa, DK, DT] or let them stack their heal over time buffs then use Boba's Execute.
+<h3>General Strategy</h3><div class="ROGUE_ONE-strat"></div>
 </td>
 </tr><tr onclick="$('.target').hide(0, function() { $('.QIRA_NEST_HODA_Target').show() });" id="QIRA_NEST_HODA" style="background: #aaaaff">
-<td><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/QIRA/"/><br/>Qi'ra (w/ Nest and Hoda)<br/>35185</div></td>
-<td class="verbage" style="position: relative"><div style="display: flex"><div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/QIRA/"/><br/>Qira G9</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/ENFYSNEST/"/><br/>Nest 4* G9</div> <div style="text-align:center; font-size: 60%"><img class="toonImg squad" src="https://swgoh.gg/game-asset/u/HERMITYODA/"/><br/>HYoda G9</div><div style="text-align:center; font-size: 60%"><a href="../tw-squads/232639512.html#QiraNest"><img title="Nest: low stars.  " src="../../i/tractor24.png"></a></div></div></td>
+<td><div class="toT"><img class="toI squad QIRA-i"/><br/>Qi'ra (w/ Nest and Hoda)<br/>35686</div></td>
+<td class="verbage" style="position: relative"><div style="display: flex"><div class="toT"><img class="toI squad QIRA-i"><br/>Qira G9</div> <div class="toT"><img class="toI squad ENFYSNEST-i"><br/>Nest 4* G9</div> <div class="toT"><img class="toI squad HERMITYODA-i"><br/>HYoda G9</div><div class="toT"><a href="../tw-squads/232639512.html#QiraNest"><img title="Nest: low stars.  " src="../../i/tractor24.png"></a></div></div></td>
 </tr>
 <tr class="target QIRA_NEST_HODA_Target toggleable">
 <td></td>
 <td class="verbage">
-	<h3>Subs</h3>(no subs, this team comp is used for a specific purpose)
+	<h3>Subs</h3><div class="QIRA_NEST_HODA-subs"></div>
 	
 </td>
 </tr><tr onclick="$('.QIRA_NEST_HODA_Target_JEDI_BASTILA').toggle()" class="target QIRA_NEST_HODA_Target toggleable">
 <td class="verbage"><b>Jedi (Bastila L)</b></td>
 <td>
 <div style="display: flex">
-	<div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/BASTILASHAN/" /><br/>BS</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/JOLEEBINDO/" /><br/>Jolee</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/GRANDMASTERYODA/" /><br/>GMY</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/GENERALKENOBI/" /><br/>GK</div><div style="text-align:center; font-size: 60%"><img class="toonImg hardCounter" src="https://swgoh.gg/game-asset/u/EZRABRIDGERS3/" /><br/>Ezra</div>
+	<div class="toT"><img class="toI hardCounter BASTILASHAN-i" /><br/>BS</div><div class="toT"><img class="toI hardCounter JOLEEBINDO-i" /><br/>Jolee</div><div class="toT"><img class="toI hardCounter GRANDMASTERYODA-i" /><br/>GMY</div><div class="toT"><img class="toI hardCounter GENERALKENOBI-i" /><br/>GK</div><div class="toT"><img class="toI hardCounter EZRABRIDGERS3-i" /><br/>Ezra</div>
 </div>
 </td>
 </tr>
 <tr class="target QIRA_NEST_HODA_Target_JEDI_BASTILA toggleable">
 <td>&nbsp;</td>
 <td class="verbage">
-<h3>Description</h3>Buffs, high protection pool, and high tenacity.
-<h3>Strategy: How to Beat Jedi (Bastila L) with Qi'ra (w/ Nest and Hoda)</h3>These three characters should be enough to win against most Bastila Shan teams.  Enfys Nest counter-attacks, ignores taunts, and recovers protection under Qi'ra lead.  Hermit Yoda will heal, grant foresight, bonus 25% offense, and tenacity (which is crucial).
-<h3>General Strategy</h3>Stop the spreading buffs by Grand Master Yoda. Taunt to soak up the damage while you working on removing the Jedi protection.  Need to have enough damage to finish in 5 mins, this team will require strong teams to beat.  Defensive leads that buy you time with passive healings are best options (Bossk, KRU, Traya).  Kill high damage characters first, like Ezra Bridger.
+<h3>Description</h3><div class="JEDI_BASTILA-desc"></div>
+<h3>Strategy: How to Beat Jedi (Bastila L) with Qi'ra (w/ Nest and Hoda)</h3><div class="JEDI_BASTILA-QIRA_NEST_HODA-strat"></div>
+<h3>General Strategy</h3><div class="JEDI_BASTILA-strat"></div>
 </td>
 </tr></table><br/>
-<font size="-2">Generated 2020-08-10 20:20:31 +0000</font>
+<font size="-2">Generated 2020-08-14 18:47:52 +0000</font>

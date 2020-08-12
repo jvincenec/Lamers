@@ -2,7 +2,6 @@
 
 guilds=(
 	'baltic 228765519'
-	'censored 758879128'
 	'exile 656997348'
 	'hope 369351434'
 	'hoth 329251861'
