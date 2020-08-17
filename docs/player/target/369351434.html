@@ -83,7 +83,7 @@ td, th {
 <th>Squad</th>
 </tr>
 </thead><tr onclick="$('.target').hide(0, function() { $('.REX_501_Target').show() });" id="REX_501" style="background: #aaaaff">
-<td><div class="toT"><img class="toI squad CT7567-i"/><br/>Rex 501st<br/>108700</div></td>
+<td><div class="toT"><img class="toI squad CT7567-i"/><br/>Rex 501st<br/>109516</div></td>
 <td class="verbage" style="position: relative"><div style="display: flex"><div class="toT"><img class="toI squad CT7567-i"><br/>zRex</div> <div class="toT"><img class="toI squad ARCTROOPER501ST-i"><br/>zARC Trooper G8</div> <div class="toT"><img class="toI squad CT210408-i"><br/>zEcho</div> <div class="toT"><img class="toI squad CT5555-i"><br/>zzFives</div> <div class="toT"><img class="toI squad AHSOKATANO-i"><br/>zAhsoka</div></div></td>
 </tr>
 <tr class="target REX_501_Target toggleable">
@@ -115,7 +115,7 @@ td, th {
 <td></td>
 <td class="verbage">
 	<h3>Subs</h3><div class="BH_JANGO-subs"></div>
-	
+	<h3>Strategy</h3><div class="BH_JANGO-desc"></div>
 </td>
 </tr><tr onclick="$('.BH_JANGO_Target_EP').toggle()" class="target BH_JANGO_Target toggleable">
 <td class="verbage"><b>EP L</b></td>
@@ -129,7 +129,7 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 <h3>Description</h3><div class="EP-desc"></div>
-
+<h3>Strategy: How to Beat EP L with Bounty Hunters (Jango L)</h3><div class="EP-BH_JANGO-strat"></div>
 <h3>General Strategy</h3><div class="EP-strat"></div>
 </td>
 </tr><tr onclick="$('.BH_JANGO_Target_EWOKS').toggle()" class="target BH_JANGO_Target toggleable">
@@ -207,6 +207,21 @@ td, th {
 
 <h3>General Strategy</h3><div class="SITH_MAUL-strat"></div>
 </td>
+</tr><tr onclick="$('.BH_JANGO_Target_GEONOSIANS').toggle()" class="target BH_JANGO_Target toggleable">
+<td class="verbage">Geonosians</td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI softCounter GEONOSIANBROODALPHA-i" /><br/>GBA</div><div class="toT"><img class="toI softCounter SUNFAC-i" /><br/>Sun Fac</div><div class="toT"><img class="toI softCounter GEONOSIANSOLDIER-i" /><br/>Geo Soldier</div><div class="toT"><img class="toI softCounter GEONOSIANSPY-i" /><br/>Geo Spy</div><div class="toT"><img class="toI softCounter POGGLETHELESSER-i" /><br/>Poggle</div>
+</div>
+</td>
+</tr>
+<tr class="target BH_JANGO_Target_GEONOSIANS toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+
+
+<h3>General Strategy</h3><div class="GEONOSIANS-strat"></div>
+</td>
 </tr><tr onclick="$('.BH_JANGO_Target_QIRA').toggle()" class="target BH_JANGO_Target toggleable">
 <td class="verbage">Qi'ra L</td>
 <td>
@@ -221,6 +236,21 @@ td, th {
 <h3>Description</h3><div class="QIRA-desc"></div>
 <h3>Strategy: How to Beat Qi'ra L with Bounty Hunters (Jango L)</h3><div class="QIRA-BH_JANGO-strat"></div>
 <h3>General Strategy</h3><div class="QIRA-strat"></div>
+</td>
+</tr><tr onclick="$('.BH_JANGO_Target_QIRA_NEST_ZAALBAR').toggle()" class="target BH_JANGO_Target toggleable">
+<td class="verbage">Qi'ra L (w/ Nest and Zaalbar)</td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI softCounter QIRA-i" /><br/>Qira</div><div class="toT"><img class="toI softCounter YOUNGCHEWBACCA-i" /><br/>Vandor Chewbacca</div><div class="toT"><img class="toI softCounter ENFYSNEST-i" /><br/>Nest</div><div class="toT"><img class="toI softCounter L3_37-i" /><br/>L3-37</div><div class="toT"><img class="toI softCounter ZAALBAR-i" /><br/>Zaalbar</div>
+</div>
+</td>
+</tr>
+<tr class="target BH_JANGO_Target_QIRA_NEST_ZAALBAR toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+
+
+
 </td>
 </tr><tr onclick="$('.BH_JANGO_Target_ROGUE_ONE').toggle()" class="target BH_JANGO_Target toggleable">
 <td class="verbage">Rogue One</td>
@@ -303,7 +333,7 @@ td, th {
 <tr class="target JEDI_BASTILA_Target_BH_JANGO toggleable">
 <td>&nbsp;</td>
 <td class="verbage">
-
+<h3>Description</h3><div class="BH_JANGO-desc"></div>
 <h3>Strategy: How to Beat Bounty Hunters (Jango L) with Jedi (Bastila L)</h3><div class="BH_JANGO-JEDI_BASTILA-strat"></div>
 <h3>General Strategy</h3><div class="BH_JANGO-strat"></div>
 </td>
@@ -382,8 +412,23 @@ td, th {
 
 <h3>General Strategy</h3><div class="QIRA-strat"></div>
 </td>
+</tr><tr onclick="$('.JEDI_BASTILA_Target_QIRA_NEST_ZAALBAR').toggle()" class="target JEDI_BASTILA_Target toggleable">
+<td class="verbage"><b>Qi'ra L (w/ Nest and Zaalbar)</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter QIRA-i" /><br/>Qira</div><div class="toT"><img class="toI hardCounter YOUNGCHEWBACCA-i" /><br/>Vandor Chewbacca</div><div class="toT"><img class="toI hardCounter ENFYSNEST-i" /><br/>Nest</div><div class="toT"><img class="toI hardCounter L3_37-i" /><br/>L3-37</div><div class="toT"><img class="toI hardCounter ZAALBAR-i" /><br/>Zaalbar</div>
+</div>
+</td>
+</tr>
+<tr class="target JEDI_BASTILA_Target_QIRA_NEST_ZAALBAR toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+
+
+
+</td>
 </tr><tr onclick="$('.JEDI_BASTILA_Target_REBELS_CLS').toggle()" class="target JEDI_BASTILA_Target toggleable">
-<td class="verbage"><b>Rebels (CLS Quad)</b></td>
+<td class="verbage"><b>Rebels (CLS L)</b></td>
 <td>
 <div style="display: flex">
 	<div class="toT"><img class="toI hardCounter COMMANDERLUKESKYWALKER-i" /><br/>CLS</div><div class="toT"><img class="toI hardCounter HANSOLO-i" /><br/>Han</div><div class="toT"><img class="toI hardCounter CHEWBACCALEGENDARY-i" /><br/>Chewbacca</div><div class="toT"><img class="toI hardCounter C3POLEGENDARY-i" /><br/>C-3PO</div><div class="toT"><img class="toI hardCounter R2D2_LEGENDARY-i" /><br/>R2-D2</div>
@@ -394,7 +439,7 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 <h3>Description</h3><div class="REBELS_CLS-desc"></div>
-<h3>Strategy: How to Beat Rebels (CLS Quad) with Jedi (Bastila L)</h3><div class="REBELS_CLS-JEDI_BASTILA-strat"></div>
+<h3>Strategy: How to Beat Rebels (CLS L) with Jedi (Bastila L)</h3><div class="REBELS_CLS-JEDI_BASTILA-strat"></div>
 <h3>General Strategy</h3><div class="REBELS_CLS-strat"></div>
 </td>
 </tr><tr onclick="$('.JEDI_BASTILA_Target_SITH_MAUL').toggle()" class="target JEDI_BASTILA_Target toggleable">
@@ -438,10 +483,10 @@ td, th {
 	
 </td>
 </tr><tr onclick="$('.JEDI_BASTILA_REVAN_Target_SEP_DROIDS').toggle()" class="target JEDI_BASTILA_REVAN_Target toggleable">
-<td class="verbage">Separatist Droids</td>
+<td class="verbage"><b>Separatist Droids</b></td>
 <td>
 <div style="display: flex">
-	<div class="toT"><img class="toI softCounter GRIEVOUS-i" /><br/>GG</div><div class="toT"><img class="toI softCounter B1BATTLEDROIDV2-i" /><br/>B1</div><div class="toT"><img class="toI softCounter DROIDEKA-i" /><br/>Droideka</div><div class="toT"><img class="toI softCounter B2SUPERBATTLEDROID-i" /><br/>B2</div><div class="toT"><img class="toI softCounter MAGNAGUARD-i" /><br/>MagnaGuard</div>
+	<div class="toT"><img class="toI hardCounter GRIEVOUS-i" /><br/>GG</div><div class="toT"><img class="toI hardCounter B1BATTLEDROIDV2-i" /><br/>B1</div><div class="toT"><img class="toI hardCounter DROIDEKA-i" /><br/>Droideka</div><div class="toT"><img class="toI hardCounter B2SUPERBATTLEDROID-i" /><br/>B2</div><div class="toT"><img class="toI hardCounter MAGNAGUARD-i" /><br/>MagnaGuard</div>
 </div>
 </td>
 </tr>
@@ -453,7 +498,7 @@ td, th {
 <h3>General Strategy</h3><div class="SEP_DROIDS-strat"></div>
 </td>
 </tr><tr onclick="$('.target').hide(0, function() { $('.REBELS_CLS_Target').show() });" id="REBELS_CLS" style="background: #aaaaff">
-<td><div class="toT"><img class="toI squad COMMANDERLUKESKYWALKER-i"/><br/>Rebels (CLS Quad)<br/>120390</div></td>
+<td><div class="toT"><img class="toI squad COMMANDERLUKESKYWALKER-i"/><br/>Rebels (CLS L)<br/>120390</div></td>
 <td class="verbage" style="position: relative"><div style="display: flex"><div class="toT"><img class="toI squad COMMANDERLUKESKYWALKER-i"><br/>zzzCLS</div> <div class="toT"><img class="toI squad HANSOLO-i"><br/>zHan</div> <div class="toT"><img class="toI squad CHEWBACCALEGENDARY-i"><br/>zzChewbacca</div> <div class="toT"><img class="toI squad R2D2_LEGENDARY-i"><br/>zzR2-D2</div> <div class="toT"><img class="toI squad C3POLEGENDARY-i"><br/>zC-3PO</div></div></td>
 </tr>
 <tr class="target REBELS_CLS_Target toggleable">
@@ -474,7 +519,7 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 <h3>Description</h3><div class="BH_BOSSK-desc"></div>
-<h3>Strategy: How to Beat Bounty Hunters (Bossk L) with Rebels (CLS Quad)</h3><div class="BH_BOSSK-REBELS_CLS-strat"></div>
+<h3>Strategy: How to Beat Bounty Hunters (Bossk L) with Rebels (CLS L)</h3><div class="BH_BOSSK-REBELS_CLS-strat"></div>
 <h3>General Strategy</h3><div class="BH_BOSSK-strat"></div>
 </td>
 </tr><tr onclick="$('.REBELS_CLS_Target_BH_JANGO').toggle()" class="target REBELS_CLS_Target toggleable">
@@ -488,7 +533,7 @@ td, th {
 <tr class="target REBELS_CLS_Target_BH_JANGO toggleable">
 <td>&nbsp;</td>
 <td class="verbage">
-
+<h3>Description</h3><div class="BH_JANGO-desc"></div>
 
 <h3>General Strategy</h3><div class="BH_JANGO-strat"></div>
 </td>
@@ -504,7 +549,7 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 <h3>Description</h3><div class="CLONES_SHAAKTI-desc"></div>
-<h3>Strategy: How to Beat Clones (Shaak Ti L) with Rebels (CLS Quad)</h3><div class="CLONES_SHAAKTI-REBELS_CLS-strat"></div>
+<h3>Strategy: How to Beat Clones (Shaak Ti L) with Rebels (CLS L)</h3><div class="CLONES_SHAAKTI-REBELS_CLS-strat"></div>
 <h3>General Strategy</h3><div class="CLONES_SHAAKTI-strat"></div>
 </td>
 </tr><tr onclick="$('.REBELS_CLS_Target_EP').toggle()" class="target REBELS_CLS_Target toggleable">
@@ -519,7 +564,7 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 <h3>Description</h3><div class="EP-desc"></div>
-
+<h3>Strategy: How to Beat EP L with Rebels (CLS L)</h3><div class="EP-REBELS_CLS-strat"></div>
 <h3>General Strategy</h3><div class="EP-strat"></div>
 </td>
 </tr><tr onclick="$('.REBELS_CLS_Target_FO_KRU').toggle()" class="target REBELS_CLS_Target toggleable">
@@ -534,8 +579,23 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 <h3>Description</h3><div class="FO_KRU-desc"></div>
-<h3>Strategy: How to Beat First Order (KRU L) with Rebels (CLS Quad)</h3><div class="FO_KRU-REBELS_CLS-strat"></div>
+<h3>Strategy: How to Beat First Order (KRU L) with Rebels (CLS L)</h3><div class="FO_KRU-REBELS_CLS-strat"></div>
 <h3>General Strategy</h3><div class="FO_KRU-strat"></div>
+</td>
+</tr><tr onclick="$('.REBELS_CLS_Target_NS_MT').toggle()" class="target REBELS_CLS_Target toggleable">
+<td class="verbage"><b>Nightsisters (Talzin L)</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter MOTHERTALZIN-i" /><br/>MT</div><div class="toT"><img class="toI hardCounter ASAJVENTRESS-i" /><br/>AV</div><div class="toT"><img class="toI hardCounter DAKA-i" /><br/>Daka</div><div class="toT"><img class="toI hardCounter NIGHTSISTERZOMBIE-i" /><br/>Zombie</div><div class="toT"><img class="toI hardCounter NIGHTSISTERSPIRIT-i" /><br/>Spirit</div>
+</div>
+</td>
+</tr>
+<tr class="target REBELS_CLS_Target_NS_MT toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="NS_MT-desc"></div>
+
+<h3>General Strategy</h3><div class="NS_MT-strat"></div>
 </td>
 </tr><tr onclick="$('.REBELS_CLS_Target_OR_CARTH').toggle()" class="target REBELS_CLS_Target toggleable">
 <td class="verbage"><b>Old Republic (Carth L)</b></td>
@@ -549,7 +609,7 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 <h3>Description</h3><div class="OR_CARTH-desc"></div>
-<h3>Strategy: How to Beat Old Republic (Carth L) with Rebels (CLS Quad)</h3><div class="OR_CARTH-REBELS_CLS-strat"></div>
+<h3>Strategy: How to Beat Old Republic (Carth L) with Rebels (CLS L)</h3><div class="OR_CARTH-REBELS_CLS-strat"></div>
 <h3>General Strategy</h3><div class="OR_CARTH-strat"></div>
 </td>
 </tr><tr onclick="$('.REBELS_CLS_Target_PHOENIX').toggle()" class="target REBELS_CLS_Target toggleable">
@@ -567,19 +627,64 @@ td, th {
 
 <h3>General Strategy</h3><div class="PHOENIX-strat"></div>
 </td>
+</tr><tr onclick="$('.REBELS_CLS_Target_QIRA_NEST_ZAALBAR').toggle()" class="target REBELS_CLS_Target toggleable">
+<td class="verbage"><b>Qi'ra L (w/ Nest and Zaalbar)</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter QIRA-i" /><br/>Qira</div><div class="toT"><img class="toI hardCounter YOUNGCHEWBACCA-i" /><br/>Vandor Chewbacca</div><div class="toT"><img class="toI hardCounter ENFYSNEST-i" /><br/>Nest</div><div class="toT"><img class="toI hardCounter L3_37-i" /><br/>L3-37</div><div class="toT"><img class="toI hardCounter ZAALBAR-i" /><br/>Zaalbar</div>
+</div>
+</td>
+</tr>
+<tr class="target REBELS_CLS_Target_QIRA_NEST_ZAALBAR toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+
+<h3>Strategy: How to Beat Qi'ra L (w/ Nest and Zaalbar) with Rebels (CLS L)</h3><div class="QIRA_NEST_ZAALBAR-REBELS_CLS-strat"></div>
+
+</td>
+</tr><tr onclick="$('.REBELS_CLS_Target_SEP_NUTE').toggle()" class="target REBELS_CLS_Target toggleable">
+<td class="verbage"><b>Separatists (Nute L)</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter NUTEGUNRAY-i" /><br/>Nute</div><div class="toT"><img class="toI hardCounter WATTAMBOR-i" /><br/>Wat Tambor</div>
+</div>
+</td>
+</tr>
+<tr class="target REBELS_CLS_Target_SEP_NUTE toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+
+<h3>Strategy: How to Beat Separatists (Nute L) with Rebels (CLS L)</h3><div class="SEP_NUTE-REBELS_CLS-strat"></div>
+
+</td>
+</tr><tr onclick="$('.REBELS_CLS_Target_SITH_TRI').toggle()" class="target REBELS_CLS_Target toggleable">
+<td class="verbage"><b>Sith Triumvirate</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter DARTHTRAYA-i" /><br/>Traya</div><div class="toT"><img class="toI hardCounter DARTHSION-i" /><br/>Sion</div><div class="toT"><img class="toI hardCounter DARTHNIHILUS-i" /><br/>DN</div><div class="toT"><img class="toI hardCounter SITHTROOPER-i" /><br/>Sith Empire Trooper</div><div class="toT"><img class="toI hardCounter GRANDADMIRALTHRAWN-i" /><br/>Thrawn</div>
+</div>
+</td>
+</tr>
+<tr class="target REBELS_CLS_Target_SITH_TRI toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="SITH_TRI-desc"></div>
+<h3>Strategy: How to Beat Sith Triumvirate with Rebels (CLS L)</h3><div class="SITH_TRI-REBELS_CLS-strat"></div>
+<h3>General Strategy</h3><div class="SITH_TRI-strat"></div>
+</td>
 </tr><tr onclick="$('.REBELS_CLS_Target_501ST').toggle()" class="target REBELS_CLS_Target toggleable">
 <td class="verbage">501st (Gen. Skywalker L)</td>
 <td>
 <div style="display: flex">
-	<div class="toT"><img class="toI softCounter GENERALSKYWALKER-i" /><br/>GAS</div><div class="toT"><img class="toI softCounter AHSOKATANO-i" /><br/>Ahsoka</div><div class="toT"><img class="toI softCounter CT7567-i" /><br/>Rex</div><div class="toT"><img class="toI softCounter CT210408-i" /><br/>Echo</div><div class="toT"><img class="toI softCounter CT5555-i" /><br/>Fives</div>
+	<div class="toT"><img class="toI softCounter GENERALSKYWALKER-i" /><br/>GAS</div><div class="toT"><img class="toI softCounter ARCTROOPER501ST-i" /><br/>ARC Trooper</div><div class="toT"><img class="toI softCounter CT7567-i" /><br/>Rex</div><div class="toT"><img class="toI softCounter CT210408-i" /><br/>Echo</div><div class="toT"><img class="toI softCounter CT5555-i" /><br/>Fives</div>
 </div>
 </td>
 </tr>
 <tr class="target REBELS_CLS_Target_501ST toggleable">
 <td>&nbsp;</td>
 <td class="verbage">
-
-<h3>Strategy: How to Beat 501st (Gen. Skywalker L) with Rebels (CLS Quad)</h3><div class="501ST-REBELS_CLS-strat"></div>
+<h3>Description</h3><div class="501ST-desc"></div>
+<h3>Strategy: How to Beat 501st (Gen. Skywalker L) with Rebels (CLS L)</h3><div class="501ST-REBELS_CLS-strat"></div>
 <h3>General Strategy</h3><div class="501ST-strat"></div>
 </td>
 </tr><tr onclick="$('.REBELS_CLS_Target_JEDI_BASTILA').toggle()" class="target REBELS_CLS_Target toggleable">
@@ -597,36 +702,6 @@ td, th {
 
 <h3>General Strategy</h3><div class="JEDI_BASTILA-strat"></div>
 </td>
-</tr><tr onclick="$('.REBELS_CLS_Target_NS_MT').toggle()" class="target REBELS_CLS_Target toggleable">
-<td class="verbage">Nightsisters (Talzin L)</td>
-<td>
-<div style="display: flex">
-	<div class="toT"><img class="toI softCounter MOTHERTALZIN-i" /><br/>MT</div><div class="toT"><img class="toI softCounter ASAJVENTRESS-i" /><br/>AV</div><div class="toT"><img class="toI softCounter DAKA-i" /><br/>Daka</div><div class="toT"><img class="toI softCounter NIGHTSISTERZOMBIE-i" /><br/>Zombie</div><div class="toT"><img class="toI softCounter NIGHTSISTERSPIRIT-i" /><br/>Spirit</div>
-</div>
-</td>
-</tr>
-<tr class="target REBELS_CLS_Target_NS_MT toggleable">
-<td>&nbsp;</td>
-<td class="verbage">
-<h3>Description</h3><div class="NS_MT-desc"></div>
-
-<h3>General Strategy</h3><div class="NS_MT-strat"></div>
-</td>
-</tr><tr onclick="$('.REBELS_CLS_Target_NS_NEST').toggle()" class="target REBELS_CLS_Target toggleable">
-<td class="verbage">Nightsisters (w/ Nest)</td>
-<td>
-<div style="display: flex">
-	<div class="toT"><img class="toI softCounter ASAJVENTRESS-i" /><br/>AV</div><div class="toT"><img class="toI softCounter MOTHERTALZIN-i" /><br/>MT</div><div class="toT"><img class="toI softCounter DAKA-i" /><br/>Daka</div><div class="toT"><img class="toI softCounter NIGHTSISTERZOMBIE-i" /><br/>Zombie</div><div class="toT"><img class="toI softCounter ENFYSNEST-i" /><br/>Nest</div>
-</div>
-</td>
-</tr>
-<tr class="target REBELS_CLS_Target_NS_NEST toggleable">
-<td>&nbsp;</td>
-<td class="verbage">
-<h3>Description</h3><div class="NS_NEST-desc"></div>
-
-<h3>General Strategy</h3><div class="NS_NEST-strat"></div>
-</td>
 </tr><tr onclick="$('.REBELS_CLS_Target_SEP_DROIDS').toggle()" class="target REBELS_CLS_Target toggleable">
 <td class="verbage">Separatist Droids</td>
 <td>
@@ -639,8 +714,23 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 <h3>Description</h3><div class="SEP_DROIDS-desc"></div>
-<h3>Strategy: How to Beat Separatist Droids with Rebels (CLS Quad)</h3><div class="SEP_DROIDS-REBELS_CLS-strat"></div>
+<h3>Strategy: How to Beat Separatist Droids with Rebels (CLS L)</h3><div class="SEP_DROIDS-REBELS_CLS-strat"></div>
 <h3>General Strategy</h3><div class="SEP_DROIDS-strat"></div>
+</td>
+</tr><tr onclick="$('.REBELS_CLS_Target_SEP_NUTE_NEST').toggle()" class="target REBELS_CLS_Target toggleable">
+<td class="verbage">Separatists (Nute L w/ Nest)</td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI softCounter NUTEGUNRAY-i" /><br/>Nute</div><div class="toT"><img class="toI softCounter WATTAMBOR-i" /><br/>Wat Tambor</div><div class="toT"><img class="toI softCounter COUNTDOOKU-i" /><br/>Dooku</div><div class="toT"><img class="toI softCounter ENFYSNEST-i" /><br/>Nest</div><div class="toT"><img class="toI softCounter JANGOFETT-i" /><br/>Jango</div>
+</div>
+</td>
+</tr>
+<tr class="target REBELS_CLS_Target_SEP_NUTE_NEST toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+
+<h3>Strategy: How to Beat Separatists (Nute L w/ Nest) with Rebels (CLS L)</h3><div class="SEP_NUTE_NEST-REBELS_CLS-strat"></div>
+
 </td>
 </tr><tr onclick="$('.REBELS_CLS_Target_SITH_EMPIRE_W_MALAK').toggle()" class="target REBELS_CLS_Target toggleable">
 <td class="verbage">Sith Empire (w/ Malak)</td>
@@ -654,7 +744,7 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 <h3>Description</h3><div class="SITH_EMPIRE_W_MALAK-desc"></div>
-
+<h3>Strategy: How to Beat Sith Empire (w/ Malak) with Rebels (CLS L)</h3><div class="SITH_EMPIRE_W_MALAK-REBELS_CLS-strat"></div>
 <h3>General Strategy</h3><div class="SITH_EMPIRE_W_MALAK-strat"></div>
 </td>
 </tr><tr onclick="$('.REBELS_CLS_Target_SITH_EMPIRE_WO_MALAK').toggle()" class="target REBELS_CLS_Target toggleable">
@@ -672,23 +762,63 @@ td, th {
 
 <h3>General Strategy</h3><div class="SITH_EMPIRE_WO_MALAK-strat"></div>
 </td>
-</tr><tr onclick="$('.REBELS_CLS_Target_SITH_TRI').toggle()" class="target REBELS_CLS_Target toggleable">
-<td class="verbage">Sith Triumvirate</td>
+</tr><tr onclick="$('.target').hide(0, function() { $('.OR_CARTH_Target').show() });" id="OR_CARTH" style="background: #aaaaff">
+<td><div class="toT"><img class="toI squad CARTHONASI-i"/><br/>Old Republic (Carth L)<br/>88723</div></td>
+<td class="verbage" style="position: relative"><div style="display: flex"><div class="toT"><img class="toI squad CARTHONASI-i"><br/>zCarth Onasi</div> <div class="toT"><img class="toI squad MISSIONVAO-i"><br/>zMission</div> <div class="toT"><img class="toI squad ZAALBAR-i"><br/>zZaalbar G10</div> <div class="toT"><img class="toI squad JUHANI-i"><br/>Juhani G9</div> <div class="toT"><img class="toI squad CANDEROUSORDO-i"><br/>zCanderous</div></div></td>
+</tr>
+<tr class="target OR_CARTH_Target toggleable">
+<td></td>
+<td class="verbage">
+	<h3>Subs</h3><div class="OR_CARTH-subs"></div>
+	<h3>Strategy</h3><div class="OR_CARTH-desc"></div>
+</td>
+</tr><tr onclick="$('.OR_CARTH_Target_EWOKS').toggle()" class="target OR_CARTH_Target toggleable">
+<td class="verbage">Ewoks</td>
 <td>
 <div style="display: flex">
-	<div class="toT"><img class="toI softCounter DARTHTRAYA-i" /><br/>Traya</div><div class="toT"><img class="toI softCounter DARTHSION-i" /><br/>Sion</div><div class="toT"><img class="toI softCounter DARTHNIHILUS-i" /><br/>DN</div><div class="toT"><img class="toI softCounter SITHTROOPER-i" /><br/>Sith Empire Trooper</div><div class="toT"><img class="toI softCounter GRANDADMIRALTHRAWN-i" /><br/>Thrawn</div>
+	<div class="toT"><img class="toI softCounter CHIEFCHIRPA-i" /><br/>Chirpa</div><div class="toT"><img class="toI softCounter WICKET-i" /><br/>Wicket</div><div class="toT"><img class="toI softCounter EWOKELDER-i" /><br/>Elder</div><div class="toT"><img class="toI softCounter PAPLOO-i" /><br/>Paploo</div><div class="toT"><img class="toI softCounter LOGRAY-i" /><br/>Logray</div>
 </div>
 </td>
 </tr>
-<tr class="target REBELS_CLS_Target_SITH_TRI toggleable">
+<tr class="target OR_CARTH_Target_EWOKS toggleable">
 <td>&nbsp;</td>
 <td class="verbage">
-<h3>Description</h3><div class="SITH_TRI-desc"></div>
+<h3>Description</h3><div class="EWOKS-desc"></div>
 
-<h3>General Strategy</h3><div class="SITH_TRI-strat"></div>
+
+</td>
+</tr><tr onclick="$('.OR_CARTH_Target_JTR').toggle()" class="target OR_CARTH_Target toggleable">
+<td class="verbage">Resistance (JTR L)</td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI softCounter REYJEDITRAINING-i" /><br/>JTR</div><div class="toT"><img class="toI softCounter BB8-i" /><br/>BB-8</div><div class="toT"><img class="toI softCounter REY-i" /><br/>Scav Rey</div><div class="toT"><img class="toI softCounter FINN-i" /><br/>Finn</div><div class="toT"><img class="toI softCounter RESISTANCETROOPER-i" /><br/>RT</div>
+</div>
+</td>
+</tr>
+<tr class="target OR_CARTH_Target_JTR toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="JTR-desc"></div>
+<h3>Strategy: How to Beat Resistance (JTR L) with Old Republic (Carth L)</h3><div class="JTR-OR_CARTH-strat"></div>
+<h3>General Strategy</h3><div class="JTR-strat"></div>
+</td>
+</tr><tr onclick="$('.OR_CARTH_Target_ROGUE_ONE').toggle()" class="target OR_CARTH_Target toggleable">
+<td class="verbage">Rogue One</td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI softCounter JYNERSO-i" /><br/>Jyn</div><div class="toT"><img class="toI softCounter CASSIANANDOR-i" /><br/>Cassian</div><div class="toT"><img class="toI softCounter K2SO-i" /><br/>K-2SO</div><div class="toT"><img class="toI softCounter CHIRRUTIMWE-i" /><br/>Chirrut</div><div class="toT"><img class="toI softCounter BAZEMALBUS-i" /><br/>Baze</div>
+</div>
+</td>
+</tr>
+<tr class="target OR_CARTH_Target_ROGUE_ONE toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="ROGUE_ONE-desc"></div>
+
+<h3>General Strategy</h3><div class="ROGUE_ONE-strat"></div>
 </td>
 </tr><tr onclick="$('.target').hide(0, function() { $('.CLONES_CODY_Target').show() });" id="CLONES_CODY" style="background: #aaaaff">
-<td><div class="toT"><img class="toI squad CC2224-i"/><br/>Clones (Cody L)<br/>96938</div></td>
+<td><div class="toT"><img class="toI squad CC2224-i"/><br/>Clones (Cody L)<br/>97754</div></td>
 <td class="verbage" style="position: relative"><div style="display: flex"><div class="toT"><img class="toI squad CC2224-i"><br/>Cody G8</div> <div class="toT"><img class="toI squad CT7567-i"><br/>zRex</div> <div class="toT"><img class="toI squad CT210408-i"><br/>zEcho</div> <div class="toT"><img class="toI squad CT5555-i"><br/>zzFives</div> <div class="toT"><img class="toI squad ARCTROOPER501ST-i"><br/>zARC Trooper G8</div><div class="toT"><a href="../tw-squads/369351434.html#Clones"><img title="Cody: low gear.  " src="../../i/tractor24.png"></a></div></div></td>
 </tr>
 <tr class="target CLONES_CODY_Target toggleable">
@@ -728,8 +858,8 @@ td, th {
 <h3>General Strategy</h3><div class="ROGUE_ONE-strat"></div>
 </td>
 </tr><tr onclick="$('.target').hide(0, function() { $('.SITH_EMPIRE_W_MALAK_Target').show() });" id="SITH_EMPIRE_W_MALAK" style="background: #aaaaff">
-<td><div class="toT"><img class="toI squad DARTHREVAN-i"/><br/>Sith Empire (w/ Malak)<br/>108985</div></td>
-<td class="verbage" style="position: relative"><div style="display: flex"><div class="toT"><img class="toI squad DARTHREVAN-i"><br/>zzzDR</div> <div class="toT"><img class="toI squad HK47-i"><br/>zHK-47 G10</div> <div class="toT"><img class="toI squad BASTILASHANDARK-i"><br/>zBSF</div> <div class="toT"><img class="toI squad DARTHMALAK-i"><br/>zzMalak G9</div> <div class="toT"><img class="toI squad GRANDADMIRALTHRAWN-i"><br/>zThrawn</div><div class="toT"><a href="../tw-squads/369351434.html#DRMalak"><img title="Malak: low gear.  " src="../../i/tractor24.png"></a></div></div></td>
+<td><div class="toT"><img class="toI squad DARTHREVAN-i"/><br/>Sith Empire (w/ Malak)<br/>112081</div></td>
+<td class="verbage" style="position: relative"><div style="display: flex"><div class="toT"><img class="toI squad DARTHREVAN-i"><br/>zzzDR</div> <div class="toT"><img class="toI squad HK47-i"><br/>zHK-47 G10</div> <div class="toT"><img class="toI squad BASTILASHANDARK-i"><br/>zBSF</div> <div class="toT"><img class="toI squad DARTHMALAK-i"><br/>zzMalak</div> <div class="toT"><img class="toI squad GRANDADMIRALTHRAWN-i"><br/>zThrawn</div></div></td>
 </tr>
 <tr class="target SITH_EMPIRE_W_MALAK_Target toggleable">
 <td></td>
@@ -737,18 +867,33 @@ td, th {
 	<h3>Subs</h3><div class="SITH_EMPIRE_W_MALAK-subs"></div>
 	<h3>Strategy</h3><div class="SITH_EMPIRE_W_MALAK-desc"></div>
 </td>
+</tr><tr onclick="$('.SITH_EMPIRE_W_MALAK_Target_JEDI_REVAN').toggle()" class="target SITH_EMPIRE_W_MALAK_Target toggleable">
+<td class="verbage"><b>Jedi (Revan L)</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter JEDIKNIGHTREVAN-i" /><br/>JKR</div><div class="toT"><img class="toI hardCounter JOLEEBINDO-i" /><br/>Jolee</div><div class="toT"><img class="toI hardCounter GRANDMASTERYODA-i" /><br/>GMY</div><div class="toT"><img class="toI hardCounter BASTILASHAN-i" /><br/>BS</div><div class="toT"><img class="toI hardCounter GENERALKENOBI-i" /><br/>GK</div>
+</div>
+</td>
+</tr>
+<tr class="target SITH_EMPIRE_W_MALAK_Target_JEDI_REVAN toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="JEDI_REVAN-desc"></div>
+<h3>Strategy: How to Beat Jedi (Revan L) with Sith Empire (w/ Malak)</h3><div class="JEDI_REVAN-SITH_EMPIRE_W_MALAK-strat"></div>
+<h3>General Strategy</h3><div class="JEDI_REVAN-strat"></div>
+</td>
 </tr><tr onclick="$('.SITH_EMPIRE_W_MALAK_Target_501ST').toggle()" class="target SITH_EMPIRE_W_MALAK_Target toggleable">
 <td class="verbage">501st (Gen. Skywalker L)</td>
 <td>
 <div style="display: flex">
-	<div class="toT"><img class="toI softCounter GENERALSKYWALKER-i" /><br/>GAS</div><div class="toT"><img class="toI softCounter AHSOKATANO-i" /><br/>Ahsoka</div><div class="toT"><img class="toI softCounter CT7567-i" /><br/>Rex</div><div class="toT"><img class="toI softCounter CT210408-i" /><br/>Echo</div><div class="toT"><img class="toI softCounter CT5555-i" /><br/>Fives</div>
+	<div class="toT"><img class="toI softCounter GENERALSKYWALKER-i" /><br/>GAS</div><div class="toT"><img class="toI softCounter ARCTROOPER501ST-i" /><br/>ARC Trooper</div><div class="toT"><img class="toI softCounter CT7567-i" /><br/>Rex</div><div class="toT"><img class="toI softCounter CT210408-i" /><br/>Echo</div><div class="toT"><img class="toI softCounter CT5555-i" /><br/>Fives</div>
 </div>
 </td>
 </tr>
 <tr class="target SITH_EMPIRE_W_MALAK_Target_501ST toggleable">
 <td>&nbsp;</td>
 <td class="verbage">
-
+<h3>Description</h3><div class="501ST-desc"></div>
 <h3>Strategy: How to Beat 501st (Gen. Skywalker L) with Sith Empire (w/ Malak)</h3><div class="501ST-SITH_EMPIRE_W_MALAK-strat"></div>
 <h3>General Strategy</h3><div class="501ST-strat"></div>
 </td>
@@ -764,7 +909,7 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 <h3>Description</h3><div class="GALACTIC_REPUBLIC-desc"></div>
-
+<h3>Strategy: How to Beat Galactic Republic with Sith Empire (w/ Malak)</h3><div class="GALACTIC_REPUBLIC-SITH_EMPIRE_W_MALAK-strat"></div>
 <h3>General Strategy</h3><div class="GALACTIC_REPUBLIC-strat"></div>
 </td>
 </tr><tr onclick="$('.SITH_EMPIRE_W_MALAK_Target_SEP_DROIDS').toggle()" class="target SITH_EMPIRE_W_MALAK_Target toggleable">
@@ -798,7 +943,7 @@ td, th {
 <h3>General Strategy</h3><div class="SITH_EMPIRE_W_MALAK-strat"></div>
 </td>
 </tr><tr onclick="$('.target').hide(0, function() { $('.EP_ANTI_REBEL_Target').show() });" id="EP_ANTI_REBEL" style="background: #aaaaff">
-<td><div class="toT"><img class="toI squad EMPERORPALPATINE-i"/><br/>EP (Anti-Rebel)<br/>101762</div></td>
+<td><div class="toT"><img class="toI squad EMPERORPALPATINE-i"/><br/>EP (Anti-Rebel)<br/>103659</div></td>
 <td class="verbage" style="position: relative"><div style="display: flex"><div class="toT"><img class="toI squad EMPERORPALPATINE-i"><br/>zzEP</div> <div class="toT"><img class="toI squad SHORETROOPER-i"><br/>Shoretrooper G10</div> <div class="toT"><img class="toI squad DEATHTROOPER-i"><br/>DT</div> <div class="toT"><img class="toI squad WAMPA-i"><br/>zWampa</div> <div class="toT"><img class="toI squad COLONELSTARCK-i"><br/>zStarck</div></div></td>
 </tr>
 <tr class="target EP_ANTI_REBEL_Target toggleable">
@@ -808,7 +953,7 @@ td, th {
 	
 </td>
 </tr><tr onclick="$('.EP_ANTI_REBEL_Target_REBELS_CLS').toggle()" class="target EP_ANTI_REBEL_Target toggleable">
-<td class="verbage"><b>Rebels (CLS Quad)</b></td>
+<td class="verbage"><b>Rebels (CLS L)</b></td>
 <td>
 <div style="display: flex">
 	<div class="toT"><img class="toI hardCounter COMMANDERLUKESKYWALKER-i" /><br/>CLS</div><div class="toT"><img class="toI hardCounter HANSOLO-i" /><br/>Han</div><div class="toT"><img class="toI hardCounter CHEWBACCALEGENDARY-i" /><br/>Chewbacca</div><div class="toT"><img class="toI hardCounter C3POLEGENDARY-i" /><br/>C-3PO</div><div class="toT"><img class="toI hardCounter R2D2_LEGENDARY-i" /><br/>R2-D2</div>
@@ -819,11 +964,11 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 <h3>Description</h3><div class="REBELS_CLS-desc"></div>
-<h3>Strategy: How to Beat Rebels (CLS Quad) with EP (Anti-Rebel)</h3><div class="REBELS_CLS-EP_ANTI_REBEL-strat"></div>
+<h3>Strategy: How to Beat Rebels (CLS L) with EP (Anti-Rebel)</h3><div class="REBELS_CLS-EP_ANTI_REBEL-strat"></div>
 <h3>General Strategy</h3><div class="REBELS_CLS-strat"></div>
 </td>
 </tr><tr onclick="$('.target').hide(0, function() { $('.EP_TRIO_Target').show() });" id="EP_TRIO" style="background: #aaaaff">
-<td><div class="toT"><img class="toI squad EMPERORPALPATINE-i"/><br/>EP (Sith Triumvirate)<br/>108811</div></td>
+<td><div class="toT"><img class="toI squad EMPERORPALPATINE-i"/><br/>EP (Sith Triumvirate)<br/>110906</div></td>
 <td class="verbage" style="position: relative"><div style="display: flex"><div class="toT"><img class="toI squad EMPERORPALPATINE-i"><br/>zzEP</div> <div class="toT"><img class="toI squad DARTHTRAYA-i"><br/>zzTraya</div> <div class="toT"><img class="toI squad DARTHNIHILUS-i"><br/>DN G8</div> <div class="toT"><img class="toI squad DARTHSION-i"><br/>zSion</div> <div class="toT"><img class="toI squad GRANDADMIRALTHRAWN-i"><br/>zThrawn</div></div></td>
 </tr>
 <tr class="target EP_TRIO_Target toggleable">
@@ -871,6 +1016,21 @@ td, th {
 <h3>Description</h3><div class="FO_KRU-desc"></div>
 <h3>Strategy: How to Beat First Order (KRU L) with Ewoks</h3><div class="FO_KRU-EWOKS-strat"></div>
 <h3>General Strategy</h3><div class="FO_KRU-strat"></div>
+</td>
+</tr><tr onclick="$('.EWOKS_Target_IT').toggle()" class="target EWOKS_Target toggleable">
+<td class="verbage"><b>Imperial Troopers</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter VEERS-i" /><br/>Veers</div><div class="toT"><img class="toI hardCounter COLONELSTARCK-i" /><br/>Starck</div><div class="toT"><img class="toI hardCounter RANGETROOPER-i" /><br/>Range Trooper</div><div class="toT"><img class="toI hardCounter SNOWTROOPER-i" /><br/>Snowtrooper</div><div class="toT"><img class="toI hardCounter DEATHTROOPER-i" /><br/>DT</div>
+</div>
+</td>
+</tr>
+<tr class="target EWOKS_Target_IT toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="IT-desc"></div>
+
+<h3>General Strategy</h3><div class="IT-strat"></div>
 </td>
 </tr><tr onclick="$('.EWOKS_Target_NS_MT').toggle()" class="target EWOKS_Target toggleable">
 <td class="verbage">Nightsisters (Talzin L)</td>
@@ -1012,6 +1172,21 @@ td, th {
 <h3>Strategy: How to Beat Bounty Hunters (Bossk L) with First Order (KRU L)</h3><div class="BH_BOSSK-FO_KRU-strat"></div>
 <h3>General Strategy</h3><div class="BH_BOSSK-strat"></div>
 </td>
+</tr><tr onclick="$('.FO_KRU_Target_BH_JANGO').toggle()" class="target FO_KRU_Target toggleable">
+<td class="verbage">Bounty Hunters (Jango L)</td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI softCounter JANGOFETT-i" /><br/>Jango</div><div class="toT"><img class="toI softCounter BOSSK-i" /><br/>Bossk</div><div class="toT"><img class="toI softCounter BOBAFETT-i" /><br/>Boba</div><div class="toT"><img class="toI softCounter DENGAR-i" /><br/>Dengar</div><div class="toT"><img class="toI softCounter ZAMWESELL-i" /><br/>Zam</div>
+</div>
+</td>
+</tr>
+<tr class="target FO_KRU_Target_BH_JANGO toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="BH_JANGO-desc"></div>
+<h3>Strategy: How to Beat Bounty Hunters (Jango L) with First Order (KRU L)</h3><div class="BH_JANGO-FO_KRU-strat"></div>
+<h3>General Strategy</h3><div class="BH_JANGO-strat"></div>
+</td>
 </tr><tr onclick="$('.FO_KRU_Target_JEDI_BASTILA').toggle()" class="target FO_KRU_Target toggleable">
 <td class="verbage">Jedi (Bastila L)</td>
 <td>
@@ -1041,6 +1216,21 @@ td, th {
 <h3>Description</h3><div class="QIRA-desc"></div>
 <h3>Strategy: How to Beat Qi'ra L with First Order (KRU L)</h3><div class="QIRA-FO_KRU-strat"></div>
 <h3>General Strategy</h3><div class="QIRA-strat"></div>
+</td>
+</tr><tr onclick="$('.FO_KRU_Target_QIRA_NEST_ZAALBAR').toggle()" class="target FO_KRU_Target toggleable">
+<td class="verbage">Qi'ra L (w/ Nest and Zaalbar)</td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI softCounter QIRA-i" /><br/>Qira</div><div class="toT"><img class="toI softCounter YOUNGCHEWBACCA-i" /><br/>Vandor Chewbacca</div><div class="toT"><img class="toI softCounter ENFYSNEST-i" /><br/>Nest</div><div class="toT"><img class="toI softCounter L3_37-i" /><br/>L3-37</div><div class="toT"><img class="toI softCounter ZAALBAR-i" /><br/>Zaalbar</div>
+</div>
+</td>
+</tr>
+<tr class="target FO_KRU_Target_QIRA_NEST_ZAALBAR toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+
+<h3>Strategy: How to Beat Qi'ra L (w/ Nest and Zaalbar) with First Order (KRU L)</h3><div class="QIRA_NEST_ZAALBAR-FO_KRU-strat"></div>
+
 </td>
 </tr><tr onclick="$('.FO_KRU_Target_JTR').toggle()" class="target FO_KRU_Target toggleable">
 <td class="verbage">Resistance (JTR L)</td>
@@ -1098,7 +1288,7 @@ td, th {
 
 </td>
 </tr><tr onclick="$('.GK_Target_REBELS_CLS').toggle()" class="target GK_Target toggleable">
-<td class="verbage">Rebels (CLS Quad)</td>
+<td class="verbage">Rebels (CLS L)</td>
 <td>
 <div style="display: flex">
 	<div class="toT"><img class="toI softCounter COMMANDERLUKESKYWALKER-i" /><br/>CLS</div><div class="toT"><img class="toI softCounter HANSOLO-i" /><br/>Han</div><div class="toT"><img class="toI softCounter CHEWBACCALEGENDARY-i" /><br/>Chewbacca</div><div class="toT"><img class="toI softCounter C3POLEGENDARY-i" /><br/>C-3PO</div><div class="toT"><img class="toI softCounter R2D2_LEGENDARY-i" /><br/>R2-D2</div>
@@ -1109,7 +1299,7 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 <h3>Description</h3><div class="REBELS_CLS-desc"></div>
-<h3>Strategy: How to Beat Rebels (CLS Quad) with General Kenobi L</h3><div class="REBELS_CLS-GK-strat"></div>
+<h3>Strategy: How to Beat Rebels (CLS L) with General Kenobi L</h3><div class="REBELS_CLS-GK-strat"></div>
 <h3>General Strategy</h3><div class="REBELS_CLS-strat"></div>
 </td>
 </tr><tr onclick="$('.GK_Target_SITH_MAUL').toggle()" class="target GK_Target toggleable">
@@ -1149,38 +1339,8 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 <h3>Description</h3><div class="BH_BOSSK-desc"></div>
-
+<h3>Strategy: How to Beat Bounty Hunters (Bossk L) with Geonosians</h3><div class="BH_BOSSK-GEONOSIANS-strat"></div>
 <h3>General Strategy</h3><div class="BH_BOSSK-strat"></div>
-</td>
-</tr><tr onclick="$('.GEONOSIANS_Target_BH_JANGO').toggle()" class="target GEONOSIANS_Target toggleable">
-<td class="verbage"><b>Bounty Hunters (Jango L)</b></td>
-<td>
-<div style="display: flex">
-	<div class="toT"><img class="toI hardCounter JANGOFETT-i" /><br/>Jango</div><div class="toT"><img class="toI hardCounter BOSSK-i" /><br/>Bossk</div><div class="toT"><img class="toI hardCounter BOBAFETT-i" /><br/>Boba</div><div class="toT"><img class="toI hardCounter DENGAR-i" /><br/>Dengar</div><div class="toT"><img class="toI hardCounter ZAMWESELL-i" /><br/>Zam</div>
-</div>
-</td>
-</tr>
-<tr class="target GEONOSIANS_Target_BH_JANGO toggleable">
-<td>&nbsp;</td>
-<td class="verbage">
-
-
-<h3>General Strategy</h3><div class="BH_JANGO-strat"></div>
-</td>
-</tr><tr onclick="$('.GEONOSIANS_Target_FO_KRU').toggle()" class="target GEONOSIANS_Target toggleable">
-<td class="verbage"><b>First Order (KRU L)</b></td>
-<td>
-<div style="display: flex">
-	<div class="toT"><img class="toI hardCounter KYLORENUNMASKED-i" /><br/>KRU</div><div class="toT"><img class="toI hardCounter KYLOREN-i" /><br/>Kylo</div><div class="toT"><img class="toI hardCounter FIRSTORDEREXECUTIONER-i" /><br/>FOE</div><div class="toT"><img class="toI hardCounter FIRSTORDEROFFICERMALE-i" /><br/>FOO</div><div class="toT"><img class="toI hardCounter FIRSTORDERTROOPER-i" /><br/>FOST</div>
-</div>
-</td>
-</tr>
-<tr class="target GEONOSIANS_Target_FO_KRU toggleable">
-<td>&nbsp;</td>
-<td class="verbage">
-<h3>Description</h3><div class="FO_KRU-desc"></div>
-
-<h3>General Strategy</h3><div class="FO_KRU-strat"></div>
 </td>
 </tr><tr onclick="$('.GEONOSIANS_Target_JEDI_BASTILA').toggle()" class="target GEONOSIANS_Target toggleable">
 <td class="verbage"><b>Jedi (Bastila L)</b></td>
@@ -1194,8 +1354,23 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 <h3>Description</h3><div class="JEDI_BASTILA-desc"></div>
-
+<h3>Strategy: How to Beat Jedi (Bastila L) with Geonosians</h3><div class="JEDI_BASTILA-GEONOSIANS-strat"></div>
 <h3>General Strategy</h3><div class="JEDI_BASTILA-strat"></div>
+</td>
+</tr><tr onclick="$('.GEONOSIANS_Target_NS_MT').toggle()" class="target GEONOSIANS_Target toggleable">
+<td class="verbage"><b>Nightsisters (Talzin L)</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter MOTHERTALZIN-i" /><br/>MT</div><div class="toT"><img class="toI hardCounter ASAJVENTRESS-i" /><br/>AV</div><div class="toT"><img class="toI hardCounter DAKA-i" /><br/>Daka</div><div class="toT"><img class="toI hardCounter NIGHTSISTERZOMBIE-i" /><br/>Zombie</div><div class="toT"><img class="toI hardCounter NIGHTSISTERSPIRIT-i" /><br/>Spirit</div>
+</div>
+</td>
+</tr>
+<tr class="target GEONOSIANS_Target_NS_MT toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="NS_MT-desc"></div>
+
+<h3>General Strategy</h3><div class="NS_MT-strat"></div>
 </td>
 </tr><tr onclick="$('.GEONOSIANS_Target_OR_CARTH').toggle()" class="target GEONOSIANS_Target toggleable">
 <td class="verbage"><b>Old Republic (Carth L)</b></td>
@@ -1212,8 +1387,23 @@ td, th {
 
 <h3>General Strategy</h3><div class="OR_CARTH-strat"></div>
 </td>
+</tr><tr onclick="$('.GEONOSIANS_Target_QIRA_NEST_ZAALBAR').toggle()" class="target GEONOSIANS_Target toggleable">
+<td class="verbage"><b>Qi'ra L (w/ Nest and Zaalbar)</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter QIRA-i" /><br/>Qira</div><div class="toT"><img class="toI hardCounter YOUNGCHEWBACCA-i" /><br/>Vandor Chewbacca</div><div class="toT"><img class="toI hardCounter ENFYSNEST-i" /><br/>Nest</div><div class="toT"><img class="toI hardCounter L3_37-i" /><br/>L3-37</div><div class="toT"><img class="toI hardCounter ZAALBAR-i" /><br/>Zaalbar</div>
+</div>
+</td>
+</tr>
+<tr class="target GEONOSIANS_Target_QIRA_NEST_ZAALBAR toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+
+
+
+</td>
 </tr><tr onclick="$('.GEONOSIANS_Target_REBELS_CLS').toggle()" class="target GEONOSIANS_Target toggleable">
-<td class="verbage"><b>Rebels (CLS Quad)</b></td>
+<td class="verbage"><b>Rebels (CLS L)</b></td>
 <td>
 <div style="display: flex">
 	<div class="toT"><img class="toI hardCounter COMMANDERLUKESKYWALKER-i" /><br/>CLS</div><div class="toT"><img class="toI hardCounter HANSOLO-i" /><br/>Han</div><div class="toT"><img class="toI hardCounter CHEWBACCALEGENDARY-i" /><br/>Chewbacca</div><div class="toT"><img class="toI hardCounter C3POLEGENDARY-i" /><br/>C-3PO</div><div class="toT"><img class="toI hardCounter R2D2_LEGENDARY-i" /><br/>R2-D2</div>
@@ -1242,6 +1432,36 @@ td, th {
 
 <h3>General Strategy</h3><div class="JTR-strat"></div>
 </td>
+</tr><tr onclick="$('.GEONOSIANS_Target_SEP_NUTE').toggle()" class="target GEONOSIANS_Target toggleable">
+<td class="verbage"><b>Separatists (Nute L)</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter NUTEGUNRAY-i" /><br/>Nute</div><div class="toT"><img class="toI hardCounter WATTAMBOR-i" /><br/>Wat Tambor</div>
+</div>
+</td>
+</tr>
+<tr class="target GEONOSIANS_Target_SEP_NUTE toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+
+
+
+</td>
+</tr><tr onclick="$('.GEONOSIANS_Target_BH_JANGO').toggle()" class="target GEONOSIANS_Target toggleable">
+<td class="verbage">Bounty Hunters (Jango L)</td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI softCounter JANGOFETT-i" /><br/>Jango</div><div class="toT"><img class="toI softCounter BOSSK-i" /><br/>Bossk</div><div class="toT"><img class="toI softCounter BOBAFETT-i" /><br/>Boba</div><div class="toT"><img class="toI softCounter DENGAR-i" /><br/>Dengar</div><div class="toT"><img class="toI softCounter ZAMWESELL-i" /><br/>Zam</div>
+</div>
+</td>
+</tr>
+<tr class="target GEONOSIANS_Target_BH_JANGO toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="BH_JANGO-desc"></div>
+
+<h3>General Strategy</h3><div class="BH_JANGO-strat"></div>
+</td>
 </tr><tr onclick="$('.GEONOSIANS_Target_CLONES_SHAAKTI').toggle()" class="target GEONOSIANS_Target toggleable">
 <td class="verbage">Clones (Shaak Ti L)</td>
 <td>
@@ -1256,6 +1476,21 @@ td, th {
 <h3>Description</h3><div class="CLONES_SHAAKTI-desc"></div>
 <h3>Strategy: How to Beat Clones (Shaak Ti L) with Geonosians</h3><div class="CLONES_SHAAKTI-GEONOSIANS-strat"></div>
 <h3>General Strategy</h3><div class="CLONES_SHAAKTI-strat"></div>
+</td>
+</tr><tr onclick="$('.GEONOSIANS_Target_FO_KRU').toggle()" class="target GEONOSIANS_Target toggleable">
+<td class="verbage">First Order (KRU L)</td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI softCounter KYLORENUNMASKED-i" /><br/>KRU</div><div class="toT"><img class="toI softCounter KYLOREN-i" /><br/>Kylo</div><div class="toT"><img class="toI softCounter FIRSTORDEREXECUTIONER-i" /><br/>FOE</div><div class="toT"><img class="toI softCounter FIRSTORDEROFFICERMALE-i" /><br/>FOO</div><div class="toT"><img class="toI softCounter FIRSTORDERTROOPER-i" /><br/>FOST</div>
+</div>
+</td>
+</tr>
+<tr class="target GEONOSIANS_Target_FO_KRU toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="FO_KRU-desc"></div>
+<h3>Strategy: How to Beat First Order (KRU L) with Geonosians</h3><div class="FO_KRU-GEONOSIANS-strat"></div>
+<h3>General Strategy</h3><div class="FO_KRU-strat"></div>
 </td>
 </tr><tr onclick="$('.GEONOSIANS_Target_JEDI_REVAN').toggle()" class="target GEONOSIANS_Target toggleable">
 <td class="verbage">Jedi (Revan L)</td>
@@ -1272,30 +1507,60 @@ td, th {
 <h3>Strategy: How to Beat Jedi (Revan L) with Geonosians</h3><div class="JEDI_REVAN-GEONOSIANS-strat"></div>
 <h3>General Strategy</h3><div class="JEDI_REVAN-strat"></div>
 </td>
-</tr><tr onclick="$('.GEONOSIANS_Target_NS_MT').toggle()" class="target GEONOSIANS_Target toggleable">
-<td class="verbage">Nightsisters (Talzin L)</td>
+</tr><tr onclick="$('.GEONOSIANS_Target_SEP_NUTE_NEST').toggle()" class="target GEONOSIANS_Target toggleable">
+<td class="verbage">Separatists (Nute L w/ Nest)</td>
 <td>
 <div style="display: flex">
-	<div class="toT"><img class="toI softCounter MOTHERTALZIN-i" /><br/>MT</div><div class="toT"><img class="toI softCounter ASAJVENTRESS-i" /><br/>AV</div><div class="toT"><img class="toI softCounter DAKA-i" /><br/>Daka</div><div class="toT"><img class="toI softCounter NIGHTSISTERZOMBIE-i" /><br/>Zombie</div><div class="toT"><img class="toI softCounter NIGHTSISTERSPIRIT-i" /><br/>Spirit</div>
+	<div class="toT"><img class="toI softCounter NUTEGUNRAY-i" /><br/>Nute</div><div class="toT"><img class="toI softCounter WATTAMBOR-i" /><br/>Wat Tambor</div><div class="toT"><img class="toI softCounter COUNTDOOKU-i" /><br/>Dooku</div><div class="toT"><img class="toI softCounter ENFYSNEST-i" /><br/>Nest</div><div class="toT"><img class="toI softCounter JANGOFETT-i" /><br/>Jango</div>
 </div>
 </td>
 </tr>
-<tr class="target GEONOSIANS_Target_NS_MT toggleable">
+<tr class="target GEONOSIANS_Target_SEP_NUTE_NEST toggleable">
 <td>&nbsp;</td>
 <td class="verbage">
-<h3>Description</h3><div class="NS_MT-desc"></div>
-<h3>Strategy: How to Beat Nightsisters (Talzin L) with Geonosians</h3><div class="NS_MT-GEONOSIANS-strat"></div>
-<h3>General Strategy</h3><div class="NS_MT-strat"></div>
+
+<h3>Strategy: How to Beat Separatists (Nute L w/ Nest) with Geonosians</h3><div class="SEP_NUTE_NEST-GEONOSIANS-strat"></div>
+
 </td>
 </tr><tr onclick="$('.target').hide(0, function() { $('.SEP_DROIDS_Target').show() });" id="SEP_DROIDS" style="background: #aaaaff">
-<td><div class="toT"><img class="toI squad GRIEVOUS-i"/><br/>Separatist Droids<br/>111125</div></td>
-<td class="verbage" style="position: relative"><div style="display: flex"><div class="toT"><img class="toI squad GRIEVOUS-i"><br/>zzGG</div> <div class="toT"><img class="toI squad B2SUPERBATTLEDROID-i"><br/>zB2</div> <div class="toT"><img class="toI squad B1BATTLEDROIDV2-i"><br/>zB1</div> <div class="toT"><img class="toI squad DROIDEKA-i"><br/>zDroideka</div> <div class="toT"><img class="toI squad MAGNAGUARD-i"><br/>MagnaGuard</div></div></td>
+<td><div class="toT"><img class="toI squad GRIEVOUS-i"/><br/>Separatist Droids<br/>118071</div></td>
+<td class="verbage" style="position: relative"><div style="display: flex"><div class="toT"><img class="toI squad GRIEVOUS-i"><br/>zzGG</div> <div class="toT"><img class="toI squad B2SUPERBATTLEDROID-i"><br/>zB2</div> <div class="toT"><img class="toI squad B1BATTLEDROIDV2-i"><br/>zB1</div> <div class="toT"><img class="toI squad DROIDEKA-i"><br/>zDroideka</div> <div class="toT"><img class="toI squad MAGNAGUARD-i"><br/>zMagnaGuard</div></div></td>
 </tr>
 <tr class="target SEP_DROIDS_Target toggleable">
 <td></td>
 <td class="verbage">
 	<h3>Subs</h3><div class="SEP_DROIDS-subs"></div>
 	<h3>Strategy</h3><div class="SEP_DROIDS-desc"></div>
+</td>
+</tr><tr onclick="$('.SEP_DROIDS_Target_BH_BOSSK').toggle()" class="target SEP_DROIDS_Target toggleable">
+<td class="verbage"><b>Bounty Hunters (Bossk L)</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter BOSSK-i" /><br/>Bossk</div><div class="toT"><img class="toI hardCounter BOBAFETT-i" /><br/>Boba</div><div class="toT"><img class="toI hardCounter DENGAR-i" /><br/>Dengar</div><div class="toT"><img class="toI hardCounter JANGOFETT-i" /><br/>Jango</div>
+</div>
+</td>
+</tr>
+<tr class="target SEP_DROIDS_Target_BH_BOSSK toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="BH_BOSSK-desc"></div>
+
+<h3>General Strategy</h3><div class="BH_BOSSK-strat"></div>
+</td>
+</tr><tr onclick="$('.SEP_DROIDS_Target_BH_JANGO').toggle()" class="target SEP_DROIDS_Target toggleable">
+<td class="verbage"><b>Bounty Hunters (Jango L)</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter JANGOFETT-i" /><br/>Jango</div><div class="toT"><img class="toI hardCounter BOSSK-i" /><br/>Bossk</div><div class="toT"><img class="toI hardCounter BOBAFETT-i" /><br/>Boba</div><div class="toT"><img class="toI hardCounter DENGAR-i" /><br/>Dengar</div><div class="toT"><img class="toI hardCounter ZAMWESELL-i" /><br/>Zam</div>
+</div>
+</td>
+</tr>
+<tr class="target SEP_DROIDS_Target_BH_JANGO toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="BH_JANGO-desc"></div>
+
+<h3>General Strategy</h3><div class="BH_JANGO-strat"></div>
 </td>
 </tr><tr onclick="$('.SEP_DROIDS_Target_CLONES_SHAAKTI').toggle()" class="target SEP_DROIDS_Target toggleable">
 <td class="verbage"><b>Clones (Shaak Ti L)</b></td>
@@ -1354,7 +1619,7 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 
-
+<h3>Strategy: How to Beat Geonosians with Separatist Droids</h3><div class="GEONOSIANS-SEP_DROIDS-strat"></div>
 <h3>General Strategy</h3><div class="GEONOSIANS-strat"></div>
 </td>
 </tr><tr onclick="$('.SEP_DROIDS_Target_JEDI_REVAN').toggle()" class="target SEP_DROIDS_Target toggleable">
@@ -1369,7 +1634,7 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 <h3>Description</h3><div class="JEDI_REVAN-desc"></div>
-
+<h3>Strategy: How to Beat Jedi (Revan L) with Separatist Droids</h3><div class="JEDI_REVAN-SEP_DROIDS-strat"></div>
 <h3>General Strategy</h3><div class="JEDI_REVAN-strat"></div>
 </td>
 </tr><tr onclick="$('.SEP_DROIDS_Target_NS_MT').toggle()" class="target SEP_DROIDS_Target toggleable">
@@ -1432,8 +1697,38 @@ td, th {
 
 <h3>General Strategy</h3><div class="QIRA-strat"></div>
 </td>
+</tr><tr onclick="$('.SEP_DROIDS_Target_501ST').toggle()" class="target SEP_DROIDS_Target toggleable">
+<td class="verbage">501st (Gen. Skywalker L)</td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI softCounter GENERALSKYWALKER-i" /><br/>GAS</div><div class="toT"><img class="toI softCounter ARCTROOPER501ST-i" /><br/>ARC Trooper</div><div class="toT"><img class="toI softCounter CT7567-i" /><br/>Rex</div><div class="toT"><img class="toI softCounter CT210408-i" /><br/>Echo</div><div class="toT"><img class="toI softCounter CT5555-i" /><br/>Fives</div>
+</div>
+</td>
+</tr>
+<tr class="target SEP_DROIDS_Target_501ST toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="501ST-desc"></div>
+<h3>Strategy: How to Beat 501st (Gen. Skywalker L) with Separatist Droids</h3><div class="501ST-SEP_DROIDS-strat"></div>
+<h3>General Strategy</h3><div class="501ST-strat"></div>
+</td>
+</tr><tr onclick="$('.SEP_DROIDS_Target_VADER').toggle()" class="target SEP_DROIDS_Target toggleable">
+<td class="verbage">Darth Vader L</td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI softCounter VADER-i" /><br/>Vader</div><div class="toT"><img class="toI softCounter EMPERORPALPATINE-i" /><br/>EP</div><div class="toT"><img class="toI softCounter GRANDMOFFTARKIN-i" /><br/>Tarkin</div><div class="toT"><img class="toI softCounter TIEFIGHTERPILOT-i" /><br/>TFP</div><div class="toT"><img class="toI softCounter IMPERIALPROBEDROID-i" /><br/>IPD</div>
+</div>
+</td>
+</tr>
+<tr class="target SEP_DROIDS_Target_VADER toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="VADER-desc"></div>
+<h3>Strategy: How to Beat Darth Vader L with Separatist Droids</h3><div class="VADER-SEP_DROIDS-strat"></div>
+
+</td>
 </tr><tr onclick="$('.SEP_DROIDS_Target_REBELS_CLS').toggle()" class="target SEP_DROIDS_Target toggleable">
-<td class="verbage">Rebels (CLS Quad)</td>
+<td class="verbage">Rebels (CLS L)</td>
 <td>
 <div style="display: flex">
 	<div class="toT"><img class="toI softCounter COMMANDERLUKESKYWALKER-i" /><br/>CLS</div><div class="toT"><img class="toI softCounter HANSOLO-i" /><br/>Han</div><div class="toT"><img class="toI softCounter CHEWBACCALEGENDARY-i" /><br/>Chewbacca</div><div class="toT"><img class="toI softCounter C3POLEGENDARY-i" /><br/>C-3PO</div><div class="toT"><img class="toI softCounter R2D2_LEGENDARY-i" /><br/>R2-D2</div>
@@ -1478,14 +1773,44 @@ td, th {
 <h3>General Strategy</h3><div class="SITH_EMPIRE_WO_MALAK-strat"></div>
 </td>
 </tr><tr onclick="$('.target').hide(0, function() { $('.SEP_DROIDS_Target').show() });" id="SEP_DROIDS" style="background: #aaaaff">
-<td><div class="toT"><img class="toI squad GRIEVOUS-i"/><br/>Separatist Droids<br/>104380</div></td>
-<td class="verbage" style="position: relative"><div style="display: flex"><div class="toT"><img class="toI squad GRIEVOUS-i"><br/>zzGG</div> <div class="toT"><img class="toI squad B2SUPERBATTLEDROID-i"><br/>zB2</div> <div class="toT"><img class="toI squad B1BATTLEDROIDV2-i"><br/>zB1</div> <div class="toT"><img class="toI squad MAGNAGUARD-i"><br/>MagnaGuard</div> <div class="toT"><img class="toI squad WATTAMBOR-i"><br/>zWat Tambor 5*</div></div></td>
+<td><div class="toT"><img class="toI squad GRIEVOUS-i"/><br/>Separatist Droids<br/>111350</div></td>
+<td class="verbage" style="position: relative"><div style="display: flex"><div class="toT"><img class="toI squad GRIEVOUS-i"><br/>zzGG</div> <div class="toT"><img class="toI squad B2SUPERBATTLEDROID-i"><br/>zB2</div> <div class="toT"><img class="toI squad B1BATTLEDROIDV2-i"><br/>zB1</div> <div class="toT"><img class="toI squad MAGNAGUARD-i"><br/>zMagnaGuard</div> <div class="toT"><img class="toI squad WATTAMBOR-i"><br/>zWat Tambor 5*</div></div></td>
 </tr>
 <tr class="target SEP_DROIDS_Target toggleable">
 <td></td>
 <td class="verbage">
 	<h3>Subs</h3><div class="SEP_DROIDS-subs"></div>
 	<h3>Strategy</h3><div class="SEP_DROIDS-desc"></div>
+</td>
+</tr><tr onclick="$('.SEP_DROIDS_Target_BH_BOSSK').toggle()" class="target SEP_DROIDS_Target toggleable">
+<td class="verbage"><b>Bounty Hunters (Bossk L)</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter BOSSK-i" /><br/>Bossk</div><div class="toT"><img class="toI hardCounter BOBAFETT-i" /><br/>Boba</div><div class="toT"><img class="toI hardCounter DENGAR-i" /><br/>Dengar</div><div class="toT"><img class="toI hardCounter JANGOFETT-i" /><br/>Jango</div>
+</div>
+</td>
+</tr>
+<tr class="target SEP_DROIDS_Target_BH_BOSSK toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="BH_BOSSK-desc"></div>
+
+<h3>General Strategy</h3><div class="BH_BOSSK-strat"></div>
+</td>
+</tr><tr onclick="$('.SEP_DROIDS_Target_BH_JANGO').toggle()" class="target SEP_DROIDS_Target toggleable">
+<td class="verbage"><b>Bounty Hunters (Jango L)</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter JANGOFETT-i" /><br/>Jango</div><div class="toT"><img class="toI hardCounter BOSSK-i" /><br/>Bossk</div><div class="toT"><img class="toI hardCounter BOBAFETT-i" /><br/>Boba</div><div class="toT"><img class="toI hardCounter DENGAR-i" /><br/>Dengar</div><div class="toT"><img class="toI hardCounter ZAMWESELL-i" /><br/>Zam</div>
+</div>
+</td>
+</tr>
+<tr class="target SEP_DROIDS_Target_BH_JANGO toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="BH_JANGO-desc"></div>
+
+<h3>General Strategy</h3><div class="BH_JANGO-strat"></div>
 </td>
 </tr><tr onclick="$('.SEP_DROIDS_Target_CLONES_SHAAKTI').toggle()" class="target SEP_DROIDS_Target toggleable">
 <td class="verbage"><b>Clones (Shaak Ti L)</b></td>
@@ -1544,7 +1869,7 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 
-
+<h3>Strategy: How to Beat Geonosians with Separatist Droids</h3><div class="GEONOSIANS-SEP_DROIDS-strat"></div>
 <h3>General Strategy</h3><div class="GEONOSIANS-strat"></div>
 </td>
 </tr><tr onclick="$('.SEP_DROIDS_Target_JEDI_REVAN').toggle()" class="target SEP_DROIDS_Target toggleable">
@@ -1559,7 +1884,7 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 <h3>Description</h3><div class="JEDI_REVAN-desc"></div>
-
+<h3>Strategy: How to Beat Jedi (Revan L) with Separatist Droids</h3><div class="JEDI_REVAN-SEP_DROIDS-strat"></div>
 <h3>General Strategy</h3><div class="JEDI_REVAN-strat"></div>
 </td>
 </tr><tr onclick="$('.SEP_DROIDS_Target_NS_MT').toggle()" class="target SEP_DROIDS_Target toggleable">
@@ -1622,8 +1947,38 @@ td, th {
 
 <h3>General Strategy</h3><div class="QIRA-strat"></div>
 </td>
+</tr><tr onclick="$('.SEP_DROIDS_Target_501ST').toggle()" class="target SEP_DROIDS_Target toggleable">
+<td class="verbage">501st (Gen. Skywalker L)</td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI softCounter GENERALSKYWALKER-i" /><br/>GAS</div><div class="toT"><img class="toI softCounter ARCTROOPER501ST-i" /><br/>ARC Trooper</div><div class="toT"><img class="toI softCounter CT7567-i" /><br/>Rex</div><div class="toT"><img class="toI softCounter CT210408-i" /><br/>Echo</div><div class="toT"><img class="toI softCounter CT5555-i" /><br/>Fives</div>
+</div>
+</td>
+</tr>
+<tr class="target SEP_DROIDS_Target_501ST toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="501ST-desc"></div>
+<h3>Strategy: How to Beat 501st (Gen. Skywalker L) with Separatist Droids</h3><div class="501ST-SEP_DROIDS-strat"></div>
+<h3>General Strategy</h3><div class="501ST-strat"></div>
+</td>
+</tr><tr onclick="$('.SEP_DROIDS_Target_VADER').toggle()" class="target SEP_DROIDS_Target toggleable">
+<td class="verbage">Darth Vader L</td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI softCounter VADER-i" /><br/>Vader</div><div class="toT"><img class="toI softCounter EMPERORPALPATINE-i" /><br/>EP</div><div class="toT"><img class="toI softCounter GRANDMOFFTARKIN-i" /><br/>Tarkin</div><div class="toT"><img class="toI softCounter TIEFIGHTERPILOT-i" /><br/>TFP</div><div class="toT"><img class="toI softCounter IMPERIALPROBEDROID-i" /><br/>IPD</div>
+</div>
+</td>
+</tr>
+<tr class="target SEP_DROIDS_Target_VADER toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="VADER-desc"></div>
+<h3>Strategy: How to Beat Darth Vader L with Separatist Droids</h3><div class="VADER-SEP_DROIDS-strat"></div>
+
+</td>
 </tr><tr onclick="$('.SEP_DROIDS_Target_REBELS_CLS').toggle()" class="target SEP_DROIDS_Target toggleable">
-<td class="verbage">Rebels (CLS Quad)</td>
+<td class="verbage">Rebels (CLS L)</td>
 <td>
 <div style="display: flex">
 	<div class="toT"><img class="toI softCounter COMMANDERLUKESKYWALKER-i" /><br/>CLS</div><div class="toT"><img class="toI softCounter HANSOLO-i" /><br/>Han</div><div class="toT"><img class="toI softCounter CHEWBACCALEGENDARY-i" /><br/>Chewbacca</div><div class="toT"><img class="toI softCounter C3POLEGENDARY-i" /><br/>C-3PO</div><div class="toT"><img class="toI softCounter R2D2_LEGENDARY-i" /><br/>R2-D2</div>
@@ -1692,20 +2047,20 @@ td, th {
 <h3>Strategy: How to Beat Bounty Hunters (Bossk L) with Resistance (JTR L)</h3><div class="BH_BOSSK-JTR-strat"></div>
 <h3>General Strategy</h3><div class="BH_BOSSK-strat"></div>
 </td>
-</tr><tr onclick="$('.JTR_Target_CLONES_SHAAKTI').toggle()" class="target JTR_Target toggleable">
-<td class="verbage"><b>Clones (Shaak Ti L)</b></td>
+</tr><tr onclick="$('.JTR_Target_NEST_SOLO').toggle()" class="target JTR_Target toggleable">
+<td class="verbage"><b>Enfys Nest (solo)</b></td>
 <td>
 <div style="display: flex">
-	<div class="toT"><img class="toI hardCounter SHAAKTI-i" /><br/>Shaak Ti</div><div class="toT"><img class="toI hardCounter CLONESERGEANTPHASEI-i" /><br/>Clone Sergeant</div><div class="toT"><img class="toI hardCounter CT7567-i" /><br/>Rex</div><div class="toT"><img class="toI hardCounter CT210408-i" /><br/>Echo</div><div class="toT"><img class="toI hardCounter CT5555-i" /><br/>Fives</div>
+	<div class="toT"><img class="toI hardCounter ENFYSNEST-i" /><br/>Nest</div>
 </div>
 </td>
 </tr>
-<tr class="target JTR_Target_CLONES_SHAAKTI toggleable">
+<tr class="target JTR_Target_NEST_SOLO toggleable">
 <td>&nbsp;</td>
 <td class="verbage">
-<h3>Description</h3><div class="CLONES_SHAAKTI-desc"></div>
-<h3>Strategy: How to Beat Clones (Shaak Ti L) with Resistance (JTR L)</h3><div class="CLONES_SHAAKTI-JTR-strat"></div>
-<h3>General Strategy</h3><div class="CLONES_SHAAKTI-strat"></div>
+<h3>Description</h3><div class="NEST_SOLO-desc"></div>
+<h3>Strategy: How to Beat Enfys Nest (solo) with Resistance (JTR L)</h3><div class="NEST_SOLO-JTR-strat"></div>
+<h3>General Strategy</h3><div class="NEST_SOLO-strat"></div>
 </td>
 </tr><tr onclick="$('.JTR_Target_FO_KRU').toggle()" class="target JTR_Target toggleable">
 <td class="verbage"><b>First Order (KRU L)</b></td>
@@ -1719,7 +2074,7 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 <h3>Description</h3><div class="FO_KRU-desc"></div>
-
+<h3>Strategy: How to Beat First Order (KRU L) with Resistance (JTR L)</h3><div class="FO_KRU-JTR-strat"></div>
 <h3>General Strategy</h3><div class="FO_KRU-strat"></div>
 </td>
 </tr><tr onclick="$('.JTR_Target_IT').toggle()" class="target JTR_Target toggleable">
@@ -1782,6 +2137,21 @@ td, th {
 <h3>Strategy: How to Beat Qi'ra L with Resistance (JTR L)</h3><div class="QIRA-JTR-strat"></div>
 <h3>General Strategy</h3><div class="QIRA-strat"></div>
 </td>
+</tr><tr onclick="$('.JTR_Target_CLONES_SHAAKTI').toggle()" class="target JTR_Target toggleable">
+<td class="verbage">Clones (Shaak Ti L)</td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI softCounter SHAAKTI-i" /><br/>Shaak Ti</div><div class="toT"><img class="toI softCounter CLONESERGEANTPHASEI-i" /><br/>Clone Sergeant</div><div class="toT"><img class="toI softCounter CT7567-i" /><br/>Rex</div><div class="toT"><img class="toI softCounter CT210408-i" /><br/>Echo</div><div class="toT"><img class="toI softCounter CT5555-i" /><br/>Fives</div>
+</div>
+</td>
+</tr>
+<tr class="target JTR_Target_CLONES_SHAAKTI toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="CLONES_SHAAKTI-desc"></div>
+<h3>Strategy: How to Beat Clones (Shaak Ti L) with Resistance (JTR L)</h3><div class="CLONES_SHAAKTI-JTR-strat"></div>
+<h3>General Strategy</h3><div class="CLONES_SHAAKTI-strat"></div>
+</td>
 </tr><tr onclick="$('.JTR_Target_EP').toggle()" class="target JTR_Target toggleable">
 <td class="verbage">EP L</td>
 <td>
@@ -1796,6 +2166,21 @@ td, th {
 <h3>Description</h3><div class="EP-desc"></div>
 <h3>Strategy: How to Beat EP L with Resistance (JTR L)</h3><div class="EP-JTR-strat"></div>
 <h3>General Strategy</h3><div class="EP-strat"></div>
+</td>
+</tr><tr onclick="$('.JTR_Target_GEONOSIANS').toggle()" class="target JTR_Target toggleable">
+<td class="verbage">Geonosians</td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI softCounter GEONOSIANBROODALPHA-i" /><br/>GBA</div><div class="toT"><img class="toI softCounter SUNFAC-i" /><br/>Sun Fac</div><div class="toT"><img class="toI softCounter GEONOSIANSOLDIER-i" /><br/>Geo Soldier</div><div class="toT"><img class="toI softCounter GEONOSIANSPY-i" /><br/>Geo Spy</div><div class="toT"><img class="toI softCounter POGGLETHELESSER-i" /><br/>Poggle</div>
+</div>
+</td>
+</tr>
+<tr class="target JTR_Target_GEONOSIANS toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+
+<h3>Strategy: How to Beat Geonosians with Resistance (JTR L)</h3><div class="GEONOSIANS-JTR-strat"></div>
+<h3>General Strategy</h3><div class="GEONOSIANS-strat"></div>
 </td>
 </tr><tr onclick="$('.JTR_Target_JEDI_REVAN').toggle()" class="target JTR_Target toggleable">
 <td class="verbage">Jedi (Revan L)</td>
@@ -1812,8 +2197,23 @@ td, th {
 <h3>Strategy: How to Beat Jedi (Revan L) with Resistance (JTR L)</h3><div class="JEDI_REVAN-JTR-strat"></div>
 <h3>General Strategy</h3><div class="JEDI_REVAN-strat"></div>
 </td>
+</tr><tr onclick="$('.JTR_Target_QIRA_NEST_ZAALBAR').toggle()" class="target JTR_Target toggleable">
+<td class="verbage">Qi'ra L (w/ Nest and Zaalbar)</td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI softCounter QIRA-i" /><br/>Qira</div><div class="toT"><img class="toI softCounter YOUNGCHEWBACCA-i" /><br/>Vandor Chewbacca</div><div class="toT"><img class="toI softCounter ENFYSNEST-i" /><br/>Nest</div><div class="toT"><img class="toI softCounter L3_37-i" /><br/>L3-37</div><div class="toT"><img class="toI softCounter ZAALBAR-i" /><br/>Zaalbar</div>
+</div>
+</td>
+</tr>
+<tr class="target JTR_Target_QIRA_NEST_ZAALBAR toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+
+<h3>Strategy: How to Beat Qi'ra L (w/ Nest and Zaalbar) with Resistance (JTR L)</h3><div class="QIRA_NEST_ZAALBAR-JTR-strat"></div>
+
+</td>
 </tr><tr onclick="$('.JTR_Target_REBELS_CLS').toggle()" class="target JTR_Target toggleable">
-<td class="verbage">Rebels (CLS Quad)</td>
+<td class="verbage">Rebels (CLS L)</td>
 <td>
 <div style="display: flex">
 	<div class="toT"><img class="toI softCounter COMMANDERLUKESKYWALKER-i" /><br/>CLS</div><div class="toT"><img class="toI softCounter HANSOLO-i" /><br/>Han</div><div class="toT"><img class="toI softCounter CHEWBACCALEGENDARY-i" /><br/>Chewbacca</div><div class="toT"><img class="toI softCounter C3POLEGENDARY-i" /><br/>C-3PO</div><div class="toT"><img class="toI softCounter R2D2_LEGENDARY-i" /><br/>R2-D2</div>
@@ -1824,26 +2224,26 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 <h3>Description</h3><div class="REBELS_CLS-desc"></div>
-<h3>Strategy: How to Beat Rebels (CLS Quad) with Resistance (JTR L)</h3><div class="REBELS_CLS-JTR-strat"></div>
+<h3>Strategy: How to Beat Rebels (CLS L) with Resistance (JTR L)</h3><div class="REBELS_CLS-JTR-strat"></div>
 <h3>General Strategy</h3><div class="REBELS_CLS-strat"></div>
 </td>
-</tr><tr onclick="$('.JTR_Target_SEP_DROIDS').toggle()" class="target JTR_Target toggleable">
-<td class="verbage">Separatist Droids</td>
+</tr><tr onclick="$('.JTR_Target_SEP_NUTE').toggle()" class="target JTR_Target toggleable">
+<td class="verbage">Separatists (Nute L)</td>
 <td>
 <div style="display: flex">
-	<div class="toT"><img class="toI softCounter GRIEVOUS-i" /><br/>GG</div><div class="toT"><img class="toI softCounter B1BATTLEDROIDV2-i" /><br/>B1</div><div class="toT"><img class="toI softCounter DROIDEKA-i" /><br/>Droideka</div><div class="toT"><img class="toI softCounter B2SUPERBATTLEDROID-i" /><br/>B2</div><div class="toT"><img class="toI softCounter MAGNAGUARD-i" /><br/>MagnaGuard</div>
+	<div class="toT"><img class="toI softCounter NUTEGUNRAY-i" /><br/>Nute</div><div class="toT"><img class="toI softCounter WATTAMBOR-i" /><br/>Wat Tambor</div>
 </div>
 </td>
 </tr>
-<tr class="target JTR_Target_SEP_DROIDS toggleable">
+<tr class="target JTR_Target_SEP_NUTE toggleable">
 <td>&nbsp;</td>
 <td class="verbage">
-<h3>Description</h3><div class="SEP_DROIDS-desc"></div>
 
-<h3>General Strategy</h3><div class="SEP_DROIDS-strat"></div>
+
+
 </td>
 </tr><tr onclick="$('.target').hide(0, function() { $('.JTR_DROIDS_Target').show() });" id="JTR_DROIDS" style="background: #aaaaff">
-<td><div class="toT"><img class="toI squad REYJEDITRAINING-i"/><br/>Resistance (JTR w/ Droids)<br/>112063</div></td>
+<td><div class="toT"><img class="toI squad REYJEDITRAINING-i"/><br/>Resistance (JTR L w/ Droids)<br/>112063</div></td>
 <td class="verbage" style="position: relative"><div style="display: flex"><div class="toT"><img class="toI squad REYJEDITRAINING-i"><br/>zzJTR</div> <div class="toT"><img class="toI squad C3POLEGENDARY-i"><br/>zC-3PO</div> <div class="toT"><img class="toI squad BB8-i"><br/>zzBB-8</div> <div class="toT"><img class="toI squad R2D2_LEGENDARY-i"><br/>zzR2-D2</div> <div class="toT"><img class="toI squad IG88-i"><br/>IG-88 G10</div></div></td>
 </tr>
 <tr class="target JTR_DROIDS_Target toggleable">
@@ -1851,6 +2251,21 @@ td, th {
 <td class="verbage">
 	<h3>Subs</h3><div class="JTR_DROIDS-subs"></div>
 	
+</td>
+</tr><tr onclick="$('.JTR_DROIDS_Target_BH_JANGO').toggle()" class="target JTR_DROIDS_Target toggleable">
+<td class="verbage"><b>Bounty Hunters (Jango L)</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter JANGOFETT-i" /><br/>Jango</div><div class="toT"><img class="toI hardCounter BOSSK-i" /><br/>Bossk</div><div class="toT"><img class="toI hardCounter BOBAFETT-i" /><br/>Boba</div><div class="toT"><img class="toI hardCounter DENGAR-i" /><br/>Dengar</div><div class="toT"><img class="toI hardCounter ZAMWESELL-i" /><br/>Zam</div>
+</div>
+</td>
+</tr>
+<tr class="target JTR_DROIDS_Target_BH_JANGO toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="BH_JANGO-desc"></div>
+
+<h3>General Strategy</h3><div class="BH_JANGO-strat"></div>
 </td>
 </tr><tr onclick="$('.JTR_DROIDS_Target_SITH_TRI').toggle()" class="target JTR_DROIDS_Target toggleable">
 <td class="verbage">Sith Triumvirate</td>
@@ -1864,12 +2279,12 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 <h3>Description</h3><div class="SITH_TRI-desc"></div>
-<h3>Strategy: How to Beat Sith Triumvirate with Resistance (JTR w/ Droids)</h3><div class="SITH_TRI-JTR_DROIDS-strat"></div>
+
 <h3>General Strategy</h3><div class="SITH_TRI-strat"></div>
 </td>
 </tr><tr onclick="$('.target').hide(0, function() { $('.JAWAS_Target').show() });" id="JAWAS" style="background: #aaaaff">
-<td><div class="toT"><img class="toI squad CHIEFNEBIT-i"/><br/>Jawas<br/>66348</div></td>
-<td class="verbage" style="position: relative"><div style="display: flex"><div class="toT"><img class="toI squad CHIEFNEBIT-i"><br/>Nebit G8</div> <div class="toT"><img class="toI squad JAWAENGINEER-i"><br/>Jawa Engineer G9</div> <div class="toT"><img class="toI squad JAWASCAVENGER-i"><br/>Jawa Scavenger G9</div> <div class="toT"><img class="toI squad JAWA-i"><br/>Jawa 6* G9</div> <div class="toT"><img class="toI squad DATHCHA-i"><br/>Dathcha G8</div><div class="toT"><a href="../tw-squads/369351434.html#Jawas"><img title="Jawa: low stars.  " src="../../i/tractor24.png"></a></div></div></td>
+<td><div class="toT"><img class="toI squad CHIEFNEBIT-i"/><br/>Jawas<br/>68241</div></td>
+<td class="verbage" style="position: relative"><div style="display: flex"><div class="toT"><img class="toI squad CHIEFNEBIT-i"><br/>Nebit G8</div> <div class="toT"><img class="toI squad JAWAENGINEER-i"><br/>Jawa Engineer G9</div> <div class="toT"><img class="toI squad JAWASCAVENGER-i"><br/>Jawa Scavenger</div> <div class="toT"><img class="toI squad JAWA-i"><br/>Jawa 6* G9</div> <div class="toT"><img class="toI squad DATHCHA-i"><br/>Dathcha G8</div><div class="toT"><a href="../tw-squads/369351434.html#Jawas"><img title="Jawa: low stars.  " src="../../i/tractor24.png"></a></div></div></td>
 </tr>
 <tr class="target JAWAS_Target toggleable">
 <td></td>
@@ -1902,6 +2317,21 @@ td, th {
 	<h3>Subs</h3><div class="NS_MT-subs"></div>
 	<h3>Strategy</h3><div class="NS_MT-desc"></div>
 </td>
+</tr><tr onclick="$('.NS_MT_Target_NEST_SOLO').toggle()" class="target NS_MT_Target toggleable">
+<td class="verbage"><b>Enfys Nest (solo)</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter ENFYSNEST-i" /><br/>Nest</div>
+</div>
+</td>
+</tr>
+<tr class="target NS_MT_Target_NEST_SOLO toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="NEST_SOLO-desc"></div>
+<h3>Strategy: How to Beat Enfys Nest (solo) with Nightsisters (Talzin L)</h3><div class="NEST_SOLO-NS_MT-strat"></div>
+<h3>General Strategy</h3><div class="NEST_SOLO-strat"></div>
+</td>
 </tr><tr onclick="$('.NS_MT_Target_EWOKS').toggle()" class="target NS_MT_Target toggleable">
 <td class="verbage"><b>Ewoks</b></td>
 <td>
@@ -1947,21 +2377,6 @@ td, th {
 
 <h3>General Strategy</h3><div class="SITH_MAUL-strat"></div>
 </td>
-</tr><tr onclick="$('.NS_MT_Target_EP').toggle()" class="target NS_MT_Target toggleable">
-<td class="verbage">EP L</td>
-<td>
-<div style="display: flex">
-	<div class="toT"><img class="toI softCounter EMPERORPALPATINE-i" /><br/>EP</div><div class="toT"><img class="toI softCounter VADER-i" /><br/>Vader</div><div class="toT"><img class="toI softCounter GRANDMOFFTARKIN-i" /><br/>Tarkin</div><div class="toT"><img class="toI softCounter TIEFIGHTERPILOT-i" /><br/>TFP</div><div class="toT"><img class="toI softCounter IMPERIALPROBEDROID-i" /><br/>IPD</div>
-</div>
-</td>
-</tr>
-<tr class="target NS_MT_Target_EP toggleable">
-<td>&nbsp;</td>
-<td class="verbage">
-<h3>Description</h3><div class="EP-desc"></div>
-
-<h3>General Strategy</h3><div class="EP-strat"></div>
-</td>
 </tr><tr onclick="$('.NS_MT_Target_FO_KRU').toggle()" class="target NS_MT_Target toggleable">
 <td class="verbage">First Order (KRU L)</td>
 <td>
@@ -1974,7 +2389,7 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 <h3>Description</h3><div class="FO_KRU-desc"></div>
-
+<h3>Strategy: How to Beat First Order (KRU L) with Nightsisters (Talzin L)</h3><div class="FO_KRU-NS_MT-strat"></div>
 <h3>General Strategy</h3><div class="FO_KRU-strat"></div>
 </td>
 </tr><tr onclick="$('.NS_MT_Target_GEONOSIANS').toggle()" class="target NS_MT_Target toggleable">
@@ -2023,7 +2438,7 @@ td, th {
 <h3>General Strategy</h3><div class="OR_CARTH-strat"></div>
 </td>
 </tr><tr onclick="$('.NS_MT_Target_REBELS_CLS').toggle()" class="target NS_MT_Target toggleable">
-<td class="verbage">Rebels (CLS Quad)</td>
+<td class="verbage">Rebels (CLS L)</td>
 <td>
 <div style="display: flex">
 	<div class="toT"><img class="toI softCounter COMMANDERLUKESKYWALKER-i" /><br/>CLS</div><div class="toT"><img class="toI softCounter HANSOLO-i" /><br/>Han</div><div class="toT"><img class="toI softCounter CHEWBACCALEGENDARY-i" /><br/>Chewbacca</div><div class="toT"><img class="toI softCounter C3POLEGENDARY-i" /><br/>C-3PO</div><div class="toT"><img class="toI softCounter R2D2_LEGENDARY-i" /><br/>R2-D2</div>
@@ -2034,7 +2449,7 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 <h3>Description</h3><div class="REBELS_CLS-desc"></div>
-<h3>Strategy: How to Beat Rebels (CLS Quad) with Nightsisters (Talzin L)</h3><div class="REBELS_CLS-NS_MT-strat"></div>
+<h3>Strategy: How to Beat Rebels (CLS L) with Nightsisters (Talzin L)</h3><div class="REBELS_CLS-NS_MT-strat"></div>
 <h3>General Strategy</h3><div class="REBELS_CLS-strat"></div>
 </td>
 </tr><tr onclick="$('.NS_MT_Target_SEP_DROIDS').toggle()" class="target NS_MT_Target toggleable">
@@ -2051,6 +2466,21 @@ td, th {
 <h3>Description</h3><div class="SEP_DROIDS-desc"></div>
 <h3>Strategy: How to Beat Separatist Droids with Nightsisters (Talzin L)</h3><div class="SEP_DROIDS-NS_MT-strat"></div>
 <h3>General Strategy</h3><div class="SEP_DROIDS-strat"></div>
+</td>
+</tr><tr onclick="$('.NS_MT_Target_SEP_NUTE_NEST').toggle()" class="target NS_MT_Target toggleable">
+<td class="verbage">Separatists (Nute L w/ Nest)</td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI softCounter NUTEGUNRAY-i" /><br/>Nute</div><div class="toT"><img class="toI softCounter WATTAMBOR-i" /><br/>Wat Tambor</div><div class="toT"><img class="toI softCounter COUNTDOOKU-i" /><br/>Dooku</div><div class="toT"><img class="toI softCounter ENFYSNEST-i" /><br/>Nest</div><div class="toT"><img class="toI softCounter JANGOFETT-i" /><br/>Jango</div>
+</div>
+</td>
+</tr>
+<tr class="target NS_MT_Target_SEP_NUTE_NEST toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+
+
+
 </td>
 </tr><tr onclick="$('.target').hide(0, function() { $('.NS_MT_Target').show() });" id="NS_MT" style="background: #aaaaff">
 <td><div class="toT"><img class="toI squad MOTHERTALZIN-i"/><br/>Nightsisters (Talzin L)<br/>109091</div></td>
@@ -2062,6 +2492,21 @@ td, th {
 	<h3>Subs</h3><div class="NS_MT-subs"></div>
 	<h3>Strategy</h3><div class="NS_MT-desc"></div>
 </td>
+</tr><tr onclick="$('.NS_MT_Target_NEST_SOLO').toggle()" class="target NS_MT_Target toggleable">
+<td class="verbage"><b>Enfys Nest (solo)</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter ENFYSNEST-i" /><br/>Nest</div>
+</div>
+</td>
+</tr>
+<tr class="target NS_MT_Target_NEST_SOLO toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="NEST_SOLO-desc"></div>
+<h3>Strategy: How to Beat Enfys Nest (solo) with Nightsisters (Talzin L)</h3><div class="NEST_SOLO-NS_MT-strat"></div>
+<h3>General Strategy</h3><div class="NEST_SOLO-strat"></div>
+</td>
 </tr><tr onclick="$('.NS_MT_Target_EWOKS').toggle()" class="target NS_MT_Target toggleable">
 <td class="verbage"><b>Ewoks</b></td>
 <td>
@@ -2107,21 +2552,6 @@ td, th {
 
 <h3>General Strategy</h3><div class="SITH_MAUL-strat"></div>
 </td>
-</tr><tr onclick="$('.NS_MT_Target_EP').toggle()" class="target NS_MT_Target toggleable">
-<td class="verbage">EP L</td>
-<td>
-<div style="display: flex">
-	<div class="toT"><img class="toI softCounter EMPERORPALPATINE-i" /><br/>EP</div><div class="toT"><img class="toI softCounter VADER-i" /><br/>Vader</div><div class="toT"><img class="toI softCounter GRANDMOFFTARKIN-i" /><br/>Tarkin</div><div class="toT"><img class="toI softCounter TIEFIGHTERPILOT-i" /><br/>TFP</div><div class="toT"><img class="toI softCounter IMPERIALPROBEDROID-i" /><br/>IPD</div>
-</div>
-</td>
-</tr>
-<tr class="target NS_MT_Target_EP toggleable">
-<td>&nbsp;</td>
-<td class="verbage">
-<h3>Description</h3><div class="EP-desc"></div>
-
-<h3>General Strategy</h3><div class="EP-strat"></div>
-</td>
 </tr><tr onclick="$('.NS_MT_Target_FO_KRU').toggle()" class="target NS_MT_Target toggleable">
 <td class="verbage">First Order (KRU L)</td>
 <td>
@@ -2134,7 +2564,7 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 <h3>Description</h3><div class="FO_KRU-desc"></div>
-
+<h3>Strategy: How to Beat First Order (KRU L) with Nightsisters (Talzin L)</h3><div class="FO_KRU-NS_MT-strat"></div>
 <h3>General Strategy</h3><div class="FO_KRU-strat"></div>
 </td>
 </tr><tr onclick="$('.NS_MT_Target_GEONOSIANS').toggle()" class="target NS_MT_Target toggleable">
@@ -2183,7 +2613,7 @@ td, th {
 <h3>General Strategy</h3><div class="OR_CARTH-strat"></div>
 </td>
 </tr><tr onclick="$('.NS_MT_Target_REBELS_CLS').toggle()" class="target NS_MT_Target toggleable">
-<td class="verbage">Rebels (CLS Quad)</td>
+<td class="verbage">Rebels (CLS L)</td>
 <td>
 <div style="display: flex">
 	<div class="toT"><img class="toI softCounter COMMANDERLUKESKYWALKER-i" /><br/>CLS</div><div class="toT"><img class="toI softCounter HANSOLO-i" /><br/>Han</div><div class="toT"><img class="toI softCounter CHEWBACCALEGENDARY-i" /><br/>Chewbacca</div><div class="toT"><img class="toI softCounter C3POLEGENDARY-i" /><br/>C-3PO</div><div class="toT"><img class="toI softCounter R2D2_LEGENDARY-i" /><br/>R2-D2</div>
@@ -2194,7 +2624,7 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 <h3>Description</h3><div class="REBELS_CLS-desc"></div>
-<h3>Strategy: How to Beat Rebels (CLS Quad) with Nightsisters (Talzin L)</h3><div class="REBELS_CLS-NS_MT-strat"></div>
+<h3>Strategy: How to Beat Rebels (CLS L) with Nightsisters (Talzin L)</h3><div class="REBELS_CLS-NS_MT-strat"></div>
 <h3>General Strategy</h3><div class="REBELS_CLS-strat"></div>
 </td>
 </tr><tr onclick="$('.NS_MT_Target_SEP_DROIDS').toggle()" class="target NS_MT_Target toggleable">
@@ -2212,6 +2642,21 @@ td, th {
 <h3>Strategy: How to Beat Separatist Droids with Nightsisters (Talzin L)</h3><div class="SEP_DROIDS-NS_MT-strat"></div>
 <h3>General Strategy</h3><div class="SEP_DROIDS-strat"></div>
 </td>
+</tr><tr onclick="$('.NS_MT_Target_SEP_NUTE_NEST').toggle()" class="target NS_MT_Target toggleable">
+<td class="verbage">Separatists (Nute L w/ Nest)</td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI softCounter NUTEGUNRAY-i" /><br/>Nute</div><div class="toT"><img class="toI softCounter WATTAMBOR-i" /><br/>Wat Tambor</div><div class="toT"><img class="toI softCounter COUNTDOOKU-i" /><br/>Dooku</div><div class="toT"><img class="toI softCounter ENFYSNEST-i" /><br/>Nest</div><div class="toT"><img class="toI softCounter JANGOFETT-i" /><br/>Jango</div>
+</div>
+</td>
+</tr>
+<tr class="target NS_MT_Target_SEP_NUTE_NEST toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+
+
+
+</td>
 </tr><tr onclick="$('.target').hide(0, function() { $('.NEST_SOLO_Target').show() });" id="NEST_SOLO" style="background: #aaaaff">
 <td><div class="toT"><img class="toI squad ENFYSNEST-i"/><br/>Enfys Nest (solo)<br/>19182</div></td>
 <td class="verbage" style="position: relative"><div style="display: flex"><div class="toT"><img class="toI squad ENFYSNEST-i"><br/>zNest</div></div></td>
@@ -2220,7 +2665,7 @@ td, th {
 <td></td>
 <td class="verbage">
 	<h3>Subs</h3><div class="NEST_SOLO-subs"></div>
-	
+	<h3>Strategy</h3><div class="NEST_SOLO-desc"></div>
 </td>
 </tr><tr onclick="$('.NEST_SOLO_Target_EWOKS').toggle()" class="target NEST_SOLO_Target toggleable">
 <td class="verbage"><b>Ewoks</b></td>
@@ -2236,21 +2681,6 @@ td, th {
 <h3>Description</h3><div class="EWOKS-desc"></div>
 <h3>Strategy: How to Beat Ewoks with Enfys Nest (solo)</h3><div class="EWOKS-NEST_SOLO-strat"></div>
 
-</td>
-</tr><tr onclick="$('.NEST_SOLO_Target_JEDI_BASTILA').toggle()" class="target NEST_SOLO_Target toggleable">
-<td class="verbage"><b>Jedi (Bastila L)</b></td>
-<td>
-<div style="display: flex">
-	<div class="toT"><img class="toI hardCounter BASTILASHAN-i" /><br/>BS</div><div class="toT"><img class="toI hardCounter JOLEEBINDO-i" /><br/>Jolee</div><div class="toT"><img class="toI hardCounter GRANDMASTERYODA-i" /><br/>GMY</div><div class="toT"><img class="toI hardCounter GENERALKENOBI-i" /><br/>GK</div><div class="toT"><img class="toI hardCounter EZRABRIDGERS3-i" /><br/>Ezra</div>
-</div>
-</td>
-</tr>
-<tr class="target NEST_SOLO_Target_JEDI_BASTILA toggleable">
-<td>&nbsp;</td>
-<td class="verbage">
-<h3>Description</h3><div class="JEDI_BASTILA-desc"></div>
-
-<h3>General Strategy</h3><div class="JEDI_BASTILA-strat"></div>
 </td>
 </tr><tr onclick="$('.NEST_SOLO_Target_PHOENIX').toggle()" class="target NEST_SOLO_Target toggleable">
 <td class="verbage"><b>Phoenix</b></td>
@@ -2279,7 +2709,7 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 <h3>Description</h3><div class="CLONES_SHAAKTI-desc"></div>
-
+<h3>Strategy: How to Beat Clones (Shaak Ti L) with Enfys Nest (solo)</h3><div class="CLONES_SHAAKTI-NEST_SOLO-strat"></div>
 <h3>General Strategy</h3><div class="CLONES_SHAAKTI-strat"></div>
 </td>
 </tr><tr onclick="$('.NEST_SOLO_Target_GALACTIC_REPUBLIC').toggle()" class="target NEST_SOLO_Target toggleable">
@@ -2312,20 +2742,20 @@ td, th {
 
 <h3>General Strategy</h3><div class="IT-strat"></div>
 </td>
-</tr><tr onclick="$('.NEST_SOLO_Target_REBELS_CLS').toggle()" class="target NEST_SOLO_Target toggleable">
-<td class="verbage">Rebels (CLS Quad)</td>
+</tr><tr onclick="$('.NEST_SOLO_Target_JEDI_BASTILA').toggle()" class="target NEST_SOLO_Target toggleable">
+<td class="verbage">Jedi (Bastila L)</td>
 <td>
 <div style="display: flex">
-	<div class="toT"><img class="toI softCounter COMMANDERLUKESKYWALKER-i" /><br/>CLS</div><div class="toT"><img class="toI softCounter HANSOLO-i" /><br/>Han</div><div class="toT"><img class="toI softCounter CHEWBACCALEGENDARY-i" /><br/>Chewbacca</div><div class="toT"><img class="toI softCounter C3POLEGENDARY-i" /><br/>C-3PO</div><div class="toT"><img class="toI softCounter R2D2_LEGENDARY-i" /><br/>R2-D2</div>
+	<div class="toT"><img class="toI softCounter BASTILASHAN-i" /><br/>BS</div><div class="toT"><img class="toI softCounter JOLEEBINDO-i" /><br/>Jolee</div><div class="toT"><img class="toI softCounter GRANDMASTERYODA-i" /><br/>GMY</div><div class="toT"><img class="toI softCounter GENERALKENOBI-i" /><br/>GK</div><div class="toT"><img class="toI softCounter EZRABRIDGERS3-i" /><br/>Ezra</div>
 </div>
 </td>
 </tr>
-<tr class="target NEST_SOLO_Target_REBELS_CLS toggleable">
+<tr class="target NEST_SOLO_Target_JEDI_BASTILA toggleable">
 <td>&nbsp;</td>
 <td class="verbage">
-<h3>Description</h3><div class="REBELS_CLS-desc"></div>
-
-<h3>General Strategy</h3><div class="REBELS_CLS-strat"></div>
+<h3>Description</h3><div class="JEDI_BASTILA-desc"></div>
+<h3>Strategy: How to Beat Jedi (Bastila L) with Enfys Nest (solo)</h3><div class="JEDI_BASTILA-NEST_SOLO-strat"></div>
+<h3>General Strategy</h3><div class="JEDI_BASTILA-strat"></div>
 </td>
 </tr><tr onclick="$('.NEST_SOLO_Target_ROGUE_ONE').toggle()" class="target NEST_SOLO_Target toggleable">
 <td class="verbage">Rogue One</td>
@@ -2351,6 +2781,21 @@ td, th {
 <td class="verbage">
 	<h3>Subs</h3><div class="PHOENIX-subs"></div>
 	<h3>Strategy</h3><div class="PHOENIX-desc"></div>
+</td>
+</tr><tr onclick="$('.PHOENIX_Target_OR_CARTH').toggle()" class="target PHOENIX_Target toggleable">
+<td class="verbage"><b>Old Republic (Carth L)</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter CARTHONASI-i" /><br/>Carth Onasi</div><div class="toT"><img class="toI hardCounter CANDEROUSORDO-i" /><br/>Canderous</div><div class="toT"><img class="toI hardCounter MISSIONVAO-i" /><br/>Mission</div><div class="toT"><img class="toI hardCounter ZAALBAR-i" /><br/>Zaalbar</div><div class="toT"><img class="toI hardCounter JUHANI-i" /><br/>Juhani</div>
+</div>
+</td>
+</tr>
+<tr class="target PHOENIX_Target_OR_CARTH toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="OR_CARTH-desc"></div>
+<h3>Strategy: How to Beat Old Republic (Carth L) with Phoenix</h3><div class="OR_CARTH-PHOENIX-strat"></div>
+<h3>General Strategy</h3><div class="OR_CARTH-strat"></div>
 </td>
 </tr><tr onclick="$('.PHOENIX_Target_FO_KRU').toggle()" class="target PHOENIX_Target toggleable">
 <td class="verbage">First Order (KRU L)</td>
@@ -2398,7 +2843,7 @@ td, th {
 <h3>General Strategy</h3><div class="SITH_MAUL-strat"></div>
 </td>
 </tr><tr onclick="$('.target').hide(0, function() { $('.QIRA_NEST_HODA_Target').show() });" id="QIRA_NEST_HODA" style="background: #aaaaff">
-<td><div class="toT"><img class="toI squad QIRA-i"/><br/>Qi'ra (w/ Nest and Hoda)<br/>54447</div></td>
+<td><div class="toT"><img class="toI squad QIRA-i"/><br/>Qi'ra L (w/ Nest and Hoda)<br/>54447</div></td>
 <td class="verbage" style="position: relative"><div style="display: flex"><div class="toT"><img class="toI squad QIRA-i"><br/>Qira G10</div> <div class="toT"><img class="toI squad ENFYSNEST-i"><br/>zNest</div> <div class="toT"><img class="toI squad HERMITYODA-i"><br/>zHYoda</div></div></td>
 </tr>
 <tr class="target QIRA_NEST_HODA_Target toggleable">
@@ -2419,7 +2864,7 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 <h3>Description</h3><div class="JEDI_BASTILA-desc"></div>
-<h3>Strategy: How to Beat Jedi (Bastila L) with Qi'ra (w/ Nest and Hoda)</h3><div class="JEDI_BASTILA-QIRA_NEST_HODA-strat"></div>
+<h3>Strategy: How to Beat Jedi (Bastila L) with Qi'ra L (w/ Nest and Hoda)</h3><div class="JEDI_BASTILA-QIRA_NEST_HODA-strat"></div>
 <h3>General Strategy</h3><div class="JEDI_BASTILA-strat"></div>
 </td>
 </tr><tr onclick="$('.target').hide(0, function() { $('.JEDI_REVAN_Target').show() });" id="JEDI_REVAN" style="background: #aaaaff">
@@ -2446,6 +2891,21 @@ td, th {
 <h3>Description</h3><div class="CLONES_SHAAKTI-desc"></div>
 <h3>Strategy: How to Beat Clones (Shaak Ti L) with Jedi (Revan L)</h3><div class="CLONES_SHAAKTI-JEDI_REVAN-strat"></div>
 <h3>General Strategy</h3><div class="CLONES_SHAAKTI-strat"></div>
+</td>
+</tr><tr onclick="$('.JEDI_REVAN_Target_NEST_SOLO').toggle()" class="target JEDI_REVAN_Target toggleable">
+<td class="verbage"><b>Enfys Nest (solo)</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter ENFYSNEST-i" /><br/>Nest</div>
+</div>
+</td>
+</tr>
+<tr class="target JEDI_REVAN_Target_NEST_SOLO toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="NEST_SOLO-desc"></div>
+<h3>Strategy: How to Beat Enfys Nest (solo) with Jedi (Revan L)</h3><div class="NEST_SOLO-JEDI_REVAN-strat"></div>
+<h3>General Strategy</h3><div class="NEST_SOLO-strat"></div>
 </td>
 </tr><tr onclick="$('.JEDI_REVAN_Target_NS_ASAJJ').toggle()" class="target JEDI_REVAN_Target toggleable">
 <td class="verbage"><b>Nightsisters (Asajj L)</b></td>
@@ -2489,8 +2949,68 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 <h3>Description</h3><div class="NS_MT-desc"></div>
+<h3>Strategy: How to Beat Nightsisters (Talzin L) with Jedi (Revan L)</h3><div class="NS_MT-JEDI_REVAN-strat"></div>
+<h3>General Strategy</h3><div class="NS_MT-strat"></div>
+</td>
+</tr><tr onclick="$('.JEDI_REVAN_Target_NS_MT').toggle()" class="target JEDI_REVAN_Target toggleable">
+<td class="verbage"><b>Nightsisters (Talzin L)</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter MOTHERTALZIN-i" /><br/>MT</div><div class="toT"><img class="toI hardCounter ASAJVENTRESS-i" /><br/>AV</div><div class="toT"><img class="toI hardCounter DAKA-i" /><br/>Daka</div><div class="toT"><img class="toI hardCounter NIGHTSISTERZOMBIE-i" /><br/>Zombie</div><div class="toT"><img class="toI hardCounter NIGHTSISTERSPIRIT-i" /><br/>Spirit</div>
+</div>
+</td>
+</tr>
+<tr class="target JEDI_REVAN_Target_NS_MT toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="NS_MT-desc"></div>
 
 <h3>General Strategy</h3><div class="NS_MT-strat"></div>
+</td>
+</tr><tr onclick="$('.JEDI_REVAN_Target_REBELS_CLS').toggle()" class="target JEDI_REVAN_Target toggleable">
+<td class="verbage"><b>Rebels (CLS L)</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter COMMANDERLUKESKYWALKER-i" /><br/>CLS</div><div class="toT"><img class="toI hardCounter HANSOLO-i" /><br/>Han</div><div class="toT"><img class="toI hardCounter CHEWBACCALEGENDARY-i" /><br/>Chewbacca</div><div class="toT"><img class="toI hardCounter C3POLEGENDARY-i" /><br/>C-3PO</div><div class="toT"><img class="toI hardCounter R2D2_LEGENDARY-i" /><br/>R2-D2</div>
+</div>
+</td>
+</tr>
+<tr class="target JEDI_REVAN_Target_REBELS_CLS toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="REBELS_CLS-desc"></div>
+<h3>Strategy: How to Beat Rebels (CLS L) with Jedi (Revan L)</h3><div class="REBELS_CLS-JEDI_REVAN-strat"></div>
+<h3>General Strategy</h3><div class="REBELS_CLS-strat"></div>
+</td>
+</tr><tr onclick="$('.JEDI_REVAN_Target_SEP_DROIDS').toggle()" class="target JEDI_REVAN_Target toggleable">
+<td class="verbage"><b>Separatist Droids</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter GRIEVOUS-i" /><br/>GG</div><div class="toT"><img class="toI hardCounter B1BATTLEDROIDV2-i" /><br/>B1</div><div class="toT"><img class="toI hardCounter DROIDEKA-i" /><br/>Droideka</div><div class="toT"><img class="toI hardCounter B2SUPERBATTLEDROID-i" /><br/>B2</div><div class="toT"><img class="toI hardCounter MAGNAGUARD-i" /><br/>MagnaGuard</div>
+</div>
+</td>
+</tr>
+<tr class="target JEDI_REVAN_Target_SEP_DROIDS toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="SEP_DROIDS-desc"></div>
+<h3>Strategy: How to Beat Separatist Droids with Jedi (Revan L)</h3><div class="SEP_DROIDS-JEDI_REVAN-strat"></div>
+<h3>General Strategy</h3><div class="SEP_DROIDS-strat"></div>
+</td>
+</tr><tr onclick="$('.JEDI_REVAN_Target_SEP_NUTE_NEST').toggle()" class="target JEDI_REVAN_Target toggleable">
+<td class="verbage"><b>Separatists (Nute L w/ Nest)</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter NUTEGUNRAY-i" /><br/>Nute</div><div class="toT"><img class="toI hardCounter WATTAMBOR-i" /><br/>Wat Tambor</div><div class="toT"><img class="toI hardCounter COUNTDOOKU-i" /><br/>Dooku</div><div class="toT"><img class="toI hardCounter ENFYSNEST-i" /><br/>Nest</div><div class="toT"><img class="toI hardCounter JANGOFETT-i" /><br/>Jango</div>
+</div>
+</td>
+</tr>
+<tr class="target JEDI_REVAN_Target_SEP_NUTE_NEST toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+
+
+
 </td>
 </tr><tr onclick="$('.JEDI_REVAN_Target_SITH_EMPIRE_WO_MALAK').toggle()" class="target JEDI_REVAN_Target toggleable">
 <td class="verbage"><b>Sith Empire (w/o Malak)</b></td>
@@ -2521,6 +3041,21 @@ td, th {
 <h3>Description</h3><div class="SITH_TRI-desc"></div>
 
 <h3>General Strategy</h3><div class="SITH_TRI-strat"></div>
+</td>
+</tr><tr onclick="$('.JEDI_REVAN_Target_GALACTIC_REPUBLIC').toggle()" class="target JEDI_REVAN_Target toggleable">
+<td class="verbage">Galactic Republic</td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI softCounter PADMEAMIDALA-i" /><br/>Padme</div><div class="toT"><img class="toI softCounter ANAKINKNIGHT-i" /><br/>JKA</div><div class="toT"><img class="toI softCounter AHSOKATANO-i" /><br/>Ahsoka</div><div class="toT"><img class="toI softCounter GENERALKENOBI-i" /><br/>GK</div><div class="toT"><img class="toI softCounter BARRISSOFFEE-i" /><br/>Barriss</div>
+</div>
+</td>
+</tr>
+<tr class="target JEDI_REVAN_Target_GALACTIC_REPUBLIC toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="GALACTIC_REPUBLIC-desc"></div>
+<h3>Strategy: How to Beat Galactic Republic with Jedi (Revan L)</h3><div class="GALACTIC_REPUBLIC-JEDI_REVAN-strat"></div>
+<h3>General Strategy</h3><div class="GALACTIC_REPUBLIC-strat"></div>
 </td>
 </tr><tr onclick="$('.JEDI_REVAN_Target_GEONOSIANS').toggle()" class="target JEDI_REVAN_Target toggleable">
 <td class="verbage">Geonosians</td>
@@ -2577,6 +3112,21 @@ td, th {
 <h3>Strategy: How to Beat Clones (Shaak Ti L) with Jedi (Revan L)</h3><div class="CLONES_SHAAKTI-JEDI_REVAN-strat"></div>
 <h3>General Strategy</h3><div class="CLONES_SHAAKTI-strat"></div>
 </td>
+</tr><tr onclick="$('.JEDI_REVAN_Target_NEST_SOLO').toggle()" class="target JEDI_REVAN_Target toggleable">
+<td class="verbage"><b>Enfys Nest (solo)</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter ENFYSNEST-i" /><br/>Nest</div>
+</div>
+</td>
+</tr>
+<tr class="target JEDI_REVAN_Target_NEST_SOLO toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="NEST_SOLO-desc"></div>
+<h3>Strategy: How to Beat Enfys Nest (solo) with Jedi (Revan L)</h3><div class="NEST_SOLO-JEDI_REVAN-strat"></div>
+<h3>General Strategy</h3><div class="NEST_SOLO-strat"></div>
+</td>
 </tr><tr onclick="$('.JEDI_REVAN_Target_NS_ASAJJ').toggle()" class="target JEDI_REVAN_Target toggleable">
 <td class="verbage"><b>Nightsisters (Asajj L)</b></td>
 <td>
@@ -2619,8 +3169,68 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 <h3>Description</h3><div class="NS_MT-desc"></div>
+<h3>Strategy: How to Beat Nightsisters (Talzin L) with Jedi (Revan L)</h3><div class="NS_MT-JEDI_REVAN-strat"></div>
+<h3>General Strategy</h3><div class="NS_MT-strat"></div>
+</td>
+</tr><tr onclick="$('.JEDI_REVAN_Target_NS_MT').toggle()" class="target JEDI_REVAN_Target toggleable">
+<td class="verbage"><b>Nightsisters (Talzin L)</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter MOTHERTALZIN-i" /><br/>MT</div><div class="toT"><img class="toI hardCounter ASAJVENTRESS-i" /><br/>AV</div><div class="toT"><img class="toI hardCounter DAKA-i" /><br/>Daka</div><div class="toT"><img class="toI hardCounter NIGHTSISTERZOMBIE-i" /><br/>Zombie</div><div class="toT"><img class="toI hardCounter NIGHTSISTERSPIRIT-i" /><br/>Spirit</div>
+</div>
+</td>
+</tr>
+<tr class="target JEDI_REVAN_Target_NS_MT toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="NS_MT-desc"></div>
 
 <h3>General Strategy</h3><div class="NS_MT-strat"></div>
+</td>
+</tr><tr onclick="$('.JEDI_REVAN_Target_REBELS_CLS').toggle()" class="target JEDI_REVAN_Target toggleable">
+<td class="verbage"><b>Rebels (CLS L)</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter COMMANDERLUKESKYWALKER-i" /><br/>CLS</div><div class="toT"><img class="toI hardCounter HANSOLO-i" /><br/>Han</div><div class="toT"><img class="toI hardCounter CHEWBACCALEGENDARY-i" /><br/>Chewbacca</div><div class="toT"><img class="toI hardCounter C3POLEGENDARY-i" /><br/>C-3PO</div><div class="toT"><img class="toI hardCounter R2D2_LEGENDARY-i" /><br/>R2-D2</div>
+</div>
+</td>
+</tr>
+<tr class="target JEDI_REVAN_Target_REBELS_CLS toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="REBELS_CLS-desc"></div>
+<h3>Strategy: How to Beat Rebels (CLS L) with Jedi (Revan L)</h3><div class="REBELS_CLS-JEDI_REVAN-strat"></div>
+<h3>General Strategy</h3><div class="REBELS_CLS-strat"></div>
+</td>
+</tr><tr onclick="$('.JEDI_REVAN_Target_SEP_DROIDS').toggle()" class="target JEDI_REVAN_Target toggleable">
+<td class="verbage"><b>Separatist Droids</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter GRIEVOUS-i" /><br/>GG</div><div class="toT"><img class="toI hardCounter B1BATTLEDROIDV2-i" /><br/>B1</div><div class="toT"><img class="toI hardCounter DROIDEKA-i" /><br/>Droideka</div><div class="toT"><img class="toI hardCounter B2SUPERBATTLEDROID-i" /><br/>B2</div><div class="toT"><img class="toI hardCounter MAGNAGUARD-i" /><br/>MagnaGuard</div>
+</div>
+</td>
+</tr>
+<tr class="target JEDI_REVAN_Target_SEP_DROIDS toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="SEP_DROIDS-desc"></div>
+<h3>Strategy: How to Beat Separatist Droids with Jedi (Revan L)</h3><div class="SEP_DROIDS-JEDI_REVAN-strat"></div>
+<h3>General Strategy</h3><div class="SEP_DROIDS-strat"></div>
+</td>
+</tr><tr onclick="$('.JEDI_REVAN_Target_SEP_NUTE_NEST').toggle()" class="target JEDI_REVAN_Target toggleable">
+<td class="verbage"><b>Separatists (Nute L w/ Nest)</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter NUTEGUNRAY-i" /><br/>Nute</div><div class="toT"><img class="toI hardCounter WATTAMBOR-i" /><br/>Wat Tambor</div><div class="toT"><img class="toI hardCounter COUNTDOOKU-i" /><br/>Dooku</div><div class="toT"><img class="toI hardCounter ENFYSNEST-i" /><br/>Nest</div><div class="toT"><img class="toI hardCounter JANGOFETT-i" /><br/>Jango</div>
+</div>
+</td>
+</tr>
+<tr class="target JEDI_REVAN_Target_SEP_NUTE_NEST toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+
+
+
 </td>
 </tr><tr onclick="$('.JEDI_REVAN_Target_SITH_EMPIRE_WO_MALAK').toggle()" class="target JEDI_REVAN_Target toggleable">
 <td class="verbage"><b>Sith Empire (w/o Malak)</b></td>
@@ -2651,6 +3261,21 @@ td, th {
 <h3>Description</h3><div class="SITH_TRI-desc"></div>
 
 <h3>General Strategy</h3><div class="SITH_TRI-strat"></div>
+</td>
+</tr><tr onclick="$('.JEDI_REVAN_Target_GALACTIC_REPUBLIC').toggle()" class="target JEDI_REVAN_Target toggleable">
+<td class="verbage">Galactic Republic</td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI softCounter PADMEAMIDALA-i" /><br/>Padme</div><div class="toT"><img class="toI softCounter ANAKINKNIGHT-i" /><br/>JKA</div><div class="toT"><img class="toI softCounter AHSOKATANO-i" /><br/>Ahsoka</div><div class="toT"><img class="toI softCounter GENERALKENOBI-i" /><br/>GK</div><div class="toT"><img class="toI softCounter BARRISSOFFEE-i" /><br/>Barriss</div>
+</div>
+</td>
+</tr>
+<tr class="target JEDI_REVAN_Target_GALACTIC_REPUBLIC toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="GALACTIC_REPUBLIC-desc"></div>
+<h3>Strategy: How to Beat Galactic Republic with Jedi (Revan L)</h3><div class="GALACTIC_REPUBLIC-JEDI_REVAN-strat"></div>
+<h3>General Strategy</h3><div class="GALACTIC_REPUBLIC-strat"></div>
 </td>
 </tr><tr onclick="$('.JEDI_REVAN_Target_GEONOSIANS').toggle()" class="target JEDI_REVAN_Target toggleable">
 <td class="verbage">Geonosians</td>
@@ -2723,7 +3348,7 @@ td, th {
 <h3>General Strategy</h3><div class="EP-strat"></div>
 </td>
 </tr><tr onclick="$('.REX_Target_REBELS_CLS').toggle()" class="target REX_Target toggleable">
-<td class="verbage">Rebels (CLS Quad)</td>
+<td class="verbage">Rebels (CLS L)</td>
 <td>
 <div style="display: flex">
 	<div class="toT"><img class="toI softCounter COMMANDERLUKESKYWALKER-i" /><br/>CLS</div><div class="toT"><img class="toI softCounter HANSOLO-i" /><br/>Han</div><div class="toT"><img class="toI softCounter CHEWBACCALEGENDARY-i" /><br/>Chewbacca</div><div class="toT"><img class="toI softCounter C3POLEGENDARY-i" /><br/>C-3PO</div><div class="toT"><img class="toI softCounter R2D2_LEGENDARY-i" /><br/>R2-D2</div>
@@ -2734,7 +3359,7 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 <h3>Description</h3><div class="REBELS_CLS-desc"></div>
-<h3>Strategy: How to Beat Rebels (CLS Quad) with Rex L</h3><div class="REBELS_CLS-REX-strat"></div>
+<h3>Strategy: How to Beat Rebels (CLS L) with Rex L</h3><div class="REBELS_CLS-REX-strat"></div>
 <h3>General Strategy</h3><div class="REBELS_CLS-strat"></div>
 </td>
 </tr><tr onclick="$('.REX_Target_JTR').toggle()" class="target REX_Target toggleable">
@@ -2753,7 +3378,7 @@ td, th {
 <h3>General Strategy</h3><div class="JTR-strat"></div>
 </td>
 </tr><tr onclick="$('.target').hide(0, function() { $('.CLONES_SHAAKTI_Target').show() });" id="CLONES_SHAAKTI" style="background: #aaaaff">
-<td><div class="toT"><img class="toI squad SHAAKTI-i"/><br/>Clones (Shaak Ti L)<br/>108062</div></td>
+<td><div class="toT"><img class="toI squad SHAAKTI-i"/><br/>Clones (Shaak Ti L)<br/>108878</div></td>
 <td class="verbage" style="position: relative"><div style="display: flex"><div class="toT"><img class="toI squad SHAAKTI-i"><br/>zzShaak Ti</div> <div class="toT"><img class="toI squad CT7567-i"><br/>zRex</div> <div class="toT"><img class="toI squad CT210408-i"><br/>zEcho</div> <div class="toT"><img class="toI squad CT5555-i"><br/>zzFives</div> <div class="toT"><img class="toI squad ARCTROOPER501ST-i"><br/>zARC Trooper G8</div></div></td>
 </tr>
 <tr class="target CLONES_SHAAKTI_Target toggleable">
@@ -2788,7 +3413,7 @@ td, th {
 <tr class="target CLONES_SHAAKTI_Target_BH_JANGO toggleable">
 <td>&nbsp;</td>
 <td class="verbage">
-
+<h3>Description</h3><div class="BH_JANGO-desc"></div>
 
 <h3>General Strategy</h3><div class="BH_JANGO-strat"></div>
 </td>
@@ -2852,6 +3477,21 @@ td, th {
 
 <h3>General Strategy</h3><div class="JEDI_BASTILA-strat"></div>
 </td>
+</tr><tr onclick="$('.CLONES_SHAAKTI_Target_NS_MT').toggle()" class="target CLONES_SHAAKTI_Target toggleable">
+<td class="verbage"><b>Nightsisters (Talzin L)</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter MOTHERTALZIN-i" /><br/>MT</div><div class="toT"><img class="toI hardCounter ASAJVENTRESS-i" /><br/>AV</div><div class="toT"><img class="toI hardCounter DAKA-i" /><br/>Daka</div><div class="toT"><img class="toI hardCounter NIGHTSISTERZOMBIE-i" /><br/>Zombie</div><div class="toT"><img class="toI hardCounter NIGHTSISTERSPIRIT-i" /><br/>Spirit</div>
+</div>
+</td>
+</tr>
+<tr class="target CLONES_SHAAKTI_Target_NS_MT toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="NS_MT-desc"></div>
+<h3>Strategy: How to Beat Nightsisters (Talzin L) with Clones (Shaak Ti L)</h3><div class="NS_MT-CLONES_SHAAKTI-strat"></div>
+<h3>General Strategy</h3><div class="NS_MT-strat"></div>
+</td>
 </tr><tr onclick="$('.CLONES_SHAAKTI_Target_QIRA').toggle()" class="target CLONES_SHAAKTI_Target toggleable">
 <td class="verbage"><b>Qi'ra L</b></td>
 <td>
@@ -2867,20 +3507,50 @@ td, th {
 
 <h3>General Strategy</h3><div class="QIRA-strat"></div>
 </td>
-</tr><tr onclick="$('.CLONES_SHAAKTI_Target_NS_MT').toggle()" class="target CLONES_SHAAKTI_Target toggleable">
-<td class="verbage">Nightsisters (Talzin L)</td>
+</tr><tr onclick="$('.CLONES_SHAAKTI_Target_REBELS_CLS').toggle()" class="target CLONES_SHAAKTI_Target toggleable">
+<td class="verbage"><b>Rebels (CLS L)</b></td>
 <td>
 <div style="display: flex">
-	<div class="toT"><img class="toI softCounter MOTHERTALZIN-i" /><br/>MT</div><div class="toT"><img class="toI softCounter ASAJVENTRESS-i" /><br/>AV</div><div class="toT"><img class="toI softCounter DAKA-i" /><br/>Daka</div><div class="toT"><img class="toI softCounter NIGHTSISTERZOMBIE-i" /><br/>Zombie</div><div class="toT"><img class="toI softCounter NIGHTSISTERSPIRIT-i" /><br/>Spirit</div>
+	<div class="toT"><img class="toI hardCounter COMMANDERLUKESKYWALKER-i" /><br/>CLS</div><div class="toT"><img class="toI hardCounter HANSOLO-i" /><br/>Han</div><div class="toT"><img class="toI hardCounter CHEWBACCALEGENDARY-i" /><br/>Chewbacca</div><div class="toT"><img class="toI hardCounter C3POLEGENDARY-i" /><br/>C-3PO</div><div class="toT"><img class="toI hardCounter R2D2_LEGENDARY-i" /><br/>R2-D2</div>
 </div>
 </td>
 </tr>
-<tr class="target CLONES_SHAAKTI_Target_NS_MT toggleable">
+<tr class="target CLONES_SHAAKTI_Target_REBELS_CLS toggleable">
 <td>&nbsp;</td>
 <td class="verbage">
-<h3>Description</h3><div class="NS_MT-desc"></div>
+<h3>Description</h3><div class="REBELS_CLS-desc"></div>
 
-<h3>General Strategy</h3><div class="NS_MT-strat"></div>
+<h3>General Strategy</h3><div class="REBELS_CLS-strat"></div>
+</td>
+</tr><tr onclick="$('.CLONES_SHAAKTI_Target_GALACTIC_REPUBLIC').toggle()" class="target CLONES_SHAAKTI_Target toggleable">
+<td class="verbage">Galactic Republic</td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI softCounter PADMEAMIDALA-i" /><br/>Padme</div><div class="toT"><img class="toI softCounter ANAKINKNIGHT-i" /><br/>JKA</div><div class="toT"><img class="toI softCounter AHSOKATANO-i" /><br/>Ahsoka</div><div class="toT"><img class="toI softCounter GENERALKENOBI-i" /><br/>GK</div><div class="toT"><img class="toI softCounter BARRISSOFFEE-i" /><br/>Barriss</div>
+</div>
+</td>
+</tr>
+<tr class="target CLONES_SHAAKTI_Target_GALACTIC_REPUBLIC toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="GALACTIC_REPUBLIC-desc"></div>
+<h3>Strategy: How to Beat Galactic Republic with Clones (Shaak Ti L)</h3><div class="GALACTIC_REPUBLIC-CLONES_SHAAKTI-strat"></div>
+<h3>General Strategy</h3><div class="GALACTIC_REPUBLIC-strat"></div>
+</td>
+</tr><tr onclick="$('.CLONES_SHAAKTI_Target_JEDI_REVAN').toggle()" class="target CLONES_SHAAKTI_Target toggleable">
+<td class="verbage">Jedi (Revan L)</td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI softCounter JEDIKNIGHTREVAN-i" /><br/>JKR</div><div class="toT"><img class="toI softCounter JOLEEBINDO-i" /><br/>Jolee</div><div class="toT"><img class="toI softCounter GRANDMASTERYODA-i" /><br/>GMY</div><div class="toT"><img class="toI softCounter BASTILASHAN-i" /><br/>BS</div><div class="toT"><img class="toI softCounter GENERALKENOBI-i" /><br/>GK</div>
+</div>
+</td>
+</tr>
+<tr class="target CLONES_SHAAKTI_Target_JEDI_REVAN toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="JEDI_REVAN-desc"></div>
+
+<h3>General Strategy</h3><div class="JEDI_REVAN-strat"></div>
 </td>
 </tr><tr onclick="$('.CLONES_SHAAKTI_Target_SEP_DROIDS').toggle()" class="target CLONES_SHAAKTI_Target toggleable">
 <td class="verbage">Separatist Droids</td>
@@ -2924,11 +3594,11 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 <h3>Description</h3><div class="SITH_TRI-desc"></div>
-
+<h3>Strategy: How to Beat Sith Triumvirate with Clones (Shaak Ti L)</h3><div class="SITH_TRI-CLONES_SHAAKTI-strat"></div>
 <h3>General Strategy</h3><div class="SITH_TRI-strat"></div>
 </td>
 </tr><tr onclick="$('.target').hide(0, function() { $('.SION_SOLO_Target').show() });" id="SION_SOLO" style="background: #aaaaff">
-<td><div class="toT"><img class="toI squad DARTHSION-i"/><br/>Darth Sion (solo)<br/>20038</div></td>
+<td><div class="toT"><img class="toI squad DARTHSION-i"/><br/>Darth Sion (solo)<br/>20236</div></td>
 <td class="verbage" style="position: relative"><div style="display: flex"><div class="toT"><img class="toI squad DARTHSION-i"><br/>zSion</div></div></td>
 </tr>
 <tr class="target SION_SOLO_Target toggleable">
@@ -3078,7 +3748,7 @@ td, th {
 <h3>General Strategy</h3><div class="JTR-strat"></div>
 </td>
 </tr><tr onclick="$('.target').hide(0, function() { $('.SITH_TRI_Target').show() });" id="SITH_TRI" style="background: #aaaaff">
-<td><div class="toT"><img class="toI squad DARTHTRAYA-i"/><br/>Sith Triumvirate<br/>108811</div></td>
+<td><div class="toT"><img class="toI squad DARTHTRAYA-i"/><br/>Sith Triumvirate<br/>110906</div></td>
 <td class="verbage" style="position: relative"><div style="display: flex"><div class="toT"><img class="toI squad DARTHTRAYA-i"><br/>zzTraya</div> <div class="toT"><img class="toI squad DARTHNIHILUS-i"><br/>DN G8</div> <div class="toT"><img class="toI squad DARTHSION-i"><br/>zSion</div> <div class="toT"><img class="toI squad EMPERORPALPATINE-i"><br/>zzEP</div> <div class="toT"><img class="toI squad GRANDADMIRALTHRAWN-i"><br/>zThrawn</div></div></td>
 </tr>
 <tr class="target SITH_TRI_Target toggleable">
@@ -3086,6 +3756,51 @@ td, th {
 <td class="verbage">
 	<h3>Subs</h3><div class="SITH_TRI-subs"></div>
 	<h3>Strategy</h3><div class="SITH_TRI-desc"></div>
+</td>
+</tr><tr onclick="$('.SITH_TRI_Target_BH_JANGO').toggle()" class="target SITH_TRI_Target toggleable">
+<td class="verbage"><b>Bounty Hunters (Jango L)</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter JANGOFETT-i" /><br/>Jango</div><div class="toT"><img class="toI hardCounter BOSSK-i" /><br/>Bossk</div><div class="toT"><img class="toI hardCounter BOBAFETT-i" /><br/>Boba</div><div class="toT"><img class="toI hardCounter DENGAR-i" /><br/>Dengar</div><div class="toT"><img class="toI hardCounter ZAMWESELL-i" /><br/>Zam</div>
+</div>
+</td>
+</tr>
+<tr class="target SITH_TRI_Target_BH_JANGO toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="BH_JANGO-desc"></div>
+
+<h3>General Strategy</h3><div class="BH_JANGO-strat"></div>
+</td>
+</tr><tr onclick="$('.SITH_TRI_Target_CLONES_SHAAKTI').toggle()" class="target SITH_TRI_Target toggleable">
+<td class="verbage"><b>Clones (Shaak Ti L)</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter SHAAKTI-i" /><br/>Shaak Ti</div><div class="toT"><img class="toI hardCounter CLONESERGEANTPHASEI-i" /><br/>Clone Sergeant</div><div class="toT"><img class="toI hardCounter CT7567-i" /><br/>Rex</div><div class="toT"><img class="toI hardCounter CT210408-i" /><br/>Echo</div><div class="toT"><img class="toI hardCounter CT5555-i" /><br/>Fives</div>
+</div>
+</td>
+</tr>
+<tr class="target SITH_TRI_Target_CLONES_SHAAKTI toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="CLONES_SHAAKTI-desc"></div>
+
+<h3>General Strategy</h3><div class="CLONES_SHAAKTI-strat"></div>
+</td>
+</tr><tr onclick="$('.SITH_TRI_Target_NEST_SOLO').toggle()" class="target SITH_TRI_Target toggleable">
+<td class="verbage"><b>Enfys Nest (solo)</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter ENFYSNEST-i" /><br/>Nest</div>
+</div>
+</td>
+</tr>
+<tr class="target SITH_TRI_Target_NEST_SOLO toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="NEST_SOLO-desc"></div>
+<h3>Strategy: How to Beat Enfys Nest (solo) with Sith Triumvirate</h3><div class="NEST_SOLO-SITH_TRI-strat"></div>
+<h3>General Strategy</h3><div class="NEST_SOLO-strat"></div>
 </td>
 </tr><tr onclick="$('.SITH_TRI_Target_EWOKS').toggle()" class="target SITH_TRI_Target toggleable">
 <td class="verbage"><b>Ewoks</b></td>
@@ -3222,6 +3937,21 @@ td, th {
 
 <h3>General Strategy</h3><div class="QIRA-strat"></div>
 </td>
+</tr><tr onclick="$('.SITH_TRI_Target_QIRA_NEST_ZAALBAR').toggle()" class="target SITH_TRI_Target toggleable">
+<td class="verbage"><b>Qi'ra L (w/ Nest and Zaalbar)</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter QIRA-i" /><br/>Qira</div><div class="toT"><img class="toI hardCounter YOUNGCHEWBACCA-i" /><br/>Vandor Chewbacca</div><div class="toT"><img class="toI hardCounter ENFYSNEST-i" /><br/>Nest</div><div class="toT"><img class="toI hardCounter L3_37-i" /><br/>L3-37</div><div class="toT"><img class="toI hardCounter ZAALBAR-i" /><br/>Zaalbar</div>
+</div>
+</td>
+</tr>
+<tr class="target SITH_TRI_Target_QIRA_NEST_ZAALBAR toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+
+
+
+</td>
 </tr><tr onclick="$('.SITH_TRI_Target_JTR').toggle()" class="target SITH_TRI_Target toggleable">
 <td class="verbage"><b>Resistance (JTR L)</b></td>
 <td>
@@ -3252,6 +3982,21 @@ td, th {
 <h3>Strategy: How to Beat Jedi (Revan L) with Sith Triumvirate</h3><div class="JEDI_REVAN-SITH_TRI-strat"></div>
 <h3>General Strategy</h3><div class="JEDI_REVAN-strat"></div>
 </td>
+</tr><tr onclick="$('.SITH_TRI_Target_REBELS_CLS').toggle()" class="target SITH_TRI_Target toggleable">
+<td class="verbage">Rebels (CLS L)</td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI softCounter COMMANDERLUKESKYWALKER-i" /><br/>CLS</div><div class="toT"><img class="toI softCounter HANSOLO-i" /><br/>Han</div><div class="toT"><img class="toI softCounter CHEWBACCALEGENDARY-i" /><br/>Chewbacca</div><div class="toT"><img class="toI softCounter C3POLEGENDARY-i" /><br/>C-3PO</div><div class="toT"><img class="toI softCounter R2D2_LEGENDARY-i" /><br/>R2-D2</div>
+</div>
+</td>
+</tr>
+<tr class="target SITH_TRI_Target_REBELS_CLS toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="REBELS_CLS-desc"></div>
+
+<h3>General Strategy</h3><div class="REBELS_CLS-strat"></div>
+</td>
 </tr><tr onclick="$('.SITH_TRI_Target_SEP_DROIDS').toggle()" class="target SITH_TRI_Target toggleable">
 <td class="verbage">Separatist Droids</td>
 <td>
@@ -3266,6 +4011,21 @@ td, th {
 <h3>Description</h3><div class="SEP_DROIDS-desc"></div>
 <h3>Strategy: How to Beat Separatist Droids with Sith Triumvirate</h3><div class="SEP_DROIDS-SITH_TRI-strat"></div>
 <h3>General Strategy</h3><div class="SEP_DROIDS-strat"></div>
+</td>
+</tr><tr onclick="$('.SITH_TRI_Target_SEP_NUTE_NEST').toggle()" class="target SITH_TRI_Target toggleable">
+<td class="verbage">Separatists (Nute L w/ Nest)</td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI softCounter NUTEGUNRAY-i" /><br/>Nute</div><div class="toT"><img class="toI softCounter WATTAMBOR-i" /><br/>Wat Tambor</div><div class="toT"><img class="toI softCounter COUNTDOOKU-i" /><br/>Dooku</div><div class="toT"><img class="toI softCounter ENFYSNEST-i" /><br/>Nest</div><div class="toT"><img class="toI softCounter JANGOFETT-i" /><br/>Jango</div>
+</div>
+</td>
+</tr>
+<tr class="target SITH_TRI_Target_SEP_NUTE_NEST toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+
+<h3>Strategy: How to Beat Separatists (Nute L w/ Nest) with Sith Triumvirate</h3><div class="SEP_NUTE_NEST-SITH_TRI-strat"></div>
+
 </td>
 </tr><tr onclick="$('.SITH_TRI_Target_SITH_EMPIRE_WO_MALAK').toggle()" class="target SITH_TRI_Target toggleable">
 <td class="verbage">Sith Empire (w/o Malak)</td>
@@ -3306,6 +4066,36 @@ td, th {
 <h3>Description</h3><div class="EWOKS-desc"></div>
 
 
+</td>
+</tr><tr onclick="$('.IT_Target_PHOENIX').toggle()" class="target IT_Target toggleable">
+<td class="verbage"><b>Phoenix</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter HERASYNDULLAS3-i" /><br/>Hera</div><div class="toT"><img class="toI hardCounter KANANJARRUSS3-i" /><br/>Kanan</div><div class="toT"><img class="toI hardCounter ZEBS3-i" /><br/>Zeb</div><div class="toT"><img class="toI hardCounter SABINEWRENS3-i" /><br/>Sabine</div><div class="toT"><img class="toI hardCounter EZRABRIDGERS3-i" /><br/>Ezra</div>
+</div>
+</td>
+</tr>
+<tr class="target IT_Target_PHOENIX toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="PHOENIX-desc"></div>
+
+<h3>General Strategy</h3><div class="PHOENIX-strat"></div>
+</td>
+</tr><tr onclick="$('.IT_Target_ROGUE_ONE').toggle()" class="target IT_Target toggleable">
+<td class="verbage"><b>Rogue One</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter JYNERSO-i" /><br/>Jyn</div><div class="toT"><img class="toI hardCounter CASSIANANDOR-i" /><br/>Cassian</div><div class="toT"><img class="toI hardCounter K2SO-i" /><br/>K-2SO</div><div class="toT"><img class="toI hardCounter CHIRRUTIMWE-i" /><br/>Chirrut</div><div class="toT"><img class="toI hardCounter BAZEMALBUS-i" /><br/>Baze</div>
+</div>
+</td>
+</tr>
+<tr class="target IT_Target_ROGUE_ONE toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="ROGUE_ONE-desc"></div>
+
+<h3>General Strategy</h3><div class="ROGUE_ONE-strat"></div>
 </td>
 </tr><tr onclick="$('.IT_Target_BH_BOSSK').toggle()" class="target IT_Target toggleable">
 <td class="verbage">Bounty Hunters (Bossk L)</td>
@@ -3409,23 +4199,8 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 <h3>Description</h3><div class="OR_CARTH-desc"></div>
-
+<h3>Strategy: How to Beat Old Republic (Carth L) with Imperial Troopers</h3><div class="OR_CARTH-IT-strat"></div>
 <h3>General Strategy</h3><div class="OR_CARTH-strat"></div>
-</td>
-</tr><tr onclick="$('.IT_Target_ROGUE_ONE').toggle()" class="target IT_Target toggleable">
-<td class="verbage">Rogue One</td>
-<td>
-<div style="display: flex">
-	<div class="toT"><img class="toI softCounter JYNERSO-i" /><br/>Jyn</div><div class="toT"><img class="toI softCounter CASSIANANDOR-i" /><br/>Cassian</div><div class="toT"><img class="toI softCounter K2SO-i" /><br/>K-2SO</div><div class="toT"><img class="toI softCounter CHIRRUTIMWE-i" /><br/>Chirrut</div><div class="toT"><img class="toI softCounter BAZEMALBUS-i" /><br/>Baze</div>
-</div>
-</td>
-</tr>
-<tr class="target IT_Target_ROGUE_ONE toggleable">
-<td>&nbsp;</td>
-<td class="verbage">
-<h3>Description</h3><div class="ROGUE_ONE-desc"></div>
-<h3>Strategy: How to Beat Rogue One with Imperial Troopers</h3><div class="ROGUE_ONE-IT-strat"></div>
-<h3>General Strategy</h3><div class="ROGUE_ONE-strat"></div>
 </td>
 </tr><tr onclick="$('.target').hide(0, function() { $('.REX_WAMPA_Target').show() });" id="REX_WAMPA" style="background: #aaaaff">
 <td><div class="toT"><img class="toI squad CT7567-i"/><br/>Rex/Wampa<br/>101938</div></td>
@@ -3528,7 +4303,7 @@ td, th {
 <h3>General Strategy</h3><div class="NS_NEST-strat"></div>
 </td>
 </tr><tr onclick="$('.REX_WAMPA_Target_REBELS_CLS').toggle()" class="target REX_WAMPA_Target toggleable">
-<td class="verbage">Rebels (CLS Quad)</td>
+<td class="verbage">Rebels (CLS L)</td>
 <td>
 <div style="display: flex">
 	<div class="toT"><img class="toI softCounter COMMANDERLUKESKYWALKER-i" /><br/>CLS</div><div class="toT"><img class="toI softCounter HANSOLO-i" /><br/>Han</div><div class="toT"><img class="toI softCounter CHEWBACCALEGENDARY-i" /><br/>Chewbacca</div><div class="toT"><img class="toI softCounter C3POLEGENDARY-i" /><br/>C-3PO</div><div class="toT"><img class="toI softCounter R2D2_LEGENDARY-i" /><br/>R2-D2</div>
@@ -3539,7 +4314,7 @@ td, th {
 <td>&nbsp;</td>
 <td class="verbage">
 <h3>Description</h3><div class="REBELS_CLS-desc"></div>
-<h3>Strategy: How to Beat Rebels (CLS Quad) with Rex/Wampa</h3><div class="REBELS_CLS-REX_WAMPA-strat"></div>
+<h3>Strategy: How to Beat Rebels (CLS L) with Rex/Wampa</h3><div class="REBELS_CLS-REX_WAMPA-strat"></div>
 <h3>General Strategy</h3><div class="REBELS_CLS-strat"></div>
 </td>
 </tr><tr onclick="$('.target').hide(0, function() { $('.REBELS_DANGER_ZONE_Target').show() });" id="REBELS_DANGER_ZONE" style="background: #aaaaff">
@@ -3583,7 +4358,7 @@ td, th {
 <h3>General Strategy</h3><div class="SITH_TRI-strat"></div>
 </td>
 </tr><tr onclick="$('.target').hide(0, function() { $('.ZADER_Target').show() });" id="ZADER" style="background: #aaaaff">
-<td><div class="toT"><img class="toI squad VADER-i"/><br/>Zader<br/>114213</div></td>
+<td><div class="toT"><img class="toI squad VADER-i"/><br/>Zader<br/>116793</div></td>
 <td class="verbage" style="position: relative"><div style="display: flex"><div class="toT"><img class="toI squad VADER-i"><br/>zzzVader</div> <div class="toT"><img class="toI squad MISSIONVAO-i"><br/>zMission</div> <div class="toT"><img class="toI squad ZAALBAR-i"><br/>zZaalbar G10</div> <div class="toT"><img class="toI squad WAMPA-i"><br/>zWampa</div> <div class="toT"><img class="toI squad BOBAFETT-i"><br/>zBoba</div></div></td>
 </tr>
 <tr class="target ZADER_Target toggleable">
@@ -3666,14 +4441,14 @@ td, th {
 <td class="verbage">501st (Gen. Skywalker L)</td>
 <td>
 <div style="display: flex">
-	<div class="toT"><img class="toI softCounter GENERALSKYWALKER-i" /><br/>GAS</div><div class="toT"><img class="toI softCounter AHSOKATANO-i" /><br/>Ahsoka</div><div class="toT"><img class="toI softCounter CT7567-i" /><br/>Rex</div><div class="toT"><img class="toI softCounter CT210408-i" /><br/>Echo</div><div class="toT"><img class="toI softCounter CT5555-i" /><br/>Fives</div>
+	<div class="toT"><img class="toI softCounter GENERALSKYWALKER-i" /><br/>GAS</div><div class="toT"><img class="toI softCounter ARCTROOPER501ST-i" /><br/>ARC Trooper</div><div class="toT"><img class="toI softCounter CT7567-i" /><br/>Rex</div><div class="toT"><img class="toI softCounter CT210408-i" /><br/>Echo</div><div class="toT"><img class="toI softCounter CT5555-i" /><br/>Fives</div>
 </div>
 </td>
 </tr>
 <tr class="target GALACTIC_REPUBLIC_C3PO_Target_501ST toggleable">
 <td>&nbsp;</td>
 <td class="verbage">
-
+<h3>Description</h3><div class="501ST-desc"></div>
 <h3>Strategy: How to Beat 501st (Gen. Skywalker L) with Galactic Republic (w/ C-3PO)</h3><div class="501ST-GALACTIC_REPUBLIC_C3PO-strat"></div>
 <h3>General Strategy</h3><div class="501ST-strat"></div>
 </td>
@@ -3693,7 +4468,7 @@ td, th {
 <h3>General Strategy</h3><div class="SITH_EMPIRE_W_MALAK-strat"></div>
 </td>
 </tr><tr onclick="$('.target').hide(0, function() { $('.EP_Target').show() });" id="EP" style="background: #aaaaff">
-<td><div class="toT"><img class="toI squad EMPERORPALPATINE-i"/><br/>EP L<br/>110246</div></td>
+<td><div class="toT"><img class="toI squad EMPERORPALPATINE-i"/><br/>EP L<br/>114723</div></td>
 <td class="verbage" style="position: relative"><div style="display: flex"><div class="toT"><img class="toI squad EMPERORPALPATINE-i"><br/>zzEP</div> <div class="toT"><img class="toI squad VADER-i"><br/>zzzVader</div> <div class="toT"><img class="toI squad GRANDMOFFTARKIN-i"><br/>Tarkin</div> <div class="toT"><img class="toI squad DEATHTROOPER-i"><br/>DT</div> <div class="toT"><img class="toI squad TIEFIGHTERPILOT-i"><br/>TFP</div></div></td>
 </tr>
 <tr class="target EP_Target toggleable">
@@ -3701,6 +4476,21 @@ td, th {
 <td class="verbage">
 	<h3>Subs</h3><div class="EP-subs"></div>
 	<h3>Strategy</h3><div class="EP-desc"></div>
+</td>
+</tr><tr onclick="$('.EP_Target_NEST_SOLO').toggle()" class="target EP_Target toggleable">
+<td class="verbage"><b>Enfys Nest (solo)</b></td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI hardCounter ENFYSNEST-i" /><br/>Nest</div>
+</div>
+</td>
+</tr>
+<tr class="target EP_Target_NEST_SOLO toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="NEST_SOLO-desc"></div>
+<h3>Strategy: How to Beat Enfys Nest (solo) with EP L</h3><div class="NEST_SOLO-EP-strat"></div>
+<h3>General Strategy</h3><div class="NEST_SOLO-strat"></div>
 </td>
 </tr><tr onclick="$('.EP_Target_EWOKS').toggle()" class="target EP_Target toggleable">
 <td class="verbage"><b>Ewoks</b></td>
@@ -3792,6 +4582,36 @@ td, th {
 <h3>Strategy: How to Beat Bounty Hunters (Bossk L) with EP L</h3><div class="BH_BOSSK-EP-strat"></div>
 <h3>General Strategy</h3><div class="BH_BOSSK-strat"></div>
 </td>
+</tr><tr onclick="$('.EP_Target_BH_JANGO').toggle()" class="target EP_Target toggleable">
+<td class="verbage">Bounty Hunters (Jango L)</td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI softCounter JANGOFETT-i" /><br/>Jango</div><div class="toT"><img class="toI softCounter BOSSK-i" /><br/>Bossk</div><div class="toT"><img class="toI softCounter BOBAFETT-i" /><br/>Boba</div><div class="toT"><img class="toI softCounter DENGAR-i" /><br/>Dengar</div><div class="toT"><img class="toI softCounter ZAMWESELL-i" /><br/>Zam</div>
+</div>
+</td>
+</tr>
+<tr class="target EP_Target_BH_JANGO toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="BH_JANGO-desc"></div>
+<h3>Strategy: How to Beat Bounty Hunters (Jango L) with EP L</h3><div class="BH_JANGO-EP-strat"></div>
+<h3>General Strategy</h3><div class="BH_JANGO-strat"></div>
+</td>
+</tr><tr onclick="$('.EP_Target_CLONES_SHAAKTI').toggle()" class="target EP_Target toggleable">
+<td class="verbage">Clones (Shaak Ti L)</td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI softCounter SHAAKTI-i" /><br/>Shaak Ti</div><div class="toT"><img class="toI softCounter CLONESERGEANTPHASEI-i" /><br/>Clone Sergeant</div><div class="toT"><img class="toI softCounter CT7567-i" /><br/>Rex</div><div class="toT"><img class="toI softCounter CT210408-i" /><br/>Echo</div><div class="toT"><img class="toI softCounter CT5555-i" /><br/>Fives</div>
+</div>
+</td>
+</tr>
+<tr class="target EP_Target_CLONES_SHAAKTI toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="CLONES_SHAAKTI-desc"></div>
+
+<h3>General Strategy</h3><div class="CLONES_SHAAKTI-strat"></div>
+</td>
 </tr><tr onclick="$('.EP_Target_GALACTIC_REPUBLIC').toggle()" class="target EP_Target toggleable">
 <td class="verbage">Galactic Republic</td>
 <td>
@@ -3837,5 +4657,65 @@ td, th {
 <h3>Strategy: How to Beat Qi'ra L with EP L</h3><div class="QIRA-EP-strat"></div>
 <h3>General Strategy</h3><div class="QIRA-strat"></div>
 </td>
+</tr><tr onclick="$('.EP_Target_QIRA_NEST_ZAALBAR').toggle()" class="target EP_Target toggleable">
+<td class="verbage">Qi'ra L (w/ Nest and Zaalbar)</td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI softCounter QIRA-i" /><br/>Qira</div><div class="toT"><img class="toI softCounter YOUNGCHEWBACCA-i" /><br/>Vandor Chewbacca</div><div class="toT"><img class="toI softCounter ENFYSNEST-i" /><br/>Nest</div><div class="toT"><img class="toI softCounter L3_37-i" /><br/>L3-37</div><div class="toT"><img class="toI softCounter ZAALBAR-i" /><br/>Zaalbar</div>
+</div>
+</td>
+</tr>
+<tr class="target EP_Target_QIRA_NEST_ZAALBAR toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+
+<h3>Strategy: How to Beat Qi'ra L (w/ Nest and Zaalbar) with EP L</h3><div class="QIRA_NEST_ZAALBAR-EP-strat"></div>
+
+</td>
+</tr><tr onclick="$('.EP_Target_ROGUE_ONE').toggle()" class="target EP_Target toggleable">
+<td class="verbage">Rogue One</td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI softCounter JYNERSO-i" /><br/>Jyn</div><div class="toT"><img class="toI softCounter CASSIANANDOR-i" /><br/>Cassian</div><div class="toT"><img class="toI softCounter K2SO-i" /><br/>K-2SO</div><div class="toT"><img class="toI softCounter CHIRRUTIMWE-i" /><br/>Chirrut</div><div class="toT"><img class="toI softCounter BAZEMALBUS-i" /><br/>Baze</div>
+</div>
+</td>
+</tr>
+<tr class="target EP_Target_ROGUE_ONE toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="ROGUE_ONE-desc"></div>
+
+<h3>General Strategy</h3><div class="ROGUE_ONE-strat"></div>
+</td>
+</tr><tr onclick="$('.EP_Target_SEP_DROIDS').toggle()" class="target EP_Target toggleable">
+<td class="verbage">Separatist Droids</td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI softCounter GRIEVOUS-i" /><br/>GG</div><div class="toT"><img class="toI softCounter B1BATTLEDROIDV2-i" /><br/>B1</div><div class="toT"><img class="toI softCounter DROIDEKA-i" /><br/>Droideka</div><div class="toT"><img class="toI softCounter B2SUPERBATTLEDROID-i" /><br/>B2</div><div class="toT"><img class="toI softCounter MAGNAGUARD-i" /><br/>MagnaGuard</div>
+</div>
+</td>
+</tr>
+<tr class="target EP_Target_SEP_DROIDS toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+<h3>Description</h3><div class="SEP_DROIDS-desc"></div>
+<h3>Strategy: How to Beat Separatist Droids with EP L</h3><div class="SEP_DROIDS-EP-strat"></div>
+<h3>General Strategy</h3><div class="SEP_DROIDS-strat"></div>
+</td>
+</tr><tr onclick="$('.EP_Target_SEP_NUTE').toggle()" class="target EP_Target toggleable">
+<td class="verbage">Separatists (Nute L)</td>
+<td>
+<div style="display: flex">
+	<div class="toT"><img class="toI softCounter NUTEGUNRAY-i" /><br/>Nute</div><div class="toT"><img class="toI softCounter WATTAMBOR-i" /><br/>Wat Tambor</div>
+</div>
+</td>
+</tr>
+<tr class="target EP_Target_SEP_NUTE toggleable">
+<td>&nbsp;</td>
+<td class="verbage">
+
+
+
+</td>
 </tr></table><br/>
-<font size="-2">Generated 2020-08-15 21:07:16 +0000</font>
+<font size="-2">Generated 2020-09-03 23:04:57 +0000</font>
