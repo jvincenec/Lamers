@@ -89,7 +89,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <th colspan="3">Counters</th>
 </tr>
 </thead><tr id="501ST" style="background: #aaaaff">
-<td onclick="$('.counter').hide(0, function() { $('#501ST_General').show() });"><div class="toT"><img class="toI squad GENERALSKYWALKER-i"/><br/>501st (Gen. Skywalker L)</div></td><td colspan="3" class="verbage" style="position: relative"><div style="display: flex"><div onclick="$('.counter').hide(0, function() { $('#501ST_REBELS_CLS').show() });" class="toT"><img class="toI softCounter COMMANDERLUKESKYWALKER-i"/><br/>CLS</div><div onclick="$('.counter').hide(0, function() { $('#501ST_SITH_EMPIRE_W_MALAK').show() });" class="toT"><img class="toI softCounter DARTHREVAN-i"/><br/>DRMalak</div><div onclick="$('.counter').hide(0, function() { $('#501ST_SEP_DROIDS').show() });" class="toT"><img class="toI softCounter GRIEVOUS-i"/><br/>Grievous</div></div></td><tr id="501ST_General" class="counter toggleable">
+<td onclick="$('.counter').hide(0, function() { $('#501ST_General').show() });"><div class="toT"><img class="toI squad GENERALSKYWALKER-i"/><br/>501st (Gen. Skywalker L)</div></td><td colspan="3" class="verbage" style="position: relative"><div style="display: flex"><div onclick="$('.counter').hide(0, function() { $('#501ST_SITH_EMPIRE_W_MALAK').show() });" class="toT"><img class="toI softCounter DARTHREVAN-i"/><br/>DRMalak</div><div onclick="$('.counter').hide(0, function() { $('#501ST_REBELS_CLS').show() });" class="toT"><img class="toI softCounter COMMANDERLUKESKYWALKER-i"/><br/>CLS</div><div onclick="$('.counter').hide(0, function() { $('#501ST_SEP_DROIDS').show() });" class="toT"><img class="toI softCounter GRIEVOUS-i"/><br/>Grievous</div></div></td><tr id="501ST_General" class="counter toggleable">
 <td colspan="4">
 <h3>Opponent</h3>
 <div style="display: flex">
@@ -107,6 +107,27 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <div style="display: flex">
 <div class="toT"><img class="toI squad PADMEAMIDALA-i" title="Padme, JKA, Ahsoka, GK, C-3PO"/><br/>Galactic Republic (w/ C-3PO)</div><div class="toT"><img class="toI squad GRIEVOUS-i" title="GG, B1, Wat Tambor, B2, MagnaGuard"/><br/>Separatist Droids (w/ Wat)</div>
 </div>
+</td>
+</tr><tr id="501ST_SITH_EMPIRE_W_MALAK" class="counter toggleable">
+<td valign="top" colspan="2">
+<h3>Opponent</h3>
+<div style="display: flex">
+	<div class="toT"><img class="toI squad GENERALSKYWALKER-i" /><br/>GAS</div><div class="toT"><img class="toI squad ARCTROOPER501ST-i" /><br/>ARC Trooper</div><div class="toT"><img class="toI squad CT7567-i" /><br/>Rex</div><div class="toT"><img class="toI squad CT210408-i" /><br/>Echo</div><div class="toT"><img class="toI squad CT5555-i" /><br/>Fives</div>
+</div>
+
+<h3>Description</h3>
+<div class="501ST-desc"></div>
+</td>
+<td colspan="2">
+<h3>Counter: DRMalak 118k</h3>
+<div style="display: flex">
+	<div class="toT"><img class="toI squad DARTHREVAN-i"><br/>zzzDR</div> <div class="toT"><img class="toI squad HK47-i"><br/>zzHK-47</div> <div class="toT"><img class="toI squad BASTILASHANDARK-i"><br/>zBSF</div> <div class="toT"><img class="toI squad DARTHMALAK-i"><br/>zzMalak</div> <div class="toT"><img class="toI squad SITHTROOPER-i"><br/>Sith Empire Trooper G11</div>
+</div>
+
+<h3>Subs</h3><div class="SITH_EMPIRE_W_MALAK-subs"></div>
+<h3>Strategy</h3><div class="501ST-SITH_EMPIRE_W_MALAK-strat"></div>
+<h3>General Strategy</h3>
+<div class="501ST-strat"></div>
 </td>
 </tr><tr id="501ST_REBELS_CLS" class="counter toggleable">
 <td valign="top" colspan="2">
@@ -129,27 +150,6 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 </div>
 <h3>Subs</h3><div class="REBELS_CLS-subs"></div>
 <h3>Strategy</h3><div class="501ST-REBELS_CLS-strat"></div>
-<h3>General Strategy</h3>
-<div class="501ST-strat"></div>
-</td>
-</tr><tr id="501ST_SITH_EMPIRE_W_MALAK" class="counter toggleable">
-<td valign="top" colspan="2">
-<h3>Opponent</h3>
-<div style="display: flex">
-	<div class="toT"><img class="toI squad GENERALSKYWALKER-i" /><br/>GAS</div><div class="toT"><img class="toI squad ARCTROOPER501ST-i" /><br/>ARC Trooper</div><div class="toT"><img class="toI squad CT7567-i" /><br/>Rex</div><div class="toT"><img class="toI squad CT210408-i" /><br/>Echo</div><div class="toT"><img class="toI squad CT5555-i" /><br/>Fives</div>
-</div>
-
-<h3>Description</h3>
-<div class="501ST-desc"></div>
-</td>
-<td colspan="2">
-<h3>Counter: DRMalak 115k</h3>
-<div style="display: flex">
-	<div class="toT"><img class="toI squad DARTHREVAN-i"><br/>zzzDR</div> <div class="toT"><img class="toI squad HK47-i"><br/>zzHK-47</div> <div class="toT"><img class="toI squad BASTILASHANDARK-i"><br/>zBSF</div> <div class="toT"><img class="toI squad DARTHMALAK-i"><br/>zzMalak 6* G11</div> <div class="toT"><img class="toI squad SITHTROOPER-i"><br/>Sith Empire Trooper G11</div>
-</div>
-
-<h3>Subs</h3><div class="SITH_EMPIRE_W_MALAK-subs"></div>
-<h3>Strategy</h3><div class="501ST-SITH_EMPIRE_W_MALAK-strat"></div>
 <h3>General Strategy</h3>
 <div class="501ST-strat"></div>
 </td>
@@ -378,7 +378,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Counter: FO 89k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad KYLORENUNMASKED-i"><br/>zzKRU</div> <div class="toT"><img class="toI squad KYLOREN-i"><br/>zKylo</div> <div class="toT"><img class="toI squad FIRSTORDEREXECUTIONER-i"><br/>FOE</div> <div class="toT"><img class="toI squad FIRSTORDEROFFICERMALE-i"><br/>FOO G11</div> <div class="toT"><img class="toI squad FIRSTORDERTROOPER-i"><br/>zFOST G8</div>
+	<div class="toT"><img class="toI squad KYLORENUNMASKED-i"><br/>zzKRU</div> <div class="toT"><img class="toI squad KYLOREN-i"><br/>zKylo</div> <div class="toT"><img class="toI squad FIRSTORDEROFFICERMALE-i"><br/>FOO G11</div> <div class="toT"><img class="toI squad FIRSTORDERTROOPER-i"><br/>zFOST G8</div> <div class="toT"><img class="toI squad FIRSTORDEREXECUTIONER-i"><br/>FOE</div>
 </div>
 
 <h3>Subs</h3><div class="FO_KRU-subs"></div>
@@ -399,7 +399,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Counter: Troopers 74k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad VEERS-i"><br/>Veers G11</div> <div class="toT"><img class="toI squad COLONELSTARCK-i"><br/>Starck G10</div> <div class="toT"><img class="toI squad SNOWTROOPER-i"><br/>Snowtrooper G11</div> <div class="toT"><img class="toI squad DEATHTROOPER-i"><br/>DT G9</div> <div class="toT"><img class="toI squad RANGETROOPER-i"><br/>Range Trooper G9</div><div class="toT"><img title="Veers: Aggressive Tactician missing.  " src="../../i/tractor24.png">&nbsp;Veers: Aggressive Tactician missing.  </div>
+	<div class="toT"><img class="toI squad VEERS-i"><br/>Veers G11</div> <div class="toT"><img class="toI squad COLONELSTARCK-i"><br/>Starck G10</div> <div class="toT"><img class="toI squad RANGETROOPER-i"><br/>Range Trooper G9</div> <div class="toT"><img class="toI squad DEATHTROOPER-i"><br/>DT G9</div> <div class="toT"><img class="toI squad SNOWTROOPER-i"><br/>Snowtrooper G11</div><div class="toT"><img title="Veers: Aggressive Tactician missing.  " src="../../i/tractor24.png">&nbsp;Veers: Aggressive Tactician missing.  </div>
 </div>
 
 <h3>Subs</h3><div class="IT-subs"></div>
@@ -656,7 +656,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Counter: FO 89k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad KYLORENUNMASKED-i"><br/>zzKRU</div> <div class="toT"><img class="toI squad KYLOREN-i"><br/>zKylo</div> <div class="toT"><img class="toI squad FIRSTORDEREXECUTIONER-i"><br/>FOE</div> <div class="toT"><img class="toI squad FIRSTORDEROFFICERMALE-i"><br/>FOO G11</div> <div class="toT"><img class="toI squad FIRSTORDERTROOPER-i"><br/>zFOST G8</div>
+	<div class="toT"><img class="toI squad KYLORENUNMASKED-i"><br/>zzKRU</div> <div class="toT"><img class="toI squad KYLOREN-i"><br/>zKylo</div> <div class="toT"><img class="toI squad FIRSTORDEROFFICERMALE-i"><br/>FOO G11</div> <div class="toT"><img class="toI squad FIRSTORDERTROOPER-i"><br/>zFOST G8</div> <div class="toT"><img class="toI squad FIRSTORDEREXECUTIONER-i"><br/>FOE</div>
 </div>
 
 <h3>Subs</h3><div class="FO_KRU-subs"></div>
@@ -960,7 +960,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Hard Counter: BH 112k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad JANGOFETT-i"><br/>zzJango</div> <div class="toT"><img class="toI squad BOSSK-i"><br/>zzBossk</div> <div class="toT"><img class="toI squad DENGAR-i"><br/>zDengar</div> <div class="toT"><img class="toI squad BOBAFETT-i"><br/>zBoba</div> <div class="toT"><img class="toI squad ENFYSNEST-i"><br/>zNest</div>
+	<div class="toT"><img class="toI squad JANGOFETT-i"><br/>zzJango</div> <div class="toT"><img class="toI squad BOSSK-i"><br/>zzBossk</div> <div class="toT"><img class="toI squad BOBAFETT-i"><br/>zBoba</div> <div class="toT"><img class="toI squad DENGAR-i"><br/>zDengar</div> <div class="toT"><img class="toI squad ENFYSNEST-i"><br/>zNest</div>
 </div>
 
 <h3>Subs</h3><div class="BH_JANGO-subs"></div>
@@ -1086,7 +1086,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Counter: Troopers 74k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad VEERS-i"><br/>Veers G11</div> <div class="toT"><img class="toI squad COLONELSTARCK-i"><br/>Starck G10</div> <div class="toT"><img class="toI squad SNOWTROOPER-i"><br/>Snowtrooper G11</div> <div class="toT"><img class="toI squad DEATHTROOPER-i"><br/>DT G9</div> <div class="toT"><img class="toI squad RANGETROOPER-i"><br/>Range Trooper G9</div><div class="toT"><img title="Veers: Aggressive Tactician missing.  " src="../../i/tractor24.png">&nbsp;Veers: Aggressive Tactician missing.  </div>
+	<div class="toT"><img class="toI squad VEERS-i"><br/>Veers G11</div> <div class="toT"><img class="toI squad COLONELSTARCK-i"><br/>Starck G10</div> <div class="toT"><img class="toI squad RANGETROOPER-i"><br/>Range Trooper G9</div> <div class="toT"><img class="toI squad DEATHTROOPER-i"><br/>DT G9</div> <div class="toT"><img class="toI squad SNOWTROOPER-i"><br/>Snowtrooper G11</div><div class="toT"><img title="Veers: Aggressive Tactician missing.  " src="../../i/tractor24.png">&nbsp;Veers: Aggressive Tactician missing.  </div>
 </div>
 
 <h3>Subs</h3><div class="IT-subs"></div>
@@ -1127,7 +1127,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Hard Counter: BH 112k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad JANGOFETT-i"><br/>zzJango</div> <div class="toT"><img class="toI squad BOSSK-i"><br/>zzBossk</div> <div class="toT"><img class="toI squad DENGAR-i"><br/>zDengar</div> <div class="toT"><img class="toI squad BOBAFETT-i"><br/>zBoba</div> <div class="toT"><img class="toI squad ENFYSNEST-i"><br/>zNest</div>
+	<div class="toT"><img class="toI squad JANGOFETT-i"><br/>zzJango</div> <div class="toT"><img class="toI squad BOSSK-i"><br/>zzBossk</div> <div class="toT"><img class="toI squad BOBAFETT-i"><br/>zBoba</div> <div class="toT"><img class="toI squad DENGAR-i"><br/>zDengar</div> <div class="toT"><img class="toI squad ENFYSNEST-i"><br/>zNest</div>
 </div>
 
 <h3>Subs</h3><div class="BH_JANGO-subs"></div>
@@ -1214,7 +1214,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Hard Counter: NS_Alt 100k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad MOTHERTALZIN-i"><br/>zzMT</div> <div class="toT"><img class="toI squad ASAJVENTRESS-i"><br/>zzAV</div> <div class="toT"><img class="toI squad NIGHTSISTERZOMBIE-i"><br/>Zombie G11</div> <div class="toT"><img class="toI squad DAKA-i"><br/>zDaka G11</div> <div class="toT"><img class="toI squad TALIA-i"><br/>Talia G10</div>
+	<div class="toT"><img class="toI squad MOTHERTALZIN-i"><br/>zzMT</div> <div class="toT"><img class="toI squad ASAJVENTRESS-i"><br/>zzAV</div> <div class="toT"><img class="toI squad NIGHTSISTERZOMBIE-i"><br/>Zombie G11</div> <div class="toT"><img class="toI squad TALIA-i"><br/>Talia G10</div> <div class="toT"><img class="toI squad DAKA-i"><br/>zDaka G11</div>
 </div>
 <h3>Hard Counter Alternate:  100k</h3>
 <div style="display: flex">
@@ -1259,7 +1259,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Hard Counter: FO 89k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad KYLORENUNMASKED-i"><br/>zzKRU</div> <div class="toT"><img class="toI squad KYLOREN-i"><br/>zKylo</div> <div class="toT"><img class="toI squad FIRSTORDEREXECUTIONER-i"><br/>FOE</div> <div class="toT"><img class="toI squad FIRSTORDEROFFICERMALE-i"><br/>FOO G11</div> <div class="toT"><img class="toI squad FIRSTORDERTROOPER-i"><br/>zFOST G8</div>
+	<div class="toT"><img class="toI squad KYLORENUNMASKED-i"><br/>zzKRU</div> <div class="toT"><img class="toI squad KYLOREN-i"><br/>zKylo</div> <div class="toT"><img class="toI squad FIRSTORDEROFFICERMALE-i"><br/>FOO G11</div> <div class="toT"><img class="toI squad FIRSTORDERTROOPER-i"><br/>zFOST G8</div> <div class="toT"><img class="toI squad FIRSTORDEREXECUTIONER-i"><br/>FOE</div>
 </div>
 
 <h3>Subs</h3><div class="FO_KRU-subs"></div>
@@ -1280,7 +1280,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Hard Counter: Troopers 74k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad VEERS-i"><br/>Veers G11</div> <div class="toT"><img class="toI squad COLONELSTARCK-i"><br/>Starck G10</div> <div class="toT"><img class="toI squad SNOWTROOPER-i"><br/>Snowtrooper G11</div> <div class="toT"><img class="toI squad DEATHTROOPER-i"><br/>DT G9</div> <div class="toT"><img class="toI squad RANGETROOPER-i"><br/>Range Trooper G9</div><div class="toT"><img title="Veers: Aggressive Tactician missing.  " src="../../i/tractor24.png">&nbsp;Veers: Aggressive Tactician missing.  </div>
+	<div class="toT"><img class="toI squad VEERS-i"><br/>Veers G11</div> <div class="toT"><img class="toI squad COLONELSTARCK-i"><br/>Starck G10</div> <div class="toT"><img class="toI squad RANGETROOPER-i"><br/>Range Trooper G9</div> <div class="toT"><img class="toI squad DEATHTROOPER-i"><br/>DT G9</div> <div class="toT"><img class="toI squad SNOWTROOPER-i"><br/>Snowtrooper G11</div><div class="toT"><img title="Veers: Aggressive Tactician missing.  " src="../../i/tractor24.png">&nbsp;Veers: Aggressive Tactician missing.  </div>
 </div>
 
 <h3>Subs</h3><div class="IT-subs"></div>
@@ -1621,7 +1621,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Counter: NS_Alt 100k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad MOTHERTALZIN-i"><br/>zzMT</div> <div class="toT"><img class="toI squad ASAJVENTRESS-i"><br/>zzAV</div> <div class="toT"><img class="toI squad NIGHTSISTERZOMBIE-i"><br/>Zombie G11</div> <div class="toT"><img class="toI squad DAKA-i"><br/>zDaka G11</div> <div class="toT"><img class="toI squad TALIA-i"><br/>Talia G10</div>
+	<div class="toT"><img class="toI squad MOTHERTALZIN-i"><br/>zzMT</div> <div class="toT"><img class="toI squad ASAJVENTRESS-i"><br/>zzAV</div> <div class="toT"><img class="toI squad NIGHTSISTERZOMBIE-i"><br/>Zombie G11</div> <div class="toT"><img class="toI squad TALIA-i"><br/>Talia G10</div> <div class="toT"><img class="toI squad DAKA-i"><br/>zDaka G11</div>
 </div>
 <h3>Counter Alternate:  100k</h3>
 <div style="display: flex">
@@ -1708,7 +1708,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Counter: Troopers 74k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad VEERS-i"><br/>Veers G11</div> <div class="toT"><img class="toI squad COLONELSTARCK-i"><br/>Starck G10</div> <div class="toT"><img class="toI squad SNOWTROOPER-i"><br/>Snowtrooper G11</div> <div class="toT"><img class="toI squad DEATHTROOPER-i"><br/>DT G9</div> <div class="toT"><img class="toI squad RANGETROOPER-i"><br/>Range Trooper G9</div><div class="toT"><img title="Veers: Aggressive Tactician missing.  " src="../../i/tractor24.png">&nbsp;Veers: Aggressive Tactician missing.  </div>
+	<div class="toT"><img class="toI squad VEERS-i"><br/>Veers G11</div> <div class="toT"><img class="toI squad COLONELSTARCK-i"><br/>Starck G10</div> <div class="toT"><img class="toI squad RANGETROOPER-i"><br/>Range Trooper G9</div> <div class="toT"><img class="toI squad DEATHTROOPER-i"><br/>DT G9</div> <div class="toT"><img class="toI squad SNOWTROOPER-i"><br/>Snowtrooper G11</div><div class="toT"><img title="Veers: Aggressive Tactician missing.  " src="../../i/tractor24.png">&nbsp;Veers: Aggressive Tactician missing.  </div>
 </div>
 
 <h3>Subs</h3><div class="IT-subs"></div>
@@ -1729,7 +1729,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Counter: Phoenix 73k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad HERASYNDULLAS3-i"><br/>Hera G8</div> <div class="toT"><img class="toI squad EZRABRIDGERS3-i"><br/>zEzra</div> <div class="toT"><img class="toI squad KANANJARRUSS3-i"><br/>Kanan G8</div> <div class="toT"><img class="toI squad ZEBS3-i"><br/>Zeb G8</div> <div class="toT"><img class="toI squad SABINEWRENS3-i"><br/>Sabine G8</div>
+	<div class="toT"><img class="toI squad HERASYNDULLAS3-i"><br/>Hera G8</div> <div class="toT"><img class="toI squad KANANJARRUSS3-i"><br/>Kanan G8</div> <div class="toT"><img class="toI squad EZRABRIDGERS3-i"><br/>zEzra</div> <div class="toT"><img class="toI squad ZEBS3-i"><br/>Zeb G8</div> <div class="toT"><img class="toI squad SABINEWRENS3-i"><br/>Sabine G8</div>
 </div>
 
 <h3>Subs</h3><div class="PHOENIX-subs"></div>
@@ -1899,9 +1899,9 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <div class="GALACTIC_REPUBLIC-desc"></div>
 </td>
 <td colspan="2">
-<h3>Counter: DRMalak 115k</h3>
+<h3>Counter: DRMalak 118k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad DARTHREVAN-i"><br/>zzzDR</div> <div class="toT"><img class="toI squad HK47-i"><br/>zzHK-47</div> <div class="toT"><img class="toI squad BASTILASHANDARK-i"><br/>zBSF</div> <div class="toT"><img class="toI squad DARTHMALAK-i"><br/>zzMalak 6* G11</div> <div class="toT"><img class="toI squad SITHTROOPER-i"><br/>Sith Empire Trooper G11</div>
+	<div class="toT"><img class="toI squad DARTHREVAN-i"><br/>zzzDR</div> <div class="toT"><img class="toI squad HK47-i"><br/>zzHK-47</div> <div class="toT"><img class="toI squad BASTILASHANDARK-i"><br/>zBSF</div> <div class="toT"><img class="toI squad DARTHMALAK-i"><br/>zzMalak</div> <div class="toT"><img class="toI squad SITHTROOPER-i"><br/>Sith Empire Trooper G11</div>
 </div>
 
 <h3>Subs</h3><div class="SITH_EMPIRE_W_MALAK-subs"></div>
@@ -2095,7 +2095,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Counter: BH 112k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad JANGOFETT-i"><br/>zzJango</div> <div class="toT"><img class="toI squad BOSSK-i"><br/>zzBossk</div> <div class="toT"><img class="toI squad DENGAR-i"><br/>zDengar</div> <div class="toT"><img class="toI squad BOBAFETT-i"><br/>zBoba</div> <div class="toT"><img class="toI squad ENFYSNEST-i"><br/>zNest</div>
+	<div class="toT"><img class="toI squad JANGOFETT-i"><br/>zzJango</div> <div class="toT"><img class="toI squad BOSSK-i"><br/>zzBossk</div> <div class="toT"><img class="toI squad BOBAFETT-i"><br/>zBoba</div> <div class="toT"><img class="toI squad DENGAR-i"><br/>zDengar</div> <div class="toT"><img class="toI squad ENFYSNEST-i"><br/>zNest</div>
 </div>
 
 <h3>Subs</h3><div class="BH_JANGO-subs"></div>
@@ -2158,7 +2158,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Counter: NS_Alt 100k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad MOTHERTALZIN-i"><br/>zzMT</div> <div class="toT"><img class="toI squad ASAJVENTRESS-i"><br/>zzAV</div> <div class="toT"><img class="toI squad NIGHTSISTERZOMBIE-i"><br/>Zombie G11</div> <div class="toT"><img class="toI squad DAKA-i"><br/>zDaka G11</div> <div class="toT"><img class="toI squad TALIA-i"><br/>Talia G10</div>
+	<div class="toT"><img class="toI squad MOTHERTALZIN-i"><br/>zzMT</div> <div class="toT"><img class="toI squad ASAJVENTRESS-i"><br/>zzAV</div> <div class="toT"><img class="toI squad NIGHTSISTERZOMBIE-i"><br/>Zombie G11</div> <div class="toT"><img class="toI squad TALIA-i"><br/>Talia G10</div> <div class="toT"><img class="toI squad DAKA-i"><br/>zDaka G11</div>
 </div>
 <h3>Counter Alternate:  100k</h3>
 <div style="display: flex">
@@ -2501,7 +2501,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Counter: Troopers 74k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad VEERS-i"><br/>Veers G11</div> <div class="toT"><img class="toI squad COLONELSTARCK-i"><br/>Starck G10</div> <div class="toT"><img class="toI squad SNOWTROOPER-i"><br/>Snowtrooper G11</div> <div class="toT"><img class="toI squad DEATHTROOPER-i"><br/>DT G9</div> <div class="toT"><img class="toI squad RANGETROOPER-i"><br/>Range Trooper G9</div><div class="toT"><img title="Veers: Aggressive Tactician missing.  " src="../../i/tractor24.png">&nbsp;Veers: Aggressive Tactician missing.  </div>
+	<div class="toT"><img class="toI squad VEERS-i"><br/>Veers G11</div> <div class="toT"><img class="toI squad COLONELSTARCK-i"><br/>Starck G10</div> <div class="toT"><img class="toI squad RANGETROOPER-i"><br/>Range Trooper G9</div> <div class="toT"><img class="toI squad DEATHTROOPER-i"><br/>DT G9</div> <div class="toT"><img class="toI squad SNOWTROOPER-i"><br/>Snowtrooper G11</div><div class="toT"><img title="Veers: Aggressive Tactician missing.  " src="../../i/tractor24.png">&nbsp;Veers: Aggressive Tactician missing.  </div>
 </div>
 
 <h3>Subs</h3><div class="IT-subs"></div>
@@ -2716,7 +2716,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Counter: FO 89k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad KYLORENUNMASKED-i"><br/>zzKRU</div> <div class="toT"><img class="toI squad KYLOREN-i"><br/>zKylo</div> <div class="toT"><img class="toI squad FIRSTORDEREXECUTIONER-i"><br/>FOE</div> <div class="toT"><img class="toI squad FIRSTORDEROFFICERMALE-i"><br/>FOO G11</div> <div class="toT"><img class="toI squad FIRSTORDERTROOPER-i"><br/>zFOST G8</div>
+	<div class="toT"><img class="toI squad KYLORENUNMASKED-i"><br/>zzKRU</div> <div class="toT"><img class="toI squad KYLOREN-i"><br/>zKylo</div> <div class="toT"><img class="toI squad FIRSTORDEROFFICERMALE-i"><br/>FOO G11</div> <div class="toT"><img class="toI squad FIRSTORDERTROOPER-i"><br/>zFOST G8</div> <div class="toT"><img class="toI squad FIRSTORDEREXECUTIONER-i"><br/>FOE</div>
 </div>
 
 <h3>Subs</h3><div class="FO_KRU-subs"></div>
@@ -2797,9 +2797,9 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <div class="JEDI_REVAN-desc"></div>
 </td>
 <td colspan="2">
-<h3>Hard Counter: DRMalak 115k</h3>
+<h3>Hard Counter: DRMalak 118k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad DARTHREVAN-i"><br/>zzzDR</div> <div class="toT"><img class="toI squad HK47-i"><br/>zzHK-47</div> <div class="toT"><img class="toI squad BASTILASHANDARK-i"><br/>zBSF</div> <div class="toT"><img class="toI squad DARTHMALAK-i"><br/>zzMalak 6* G11</div> <div class="toT"><img class="toI squad SITHTROOPER-i"><br/>Sith Empire Trooper G11</div>
+	<div class="toT"><img class="toI squad DARTHREVAN-i"><br/>zzzDR</div> <div class="toT"><img class="toI squad HK47-i"><br/>zzHK-47</div> <div class="toT"><img class="toI squad BASTILASHANDARK-i"><br/>zBSF</div> <div class="toT"><img class="toI squad DARTHMALAK-i"><br/>zzMalak</div> <div class="toT"><img class="toI squad SITHTROOPER-i"><br/>Sith Empire Trooper G11</div>
 </div>
 
 <h3>Subs</h3><div class="SITH_EMPIRE_W_MALAK-subs"></div>
@@ -2928,7 +2928,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Counter: NS_Alt 100k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad MOTHERTALZIN-i"><br/>zzMT</div> <div class="toT"><img class="toI squad ASAJVENTRESS-i"><br/>zzAV</div> <div class="toT"><img class="toI squad NIGHTSISTERZOMBIE-i"><br/>Zombie G11</div> <div class="toT"><img class="toI squad DAKA-i"><br/>zDaka G11</div> <div class="toT"><img class="toI squad TALIA-i"><br/>Talia G10</div>
+	<div class="toT"><img class="toI squad MOTHERTALZIN-i"><br/>zzMT</div> <div class="toT"><img class="toI squad ASAJVENTRESS-i"><br/>zzAV</div> <div class="toT"><img class="toI squad NIGHTSISTERZOMBIE-i"><br/>Zombie G11</div> <div class="toT"><img class="toI squad TALIA-i"><br/>Talia G10</div> <div class="toT"><img class="toI squad DAKA-i"><br/>zDaka G11</div>
 </div>
 <h3>Counter Alternate:  100k</h3>
 <div style="display: flex">
@@ -3059,7 +3059,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Hard Counter: NS_Alt 100k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad MOTHERTALZIN-i"><br/>zzMT</div> <div class="toT"><img class="toI squad ASAJVENTRESS-i"><br/>zzAV</div> <div class="toT"><img class="toI squad NIGHTSISTERZOMBIE-i"><br/>Zombie G11</div> <div class="toT"><img class="toI squad DAKA-i"><br/>zDaka G11</div> <div class="toT"><img class="toI squad TALIA-i"><br/>Talia G10</div>
+	<div class="toT"><img class="toI squad MOTHERTALZIN-i"><br/>zzMT</div> <div class="toT"><img class="toI squad ASAJVENTRESS-i"><br/>zzAV</div> <div class="toT"><img class="toI squad NIGHTSISTERZOMBIE-i"><br/>Zombie G11</div> <div class="toT"><img class="toI squad TALIA-i"><br/>Talia G10</div> <div class="toT"><img class="toI squad DAKA-i"><br/>zDaka G11</div>
 </div>
 <h3>Hard Counter Alternate:  100k</h3>
 <div style="display: flex">
@@ -3146,7 +3146,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Counter: FO 89k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad KYLORENUNMASKED-i"><br/>zzKRU</div> <div class="toT"><img class="toI squad KYLOREN-i"><br/>zKylo</div> <div class="toT"><img class="toI squad FIRSTORDEREXECUTIONER-i"><br/>FOE</div> <div class="toT"><img class="toI squad FIRSTORDEROFFICERMALE-i"><br/>FOO G11</div> <div class="toT"><img class="toI squad FIRSTORDERTROOPER-i"><br/>zFOST G8</div>
+	<div class="toT"><img class="toI squad KYLORENUNMASKED-i"><br/>zzKRU</div> <div class="toT"><img class="toI squad KYLOREN-i"><br/>zKylo</div> <div class="toT"><img class="toI squad FIRSTORDEROFFICERMALE-i"><br/>FOO G11</div> <div class="toT"><img class="toI squad FIRSTORDERTROOPER-i"><br/>zFOST G8</div> <div class="toT"><img class="toI squad FIRSTORDEREXECUTIONER-i"><br/>FOE</div>
 </div>
 
 <h3>Subs</h3><div class="FO_KRU-subs"></div>
@@ -3381,7 +3381,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Hard Counter: NS_Alt 100k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad MOTHERTALZIN-i"><br/>zzMT</div> <div class="toT"><img class="toI squad ASAJVENTRESS-i"><br/>zzAV</div> <div class="toT"><img class="toI squad NIGHTSISTERZOMBIE-i"><br/>Zombie G11</div> <div class="toT"><img class="toI squad DAKA-i"><br/>zDaka G11</div> <div class="toT"><img class="toI squad TALIA-i"><br/>Talia G10</div>
+	<div class="toT"><img class="toI squad MOTHERTALZIN-i"><br/>zzMT</div> <div class="toT"><img class="toI squad ASAJVENTRESS-i"><br/>zzAV</div> <div class="toT"><img class="toI squad NIGHTSISTERZOMBIE-i"><br/>Zombie G11</div> <div class="toT"><img class="toI squad TALIA-i"><br/>Talia G10</div> <div class="toT"><img class="toI squad DAKA-i"><br/>zDaka G11</div>
 </div>
 <h3>Hard Counter Alternate:  100k</h3>
 <div style="display: flex">
@@ -3583,7 +3583,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Hard Counter: BH 112k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad JANGOFETT-i"><br/>zzJango</div> <div class="toT"><img class="toI squad BOSSK-i"><br/>zzBossk</div> <div class="toT"><img class="toI squad DENGAR-i"><br/>zDengar</div> <div class="toT"><img class="toI squad BOBAFETT-i"><br/>zBoba</div> <div class="toT"><img class="toI squad ENFYSNEST-i"><br/>zNest</div>
+	<div class="toT"><img class="toI squad JANGOFETT-i"><br/>zzJango</div> <div class="toT"><img class="toI squad BOSSK-i"><br/>zzBossk</div> <div class="toT"><img class="toI squad BOBAFETT-i"><br/>zBoba</div> <div class="toT"><img class="toI squad DENGAR-i"><br/>zDengar</div> <div class="toT"><img class="toI squad ENFYSNEST-i"><br/>zNest</div>
 </div>
 
 <h3>Subs</h3><div class="BH_JANGO-subs"></div>
@@ -3754,7 +3754,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Hard Counter: FO 89k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad KYLORENUNMASKED-i"><br/>zzKRU</div> <div class="toT"><img class="toI squad KYLOREN-i"><br/>zKylo</div> <div class="toT"><img class="toI squad FIRSTORDEREXECUTIONER-i"><br/>FOE</div> <div class="toT"><img class="toI squad FIRSTORDEROFFICERMALE-i"><br/>FOO G11</div> <div class="toT"><img class="toI squad FIRSTORDERTROOPER-i"><br/>zFOST G8</div>
+	<div class="toT"><img class="toI squad KYLORENUNMASKED-i"><br/>zzKRU</div> <div class="toT"><img class="toI squad KYLOREN-i"><br/>zKylo</div> <div class="toT"><img class="toI squad FIRSTORDEROFFICERMALE-i"><br/>FOO G11</div> <div class="toT"><img class="toI squad FIRSTORDERTROOPER-i"><br/>zFOST G8</div> <div class="toT"><img class="toI squad FIRSTORDEREXECUTIONER-i"><br/>FOE</div>
 </div>
 
 <h3>Subs</h3><div class="FO_KRU-subs"></div>
@@ -3859,7 +3859,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Counter: Troopers 74k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad VEERS-i"><br/>Veers G11</div> <div class="toT"><img class="toI squad COLONELSTARCK-i"><br/>Starck G10</div> <div class="toT"><img class="toI squad SNOWTROOPER-i"><br/>Snowtrooper G11</div> <div class="toT"><img class="toI squad DEATHTROOPER-i"><br/>DT G9</div> <div class="toT"><img class="toI squad RANGETROOPER-i"><br/>Range Trooper G9</div><div class="toT"><img title="Veers: Aggressive Tactician missing.  " src="../../i/tractor24.png">&nbsp;Veers: Aggressive Tactician missing.  </div>
+	<div class="toT"><img class="toI squad VEERS-i"><br/>Veers G11</div> <div class="toT"><img class="toI squad COLONELSTARCK-i"><br/>Starck G10</div> <div class="toT"><img class="toI squad RANGETROOPER-i"><br/>Range Trooper G9</div> <div class="toT"><img class="toI squad DEATHTROOPER-i"><br/>DT G9</div> <div class="toT"><img class="toI squad SNOWTROOPER-i"><br/>Snowtrooper G11</div><div class="toT"><img title="Veers: Aggressive Tactician missing.  " src="../../i/tractor24.png">&nbsp;Veers: Aggressive Tactician missing.  </div>
 </div>
 
 <h3>Subs</h3><div class="IT-subs"></div>
@@ -3880,7 +3880,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Counter: Phoenix 73k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad HERASYNDULLAS3-i"><br/>Hera G8</div> <div class="toT"><img class="toI squad EZRABRIDGERS3-i"><br/>zEzra</div> <div class="toT"><img class="toI squad KANANJARRUSS3-i"><br/>Kanan G8</div> <div class="toT"><img class="toI squad ZEBS3-i"><br/>Zeb G8</div> <div class="toT"><img class="toI squad SABINEWRENS3-i"><br/>Sabine G8</div>
+	<div class="toT"><img class="toI squad HERASYNDULLAS3-i"><br/>Hera G8</div> <div class="toT"><img class="toI squad KANANJARRUSS3-i"><br/>Kanan G8</div> <div class="toT"><img class="toI squad EZRABRIDGERS3-i"><br/>zEzra</div> <div class="toT"><img class="toI squad ZEBS3-i"><br/>Zeb G8</div> <div class="toT"><img class="toI squad SABINEWRENS3-i"><br/>Sabine G8</div>
 </div>
 
 <h3>Subs</h3><div class="PHOENIX-subs"></div>
@@ -3986,7 +3986,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Hard Counter: BH 112k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad JANGOFETT-i"><br/>zzJango</div> <div class="toT"><img class="toI squad BOSSK-i"><br/>zzBossk</div> <div class="toT"><img class="toI squad DENGAR-i"><br/>zDengar</div> <div class="toT"><img class="toI squad BOBAFETT-i"><br/>zBoba</div> <div class="toT"><img class="toI squad ENFYSNEST-i"><br/>zNest</div>
+	<div class="toT"><img class="toI squad JANGOFETT-i"><br/>zzJango</div> <div class="toT"><img class="toI squad BOSSK-i"><br/>zzBossk</div> <div class="toT"><img class="toI squad BOBAFETT-i"><br/>zBoba</div> <div class="toT"><img class="toI squad DENGAR-i"><br/>zDengar</div> <div class="toT"><img class="toI squad ENFYSNEST-i"><br/>zNest</div>
 </div>
 
 <h3>Subs</h3><div class="BH_JANGO-subs"></div>
@@ -4157,7 +4157,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Counter: Troopers 74k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad VEERS-i"><br/>Veers G11</div> <div class="toT"><img class="toI squad COLONELSTARCK-i"><br/>Starck G10</div> <div class="toT"><img class="toI squad SNOWTROOPER-i"><br/>Snowtrooper G11</div> <div class="toT"><img class="toI squad DEATHTROOPER-i"><br/>DT G9</div> <div class="toT"><img class="toI squad RANGETROOPER-i"><br/>Range Trooper G9</div><div class="toT"><img title="Veers: Aggressive Tactician missing.  " src="../../i/tractor24.png">&nbsp;Veers: Aggressive Tactician missing.  </div>
+	<div class="toT"><img class="toI squad VEERS-i"><br/>Veers G11</div> <div class="toT"><img class="toI squad COLONELSTARCK-i"><br/>Starck G10</div> <div class="toT"><img class="toI squad RANGETROOPER-i"><br/>Range Trooper G9</div> <div class="toT"><img class="toI squad DEATHTROOPER-i"><br/>DT G9</div> <div class="toT"><img class="toI squad SNOWTROOPER-i"><br/>Snowtrooper G11</div><div class="toT"><img title="Veers: Aggressive Tactician missing.  " src="../../i/tractor24.png">&nbsp;Veers: Aggressive Tactician missing.  </div>
 </div>
 
 <h3>Subs</h3><div class="IT-subs"></div>
@@ -4222,7 +4222,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Hard Counter: BH 112k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad JANGOFETT-i"><br/>zzJango</div> <div class="toT"><img class="toI squad BOSSK-i"><br/>zzBossk</div> <div class="toT"><img class="toI squad DENGAR-i"><br/>zDengar</div> <div class="toT"><img class="toI squad BOBAFETT-i"><br/>zBoba</div> <div class="toT"><img class="toI squad ENFYSNEST-i"><br/>zNest</div>
+	<div class="toT"><img class="toI squad JANGOFETT-i"><br/>zzJango</div> <div class="toT"><img class="toI squad BOSSK-i"><br/>zzBossk</div> <div class="toT"><img class="toI squad BOBAFETT-i"><br/>zBoba</div> <div class="toT"><img class="toI squad DENGAR-i"><br/>zDengar</div> <div class="toT"><img class="toI squad ENFYSNEST-i"><br/>zNest</div>
 </div>
 
 <h3>Subs</h3><div class="BH_JANGO-subs"></div>
@@ -4435,7 +4435,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Hard Counter: FO 89k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad KYLORENUNMASKED-i"><br/>zzKRU</div> <div class="toT"><img class="toI squad KYLOREN-i"><br/>zKylo</div> <div class="toT"><img class="toI squad FIRSTORDEREXECUTIONER-i"><br/>FOE</div> <div class="toT"><img class="toI squad FIRSTORDEROFFICERMALE-i"><br/>FOO G11</div> <div class="toT"><img class="toI squad FIRSTORDERTROOPER-i"><br/>zFOST G8</div>
+	<div class="toT"><img class="toI squad KYLORENUNMASKED-i"><br/>zzKRU</div> <div class="toT"><img class="toI squad KYLOREN-i"><br/>zKylo</div> <div class="toT"><img class="toI squad FIRSTORDEROFFICERMALE-i"><br/>FOO G11</div> <div class="toT"><img class="toI squad FIRSTORDERTROOPER-i"><br/>zFOST G8</div> <div class="toT"><img class="toI squad FIRSTORDEREXECUTIONER-i"><br/>FOE</div>
 </div>
 
 <h3>Subs</h3><div class="FO_KRU-subs"></div>
@@ -4456,7 +4456,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Hard Counter: Phoenix 73k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad HERASYNDULLAS3-i"><br/>Hera G8</div> <div class="toT"><img class="toI squad EZRABRIDGERS3-i"><br/>zEzra</div> <div class="toT"><img class="toI squad KANANJARRUSS3-i"><br/>Kanan G8</div> <div class="toT"><img class="toI squad ZEBS3-i"><br/>Zeb G8</div> <div class="toT"><img class="toI squad SABINEWRENS3-i"><br/>Sabine G8</div>
+	<div class="toT"><img class="toI squad HERASYNDULLAS3-i"><br/>Hera G8</div> <div class="toT"><img class="toI squad KANANJARRUSS3-i"><br/>Kanan G8</div> <div class="toT"><img class="toI squad EZRABRIDGERS3-i"><br/>zEzra</div> <div class="toT"><img class="toI squad ZEBS3-i"><br/>Zeb G8</div> <div class="toT"><img class="toI squad SABINEWRENS3-i"><br/>Sabine G8</div>
 </div>
 
 <h3>Subs</h3><div class="PHOENIX-subs"></div>
@@ -4477,7 +4477,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Counter: NS_Alt 100k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad MOTHERTALZIN-i"><br/>zzMT</div> <div class="toT"><img class="toI squad ASAJVENTRESS-i"><br/>zzAV</div> <div class="toT"><img class="toI squad NIGHTSISTERZOMBIE-i"><br/>Zombie G11</div> <div class="toT"><img class="toI squad DAKA-i"><br/>zDaka G11</div> <div class="toT"><img class="toI squad TALIA-i"><br/>Talia G10</div>
+	<div class="toT"><img class="toI squad MOTHERTALZIN-i"><br/>zzMT</div> <div class="toT"><img class="toI squad ASAJVENTRESS-i"><br/>zzAV</div> <div class="toT"><img class="toI squad NIGHTSISTERZOMBIE-i"><br/>Zombie G11</div> <div class="toT"><img class="toI squad TALIA-i"><br/>Talia G10</div> <div class="toT"><img class="toI squad DAKA-i"><br/>zDaka G11</div>
 </div>
 <h3>Counter Alternate:  100k</h3>
 <div style="display: flex">
@@ -4543,7 +4543,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Counter: Troopers 74k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad VEERS-i"><br/>Veers G11</div> <div class="toT"><img class="toI squad COLONELSTARCK-i"><br/>Starck G10</div> <div class="toT"><img class="toI squad SNOWTROOPER-i"><br/>Snowtrooper G11</div> <div class="toT"><img class="toI squad DEATHTROOPER-i"><br/>DT G9</div> <div class="toT"><img class="toI squad RANGETROOPER-i"><br/>Range Trooper G9</div><div class="toT"><img title="Veers: Aggressive Tactician missing.  " src="../../i/tractor24.png">&nbsp;Veers: Aggressive Tactician missing.  </div>
+	<div class="toT"><img class="toI squad VEERS-i"><br/>Veers G11</div> <div class="toT"><img class="toI squad COLONELSTARCK-i"><br/>Starck G10</div> <div class="toT"><img class="toI squad RANGETROOPER-i"><br/>Range Trooper G9</div> <div class="toT"><img class="toI squad DEATHTROOPER-i"><br/>DT G9</div> <div class="toT"><img class="toI squad SNOWTROOPER-i"><br/>Snowtrooper G11</div><div class="toT"><img title="Veers: Aggressive Tactician missing.  " src="../../i/tractor24.png">&nbsp;Veers: Aggressive Tactician missing.  </div>
 </div>
 
 <h3>Subs</h3><div class="IT-subs"></div>
@@ -4650,7 +4650,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Hard Counter: Troopers 74k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad VEERS-i"><br/>Veers G11</div> <div class="toT"><img class="toI squad COLONELSTARCK-i"><br/>Starck G10</div> <div class="toT"><img class="toI squad SNOWTROOPER-i"><br/>Snowtrooper G11</div> <div class="toT"><img class="toI squad DEATHTROOPER-i"><br/>DT G9</div> <div class="toT"><img class="toI squad RANGETROOPER-i"><br/>Range Trooper G9</div><div class="toT"><img title="Veers: Aggressive Tactician missing.  " src="../../i/tractor24.png">&nbsp;Veers: Aggressive Tactician missing.  </div>
+	<div class="toT"><img class="toI squad VEERS-i"><br/>Veers G11</div> <div class="toT"><img class="toI squad COLONELSTARCK-i"><br/>Starck G10</div> <div class="toT"><img class="toI squad RANGETROOPER-i"><br/>Range Trooper G9</div> <div class="toT"><img class="toI squad DEATHTROOPER-i"><br/>DT G9</div> <div class="toT"><img class="toI squad SNOWTROOPER-i"><br/>Snowtrooper G11</div><div class="toT"><img title="Veers: Aggressive Tactician missing.  " src="../../i/tractor24.png">&nbsp;Veers: Aggressive Tactician missing.  </div>
 </div>
 
 <h3>Subs</h3><div class="IT-subs"></div>
@@ -4949,7 +4949,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Counter: BH 112k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad JANGOFETT-i"><br/>zzJango</div> <div class="toT"><img class="toI squad BOSSK-i"><br/>zzBossk</div> <div class="toT"><img class="toI squad DENGAR-i"><br/>zDengar</div> <div class="toT"><img class="toI squad BOBAFETT-i"><br/>zBoba</div> <div class="toT"><img class="toI squad ENFYSNEST-i"><br/>zNest</div>
+	<div class="toT"><img class="toI squad JANGOFETT-i"><br/>zzJango</div> <div class="toT"><img class="toI squad BOSSK-i"><br/>zzBossk</div> <div class="toT"><img class="toI squad BOBAFETT-i"><br/>zBoba</div> <div class="toT"><img class="toI squad DENGAR-i"><br/>zDengar</div> <div class="toT"><img class="toI squad ENFYSNEST-i"><br/>zNest</div>
 </div>
 
 <h3>Subs</h3><div class="BH_JANGO-subs"></div>
@@ -4991,7 +4991,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Counter: FO 89k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad KYLORENUNMASKED-i"><br/>zzKRU</div> <div class="toT"><img class="toI squad KYLOREN-i"><br/>zKylo</div> <div class="toT"><img class="toI squad FIRSTORDEREXECUTIONER-i"><br/>FOE</div> <div class="toT"><img class="toI squad FIRSTORDEROFFICERMALE-i"><br/>FOO G11</div> <div class="toT"><img class="toI squad FIRSTORDERTROOPER-i"><br/>zFOST G8</div>
+	<div class="toT"><img class="toI squad KYLORENUNMASKED-i"><br/>zzKRU</div> <div class="toT"><img class="toI squad KYLOREN-i"><br/>zKylo</div> <div class="toT"><img class="toI squad FIRSTORDEROFFICERMALE-i"><br/>FOO G11</div> <div class="toT"><img class="toI squad FIRSTORDERTROOPER-i"><br/>zFOST G8</div> <div class="toT"><img class="toI squad FIRSTORDEREXECUTIONER-i"><br/>FOE</div>
 </div>
 
 <h3>Subs</h3><div class="FO_KRU-subs"></div>
@@ -5143,7 +5143,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Counter: BH 112k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad JANGOFETT-i"><br/>zzJango</div> <div class="toT"><img class="toI squad BOSSK-i"><br/>zzBossk</div> <div class="toT"><img class="toI squad DENGAR-i"><br/>zDengar</div> <div class="toT"><img class="toI squad BOBAFETT-i"><br/>zBoba</div> <div class="toT"><img class="toI squad ENFYSNEST-i"><br/>zNest</div>
+	<div class="toT"><img class="toI squad JANGOFETT-i"><br/>zzJango</div> <div class="toT"><img class="toI squad BOSSK-i"><br/>zzBossk</div> <div class="toT"><img class="toI squad BOBAFETT-i"><br/>zBoba</div> <div class="toT"><img class="toI squad DENGAR-i"><br/>zDengar</div> <div class="toT"><img class="toI squad ENFYSNEST-i"><br/>zNest</div>
 </div>
 
 <h3>Subs</h3><div class="BH_JANGO-subs"></div>
@@ -5206,7 +5206,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Counter: FO 89k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad KYLORENUNMASKED-i"><br/>zzKRU</div> <div class="toT"><img class="toI squad KYLOREN-i"><br/>zKylo</div> <div class="toT"><img class="toI squad FIRSTORDEREXECUTIONER-i"><br/>FOE</div> <div class="toT"><img class="toI squad FIRSTORDEROFFICERMALE-i"><br/>FOO G11</div> <div class="toT"><img class="toI squad FIRSTORDERTROOPER-i"><br/>zFOST G8</div>
+	<div class="toT"><img class="toI squad KYLORENUNMASKED-i"><br/>zzKRU</div> <div class="toT"><img class="toI squad KYLOREN-i"><br/>zKylo</div> <div class="toT"><img class="toI squad FIRSTORDEROFFICERMALE-i"><br/>FOO G11</div> <div class="toT"><img class="toI squad FIRSTORDERTROOPER-i"><br/>zFOST G8</div> <div class="toT"><img class="toI squad FIRSTORDEREXECUTIONER-i"><br/>FOE</div>
 </div>
 
 <h3>Subs</h3><div class="FO_KRU-subs"></div>
@@ -5442,7 +5442,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Counter: NS_Alt 100k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad MOTHERTALZIN-i"><br/>zzMT</div> <div class="toT"><img class="toI squad ASAJVENTRESS-i"><br/>zzAV</div> <div class="toT"><img class="toI squad NIGHTSISTERZOMBIE-i"><br/>Zombie G11</div> <div class="toT"><img class="toI squad DAKA-i"><br/>zDaka G11</div> <div class="toT"><img class="toI squad TALIA-i"><br/>Talia G10</div>
+	<div class="toT"><img class="toI squad MOTHERTALZIN-i"><br/>zzMT</div> <div class="toT"><img class="toI squad ASAJVENTRESS-i"><br/>zzAV</div> <div class="toT"><img class="toI squad NIGHTSISTERZOMBIE-i"><br/>Zombie G11</div> <div class="toT"><img class="toI squad TALIA-i"><br/>Talia G10</div> <div class="toT"><img class="toI squad DAKA-i"><br/>zDaka G11</div>
 </div>
 <h3>Counter Alternate:  100k</h3>
 <div style="display: flex">
@@ -5694,7 +5694,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Hard Counter: Troopers 74k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad VEERS-i"><br/>Veers G11</div> <div class="toT"><img class="toI squad COLONELSTARCK-i"><br/>Starck G10</div> <div class="toT"><img class="toI squad SNOWTROOPER-i"><br/>Snowtrooper G11</div> <div class="toT"><img class="toI squad DEATHTROOPER-i"><br/>DT G9</div> <div class="toT"><img class="toI squad RANGETROOPER-i"><br/>Range Trooper G9</div><div class="toT"><img title="Veers: Aggressive Tactician missing.  " src="../../i/tractor24.png">&nbsp;Veers: Aggressive Tactician missing.  </div>
+	<div class="toT"><img class="toI squad VEERS-i"><br/>Veers G11</div> <div class="toT"><img class="toI squad COLONELSTARCK-i"><br/>Starck G10</div> <div class="toT"><img class="toI squad RANGETROOPER-i"><br/>Range Trooper G9</div> <div class="toT"><img class="toI squad DEATHTROOPER-i"><br/>DT G9</div> <div class="toT"><img class="toI squad SNOWTROOPER-i"><br/>Snowtrooper G11</div><div class="toT"><img title="Veers: Aggressive Tactician missing.  " src="../../i/tractor24.png">&nbsp;Veers: Aggressive Tactician missing.  </div>
 </div>
 
 <h3>Subs</h3><div class="IT-subs"></div>
@@ -5715,7 +5715,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Counter: BH 112k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad JANGOFETT-i"><br/>zzJango</div> <div class="toT"><img class="toI squad BOSSK-i"><br/>zzBossk</div> <div class="toT"><img class="toI squad DENGAR-i"><br/>zDengar</div> <div class="toT"><img class="toI squad BOBAFETT-i"><br/>zBoba</div> <div class="toT"><img class="toI squad ENFYSNEST-i"><br/>zNest</div>
+	<div class="toT"><img class="toI squad JANGOFETT-i"><br/>zzJango</div> <div class="toT"><img class="toI squad BOSSK-i"><br/>zzBossk</div> <div class="toT"><img class="toI squad BOBAFETT-i"><br/>zBoba</div> <div class="toT"><img class="toI squad DENGAR-i"><br/>zDengar</div> <div class="toT"><img class="toI squad ENFYSNEST-i"><br/>zNest</div>
 </div>
 
 <h3>Subs</h3><div class="BH_JANGO-subs"></div>
@@ -5829,7 +5829,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <div class="ROGUE_ONE-strat"></div>
 </td>
 </tr></tr><tr id="SEP_DROIDS" style="background: #aaaaff">
-<td onclick="$('.counter').hide(0, function() { $('#SEP_DROIDS_General').show() });"><div class="toT"><img class="toI squad GRIEVOUS-i"/><br/>Separatist Droids</div></td><td colspan="3" class="verbage" style="position: relative"><div style="display: flex"><div onclick="$('.counter').hide(0, function() { $('#SEP_DROIDS_JEDI_REVAN').show() });" class="toT"><img class="toI hardCounter JEDIKNIGHTREVAN-i"/><br/>Revan Offense</div><div onclick="$('.counter').hide(0, function() { $('#SEP_DROIDS_JEDI_BASTILA_REVAN').show() });" class="toT"><img class="toI hardCounter BASTILASHAN-i"/><br/>BS+Revan</div><span style="background-color:#000; width:2px">&nbsp;</span><div onclick="$('.counter').hide(0, function() { $('#SEP_DROIDS_REBELS_CLS').show() });" class="toT"><img class="toI softCounter COMMANDERLUKESKYWALKER-i"/><br/>CLS</div><div onclick="$('.counter').hide(0, function() { $('#SEP_DROIDS_SITH_EMPIRE_W_MALAK').show() });" class="toT"><img class="toI softCounter DARTHREVAN-i"/><br/>DRMalak</div><div onclick="$('.counter').hide(0, function() { $('#SEP_DROIDS_SITH_TRI').show() });" class="toT"><img class="toI softCounter DARTHTRAYA-i"/><br/>Traya</div><div onclick="$('.counter').hide(0, function() { $('#SEP_DROIDS_EP').show() });" class="toT"><img class="toI softCounter EMPERORPALPATINE-i"/><br/>zEP</div><div onclick="$('.counter').hide(0, function() { $('#SEP_DROIDS_NS_MT').show() });" class="toT"><img class="toI softCounter MOTHERTALZIN-i"/><br/>NS_Alt</div><div class="gearNeeded" onclick="$('.counter').hide(0, function() { $('#SEP_DROIDS_GALACTIC_REPUBLIC').show() });" class="toT"><img class="toI softCounter PADMEAMIDALA-i"/><img title="Padme: missing zetas.  " src="../../i/tractor24.png"><br/>padme</div><div onclick="$('.counter').hide(0, function() { $('#SEP_DROIDS_REX_501').show() });" class="toT"><img class="toI softCounter CT7567-i"/><br/>501st</div><div class="gearNeeded" onclick="$('.counter').hide(0, function() { $('#SEP_DROIDS_CLONES_SHAAKTI').show() });" class="toT"><img class="toI softCounter SHAAKTI-i"/><img title="Shaak Ti: missing zetas.  " src="../../i/tractor24.png"><br/>ShaakClones</div></div></td><tr id="SEP_DROIDS_General" class="counter toggleable">
+<td onclick="$('.counter').hide(0, function() { $('#SEP_DROIDS_General').show() });"><div class="toT"><img class="toI squad GRIEVOUS-i"/><br/>Separatist Droids</div></td><td colspan="3" class="verbage" style="position: relative"><div style="display: flex"><div onclick="$('.counter').hide(0, function() { $('#SEP_DROIDS_JEDI_REVAN').show() });" class="toT"><img class="toI hardCounter JEDIKNIGHTREVAN-i"/><br/>Revan Offense</div><div onclick="$('.counter').hide(0, function() { $('#SEP_DROIDS_JEDI_BASTILA_REVAN').show() });" class="toT"><img class="toI hardCounter BASTILASHAN-i"/><br/>BS+Revan</div><span style="background-color:#000; width:2px">&nbsp;</span><div onclick="$('.counter').hide(0, function() { $('#SEP_DROIDS_SITH_EMPIRE_W_MALAK').show() });" class="toT"><img class="toI softCounter DARTHREVAN-i"/><br/>DRMalak</div><div onclick="$('.counter').hide(0, function() { $('#SEP_DROIDS_REBELS_CLS').show() });" class="toT"><img class="toI softCounter COMMANDERLUKESKYWALKER-i"/><br/>CLS</div><div onclick="$('.counter').hide(0, function() { $('#SEP_DROIDS_SITH_TRI').show() });" class="toT"><img class="toI softCounter DARTHTRAYA-i"/><br/>Traya</div><div onclick="$('.counter').hide(0, function() { $('#SEP_DROIDS_EP').show() });" class="toT"><img class="toI softCounter EMPERORPALPATINE-i"/><br/>zEP</div><div onclick="$('.counter').hide(0, function() { $('#SEP_DROIDS_NS_MT').show() });" class="toT"><img class="toI softCounter MOTHERTALZIN-i"/><br/>NS_Alt</div><div class="gearNeeded" onclick="$('.counter').hide(0, function() { $('#SEP_DROIDS_GALACTIC_REPUBLIC').show() });" class="toT"><img class="toI softCounter PADMEAMIDALA-i"/><img title="Padme: missing zetas.  " src="../../i/tractor24.png"><br/>padme</div><div onclick="$('.counter').hide(0, function() { $('#SEP_DROIDS_REX_501').show() });" class="toT"><img class="toI softCounter CT7567-i"/><br/>501st</div><div class="gearNeeded" onclick="$('.counter').hide(0, function() { $('#SEP_DROIDS_CLONES_SHAAKTI').show() });" class="toT"><img class="toI softCounter SHAAKTI-i"/><img title="Shaak Ti: missing zetas.  " src="../../i/tractor24.png"><br/>ShaakClones</div></div></td><tr id="SEP_DROIDS_General" class="counter toggleable">
 <td colspan="4">
 <h3>Opponent</h3>
 <div style="display: flex">
@@ -5893,6 +5893,27 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <h3>General Strategy</h3>
 <div class="SEP_DROIDS-strat"></div>
 </td>
+</tr><tr id="SEP_DROIDS_SITH_EMPIRE_W_MALAK" class="counter toggleable">
+<td valign="top" colspan="2">
+<h3>Opponent</h3>
+<div style="display: flex">
+	<div class="toT"><img class="toI squad GRIEVOUS-i" /><br/>GG</div><div class="toT"><img class="toI squad B1BATTLEDROIDV2-i" /><br/>B1</div><div class="toT"><img class="toI squad DROIDEKA-i" /><br/>Droideka</div><div class="toT"><img class="toI squad B2SUPERBATTLEDROID-i" /><br/>B2</div><div class="toT"><img class="toI squad MAGNAGUARD-i" /><br/>MagnaGuard</div>
+</div>
+
+<h3>Description</h3>
+<div class="SEP_DROIDS-desc"></div>
+</td>
+<td colspan="2">
+<h3>Counter: DRMalak 118k</h3>
+<div style="display: flex">
+	<div class="toT"><img class="toI squad DARTHREVAN-i"><br/>zzzDR</div> <div class="toT"><img class="toI squad HK47-i"><br/>zzHK-47</div> <div class="toT"><img class="toI squad BASTILASHANDARK-i"><br/>zBSF</div> <div class="toT"><img class="toI squad DARTHMALAK-i"><br/>zzMalak</div> <div class="toT"><img class="toI squad SITHTROOPER-i"><br/>Sith Empire Trooper G11</div>
+</div>
+
+<h3>Subs</h3><div class="SITH_EMPIRE_W_MALAK-subs"></div>
+
+<h3>General Strategy</h3>
+<div class="SEP_DROIDS-strat"></div>
+</td>
 </tr><tr id="SEP_DROIDS_REBELS_CLS" class="counter toggleable">
 <td valign="top" colspan="2">
 <h3>Opponent</h3>
@@ -5914,27 +5935,6 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 </div>
 <h3>Subs</h3><div class="REBELS_CLS-subs"></div>
 <h3>Strategy</h3><div class="SEP_DROIDS-REBELS_CLS-strat"></div>
-<h3>General Strategy</h3>
-<div class="SEP_DROIDS-strat"></div>
-</td>
-</tr><tr id="SEP_DROIDS_SITH_EMPIRE_W_MALAK" class="counter toggleable">
-<td valign="top" colspan="2">
-<h3>Opponent</h3>
-<div style="display: flex">
-	<div class="toT"><img class="toI squad GRIEVOUS-i" /><br/>GG</div><div class="toT"><img class="toI squad B1BATTLEDROIDV2-i" /><br/>B1</div><div class="toT"><img class="toI squad DROIDEKA-i" /><br/>Droideka</div><div class="toT"><img class="toI squad B2SUPERBATTLEDROID-i" /><br/>B2</div><div class="toT"><img class="toI squad MAGNAGUARD-i" /><br/>MagnaGuard</div>
-</div>
-
-<h3>Description</h3>
-<div class="SEP_DROIDS-desc"></div>
-</td>
-<td colspan="2">
-<h3>Counter: DRMalak 115k</h3>
-<div style="display: flex">
-	<div class="toT"><img class="toI squad DARTHREVAN-i"><br/>zzzDR</div> <div class="toT"><img class="toI squad HK47-i"><br/>zzHK-47</div> <div class="toT"><img class="toI squad BASTILASHANDARK-i"><br/>zBSF</div> <div class="toT"><img class="toI squad DARTHMALAK-i"><br/>zzMalak 6* G11</div> <div class="toT"><img class="toI squad SITHTROOPER-i"><br/>Sith Empire Trooper G11</div>
-</div>
-
-<h3>Subs</h3><div class="SITH_EMPIRE_W_MALAK-subs"></div>
-
 <h3>General Strategy</h3>
 <div class="SEP_DROIDS-strat"></div>
 </td>
@@ -5996,7 +5996,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Counter: NS_Alt 100k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad MOTHERTALZIN-i"><br/>zzMT</div> <div class="toT"><img class="toI squad ASAJVENTRESS-i"><br/>zzAV</div> <div class="toT"><img class="toI squad NIGHTSISTERZOMBIE-i"><br/>Zombie G11</div> <div class="toT"><img class="toI squad DAKA-i"><br/>zDaka G11</div> <div class="toT"><img class="toI squad TALIA-i"><br/>Talia G10</div>
+	<div class="toT"><img class="toI squad MOTHERTALZIN-i"><br/>zzMT</div> <div class="toT"><img class="toI squad ASAJVENTRESS-i"><br/>zzAV</div> <div class="toT"><img class="toI squad NIGHTSISTERZOMBIE-i"><br/>Zombie G11</div> <div class="toT"><img class="toI squad TALIA-i"><br/>Talia G10</div> <div class="toT"><img class="toI squad DAKA-i"><br/>zDaka G11</div>
 </div>
 <h3>Counter Alternate:  100k</h3>
 <div style="display: flex">
@@ -6324,7 +6324,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Counter: NS_Alt 100k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad MOTHERTALZIN-i"><br/>zzMT</div> <div class="toT"><img class="toI squad ASAJVENTRESS-i"><br/>zzAV</div> <div class="toT"><img class="toI squad NIGHTSISTERZOMBIE-i"><br/>Zombie G11</div> <div class="toT"><img class="toI squad DAKA-i"><br/>zDaka G11</div> <div class="toT"><img class="toI squad TALIA-i"><br/>Talia G10</div>
+	<div class="toT"><img class="toI squad MOTHERTALZIN-i"><br/>zzMT</div> <div class="toT"><img class="toI squad ASAJVENTRESS-i"><br/>zzAV</div> <div class="toT"><img class="toI squad NIGHTSISTERZOMBIE-i"><br/>Zombie G11</div> <div class="toT"><img class="toI squad TALIA-i"><br/>Talia G10</div> <div class="toT"><img class="toI squad DAKA-i"><br/>zDaka G11</div>
 </div>
 <h3>Counter Alternate:  100k</h3>
 <div style="display: flex">
@@ -6500,7 +6500,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Counter: BH 112k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad JANGOFETT-i"><br/>zzJango</div> <div class="toT"><img class="toI squad BOSSK-i"><br/>zzBossk</div> <div class="toT"><img class="toI squad DENGAR-i"><br/>zDengar</div> <div class="toT"><img class="toI squad BOBAFETT-i"><br/>zBoba</div> <div class="toT"><img class="toI squad ENFYSNEST-i"><br/>zNest</div>
+	<div class="toT"><img class="toI squad JANGOFETT-i"><br/>zzJango</div> <div class="toT"><img class="toI squad BOSSK-i"><br/>zzBossk</div> <div class="toT"><img class="toI squad BOBAFETT-i"><br/>zBoba</div> <div class="toT"><img class="toI squad DENGAR-i"><br/>zDengar</div> <div class="toT"><img class="toI squad ENFYSNEST-i"><br/>zNest</div>
 </div>
 
 <h3>Subs</h3><div class="BH_JANGO-subs"></div>
@@ -6575,7 +6575,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <div class="SITH_EMPIRE_WO_MALAK-strat"></div>
 </td>
 </tr></tr><tr id="SITH_EMPIRE_W_MALAK" style="background: #aaaaff">
-<td onclick="$('.counter').hide(0, function() { $('#SITH_EMPIRE_W_MALAK_General').show() });"><div class="toT"><img class="toI squad DARTHREVAN-i"/><br/>Sith Empire (w/ Malak)</div></td><td colspan="3" class="verbage" style="position: relative"><div style="display: flex"><div onclick="$('.counter').hide(0, function() { $('#SITH_EMPIRE_W_MALAK_JEDI_REVAN').show() });" class="toT"><img class="toI softCounter JEDIKNIGHTREVAN-i"/><br/>Revan Offense</div><div onclick="$('.counter').hide(0, function() { $('#SITH_EMPIRE_W_MALAK_REBELS_CLS').show() });" class="toT"><img class="toI softCounter COMMANDERLUKESKYWALKER-i"/><br/>CLS</div><div onclick="$('.counter').hide(0, function() { $('#SITH_EMPIRE_W_MALAK_SITH_EMPIRE_W_MALAK').show() });" class="toT"><img class="toI softCounter DARTHREVAN-i"/><br/>DRMalak</div><div onclick="$('.counter').hide(0, function() { $('#SITH_EMPIRE_W_MALAK_SITH_EMPIRE_WO_MALAK').show() });" class="toT"><img class="toI softCounter DARTHREVAN-i"/><br/>DR</div><div onclick="$('.counter').hide(0, function() { $('#SITH_EMPIRE_W_MALAK_SEP_DROIDS').show() });" class="toT"><img class="toI softCounter GRIEVOUS-i"/><br/>Grievous</div><div class="gearNeeded" onclick="$('.counter').hide(0, function() { $('#SITH_EMPIRE_W_MALAK_MAGMA').show() });" class="toT"><img class="toI softCounter GRANDADMIRALTHRAWN-i"/><img title="Krennic: should be G9 (G7).  " src="../../i/wrench24.png"><br/>Thragma (Counter)</div></div></td><tr id="SITH_EMPIRE_W_MALAK_General" class="counter toggleable">
+<td onclick="$('.counter').hide(0, function() { $('#SITH_EMPIRE_W_MALAK_General').show() });"><div class="toT"><img class="toI squad DARTHREVAN-i"/><br/>Sith Empire (w/ Malak)</div></td><td colspan="3" class="verbage" style="position: relative"><div style="display: flex"><div onclick="$('.counter').hide(0, function() { $('#SITH_EMPIRE_W_MALAK_JEDI_REVAN').show() });" class="toT"><img class="toI softCounter JEDIKNIGHTREVAN-i"/><br/>Revan Offense</div><div onclick="$('.counter').hide(0, function() { $('#SITH_EMPIRE_W_MALAK_SITH_EMPIRE_W_MALAK').show() });" class="toT"><img class="toI softCounter DARTHREVAN-i"/><br/>DRMalak</div><div onclick="$('.counter').hide(0, function() { $('#SITH_EMPIRE_W_MALAK_REBELS_CLS').show() });" class="toT"><img class="toI softCounter COMMANDERLUKESKYWALKER-i"/><br/>CLS</div><div onclick="$('.counter').hide(0, function() { $('#SITH_EMPIRE_W_MALAK_SITH_EMPIRE_WO_MALAK').show() });" class="toT"><img class="toI softCounter DARTHREVAN-i"/><br/>DR</div><div onclick="$('.counter').hide(0, function() { $('#SITH_EMPIRE_W_MALAK_SEP_DROIDS').show() });" class="toT"><img class="toI softCounter GRIEVOUS-i"/><br/>Grievous</div><div class="gearNeeded" onclick="$('.counter').hide(0, function() { $('#SITH_EMPIRE_W_MALAK_MAGMA').show() });" class="toT"><img class="toI softCounter GRANDADMIRALTHRAWN-i"/><img title="Krennic: should be G9 (G7).  " src="../../i/wrench24.png"><br/>Thragma (Counter)</div></div></td><tr id="SITH_EMPIRE_W_MALAK_General" class="counter toggleable">
 <td colspan="4">
 <h3>Opponent</h3>
 <div style="display: flex">
@@ -6618,6 +6618,27 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <h3>General Strategy</h3>
 <div class="SITH_EMPIRE_W_MALAK-strat"></div>
 </td>
+</tr><tr id="SITH_EMPIRE_W_MALAK_SITH_EMPIRE_W_MALAK" class="counter toggleable">
+<td valign="top" colspan="2">
+<h3>Opponent</h3>
+<div style="display: flex">
+	<div class="toT"><img class="toI squad DARTHREVAN-i" /><br/>DR</div><div class="toT"><img class="toI squad DARTHMALAK-i" /><br/>Malak</div><div class="toT"><img class="toI squad BASTILASHANDARK-i" /><br/>BSF</div><div class="toT"><img class="toI squad HK47-i" /><br/>HK-47</div><div class="toT"><img class="toI squad SITHTROOPER-i" /><br/>Sith Empire Trooper</div>
+</div>
+
+<h3>Description</h3>
+<div class="SITH_EMPIRE_W_MALAK-desc"></div>
+</td>
+<td colspan="2">
+<h3>Counter: DRMalak 118k</h3>
+<div style="display: flex">
+	<div class="toT"><img class="toI squad DARTHREVAN-i"><br/>zzzDR</div> <div class="toT"><img class="toI squad HK47-i"><br/>zzHK-47</div> <div class="toT"><img class="toI squad BASTILASHANDARK-i"><br/>zBSF</div> <div class="toT"><img class="toI squad DARTHMALAK-i"><br/>zzMalak</div> <div class="toT"><img class="toI squad SITHTROOPER-i"><br/>Sith Empire Trooper G11</div>
+</div>
+
+<h3>Subs</h3><div class="SITH_EMPIRE_W_MALAK-subs"></div>
+<h3>Strategy</h3><div class="SITH_EMPIRE_W_MALAK-SITH_EMPIRE_W_MALAK-strat"></div>
+<h3>General Strategy</h3>
+<div class="SITH_EMPIRE_W_MALAK-strat"></div>
+</td>
 </tr><tr id="SITH_EMPIRE_W_MALAK_REBELS_CLS" class="counter toggleable">
 <td valign="top" colspan="2">
 <h3>Opponent</h3>
@@ -6639,27 +6660,6 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 </div>
 <h3>Subs</h3><div class="REBELS_CLS-subs"></div>
 <h3>Strategy</h3><div class="SITH_EMPIRE_W_MALAK-REBELS_CLS-strat"></div>
-<h3>General Strategy</h3>
-<div class="SITH_EMPIRE_W_MALAK-strat"></div>
-</td>
-</tr><tr id="SITH_EMPIRE_W_MALAK_SITH_EMPIRE_W_MALAK" class="counter toggleable">
-<td valign="top" colspan="2">
-<h3>Opponent</h3>
-<div style="display: flex">
-	<div class="toT"><img class="toI squad DARTHREVAN-i" /><br/>DR</div><div class="toT"><img class="toI squad DARTHMALAK-i" /><br/>Malak</div><div class="toT"><img class="toI squad BASTILASHANDARK-i" /><br/>BSF</div><div class="toT"><img class="toI squad HK47-i" /><br/>HK-47</div><div class="toT"><img class="toI squad SITHTROOPER-i" /><br/>Sith Empire Trooper</div>
-</div>
-
-<h3>Description</h3>
-<div class="SITH_EMPIRE_W_MALAK-desc"></div>
-</td>
-<td colspan="2">
-<h3>Counter: DRMalak 115k</h3>
-<div style="display: flex">
-	<div class="toT"><img class="toI squad DARTHREVAN-i"><br/>zzzDR</div> <div class="toT"><img class="toI squad HK47-i"><br/>zzHK-47</div> <div class="toT"><img class="toI squad BASTILASHANDARK-i"><br/>zBSF</div> <div class="toT"><img class="toI squad DARTHMALAK-i"><br/>zzMalak 6* G11</div> <div class="toT"><img class="toI squad SITHTROOPER-i"><br/>Sith Empire Trooper G11</div>
-</div>
-
-<h3>Subs</h3><div class="SITH_EMPIRE_W_MALAK-subs"></div>
-<h3>Strategy</h3><div class="SITH_EMPIRE_W_MALAK-SITH_EMPIRE_W_MALAK-strat"></div>
 <h3>General Strategy</h3>
 <div class="SITH_EMPIRE_W_MALAK-strat"></div>
 </td>
@@ -6759,7 +6759,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Hard Counter: BH 112k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad JANGOFETT-i"><br/>zzJango</div> <div class="toT"><img class="toI squad BOSSK-i"><br/>zzBossk</div> <div class="toT"><img class="toI squad DENGAR-i"><br/>zDengar</div> <div class="toT"><img class="toI squad BOBAFETT-i"><br/>zBoba</div> <div class="toT"><img class="toI squad ENFYSNEST-i"><br/>zNest</div>
+	<div class="toT"><img class="toI squad JANGOFETT-i"><br/>zzJango</div> <div class="toT"><img class="toI squad BOSSK-i"><br/>zzBossk</div> <div class="toT"><img class="toI squad BOBAFETT-i"><br/>zBoba</div> <div class="toT"><img class="toI squad DENGAR-i"><br/>zDengar</div> <div class="toT"><img class="toI squad ENFYSNEST-i"><br/>zNest</div>
 </div>
 
 <h3>Subs</h3><div class="BH_JANGO-subs"></div>
@@ -6801,7 +6801,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Hard Counter: NS_Alt 100k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad MOTHERTALZIN-i"><br/>zzMT</div> <div class="toT"><img class="toI squad ASAJVENTRESS-i"><br/>zzAV</div> <div class="toT"><img class="toI squad NIGHTSISTERZOMBIE-i"><br/>Zombie G11</div> <div class="toT"><img class="toI squad DAKA-i"><br/>zDaka G11</div> <div class="toT"><img class="toI squad TALIA-i"><br/>Talia G10</div>
+	<div class="toT"><img class="toI squad MOTHERTALZIN-i"><br/>zzMT</div> <div class="toT"><img class="toI squad ASAJVENTRESS-i"><br/>zzAV</div> <div class="toT"><img class="toI squad NIGHTSISTERZOMBIE-i"><br/>Zombie G11</div> <div class="toT"><img class="toI squad TALIA-i"><br/>Talia G10</div> <div class="toT"><img class="toI squad DAKA-i"><br/>zDaka G11</div>
 </div>
 <h3>Hard Counter Alternate:  100k</h3>
 <div style="display: flex">
@@ -6888,7 +6888,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Counter: Phoenix 73k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad HERASYNDULLAS3-i"><br/>Hera G8</div> <div class="toT"><img class="toI squad EZRABRIDGERS3-i"><br/>zEzra</div> <div class="toT"><img class="toI squad KANANJARRUSS3-i"><br/>Kanan G8</div> <div class="toT"><img class="toI squad ZEBS3-i"><br/>Zeb G8</div> <div class="toT"><img class="toI squad SABINEWRENS3-i"><br/>Sabine G8</div>
+	<div class="toT"><img class="toI squad HERASYNDULLAS3-i"><br/>Hera G8</div> <div class="toT"><img class="toI squad KANANJARRUSS3-i"><br/>Kanan G8</div> <div class="toT"><img class="toI squad EZRABRIDGERS3-i"><br/>zEzra</div> <div class="toT"><img class="toI squad ZEBS3-i"><br/>Zeb G8</div> <div class="toT"><img class="toI squad SABINEWRENS3-i"><br/>Sabine G8</div>
 </div>
 
 <h3>Subs</h3><div class="PHOENIX-subs"></div>
@@ -7040,7 +7040,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Counter: BH 112k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad JANGOFETT-i"><br/>zzJango</div> <div class="toT"><img class="toI squad BOSSK-i"><br/>zzBossk</div> <div class="toT"><img class="toI squad DENGAR-i"><br/>zDengar</div> <div class="toT"><img class="toI squad BOBAFETT-i"><br/>zBoba</div> <div class="toT"><img class="toI squad ENFYSNEST-i"><br/>zNest</div>
+	<div class="toT"><img class="toI squad JANGOFETT-i"><br/>zzJango</div> <div class="toT"><img class="toI squad BOSSK-i"><br/>zzBossk</div> <div class="toT"><img class="toI squad BOBAFETT-i"><br/>zBoba</div> <div class="toT"><img class="toI squad DENGAR-i"><br/>zDengar</div> <div class="toT"><img class="toI squad ENFYSNEST-i"><br/>zNest</div>
 </div>
 
 <h3>Subs</h3><div class="BH_JANGO-subs"></div>
@@ -7124,7 +7124,7 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <td colspan="2">
 <h3>Counter: FO 89k</h3>
 <div style="display: flex">
-	<div class="toT"><img class="toI squad KYLORENUNMASKED-i"><br/>zzKRU</div> <div class="toT"><img class="toI squad KYLOREN-i"><br/>zKylo</div> <div class="toT"><img class="toI squad FIRSTORDEREXECUTIONER-i"><br/>FOE</div> <div class="toT"><img class="toI squad FIRSTORDEROFFICERMALE-i"><br/>FOO G11</div> <div class="toT"><img class="toI squad FIRSTORDERTROOPER-i"><br/>zFOST G8</div>
+	<div class="toT"><img class="toI squad KYLORENUNMASKED-i"><br/>zzKRU</div> <div class="toT"><img class="toI squad KYLOREN-i"><br/>zKylo</div> <div class="toT"><img class="toI squad FIRSTORDEROFFICERMALE-i"><br/>FOO G11</div> <div class="toT"><img class="toI squad FIRSTORDERTROOPER-i"><br/>zFOST G8</div> <div class="toT"><img class="toI squad FIRSTORDEREXECUTIONER-i"><br/>FOE</div>
 </div>
 
 <h3>Subs</h3><div class="FO_KRU-subs"></div>
@@ -7216,4 +7216,4 @@ might beat a bounty hunter squad.  Where possible, this shows <i>your</i> squads
 <div class="VADER-strat"></div>
 </td>
 </tr></tr></table><br/>
-<font size="-2">Generated 2020-09-19 16:55:17 +0000</font>
+<font size="-2">Generated 2020-09-28 16:00:16 +0000</font>
