@@ -27,6 +27,7 @@ guilds=(
 	'ebonhand 783828985'
 	'ewoking 714847433'
 	'rambos 739491776'
+	'younglings 951659657'
 )
 
 for g in $guilds ; do 
