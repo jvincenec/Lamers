@@ -19,7 +19,6 @@ guilds=(
 	'badbatch 814449267'
 	'templar 135722653'
 	'cursed-legacy 259119853'
-	'order66 195638347'
 	'kotd 126515217'
 	'honor 558111281'
 	'giggity 431616455'

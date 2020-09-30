@@ -37,7 +37,7 @@ tr:nth-child(odd) {background: #ffffff}
 }
 .column {
   float: left;
-  width: 25%;
+  width: 33%;
 }
 .row:after {
   content: "";
@@ -55,7 +55,7 @@ function copyText(name) {
 }
 </script>
 There are three models of activity:
-<ul><li><b>Optimal</b> assumes that everybody deploys and you have reasonable success with the missions.  It is not necessarily a lower bound -- the missions are just estimates of how well you do, but it is an optimistic view.  You might score a star or two higher, especially if you are close on some sections.  You won't make it if participation is low.</li><li><b>90%</b> is a more pessimistic view:  it assumes that 90% of your gp is deployed and that missions are only 90% as effective as the estimate.  Not a lower bound, but this should realisticly be possible.</li><li><b>Decreasing</b> is in between.  It assumes full participation and good performance on the early phases and tapers off on the later phases (this matches what I observe).</li><li><b>Wat Shards</b> is the same as <b>Decreasing</b> but it tries to force the TB to reach 3N to obtain Wat shards.</li></ul>
+<ul><li><b>Optimal</b> assumes that everybody deploys and you have reasonable success with the missions.  It is not necessarily a lower bound -- the missions are just estimates of how well you do, but it is an optimistic view.  You might score a star or two higher, especially if you are close on some sections.  You won't make it if participation is low.</li><li><b>90%</b> is a more pessimistic view:  it assumes that 90% of your gp is deployed and that missions are only 90% as effective as the estimate.  Not a lower bound, but this should realisticly be possible.</li><li><b>Decreasing</b> is in between.  It assumes full participation and good performance on the early phases and tapers off on the later phases (this matches what I observe).</li></ul>
 Contact @gorgatron#3094 to tailor these assumptions.
 <br/>
 <img src="../../i/ds_geo_tb_labels.jpeg" width="500"/>
@@ -70,7 +70,7 @@ Contact @gorgatron#3094 to tailor these assumptions.
 	<th>Action</th>
 	</tr>
 </thead>
-<tbody><tr class="newPhase"><td>1</td><td>&nbsp;</td><td><b>active</b> 1 N, 1 S</td><tr><td>1</td><td>1 N</td><td><b>missions</b> 33 -> 33m</td><tr><td>1</td><td>1 N</td><td><b>deploy</b> 77 -> 110m</td><tr><td>1</td><td>1 S</td><td><b>missions</b> 18 -> 18m</td><tr><td>1</td><td>1 S</td><td><b>deploy</b> 6 -> 24m</td><tr><td>1</td><td>&nbsp;</td><td><b>remaining GP:</b> 0 toons, 57 ships</td><tr><td>1</td><td>1 N</td><td>3 &#11088;</td><tr><td>1</td><td>1 S</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>2</td><td>&nbsp;</td><td><b>active</b> 1 S, 2 Air, 2 N</td><tr><td>2</td><td>1 S</td><td><b>missions</b> 24 -> 48m</td><tr><td>2</td><td>1 S</td><td><b>deploy</b> 56 -> 104m</td><tr><td>2</td><td>2 Air</td><td><b>missions</b> 26 -> 26m</td><tr><td>2</td><td>2 N</td><td><b>missions</b> 29 -> 29m</td><tr><td>2</td><td>2 N</td><td><b>deploy</b> 27 -> 56m</td><tr><td>2</td><td>&nbsp;</td><td><b>remaining GP:</b> 0 toons, 57 ships</td><tr><td>2</td><td>1 S</td><td>3 &#11088;</td><tr><td>2</td><td>2 Air</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>2</td><td>2 N</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>3</td><td>&nbsp;</td><td><b>active</b> 2 Air, 2 N, 2 S</td><tr><td>3</td><td>2 Air</td><td><b>missions</b> 27 -> 53m</td><tr><td>3</td><td>2 Air</td><td><b>deploy</b> 53 -> 106m</td><tr><td>3</td><td>2 N</td><td><b>missions</b> 4 -> 60m</td><tr><td>3</td><td>2 S</td><td><b>missions</b> 28 -> 28m</td><tr><td>3</td><td>2 S</td><td><b>deploy</b> 61 -> 89m</td><tr><td>3</td><td>&nbsp;</td><td><b>remaining GP:</b> 22 toons, 4 ships</td><tr><td>3</td><td>2 Air</td><td>3 &#11088;</td><tr><td>3</td><td>2 N</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>3</td><td>2 S</td><td>2 &#11088; -- 64 to the next</td><tr class="newPhase"><td>4</td><td>&nbsp;</td><td><b>active</b> 2 N, 3 Air, 3 S</td><tr><td>4</td><td>2 N</td><td><b>missions</b> 35 -> 95m</td><tr><td>4</td><td>3 Air</td><td><b>missions</b> 39 -> 39m</td><tr><td>4</td><td>3 Air</td><td><b>deploy</b> 53 -> 92m</td><tr><td>4</td><td>3 S</td><td><b>missions</b> 30 -> 30m</td><tr><td>4</td><td>3 S</td><td><b>deploy</b> 65 -> 95m</td><tr><td>4</td><td>&nbsp;</td><td><b>remaining GP:</b> 18 toons, 4 ships</td><tr><td>4</td><td>2 N</td><td>2 &#11088; -- 96 to the next</td><tr><td>4</td><td>3 Air</td><td>2 &#11088; -- 50 to the next</td><tr><td>4</td><td>3 S</td><td>2 &#11088; -- 77 to the next</td></tbody>
+<tbody><tr class="newPhase"><td>1</td><td>&nbsp;</td><td><b>active</b> 1 N, 1 S</td><tr><td>1</td><td>1 N</td><td><b>missions</b> 33 -> 33m</td><tr><td>1</td><td>1 N</td><td><b>deploy</b> 77 -> 110m</td><tr><td>1</td><td>1 S</td><td><b>missions</b> 21 -> 21m</td><tr><td>1</td><td>1 S</td><td><b>deploy</b> 6 -> 27m</td><tr><td>1</td><td>&nbsp;</td><td><b>remaining GP:</b> 0 toons, 57 ships</td><tr><td>1</td><td>1 N</td><td>3 &#11088;</td><tr><td>1</td><td>1 S</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>2</td><td>&nbsp;</td><td><b>active</b> 1 S, 2 Air, 2 N</td><tr><td>2</td><td>1 S</td><td><b>missions</b> 28 -> 55m</td><tr><td>2</td><td>1 S</td><td><b>deploy</b> 49 -> 104m</td><tr><td>2</td><td>2 Air</td><td><b>missions</b> 26 -> 26m</td><tr><td>2</td><td>2 N</td><td><b>missions</b> 32 -> 32m</td><tr><td>2</td><td>2 N</td><td><b>deploy</b> 28 -> 60m</td><tr><td>2</td><td>&nbsp;</td><td><b>remaining GP:</b> 6 toons, 57 ships</td><tr><td>2</td><td>1 S</td><td>3 &#11088;</td><tr><td>2</td><td>2 Air</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>2</td><td>2 N</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>3</td><td>&nbsp;</td><td><b>active</b> 2 Air, 2 N, 2 S</td><tr><td>3</td><td>2 Air</td><td><b>missions</b> 26 -> 52m</td><tr><td>3</td><td>2 Air</td><td><b>deploy</b> 54 -> 106m</td><tr><td>3</td><td>2 N</td><td><b>missions</b> 60 -> 120m</td><tr><td>3</td><td>2 N</td><td><b>deploy</b> 71 -> 191m</td><tr><td>3</td><td>2 S</td><td><b>missions</b> 21 -> 21m</td><tr><td>3</td><td>2 S</td><td><b>deploy</b> 12 -> 33m</td><tr><td>3</td><td>&nbsp;</td><td><b>remaining GP:</b> 0 toons, 3 ships</td><tr><td>3</td><td>2 Air</td><td>3 &#11088;</td><tr><td>3</td><td>2 N</td><td>3 &#11088;</td><tr><td>3</td><td>2 S</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>4</td><td>&nbsp;</td><td><b>active</b> 2 S, 3 Air, 3 N</td><tr><td>4</td><td>2 S</td><td><b>missions</b> 38 -> 71m</td><tr><td>4</td><td>2 S</td><td><b>deploy</b> 82 -> 153m</td><tr><td>4</td><td>3 Air</td><td><b>missions</b> 39 -> 39m</td><tr><td>4</td><td>3 Air</td><td><b>deploy</b> 53 -> 92m</td><tr><td>4</td><td>3 N</td><td><b>missions</b> 3 -> 3m</td><tr><td>4</td><td>3 N</td><td><b>deploy</b> 1 -> 4m</td><tr><td>4</td><td>&nbsp;</td><td><b>remaining GP:</b> 0 toons, 4 ships</td><tr><td>4</td><td>2 S</td><td>3 &#11088;</td><tr><td>4</td><td>3 Air</td><td>2 &#11088; -- 50 to the next</td><tr><td>4</td><td>3 N</td><td><b>HOLD AT ZERO &#11088;</b></td></tbody>
 </table>
 <br/>
 <br/><textarea id="discordoptimal" style="display:none" rows="8" cols="40">
@@ -79,44 +79,46 @@ Contact @gorgatron#3094 to tailor these assumptions.
 **phase 1: active** 1 N, 1 S
 phase 1: **missions** 1 N 33 -> 33m
 phase 1: **deploy** 1 N 77 -> 110m
-phase 1: **missions** 1 S 18 -> 18m
-phase 1: **deploy** 1 S 6 -> 24m
+phase 1: **missions** 1 S 21 -> 21m
+phase 1: **deploy** 1 S 6 -> 27m
 phase 1: remaining GP = 0 toons, 57 ships
 **phase 1: 1 N -> 3 :star:**
 **phase 1: 1 S HOLD AT ZERO :star:**
 
 **phase 2: active** 1 S, 2 Air, 2 N
-phase 2: **missions** 1 S 24 -> 48m
-phase 2: **deploy** 1 S 56 -> 104m
+phase 2: **missions** 1 S 28 -> 55m
+phase 2: **deploy** 1 S 49 -> 104m
 phase 2: **missions** 2 Air 26 -> 26m
-phase 2: **missions** 2 N 29 -> 29m
-phase 2: **deploy** 2 N 27 -> 56m
-phase 2: remaining GP = 0 toons, 57 ships
+phase 2: **missions** 2 N 32 -> 32m
+phase 2: **deploy** 2 N 28 -> 60m
+phase 2: remaining GP = 6 toons, 57 ships
 **phase 2: 1 S -> 3 :star:**
 **phase 2: 2 Air HOLD AT ZERO :star:**
 **phase 2: 2 N HOLD AT ZERO :star:**
 
 **phase 3: active** 2 Air, 2 N, 2 S
-phase 3: **missions** 2 Air 27 -> 53m
-phase 3: **deploy** 2 Air 53 -> 106m
-phase 3: **missions** 2 N 4 -> 60m
-phase 3: **missions** 2 S 28 -> 28m
-phase 3: **deploy** 2 S 61 -> 89m
-phase 3: remaining GP = 22 toons, 4 ships
+phase 3: **missions** 2 Air 26 -> 52m
+phase 3: **deploy** 2 Air 54 -> 106m
+phase 3: **missions** 2 N 60 -> 120m
+phase 3: **deploy** 2 N 71 -> 191m
+phase 3: **missions** 2 S 21 -> 21m
+phase 3: **deploy** 2 S 12 -> 33m
+phase 3: remaining GP = 0 toons, 3 ships
 **phase 3: 2 Air -> 3 :star:**
-**phase 3: 2 N HOLD AT ZERO :star:**
-**phase 3: 2 S -> 2 :star:**
+**phase 3: 2 N -> 3 :star:**
+**phase 3: 2 S HOLD AT ZERO :star:**
 
-**phase 4: active** 2 N, 3 Air, 3 S
-phase 4: **missions** 2 N 35 -> 95m
+**phase 4: active** 2 S, 3 Air, 3 N
+phase 4: **missions** 2 S 38 -> 71m
+phase 4: **deploy** 2 S 82 -> 153m
 phase 4: **missions** 3 Air 39 -> 39m
 phase 4: **deploy** 3 Air 53 -> 92m
-phase 4: **missions** 3 S 30 -> 30m
-phase 4: **deploy** 3 S 65 -> 95m
-phase 4: remaining GP = 18 toons, 4 ships
-**phase 4: 2 N -> 2 :star:**
+phase 4: **missions** 3 N 3 -> 3m
+phase 4: **deploy** 3 N 1 -> 4m
+phase 4: remaining GP = 0 toons, 4 ships
+**phase 4: 2 S -> 3 :star:**
 **phase 4: 3 Air -> 2 :star:**
-**phase 4: 3 S -> 2 :star:**
+**phase 4: 3 N HOLD AT ZERO :star:**
 
 </textarea>
 <button onclick="copyText('discordoptimal')">Copy For Discord</button></div><div class="column"><h2>90% Estimated: 15 &#11088;</h2>
@@ -129,7 +131,7 @@ phase 4: remaining GP = 18 toons, 4 ships
 	<th>Action</th>
 	</tr>
 </thead>
-<tbody><tr class="newPhase"><td>1</td><td>&nbsp;</td><td><b>active</b> 1 N, 1 S</td><tr><td>1</td><td>1 N</td><td><b>missions</b> 30 -> 30m</td><tr><td>1</td><td>1 N</td><td><b>deploy</b> 54 -> 84m</td><tr><td>1</td><td>1 S</td><td><b>missions</b> 16 -> 16m</td><tr><td>1</td><td>1 S</td><td><b>deploy</b> 19 -> 35m</td><tr><td>1</td><td>&nbsp;</td><td><b>remaining GP:</b> 1 toons, 51 ships</td><tr><td>1</td><td>1 N</td><td>2 &#11088; -- 26 to the next</td><tr><td>1</td><td>1 S</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>2</td><td>&nbsp;</td><td><b>active</b> 1 S, 2 Air, 2 N</td><tr><td>2</td><td>1 S</td><td><b>missions</b> 21 -> 56m</td><tr><td>2</td><td>1 S</td><td><b>deploy</b> 48 -> 104m</td><tr><td>2</td><td>2 Air</td><td><b>missions</b> 24 -> 24m</td><tr><td>2</td><td>2 Air</td><td><b>deploy</b> 43 -> 67m</td><tr><td>2</td><td>2 N</td><td><b>missions</b> 26 -> 26m</td><tr><td>2</td><td>2 N</td><td><b>deploy</b> 26 -> 52m</td><tr><td>2</td><td>&nbsp;</td><td><b>remaining GP:</b> 0 toons, 8 ships</td><tr><td>2</td><td>1 S</td><td>3 &#11088;</td><tr><td>2</td><td>2 Air</td><td>2 &#11088; -- 39 to the next</td><tr><td>2</td><td>2 N</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>3</td><td>&nbsp;</td><td><b>active</b> 2 N, 2 S, 3 Air</td><tr><td>3</td><td>2 N</td><td><b>missions</b> 8 -> 60m</td><tr><td>3</td><td>2 S</td><td><b>missions</b> 25 -> 25m</td><tr><td>3</td><td>2 S</td><td><b>deploy</b> 64 -> 89m</td><tr><td>3</td><td>3 Air</td><td><b>missions</b> 33 -> 33m</td><tr><td>3</td><td>&nbsp;</td><td><b>remaining GP:</b> 10 toons, 51 ships</td><tr><td>3</td><td>2 N</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>3</td><td>2 S</td><td>2 &#11088; -- 64 to the next</td><tr><td>3</td><td>3 Air</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>4</td><td>&nbsp;</td><td><b>active</b> 2 N, 3 Air, 3 S</td><tr><td>4</td><td>2 N</td><td><b>missions</b> 35 -> 95m</td><tr><td>4</td><td>3 Air</td><td><b>missions</b> 35 -> 68m</td><tr><td>4</td><td>3 Air</td><td><b>deploy</b> 24 -> 92m</td><tr><td>4</td><td>3 S</td><td><b>missions</b> 27 -> 27m</td><tr><td>4</td><td>3 S</td><td><b>deploy</b> 68 -> 95m</td><tr><td>4</td><td>&nbsp;</td><td><b>remaining GP:</b> 6 toons, 27 ships</td><tr><td>4</td><td>2 N</td><td>2 &#11088; -- 96 to the next</td><tr><td>4</td><td>3 Air</td><td>2 &#11088; -- 50 to the next</td><tr><td>4</td><td>3 S</td><td>2 &#11088; -- 77 to the next</td></tbody>
+<tbody><tr class="newPhase"><td>1</td><td>&nbsp;</td><td><b>active</b> 1 N, 1 S</td><tr><td>1</td><td>1 N</td><td><b>missions</b> 30 -> 30m</td><tr><td>1</td><td>1 N</td><td><b>deploy</b> 54 -> 84m</td><tr><td>1</td><td>1 S</td><td><b>missions</b> 19 -> 19m</td><tr><td>1</td><td>1 S</td><td><b>deploy</b> 16 -> 35m</td><tr><td>1</td><td>&nbsp;</td><td><b>remaining GP:</b> 4 toons, 51 ships</td><tr><td>1</td><td>1 N</td><td>2 &#11088; -- 26 to the next</td><tr><td>1</td><td>1 S</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>2</td><td>&nbsp;</td><td><b>active</b> 1 S, 2 Air, 2 N</td><tr><td>2</td><td>1 S</td><td><b>missions</b> 25 -> 60m</td><tr><td>2</td><td>1 S</td><td><b>deploy</b> 44 -> 104m</td><tr><td>2</td><td>2 Air</td><td><b>missions</b> 23 -> 23m</td><tr><td>2</td><td>2 Air</td><td><b>deploy</b> 44 -> 67m</td><tr><td>2</td><td>2 N</td><td><b>missions</b> 29 -> 29m</td><tr><td>2</td><td>2 N</td><td><b>deploy</b> 30 -> 59m</td><tr><td>2</td><td>&nbsp;</td><td><b>remaining GP:</b> 0 toons, 7 ships</td><tr><td>2</td><td>1 S</td><td>3 &#11088;</td><tr><td>2</td><td>2 Air</td><td>2 &#11088; -- 39 to the next</td><tr><td>2</td><td>2 N</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>3</td><td>&nbsp;</td><td><b>active</b> 2 N, 2 S, 3 Air</td><tr><td>3</td><td>2 N</td><td><b>missions</b> 36 -> 95m</td><tr><td>3</td><td>2 S</td><td><b>missions</b> 19 -> 19m</td><tr><td>3</td><td>2 S</td><td><b>deploy</b> 70 -> 89m</td><tr><td>3</td><td>3 Air</td><td><b>missions</b> 33 -> 33m</td><tr><td>3</td><td>&nbsp;</td><td><b>remaining GP:</b> 4 toons, 51 ships</td><tr><td>3</td><td>2 N</td><td>2 &#11088; -- 96 to the next</td><tr><td>3</td><td>2 S</td><td>2 &#11088; -- 64 to the next</td><tr><td>3</td><td>3 Air</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>4</td><td>&nbsp;</td><td><b>active</b> 3 Air, 3 N, 3 S</td><tr><td>4</td><td>3 Air</td><td><b>missions</b> 35 -> 68m</td><tr><td>4</td><td>3 Air</td><td><b>deploy</b> 24 -> 92m</td><tr><td>4</td><td>3 N</td><td><b>missions</b> 14 -> 14m</td><tr><td>4</td><td>3 N</td><td><b>deploy</b> 45 -> 59m</td><tr><td>4</td><td>3 S</td><td><b>missions</b> 40 -> 40m</td><tr><td>4</td><td>3 S</td><td><b>deploy</b> 20 -> 60m</td><tr><td>4</td><td>&nbsp;</td><td><b>remaining GP:</b> 9 toons, 27 ships</td><tr><td>4</td><td>3 Air</td><td>2 &#11088; -- 50 to the next</td><tr><td>4</td><td>3 N</td><td>1 &#11088; -- 50 to the next</td><tr><td>4</td><td>3 S</td><td>1 &#11088; -- 35 to the next</td></tbody>
 </table>
 <br/>
 <br/><textarea id="discordpercent90" style="display:none" rows="8" cols="40">
@@ -138,44 +140,45 @@ phase 4: remaining GP = 18 toons, 4 ships
 **phase 1: active** 1 N, 1 S
 phase 1: **missions** 1 N 30 -> 30m
 phase 1: **deploy** 1 N 54 -> 84m
-phase 1: **missions** 1 S 16 -> 16m
-phase 1: **deploy** 1 S 19 -> 35m
-phase 1: remaining GP = 1 toons, 51 ships
+phase 1: **missions** 1 S 19 -> 19m
+phase 1: **deploy** 1 S 16 -> 35m
+phase 1: remaining GP = 4 toons, 51 ships
 **phase 1: 1 N -> 2 :star:**
 **phase 1: 1 S HOLD AT ZERO :star:**
 
 **phase 2: active** 1 S, 2 Air, 2 N
-phase 2: **missions** 1 S 21 -> 56m
-phase 2: **deploy** 1 S 48 -> 104m
-phase 2: **missions** 2 Air 24 -> 24m
-phase 2: **deploy** 2 Air 43 -> 67m
-phase 2: **missions** 2 N 26 -> 26m
-phase 2: **deploy** 2 N 26 -> 52m
-phase 2: remaining GP = 0 toons, 8 ships
+phase 2: **missions** 1 S 25 -> 60m
+phase 2: **deploy** 1 S 44 -> 104m
+phase 2: **missions** 2 Air 23 -> 23m
+phase 2: **deploy** 2 Air 44 -> 67m
+phase 2: **missions** 2 N 29 -> 29m
+phase 2: **deploy** 2 N 30 -> 59m
+phase 2: remaining GP = 0 toons, 7 ships
 **phase 2: 1 S -> 3 :star:**
 **phase 2: 2 Air -> 2 :star:**
 **phase 2: 2 N HOLD AT ZERO :star:**
 
 **phase 3: active** 2 N, 2 S, 3 Air
-phase 3: **missions** 2 N 8 -> 60m
-phase 3: **missions** 2 S 25 -> 25m
-phase 3: **deploy** 2 S 64 -> 89m
+phase 3: **missions** 2 N 36 -> 95m
+phase 3: **missions** 2 S 19 -> 19m
+phase 3: **deploy** 2 S 70 -> 89m
 phase 3: **missions** 3 Air 33 -> 33m
-phase 3: remaining GP = 10 toons, 51 ships
-**phase 3: 2 N HOLD AT ZERO :star:**
+phase 3: remaining GP = 4 toons, 51 ships
+**phase 3: 2 N -> 2 :star:**
 **phase 3: 2 S -> 2 :star:**
 **phase 3: 3 Air HOLD AT ZERO :star:**
 
-**phase 4: active** 2 N, 3 Air, 3 S
-phase 4: **missions** 2 N 35 -> 95m
+**phase 4: active** 3 Air, 3 N, 3 S
 phase 4: **missions** 3 Air 35 -> 68m
 phase 4: **deploy** 3 Air 24 -> 92m
-phase 4: **missions** 3 S 27 -> 27m
-phase 4: **deploy** 3 S 68 -> 95m
-phase 4: remaining GP = 6 toons, 27 ships
-**phase 4: 2 N -> 2 :star:**
+phase 4: **missions** 3 N 14 -> 14m
+phase 4: **deploy** 3 N 45 -> 59m
+phase 4: **missions** 3 S 40 -> 40m
+phase 4: **deploy** 3 S 20 -> 60m
+phase 4: remaining GP = 9 toons, 27 ships
 **phase 4: 3 Air -> 2 :star:**
-**phase 4: 3 S -> 2 :star:**
+**phase 4: 3 N -> 1 :star:**
+**phase 4: 3 S -> 1 :star:**
 
 </textarea>
 <button onclick="copyText('discordpercent90')">Copy For Discord</button></div><div class="column"><h2>Decreasing Estimated: 16 &#11088;</h2>
@@ -188,7 +191,7 @@ phase 4: remaining GP = 6 toons, 27 ships
 	<th>Action</th>
 	</tr>
 </thead>
-<tbody><tr class="newPhase"><td>1</td><td>&nbsp;</td><td><b>active</b> 1 N, 1 S</td><tr><td>1</td><td>1 N</td><td><b>missions</b> 33 -> 33m</td><tr><td>1</td><td>1 N</td><td><b>deploy</b> 77 -> 110m</td><tr><td>1</td><td>1 S</td><td><b>missions</b> 18 -> 18m</td><tr><td>1</td><td>1 S</td><td><b>deploy</b> 6 -> 24m</td><tr><td>1</td><td>&nbsp;</td><td><b>remaining GP:</b> 0 toons, 57 ships</td><tr><td>1</td><td>1 N</td><td>3 &#11088;</td><tr><td>1</td><td>1 S</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>2</td><td>&nbsp;</td><td><b>active</b> 1 S, 2 Air, 2 N</td><tr><td>2</td><td>1 S</td><td><b>missions</b> 23 -> 47m</td><tr><td>2</td><td>1 S</td><td><b>deploy</b> 57 -> 104m</td><tr><td>2</td><td>2 Air</td><td><b>missions</b> 26 -> 26m</td><tr><td>2</td><td>2 Air</td><td><b>deploy</b> 41 -> 67m</td><tr><td>2</td><td>2 N</td><td><b>missions</b> 28 -> 28m</td><tr><td>2</td><td>2 N</td><td><b>deploy</b> 22 -> 50m</td><tr><td>2</td><td>&nbsp;</td><td><b>remaining GP:</b> 0 toons, 13 ships</td><tr><td>2</td><td>1 S</td><td>3 &#11088;</td><tr><td>2</td><td>2 Air</td><td>2 &#11088; -- 39 to the next</td><tr><td>2</td><td>2 N</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>3</td><td>&nbsp;</td><td><b>active</b> 2 N, 2 S, 3 Air</td><tr><td>3</td><td>2 N</td><td><b>missions</b> 10 -> 60m</td><tr><td>3</td><td>2 S</td><td><b>missions</b> 26 -> 26m</td><tr><td>3</td><td>2 S</td><td><b>deploy</b> 63 -> 89m</td><tr><td>3</td><td>3 Air</td><td><b>missions</b> 33 -> 33m</td><tr><td>3</td><td>&nbsp;</td><td><b>remaining GP:</b> 13 toons, 52 ships</td><tr><td>3</td><td>2 N</td><td><b>HOLD AT ZERO &#11088;</b></td><tr><td>3</td><td>2 S</td><td>2 &#11088; -- 64 to the next</td><tr><td>3</td><td>3 Air</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>4</td><td>&nbsp;</td><td><b>active</b> 2 N, 3 Air, 3 S</td><tr><td>4</td><td>2 N</td><td><b>missions</b> 35 -> 95m</td><tr><td>4</td><td>3 Air</td><td><b>missions</b> 35 -> 68m</td><tr><td>4</td><td>3 Air</td><td><b>deploy</b> 24 -> 92m</td><tr><td>4</td><td>3 S</td><td><b>missions</b> 26 -> 26m</td><tr><td>4</td><td>3 S</td><td><b>deploy</b> 69 -> 95m</td><tr><td>4</td><td>&nbsp;</td><td><b>remaining GP:</b> 4 toons, 26 ships</td><tr><td>4</td><td>2 N</td><td>2 &#11088; -- 96 to the next</td><tr><td>4</td><td>3 Air</td><td>2 &#11088; -- 50 to the next</td><tr><td>4</td><td>3 S</td><td>2 &#11088; -- 77 to the next</td></tbody>
+<tbody><tr class="newPhase"><td>1</td><td>&nbsp;</td><td><b>active</b> 1 N, 1 S</td><tr><td>1</td><td>1 N</td><td><b>missions</b> 33 -> 33m</td><tr><td>1</td><td>1 N</td><td><b>deploy</b> 77 -> 110m</td><tr><td>1</td><td>1 S</td><td><b>missions</b> 21 -> 21m</td><tr><td>1</td><td>1 S</td><td><b>deploy</b> 6 -> 27m</td><tr><td>1</td><td>&nbsp;</td><td><b>remaining GP:</b> 0 toons, 57 ships</td><tr><td>1</td><td>1 N</td><td>3 &#11088;</td><tr><td>1</td><td>1 S</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>2</td><td>&nbsp;</td><td><b>active</b> 1 S, 2 Air, 2 N</td><tr><td>2</td><td>1 S</td><td><b>missions</b> 27 -> 54m</td><tr><td>2</td><td>1 S</td><td><b>deploy</b> 50 -> 104m</td><tr><td>2</td><td>2 Air</td><td><b>missions</b> 25 -> 25m</td><tr><td>2</td><td>2 Air</td><td><b>deploy</b> 42 -> 67m</td><tr><td>2</td><td>2 N</td><td><b>missions</b> 31 -> 31m</td><tr><td>2</td><td>2 N</td><td><b>deploy</b> 29 -> 60m</td><tr><td>2</td><td>&nbsp;</td><td><b>remaining GP:</b> 0 toons, 12 ships</td><tr><td>2</td><td>1 S</td><td>3 &#11088;</td><tr><td>2</td><td>2 Air</td><td>2 &#11088; -- 39 to the next</td><tr><td>2</td><td>2 N</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>3</td><td>&nbsp;</td><td><b>active</b> 2 N, 2 S, 3 Air</td><tr><td>3</td><td>2 N</td><td><b>missions</b> 35 -> 95m</td><tr><td>3</td><td>2 S</td><td><b>missions</b> 19 -> 19m</td><tr><td>3</td><td>2 S</td><td><b>deploy</b> 70 -> 89m</td><tr><td>3</td><td>3 Air</td><td><b>missions</b> 33 -> 33m</td><tr><td>3</td><td>&nbsp;</td><td><b>remaining GP:</b> 6 toons, 52 ships</td><tr><td>3</td><td>2 N</td><td>2 &#11088; -- 96 to the next</td><tr><td>3</td><td>2 S</td><td>2 &#11088; -- 64 to the next</td><tr><td>3</td><td>3 Air</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>4</td><td>&nbsp;</td><td><b>active</b> 3 Air, 3 N, 3 S</td><tr><td>4</td><td>3 Air</td><td><b>missions</b> 35 -> 68m</td><tr><td>4</td><td>3 Air</td><td><b>deploy</b> 24 -> 92m</td><tr><td>4</td><td>3 N</td><td><b>missions</b> 14 -> 14m</td><tr><td>4</td><td>3 N</td><td><b>deploy</b> 45 -> 59m</td><tr><td>4</td><td>3 S</td><td><b>missions</b> 39 -> 39m</td><tr><td>4</td><td>3 S</td><td><b>deploy</b> 21 -> 60m</td><tr><td>4</td><td>&nbsp;</td><td><b>remaining GP:</b> 7 toons, 26 ships</td><tr><td>4</td><td>3 Air</td><td>2 &#11088; -- 50 to the next</td><tr><td>4</td><td>3 N</td><td>1 &#11088; -- 50 to the next</td><tr><td>4</td><td>3 S</td><td>1 &#11088; -- 35 to the next</td></tbody>
 </table>
 <br/>
 <br/><textarea id="discorddecreasing" style="display:none" rows="8" cols="40">
@@ -197,90 +200,30 @@ phase 4: remaining GP = 6 toons, 27 ships
 **phase 1: active** 1 N, 1 S
 phase 1: **missions** 1 N 33 -> 33m
 phase 1: **deploy** 1 N 77 -> 110m
-phase 1: **missions** 1 S 18 -> 18m
-phase 1: **deploy** 1 S 6 -> 24m
+phase 1: **missions** 1 S 21 -> 21m
+phase 1: **deploy** 1 S 6 -> 27m
 phase 1: remaining GP = 0 toons, 57 ships
 **phase 1: 1 N -> 3 :star:**
 **phase 1: 1 S HOLD AT ZERO :star:**
 
 **phase 2: active** 1 S, 2 Air, 2 N
-phase 2: **missions** 1 S 23 -> 47m
-phase 2: **deploy** 1 S 57 -> 104m
-phase 2: **missions** 2 Air 26 -> 26m
-phase 2: **deploy** 2 Air 41 -> 67m
-phase 2: **missions** 2 N 28 -> 28m
-phase 2: **deploy** 2 N 22 -> 50m
-phase 2: remaining GP = 0 toons, 13 ships
+phase 2: **missions** 1 S 27 -> 54m
+phase 2: **deploy** 1 S 50 -> 104m
+phase 2: **missions** 2 Air 25 -> 25m
+phase 2: **deploy** 2 Air 42 -> 67m
+phase 2: **missions** 2 N 31 -> 31m
+phase 2: **deploy** 2 N 29 -> 60m
+phase 2: remaining GP = 0 toons, 12 ships
 **phase 2: 1 S -> 3 :star:**
 **phase 2: 2 Air -> 2 :star:**
 **phase 2: 2 N HOLD AT ZERO :star:**
 
 **phase 3: active** 2 N, 2 S, 3 Air
-phase 3: **missions** 2 N 10 -> 60m
-phase 3: **missions** 2 S 26 -> 26m
-phase 3: **deploy** 2 S 63 -> 89m
+phase 3: **missions** 2 N 35 -> 95m
+phase 3: **missions** 2 S 19 -> 19m
+phase 3: **deploy** 2 S 70 -> 89m
 phase 3: **missions** 3 Air 33 -> 33m
-phase 3: remaining GP = 13 toons, 52 ships
-**phase 3: 2 N HOLD AT ZERO :star:**
-**phase 3: 2 S -> 2 :star:**
-**phase 3: 3 Air HOLD AT ZERO :star:**
-
-**phase 4: active** 2 N, 3 Air, 3 S
-phase 4: **missions** 2 N 35 -> 95m
-phase 4: **missions** 3 Air 35 -> 68m
-phase 4: **deploy** 3 Air 24 -> 92m
-phase 4: **missions** 3 S 26 -> 26m
-phase 4: **deploy** 3 S 69 -> 95m
-phase 4: remaining GP = 4 toons, 26 ships
-**phase 4: 2 N -> 2 :star:**
-**phase 4: 3 Air -> 2 :star:**
-**phase 4: 3 S -> 2 :star:**
-
-</textarea>
-<button onclick="copyText('discorddecreasing')">Copy For Discord</button></div><div class="column"><h2>Wat Shards Estimated: 15 &#11088;</h2>
-<br/>
-<table style="margin: 10px">
-<thead>
-	<tr>
-	<th>Phase</th>
-	<th>Section</th>
-	<th>Action</th>
-	</tr>
-</thead>
-<tbody><tr class="newPhase"><td>1</td><td>&nbsp;</td><td><b>active</b> 1 N, 1 S</td><tr><td>1</td><td>1 N</td><td><b>missions</b> 33 -> 33m</td><tr><td>1</td><td>1 N</td><td><b>deploy</b> 77 -> 110m</td><tr><td>1</td><td>1 S</td><td><b>missions</b> 18 -> 18m</td><tr><td>1</td><td>1 S</td><td><b>deploy</b> 6 -> 24m</td><tr><td>1</td><td>&nbsp;</td><td><b>remaining GP:</b> 0 toons, 57 ships</td><tr><td>1</td><td>1 N</td><td>3 &#11088;</td><tr><td>1</td><td>1 S</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>2</td><td>&nbsp;</td><td><b>active</b> 1 S, 2 Air, 2 N</td><tr><td>2</td><td>1 S</td><td><b>missions</b> 23 -> 47m</td><tr><td>2</td><td>1 S</td><td><b>deploy</b> 57 -> 104m</td><tr><td>2</td><td>2 Air</td><td><b>missions</b> 26 -> 26m</td><tr><td>2</td><td>2 Air</td><td><b>deploy</b> 41 -> 67m</td><tr><td>2</td><td>2 N</td><td><b>missions</b> 28 -> 28m</td><tr><td>2</td><td>2 N</td><td><b>deploy</b> 22 -> 50m</td><tr><td>2</td><td>&nbsp;</td><td><b>remaining GP:</b> 0 toons, 13 ships</td><tr><td>2</td><td>1 S</td><td>3 &#11088;</td><tr><td>2</td><td>2 Air</td><td>2 &#11088; -- 39 to the next</td><tr><td>2</td><td>2 N</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>3</td><td>&nbsp;</td><td><b>active</b> 2 N, 2 S, 3 Air</td><tr><td>3</td><td>2 N</td><td><b>missions</b> 43 -> 93m</td><tr><td>3</td><td>2 N</td><td><b>deploy</b> 2 -> 95m</td><tr><td>3</td><td>2 S</td><td><b>missions</b> 26 -> 26m</td><tr><td>3</td><td>2 S</td><td><b>deploy</b> 63 -> 89m</td><tr><td>3</td><td>3 Air</td><td><b>missions</b> 33 -> 33m</td><tr><td>3</td><td>&nbsp;</td><td><b>remaining GP:</b> 11 toons, 52 ships</td><tr><td>3</td><td>2 N</td><td>2 &#11088; -- 96 to the next</td><tr><td>3</td><td>2 S</td><td>2 &#11088; -- 64 to the next</td><tr><td>3</td><td>3 Air</td><td><b>HOLD AT ZERO &#11088;</b></td><tr class="newPhase"><td>4</td><td>&nbsp;</td><td><b>active</b> 3 Air, 3 N, 3 S</td><tr><td>4</td><td>3 Air</td><td><b>missions</b> 35 -> 68m</td><tr><td>4</td><td>3 Air</td><td><b>deploy</b> 24 -> 92m</td><tr><td>4</td><td>3 N</td><td><b>missions</b> 11 -> 11m</td><tr><td>4</td><td>3 N</td><td><b>deploy</b> 48 -> 59m</td><tr><td>4</td><td>3 S</td><td><b>missions</b> 30 -> 30m</td><tr><td>4</td><td>3 S</td><td><b>deploy</b> 25 -> 55m</td><tr><td>4</td><td>&nbsp;</td><td><b>remaining GP:</b> 0 toons, 26 ships</td><tr><td>4</td><td>3 Air</td><td>2 &#11088; -- 50 to the next</td><tr><td>4</td><td>3 N</td><td>1 &#11088; -- 50 to the next</td><tr><td>4</td><td>3 S</td><td><b>HOLD AT ZERO &#11088;</b></td></tbody>
-</table>
-<br/>
-<br/><textarea id="discordwat" style="display:none" rows="8" cols="40">
-**Estimated 15 :star:**
-
-**phase 1: active** 1 N, 1 S
-phase 1: **missions** 1 N 33 -> 33m
-phase 1: **deploy** 1 N 77 -> 110m
-phase 1: **missions** 1 S 18 -> 18m
-phase 1: **deploy** 1 S 6 -> 24m
-phase 1: remaining GP = 0 toons, 57 ships
-**phase 1: 1 N -> 3 :star:**
-**phase 1: 1 S HOLD AT ZERO :star:**
-
-**phase 2: active** 1 S, 2 Air, 2 N
-phase 2: **missions** 1 S 23 -> 47m
-phase 2: **deploy** 1 S 57 -> 104m
-phase 2: **missions** 2 Air 26 -> 26m
-phase 2: **deploy** 2 Air 41 -> 67m
-phase 2: **missions** 2 N 28 -> 28m
-phase 2: **deploy** 2 N 22 -> 50m
-phase 2: remaining GP = 0 toons, 13 ships
-**phase 2: 1 S -> 3 :star:**
-**phase 2: 2 Air -> 2 :star:**
-**phase 2: 2 N HOLD AT ZERO :star:**
-
-**phase 3: active** 2 N, 2 S, 3 Air
-phase 3: **missions** 2 N 43 -> 93m
-phase 3: **deploy** 2 N 2 -> 95m
-phase 3: **missions** 2 S 26 -> 26m
-phase 3: **deploy** 2 S 63 -> 89m
-phase 3: **missions** 3 Air 33 -> 33m
-phase 3: remaining GP = 11 toons, 52 ships
+phase 3: remaining GP = 6 toons, 52 ships
 **phase 3: 2 N -> 2 :star:**
 **phase 3: 2 S -> 2 :star:**
 **phase 3: 3 Air HOLD AT ZERO :star:**
@@ -288,15 +231,15 @@ phase 3: remaining GP = 11 toons, 52 ships
 **phase 4: active** 3 Air, 3 N, 3 S
 phase 4: **missions** 3 Air 35 -> 68m
 phase 4: **deploy** 3 Air 24 -> 92m
-phase 4: **missions** 3 N 11 -> 11m
-phase 4: **deploy** 3 N 48 -> 59m
-phase 4: **missions** 3 S 30 -> 30m
-phase 4: **deploy** 3 S 25 -> 55m
-phase 4: remaining GP = 0 toons, 26 ships
+phase 4: **missions** 3 N 14 -> 14m
+phase 4: **deploy** 3 N 45 -> 59m
+phase 4: **missions** 3 S 39 -> 39m
+phase 4: **deploy** 3 S 21 -> 60m
+phase 4: remaining GP = 7 toons, 26 ships
 **phase 4: 3 Air -> 2 :star:**
 **phase 4: 3 N -> 1 :star:**
-**phase 4: 3 S HOLD AT ZERO :star:**
+**phase 4: 3 S -> 1 :star:**
 
 </textarea>
-<button onclick="copyText('discordwat')">Copy For Discord</button></div></div><br/>
-<font size="-2">Generated 2020-09-28 16:00:14 +0000</font>
+<button onclick="copyText('discorddecreasing')">Copy For Discord</button></div></div><br/>
+<font size="-2">Generated 2020-10-09 22:54:48 +0000</font>
