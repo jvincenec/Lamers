@@ -21,12 +21,12 @@ guilds=(
 	'cursed-legacy 259119853'
 	'kotd 126515217'
 	'honor 558111281'
-	'giggity 431616455'
 	'phoenixhawk 767641473'
 	'ebonhand 783828985'
 	'ewoking 714847433'
 	'rambos 739491776'
 	'younglings 951659657'
+	'brother 494962926'
 )
 
 for g in $guilds ; do 
