@@ -16,13 +16,13 @@ body {
 <br/><script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="../../j/graph.js"></script><script>
 function displayChart(name) {
-	d3.select("#chart").html("")
-	c1 = new Chart("player-ds-geo-tb-squad-gp.json", null, name)
-	c1.id = "chart"
-	c1.title = "Guild TB Squads: " + name
-	c1.tightScale = true
-	c1.round = 1000
-	c1.display()
+    d3.select("#chart").html("")
+    c1 = new Chart("player-ds-geo-tb-squad-gp.json", null, name)
+    c1.id = "chart"
+    c1.title = "Guild TB Squads: " + name
+    c1.tightScale = true
+    c1.round = 1000
+    c1.display()
 }
 displayChart("Geos-Special")
 </script>
@@ -32,4 +32,4 @@ displayChart("Geos-Special")
 <a href="dsgeotb-squads-chart.html">Squads Chart</a>
 <br/><br/><a href="#" onclick="displayChart('Geos-Special')">Geos-Special</a> |&nbsp;<a href="#" onclick="displayChart('Geos')">Geos</a> |&nbsp;<a href="#" onclick="displayChart('DR')">DR</a> |&nbsp;<a href="#" onclick="displayChart('FO')">FO</a> |&nbsp;<a href="#" onclick="displayChart('BH')">BH</a> |&nbsp;<a href="#" onclick="displayChart('zEP')">zEP</a> |&nbsp;<a href="#" onclick="displayChart('NS')">NS</a> |&nbsp;<a href="#" onclick="displayChart('Traya')">Traya</a> |&nbsp;<a href="#" onclick="displayChart('Grievous')">Grievous</a> |&nbsp;<a href="#" onclick="displayChart('Nute')">Nute</a> |&nbsp;<a href="#" onclick="displayChart('Dooku+Asajj')">Dooku+Asajj</a> |&nbsp;<a href="#" onclick="displayChart('Dooku+Sep')">Dooku+Sep</a> |&nbsp;<a href="#" onclick="displayChart('Chimaera')">Chimaera</a> |&nbsp;<a href="#" onclick="displayChart('Executrix')">Executrix</a> |&nbsp;<br/><br/>
 <div id="chart"></div><br/>
-<font size="-2">Generated 2020-10-09 22:51:54 +0000</font>
+<font size="-2">Generated 2020-10-12 16:28:16 +0000</font>
