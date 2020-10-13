@@ -1,5 +1,6 @@
 #!/bin/zsh
 
+
 guilds=(
 	'baltic 228765519'
 	'exile 656997348'
@@ -12,7 +13,6 @@ guilds=(
 	'ozzerg 815193777'
 	'porgs 986843228'
 	'sbr 141812836'
-	'space-dragons 831264412'
 	'twd 414232583'
 	'wk 221913824'
 	'tumbleweed 115961515'
@@ -27,6 +27,7 @@ guilds=(
 	'rambos 739491776'
 	'younglings 951659657'
 	'brother 494962926'
+	'lazerfaces 469344695'
 )
 
 for g in $guilds ; do 
