@@ -10,7 +10,6 @@ guilds=(
 	'llvy 454754726'
 	'lop 388924554'
 	'mandalorians 591287488'
-	'ozzerg 815193777'
 	'porgs 986843228'
 	'sbr 141812836'
 	'twd 414232583'
