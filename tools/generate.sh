@@ -28,6 +28,8 @@ guilds=(
 	'brother 494962926'
 	'lazerfaces 469344695'
 	'kotor 815925164'
+	'thrawn 464574793'
+	'esb 496642589'
 )
 
 for g in $guilds ; do 
