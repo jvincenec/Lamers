@@ -15,7 +15,6 @@ guilds=(
 	'twd 414232583'
 	'wk 221913824'
 	'tumbleweed 115961515'
-	'badbatch 814449267'
 	'templar 135722653'
 	'cursed-legacy 259119853'
 	'kotd 126515217'
