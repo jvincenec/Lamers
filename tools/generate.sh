@@ -16,7 +16,6 @@ guilds=(
 	'wk 221913824'
 	'tumbleweed 115961515'
 	'templar 135722653'
-	'cursed-legacy 259119853'
 	'kotd 126515217'
 	'honor 558111281'
 	'phoenixhawk 767641473'
