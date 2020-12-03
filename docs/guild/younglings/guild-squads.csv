@@ -1,42 +1,248 @@
 Player,Offense,Defense,GP,Name,Squad,Viable
-"BigCountry",0,1,106995,padme,"zzPadme zGK zJKA zAhsoka zC-3PO",1
-"BigCountry",0,1,114582,DRMalak,"zzzDR zzHK-47 zBSF zzMalak 6* Sith Empire Trooper",1
-"BigCountry",1,1,100608,NestSisters,"zzAV zzMT zDaka Zombie zNest",1
-"BigCountry",0,1,73104,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy G9, Sun Fac G8",1
-"BigCountry",1,0,107251,Traya,"zzTraya zDN zSion zzEP zThrawn",1
-"BigCountry",1,1,89852,JTR,"zJTR Scav Rey G9, zBB-8 zR2-D2 RT",1
-"BigCountry",1,1,120965,Revan Offense,"zzzJKR zGMY zBS zJolee zHYoda",1
-"BigCountry",1,1,85213,Ewoks,"zChirpa Elder Paploo zWicket Logray",1
-"BigCountry",1,1,92367,Carth,"zCarth Onasi, zMission zZaalbar Juhani zCanderous",1
-"BigCountry",0,1,94854,BH,"zBossk Boba Greedo Jango Dengar G9",1
-"BigCountry",0,1,76027,FO,"zKRU Kylo G9, FOO FOE Phasma G8",1
-"BigCountry",1,0,94317,CLS,"zzzCLS zHan Leia G8, Old Ben, zChewbacca",1
-"BigCountry",0,1,75945,Phoenix,"Hera G9, Chopper G9, Kanan G8, zEzra Zeb G8",1
-"BigCountry",,,347576,Negotiator,"Negotiator 5* HT Anakin's Eta-2 Starfighter 5*, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, BTL-B Y-wing Starfighter 3*, Clone Sergeant's ARC-170 6*, Plo Koon's Jedi Starfighter",0
-"BigCountry",1,0,98710,ShaakClones,"zzShaak Ti, zRex zEcho zFives Clone Sergeant G9",0
-"BigCountry",1,0,62028,Troopers,"Veers G9, Starck G7, Stormtrooper G8, Snowtrooper G8, Magma G8",0
-"BigCountry",1,1,61071,Rogue1,"Jyn G7, Chirrut G7, Baze 6* G7, K-2SO G8, Cassian G6",0
-"Chaser",1,1,106314,NS_Alt,"zzMT zzAV zDaka Talia Zombie",1
-"Chaser",,,336873,Negotiator,"Negotiator 6* HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter, Rex's ARC-170",1
-"Chaser",0,1,87217,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy G8, Sun Fac",1
-"Chaser",,,368542,HansMF,"Home One, Han's MF 6*, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
-"Chaser",1,0,114280,Traya,"zzTraya zzDN zSion zzEP zzThrawn",1
-"Chaser",1,1,113318,JTR,"zzzJTR zScav Rey, zzBB-8 zzR2-D2 zFinn",1
-"Chaser",1,1,123793,Revan,"zzzJKR zBS zzGMY zJolee zGK",1
-"Chaser",0,1,111680,BH,"zzJango zBoba zGreedo zDengar zzBossk",1
-"Chaser",1,1,82091,Carth,"Carth Onasi G8, zMission zZaalbar G8, zJuhani G8, zCanderous G8",1
-"Chaser",0,1,82998,Phoenix,"Hera G9, zKanan Ezra G8, zZeb zSabine G8",1
-"Chaser",1,0,107338,Wiggs,"Wedge Biggs zzzCLS zHan zLeia",1
-"Chaser",1,0,79228,Wampa (Counter),"Rex G8, Wampa G8, Krennic G7, zzHYoda Jyn G7",1
-"Chaser",0,1,88271,FO,"zzKRU zKylo FOO G8, zFOTP FOST G8",1
-"Chaser",1,0,83748,QGJ,"QGJ G7, Aayla G7, JKA G8, zzOld Ben, zAhsoka",1
-"Chaser",0,1,95253,Grievous,"GG G8, zB2 zMagnaGuard zDooku zIG-88",0
-"Chaser",,,345246,Executrix,"Executrix Tie Adv, Emperor's Shuttle 4*, TIE Reaper 4*, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",0
-"Chaser",,,70495,Mon Mothma,"Mon Mothma 3* G4, Baze G8, zK-2SO Chirrut G8, Lando",0
-"Chaser",1,1,87181,Ewoks,"Chirpa 6* G7, Elder zPaploo zWicket zLogray",0
-"Chaser",1,0,52578,Troopers,"Veers G7, Starck G5, Range Trooper 3* G3, Stormtrooper G7, Snowtrooper G7",0
-"Chaser",1,0,68961,Jawas,"Nebit G8, Jawa Engineer G8, Jawa Scavenger G7, Jawa G8, Dathcha G8",0
-"Chaser",1,0,79451,Zader (Counter),"zzzVader zzTarkin Sidious G9, Sith Empire Trooper 6* G5, Shoretrooper 5* G5",0
+"llama the hut",1,0,117641,CLS,"zzzCLS zHan zChewbacca zzR2-D2 zzC-3PO",1
+"llama the hut",0,1,124490,BH,"zzJango zBoba zzBossk zDengar zNest",1
+"llama the hut",1,1,142174,Revan,"zzzJKR zBS zzGMY zJolee GK",1
+"llama the hut",1,1,93278,Ewoks,"zChirpa Elder zPaploo Teebo zLogray",1
+"llama the hut",1,1,84295,Carth,"zCarth Onasi, zMission Zaalbar G8, zJuhani Canderous G8",1
+"llama the hut",0,1,85697,Phoenix,"zHera Zeb G8, zEzra zSabine zKanan G8",1
+"llama the hut",0,1,115034,DRMalak,"zzzDR zHK-47 zBSF zMalak 5* zzThrawn",0
+"llama the hut",0,1,61097,Geonosians,"GBA G8, Poggle G7, Geo Soldier G7, Geo Spy G5, Sun Fac G5",0
+"llama the hut",0,1,81890,Grievous,"zGG G9, B2 G8, MagnaGuard G9, IG-88 T3-M4",0
+"llama the hut",1,1,66518,NS_Alt,"AV Zombie Spirit 6* G7, Talia G7, Daka G9",0
+"llama the hut",1,1,106312,zEP,"zzEP zzzVader zzTarkin IPD G7, TFP",0
+"llama the hut",1,0,76828,501st,"Rex Clone Sergeant G9, Echo G9, Fives zAhsoka",0
+"llama the hut",0,1,78332,FO,"zzKRU Kylo G8, FOO Phasma G7, FOTP G7",0
+"Tacnew  Gazzem",0,1,87909,padme,"zzPadme zGK JKA Ahsoka CW Chewbacca G8",1
+"Tacnew  Gazzem",0,1,114101,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
+"Tacnew  Gazzem",1,1,105411,JTR,"zzzJTR zScav Rey, zzBB-8 zzR2-D2 Finn",1
+"Tacnew  Gazzem",,,100954,Nute-OR,"zNute zDooku zzJango zZaalbar zMission",1
+"Tacnew  Gazzem",1,1,111508,Revan Offense,"zzzJKR zzGMY zBS zJolee HYoda G8",1
+"Tacnew  Gazzem",1,0,92882,ShaakClones,"zzShaak Ti, zRex Echo zFives ARC Trooper G8",1
+"Tacnew  Gazzem",0,1,94945,BH,"zzBossk Zam zBoba Dengar G9, Greedo",1
+"Tacnew  Gazzem",1,1,108227,zEP,"zzEP zzzVader zzTarkin IPD G8, TFP G8",1
+"Tacnew  Gazzem",0,1,91235,Phoenix,"zHera Zeb zEzra Sabine zKanan",1
+"Tacnew  Gazzem",1,0,88331,Wiggs,"Wedge Biggs G8, zzzCLS zHan Leia",1
+"Tacnew  Gazzem",0,1,89829,FO,"zzKRU Kylo FOO zPhasma FOST",1
+"Tacnew  Gazzem",1,0,81059,Thragma (Counter),"zzThrawn Magma G9, Krennic G8, Stormtrooper G8, Shoretrooper G9",1
+"Tacnew  Gazzem",1,1,74912,Rogue1,"Jyn Chirrut G8, Baze G8, K-2SO G8, Cassian G9",1
+"Tacnew  Gazzem",1,0,25039,SionSolo (Counter),"zSion",1
+"Tacnew  Gazzem",,,347907,Negotiator,"Negotiator 5* HT Anakin's Eta-2 Starfighter 3*, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, BTL-B Y-wing Starfighter 3*, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter",0
+"Tacnew  Gazzem",1,1,66190,NS,"MT 6* G8, zzAV Daka Zombie 6* G6, Spirit 6* G3",0
+"Tacnew  Gazzem",0,1,81113,DR,"zDR G8, zzHK-47 zBSF Sith Empire Trooper 4* G7, Sith Assassin G7",0
+"Tacnew  Gazzem",0,1,87761,Grievous,"zzGG B2 6* G8, zDroideka G9, MagnaGuard G8, zzT3-M4",0
+"Tacnew  Gazzem",,,385911,Executrix,"Executrix Tie Adv, Emperor's Shuttle, TIE Reaper 6*, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",0
+"Tacnew  Gazzem",,,63482,Mon Mothma,"Mon Mothma 3* G4, Lando Bistan G8, zCara Dune 3* G9, Bodhi Rook G8",0
+"Tacnew  Gazzem",1,1,83231,Ewoks,"zChirpa Elder Paploo G7, Scout zWicket",0
+"Tacnew  Gazzem",1,0,58189,Troopers,"Veers Starck G7, Snowtrooper G8, DT 5* G8, Range Trooper 4* G6",0
+"Tacnew  Gazzem",1,0,67076,Jawas,"Nebit G8, Jawa Engineer G9, Jawa Scavenger G7, Jawa 6* G9, Dathcha",0
+"Tacnew  Gazzem",1,0,8913,NestSolo (Counter),"Nest 4* G6",0
+"JediKnight06",0,1,132063,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
+"JediKnight06",0,1,134521,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
+"JediKnight06",,,339483,Malevolence,"Malevolence Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber, Vulture Droid, IG-2000",1
+"JediKnight06",1,1,107045,NS_Alt,"zzMT zzAV Zombie Talia zDaka",1
+"JediKnight06",,,496047,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter, Rex's ARC-170",1
+"JediKnight06",0,1,100522,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
+"JediKnight06",,,399366,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
+"JediKnight06",0,1,120121,Grievous,"zzGG zB2 zB1 zDroideka MagnaGuard",1
+"JediKnight06",1,0,106964,Traya,"zzTraya DN zSion zzEP zThrawn",1
+"JediKnight06",1,1,119915,JTR,"zzzJTR Scav Rey, zzBB-8 zzR2-D2 RT",1
+"JediKnight06",,,95416,Nute-Wat,"zNute zDooku zWat Tambor, Jango Nest",1
+"JediKnight06",1,1,145884,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
+"JediKnight06",1,1,118532,Revan Offense,"zzzJKR zzGMY zBS zJolee zHYoda",1
+"JediKnight06",1,1,80232,Ewoks,"zChirpa G9, Elder Paploo G9, zWicket Logray",1
+"JediKnight06",0,1,95793,BH,"zzBossk Boba Dengar G9, Greedo IG-88",1
+"JediKnight06",1,0,88924,Troopers,"zVeers Starck Snowtrooper DT Range Trooper",1
+"JediKnight06",0,1,85822,FO,"zzKRU Kylo FOO FOE FOST",1
+"JediKnight06",0,1,82138,Phoenix,"Hera Zeb G8, zEzra zSabine zKanan G8",1
+"JediKnight06",1,0,104228,CLS,"zzzCLS zHan Wedge Biggs zzChewbacca",1
+"JediKnight06",1,1,84916,Rogue1,"zJyn Chirrut Baze K-2SO G9, Cassian",1
+"JediKnight06",1,0,110878,Zader (Counter),"zzzVader zMission zZaalbar zzWampa Shoretrooper",1
+"JediKnight06",,,329506,Executrix,"Executrix Tie Adv, Emperor's Shuttle 4*, TIE Reaper, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter 6*, First Order TIE Fighter",0
+"JediKnight06",1,0,65449,Jawas,"Nebit G8, Jawa Engineer G9, Jawa Scavenger G7, Jawa G8, Dathcha G9",0
+"shanndmann",1,1,104532,NS,"zzMT zzAV zDaka Zombie Spirit",1
+"shanndmann",0,1,142656,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
+"shanndmann",0,1,120671,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper G8",1
+"shanndmann",,,490019,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, BTL-B Y-wing Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter",1
+"shanndmann",0,1,104916,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
+"shanndmann",,,426642,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
+"shanndmann",0,1,120869,Grievous,"zzGG zB2 zB1 zDroideka MagnaGuard",1
+"shanndmann",1,0,115099,Traya,"zzTraya zzDN zSion zDooku zzThrawn",1
+"shanndmann",1,1,109025,JTR,"zzzJTR Scav Rey, zzBB-8 zzR2-D2 Finn",1
+"shanndmann",1,1,143064,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
+"shanndmann",1,1,125344,Revan Offense,"zzzJKR zzGMY zBS zJolee zzHYoda",1
+"shanndmann",1,1,88453,Ewoks,"zChirpa Elder zPaploo zWicket Logray G9",1
+"shanndmann",0,1,123470,BH,"zzJango zBoba zzThe Mandalorian, zzBossk zDengar",1
+"shanndmann",1,1,106797,zEP,"zzEP zzzVader Tarkin zIPD TFP",1
+"shanndmann",0,1,88680,FO,"zzKRU zKylo FOO FOE FOST G8",1
+"shanndmann",1,0,88427,Troopers,"zVeers zStarck Shoretrooper DT Range Trooper",1
+"shanndmann",1,0,108137,CLS,"zzzCLS zHan Wedge Biggs zzChewbacca",1
+"shanndmann",0,1,98977,Phoenix,"zHera zZeb zEzra zSabine zKanan",1
+"shanndmann",1,1,86009,Rogue1,"Jyn Chirrut Baze K-2SO zCassian",1
+"shanndmann",1,0,79288,Jawas,"Nebit G9, Jawa Engineer, Jawa Scavenger, Jawa G9, Dathcha",1
+"shanndmann",1,0,16182,NestSolo (Counter),"Nest",1
+"shanndmann",0,1,75586,Qira,"Qira L3-37 5* G8, Vandor Chewbacca 3* G7, zMission zZaalbar",0
+"shanndmann",,,349530,Executrix,"Executrix Tie Adv, Emperor's Shuttle 4*, TIE Reaper 6*, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter 4*, First Order TIE Fighter",0
+"shanndmann",,,75081,Mon Mothma,"zzMon Mothma 4* G9, Lando Scarif G9, zCara Dune 5* G9, Pao G8",0
+"Zigz",1,1,144505,GL Rey,"zzzzzzRey zHoldo zGK zResistance Hero Poe, zResistance Hero Finn",1
+"Zigz",0,1,122013,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
+"Zigz",1,1,102164,NestSisters,"zzAV zzMT Daka Zombie zNest",1
+"Zigz",,,454488,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, BTL-B Y-wing Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter",1
+"Zigz",0,1,94966,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
+"Zigz",,,444313,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
+"Zigz",0,1,126016,Grievous,"zzGG zB2 zB1 zDroideka zMagnaGuard",1
+"Zigz",1,0,109396,Traya,"zzTraya zDN zSion zzEP zThrawn",1
+"Zigz",1,1,145773,JTR,"zzzJTR zScav Rey, zzBB-8 zzR2-D2 zFinn",1
+"Zigz",,,400799,Executrix,"Executrix Tie Adv, Emperor's Shuttle, TIE Reaper, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",1
+"Zigz",1,1,115439,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
+"Zigz",1,1,130765,Revan Offense,"zzzJKR zzGMY zzHYoda zJolee zJKA",1
+"Zigz",1,0,124803,CLS,"zzzCLS zHan zzChewbacca Leia zzC-3PO",1
+"Zigz",1,1,83814,Ewoks,"zChirpa Elder Paploo zWicket Logray",1
+"Zigz",1,1,92943,Carth,"zCarth Onasi, zMission zZaalbar zJuhani Canderous",1
+"Zigz",0,1,105434,BH,"zzBossk Cad zZam Boba Dengar",1
+"Zigz",0,1,89174,Phoenix,"Hera Zeb zEzra Sabine Kanan",1
+"Zigz",1,0,84244,Troopers,"zVeers Starck Shoretrooper Snowtrooper DT",1
+"Zigz",0,1,96913,FO,"zzKRU zKylo FOO zFOST zFOTP",1
+"Zigz",1,1,85206,Rogue1,"Jyn Chirrut Baze K-2SO Cassian",1
+"Zigz",1,0,99414,Zader (Counter),"zzzVader zWampa Tarkin Sidious G8, Stormtrooper",1
+"Zigz",1,0,72177,Jawas,"Nebit Jawa Engineer, Jawa Scavenger G8, Jawa Dathcha",1
+"Zigz",,,326930,Malevolence,"Malevolence 5* Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber 5*, Vulture Droid 6*, IG-2000",0
+"Слава Украине",0,1,86411,Qira,"zQira L3-37 G8, Vandor Chewbacca G8, zMission zZaalbar",1
+"Слава Украине",0,1,120062,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper G8",1
+"Слава Украине",,,400522,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter, Rex's ARC-170",1
+"Слава Украине",0,1,96342,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac G9",1
+"Слава Украине",,,357212,HansMF,"Home One, Han's MF 5*, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
+"Слава Украине",1,0,106656,Traya,"zzTraya DN G8, Sion G9, zNest zzThrawn",1
+"Слава Украине",0,1,93593,Grievous,"zzGG B2 G8, zB1 zDroideka MagnaGuard G8",1
+"Слава Украине",1,1,119969,JTR,"zzzJTR Scav Rey, zzBB-8 zzR2-D2 RT",1
+"Слава Украине",1,1,135718,Revan,"zzzJKR zBS zzGMY zJolee zGK",1
+"Слава Украине",1,0,116956,CLS,"zzzCLS zHan zzChewbacca zLeia zzC-3PO",1
+"Слава Украине",1,1,92666,Ewoks,"zChirpa Elder zPaploo zWicket zLogray",1
+"Слава Украине",1,0,106648,ShaakClones,"zzShaak Ti, zRex zEcho zzFives zARC Trooper",1
+"Слава Украине",0,1,117357,BH,"zzJango zBoba zzEmbo zzBossk zDengar",1
+"Слава Украине",1,1,101604,zEP,"zzEP zzzVader zzTarkin IPD G8, TFP",1
+"Слава Украине",0,1,92711,FO,"zKRU zKylo FOE zPhasma FOTP",1
+"Слава Украине",0,1,75491,Phoenix,"Hera Zeb G8, Chopper G9, Ezra G8, Kanan",1
+"Слава Украине",1,1,93105,NS,"zzMT zzAV zDaka Zombie G8, Spirit G9",0
+"Слава Украине",,,378393,Executrix,"Executrix Tie Adv, Emperor's Shuttle 6*, TIE Reaper, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",0
+"Слава Украине",1,0,69878,Troopers,"Veers Starck Snowtrooper DT G9, Range Trooper 5* G8",0
+"Слава Украине",1,0,88431,QGJ,"QGJ Aayla G6, JKA zzHYoda Ahsoka",0
+"Hego Damask",1,1,150350,GL Rey,"zzzzzzRey zzChewbacca zGK zResistance Hero Poe, zResistance Hero Finn",1
+"Hego Damask",0,1,83950,Qira,"Qira L3-37 G8, Vandor Chewbacca G8, zMission zZaalbar",1
+"Hego Damask",1,1,105450,NS,"zzMT zzAV zDaka Zombie Spirit",1
+"Hego Damask",0,1,123963,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
+"Hego Damask",,,466581,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, BTL-B Y-wing Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter",1
+"Hego Damask",,,328066,Malevolence,"Malevolence 5* Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber, Vulture Droid, IG-2000",1
+"Hego Damask",,,131790,JKL,"zzJKL zzzJKR zzHYoda Old Ben, zEzra",1
+"Hego Damask",0,1,97881,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
+"Hego Damask",,,430539,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
+"Hego Damask",0,1,119195,Grievous,"zzGG zB2 zB1 zDroideka zMagnaGuard",1
+"Hego Damask",1,0,111308,Traya,"zzTraya zDN zSion zzEP zThrawn",1
+"Hego Damask",1,1,151888,JTR,"zzzJTR zScav Rey, zBB-8 zzR2-D2 zFinn",1
+"Hego Damask",,,405320,Executrix,"Executrix Tie Adv, Emperor's Shuttle, TIE Reaper, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",1
+"Hego Damask",,,100636,Nute-Wat,"zNute zDooku zWat Tambor, zzJango Nest",1
+"Hego Damask",,,92434,Disintegration,"Aurra Greef Karga G8, zBoba zzBossk The Mandalorian G8",1
+"Hego Damask",1,1,131898,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
+"Hego Damask",,,97258,Mon Mothma,"zMon Mothma 6*, Lando Baze Chirrut Wedge",1
+"Hego Damask",1,1,85756,Ewoks,"zChirpa Elder Paploo zWicket zLogray G9",1
+"Hego Damask",1,0,88978,Troopers,"zVeers Starck Shoretrooper DT Range Trooper",1
+"Hego Damask",0,1,95238,FO,"zzKRU zKylo FOO FOE zFOST",1
+"Hego Damask",0,1,75656,Phoenix,"Hera Zeb G8, Chopper Sabine Kanan G8",1
+"Hego Damask",1,0,102899,Zader (Counter),"zzzVader zzWampa Tarkin Sidious Stormtrooper G8",1
+"Hego Damask",1,0,69608,Jawas,"Nebit G9, Jawa Engineer G9, Jawa Scavenger G8, Jawa G9, Dathcha G9",1
+"Biggie",1,1,158223,SL Kylo,"zzzzzzSL Kylo, zSith Trooper, zHux zzKRU zzThrawn",1
+"Biggie",0,1,90091,Qira,"Qira L3-37 zVandor Chewbacca, Mission Zaalbar",1
+"Biggie",1,1,114381,NS,"zzMT zzAV zDaka Zombie Spirit",1
+"Biggie",0,1,139959,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
+"Biggie",0,1,137673,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
+"Biggie",,,507567,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter, Rex's ARC-170",1
+"Biggie",0,1,105023,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
+"Biggie",,,405874,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
+"Biggie",0,1,117352,Grievous,"zzGG zB2 zB1 zDroideka MagnaGuard",1
+"Biggie",1,1,124592,JTR,"zzzJTR Scav Rey, zzBB-8 zzR2-D2 Finn",1
+"Biggie",1,0,138273,Traya,"zzTraya zDN zSion zzEP zNest",1
+"Biggie",1,1,148920,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
+"Biggie",1,1,130801,Revan Offense,"zzzJKR zGMY zBS zJolee zzHYoda",1
+"Biggie",1,1,88861,Ewoks,"zChirpa Elder Paploo zWicket Logray",1
+"Biggie",0,1,117740,BH,"zzBossk zBoba zJango zzThe Mandalorian, Dengar G9",1
+"Biggie",1,0,84854,Troopers,"zVeers Starck Shoretrooper Snowtrooper Range Trooper G9",1
+"Biggie",0,1,75850,Phoenix,"Hera G9, Zeb G8, Ezra zSabine Kanan G8",1
+"Biggie",1,0,121807,CLS,"zzzCLS zHan Wedge Biggs zzChewbacca",1
+"Biggie",1,1,90189,Rogue1,"zJyn Chirrut Baze K-2SO G9, Cassian",1
+"Biggie",1,0,101035,zMaul,"zMaul zDooku Sidious zSavage Sith Marauder",1
+"Biggie",1,0,79520,Jawas,"Nebit Jawa Engineer, Jawa Scavenger, Jawa Dathcha",1
+"Biggie",,,309397,Malevolence,"Malevolence 5* Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber 6*, Vulture Droid 5*, IG-2000",0
+"Biggie",,,438529,Executrix,"Executrix Tie Adv, Emperor's Shuttle 5*, TIE Reaper 5*, Imperial TIE Fighter, Gauntlet Starfighter 6*, First Order SF TIE Fighter, First Order TIE Fighter",0
+"sir5centalot",1,1,104552,NS,"zzMT zzAV zDaka Zombie Spirit",1
+"sir5centalot",0,1,141127,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
+"sir5centalot",0,1,132376,padme,"zzPadme zGK zJKA zAhsoka zC-3PO",1
+"sir5centalot",,,482036,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, BTL-B Y-wing Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter",1
+"sir5centalot",,,353853,Malevolence,"Malevolence Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber, Vulture Droid, IG-2000",1
+"sir5centalot",,,140432,JKL,"zzJKL zzzJKR zzHYoda zzOld Ben, zEzra",1
+"sir5centalot",0,1,98040,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
+"sir5centalot",,,477791,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
+"sir5centalot",0,1,127574,Grievous-Wat,"zzGG zB2 zB1 zMagnaGuard zWat Tambor",1
+"sir5centalot",1,0,118721,Traya,"zzTraya DN zSion zzEP zzThrawn",1
+"sir5centalot",1,1,127566,JTR,"zzzJTR zScav Rey, zzBB-8 zzR2-D2 zFinn",1
+"sir5centalot",,,109737,Nute-OR,"zNute zDooku zzJango zZaalbar zMission",1
+"sir5centalot",1,1,120629,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
+"sir5centalot",1,1,79783,Ewoks,"zChirpa Elder Paploo Wicket Logray",1
+"sir5centalot",0,1,139237,BH,"zzBossk zZam zBoba zzThe Mandalorian, zDengar",1
+"sir5centalot",0,1,96221,FO,"zzKRU zKylo FOO FOE FOST G9",1
+"sir5centalot",1,0,94097,Troopers,"zVeers zStarck Shoretrooper DT Range Trooper",1
+"sir5centalot",1,0,133816,CLS,"zzzCLS zHan zLeia zFulcrum zzChewbacca",1
+"sir5centalot",0,1,95120,Phoenix,"zHera zZeb Chopper zSabine zKanan",1
+"sir5centalot",1,1,90508,Rogue1,"zJyn Chirrut Baze zK-2SO zCassian",1
+"sir5centalot",1,0,108541,Zader (Counter),"zzzVader zzWampa Tarkin Sidious Stormtrooper G8",1
+"sir5centalot",1,0,71883,Jawas,"Nebit G8, Jawa Engineer G9, Jawa Scavenger G8, Jawa G9, Dathcha",1
+"sir5centalot",1,0,24688,NestSolo (Counter),"zNest",1
+"sir5centalot",,,95887,Mon Mothma,"zzMon Mothma 4* G8, Lando Hoth Rebel Scout G9, Wedge Biggs",0
+"Misfit Egghead",0,1,112879,padme,"zzPadme zGK JKA zAhsoka zzC-3PO",1
+"Misfit Egghead",1,1,105202,NestSisters,"zzAV zzMT zDaka Zombie zNest",1
+"Misfit Egghead",0,1,115269,DR,"zzzDR zzHK-47 zBSF Sith Empire Trooper, Sith Assassin G8",1
+"Misfit Egghead",,,437625,HansMF,"Home One, Han's MF, HT Biggs X-wing, Phantom Ghost Cassian's U-wing, Bistan's U-wing",1
+"Misfit Egghead",0,1,94258,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
+"Misfit Egghead",1,0,115046,Traya,"zzTraya zzDN zSion zzEP zThrawn",1
+"Misfit Egghead",0,1,100198,Grievous,"zzGG B2 zB1 zDroideka MagnaGuard",1
+"Misfit Egghead",1,1,114448,JTR,"zzzJTR Scav Rey, zzBB-8 zzR2-D2 zFinn",1
+"Misfit Egghead",,,404041,Executrix,"Executrix Tie Adv, Emperor's Shuttle, TIE Reaper, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",1
+"Misfit Egghead",,,112003,Nute-OR,"zNute zDooku zzJango zZaalbar zMission",1
+"Misfit Egghead",1,1,135243,Revan Offense,"zzzJKR zzGMY zBS zJolee zzHYoda",1
+"Misfit Egghead",1,1,85269,Ewoks,"zChirpa Elder Paploo Wicket Logray",1
+"Misfit Egghead",1,0,98853,ShaakClones,"zzShaak Ti, zRex zEcho Fives Clone Sergeant",1
+"Misfit Egghead",0,1,107943,BH,"zzBossk zAurra zBoba zEmbo Dengar G9",1
+"Misfit Egghead",0,1,90591,FO,"zzKRU zKylo FOO FOE FOST G9",1
+"Misfit Egghead",1,0,114643,Wiggs,"Wedge Biggs zzzCLS zHan zzChewbacca",1
+"Misfit Egghead",0,1,97150,Phoenix,"zHera Zeb zEzra zSabine zKanan",1
+"Misfit Egghead",1,0,86412,Troopers,"zVeers Starck Shoretrooper Snowtrooper DT",1
+"Misfit Egghead",1,1,80444,Rogue1,"Jyn Chirrut Baze K-2SO G9, Cassian",1
+"Misfit Egghead",1,0,109470,Zader (Counter),"zzzVader zzWampa Tarkin Sidious Stormtrooper",1
+"Misfit Egghead",1,0,68963,Jawas,"Nebit G8, Jawa Engineer G9, Jawa Scavenger G8, Jawa G9, Dathcha",1
+"Misfit Egghead",,,75582,Mon Mothma,"Mon Mothma 3* G8, Lando Bistan G8, Hoth Rebel Soldier, Hoth Rebel Scout",0
+"Tucker McFly",0,1,87487,Qira,"Qira L3-37 G8, zVandor Chewbacca, zMission Zaalbar",1
+"Tucker McFly",0,1,134348,DRMalak,"zzzDR zHK-47 zBSF zzMalak Sith Empire Trooper",1
+"Tucker McFly",0,1,135888,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
+"Tucker McFly",,,467488,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, BTL-B Y-wing Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter",1
+"Tucker McFly",,,341346,Malevolence,"Malevolence Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber, Vulture Droid, IG-2000",1
+"Tucker McFly",0,1,100056,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
+"Tucker McFly",,,377354,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
+"Tucker McFly",1,0,117617,Traya,"zzTraya zDN zSion zzEP Thrawn",1
+"Tucker McFly",1,1,105824,JTR,"zzzJTR Scav Rey, zzBB-8 zzR2-D2 Finn",1
+"Tucker McFly",,,112858,Nute-Wat,"zNute zB1 zB2 MagnaGuard zWat Tambor",1
+"Tucker McFly",1,1,136145,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
+"Tucker McFly",1,1,119608,Revan Offense,"zzzJKR zGMY zBS zJolee zHYoda",1
+"Tucker McFly",1,1,77240,Ewoks,"zChirpa Elder Paploo G9, Wicket Logray G9",1
+"Tucker McFly",0,1,110638,BH,"zzBossk Boba zThe Mandalorian, Dengar zNest",1
+"Tucker McFly",0,1,132675,FO,"zzKRU Kylo zHux FOE zFOST",1
+"Tucker McFly",0,1,74530,Phoenix,"Hera Zeb G8, zEzra Sabine G8, Kanan G8",1
+"Tucker McFly",1,0,106904,Wiggs,"Wedge Biggs zzCLS zHan zzChewbacca",1
+"Tucker McFly",1,1,68764,Rogue1,"Jyn G8, Chirrut G8, Baze G8, K-2SO G8, Cassian G8",1
+"Tucker McFly",1,0,100869,Zader (Counter),"zzzVader zzWampa Tarkin G9, Sidious G9, Shoretrooper G8",1
+"Tucker McFly",1,0,64638,Jawas,"Nebit G8, Jawa Engineer G9, Jawa Scavenger G8, Jawa G9, Dathcha G9",1
+"Tucker McFly",1,1,89032,NS,"MT G9, zzAV Daka Zombie Spirit G9",0
+"Tucker McFly",,,369433,Executrix,"Executrix Tie Adv, Emperor's Shuttle, TIE Reaper, Imperial TIE Fighter, Gauntlet Starfighter 6*, First Order SF TIE Fighter, First Order TIE Fighter",0
+"Tucker McFly",,,72690,Mon Mothma,"Mon Mothma 6* G8, Lando Hoth Rebel Soldier G8, Cara Dune G7, Pao G8",0
+"Tucker McFly",1,0,68813,Troopers,"Veers Starck G9, Stormtrooper G8, DT Range Trooper G9",0
+"Tucker McFly",0,1,93738,BH,"Jango zzGreef Karga, Embo Greedo IG-88",0
 "Gabe Galaxyroamer",0,1,129618,padme,"zzPadme zGK zJKA zAhsoka zC-3PO",1
 "Gabe Galaxyroamer",0,1,110469,DRMalak,"zzzDR zHK-47 zBSF zzMalak Sith Empire Trooper",1
 "Gabe Galaxyroamer",1,1,99485,NestSisters,"zzAV zMT Daka Zombie zNest",1
@@ -50,37 +256,226 @@ Player,Offense,Defense,GP,Name,Squad,Viable
 "Gabe Galaxyroamer",1,1,131738,GAS,"zzzzGAS zRex zEcho zzFives ARC Trooper",1
 "Gabe Galaxyroamer",1,1,117331,Revan Offense,"zzzJKR zGMY zBS zJolee zHYoda",1
 "Gabe Galaxyroamer",1,1,71445,Ewoks,"zChirpa G9, Elder Paploo Wicket Logray G9",1
-"Gabe Galaxyroamer",0,1,91811,BH,"zBossk Boba IG-88 Cad Dengar",1
+"Gabe Galaxyroamer",0,1,91811,BH,"zBossk Cad Boba Dengar IG-88",1
 "Gabe Galaxyroamer",0,1,112432,FO,"zKRU zKylo FOO FOE FOST",1
-"Gabe Galaxyroamer",0,1,66963,Phoenix,"Hera G8, Kanan G8, Ezra Zeb G8, Sabine",1
+"Gabe Galaxyroamer",0,1,66963,Phoenix,"Hera G8, Zeb G8, Ezra Sabine Kanan G8",1
 "Gabe Galaxyroamer",1,0,96960,CLS,"zzCLS zHan Wedge Biggs zChewbacca",1
 "Gabe Galaxyroamer",1,0,78953,Troopers,"zVeers Starck Stormtrooper G7, Snowtrooper DT",1
 "Gabe Galaxyroamer",0,1,90788,Geonosians,"zGBA Poggle Geo Soldier, Geo Spy, Sun Fac",0
 "Gabe Galaxyroamer",1,1,62152,Rogue1,"Jyn G8, Chirrut Baze 5* G7, Pao G8, Cassian G7",0
-"Newmania",1,1,147780,SL Kylo,"zzzzzzSL Kylo, zSith Trooper, zHux zzKRU zThrawn",1
-"Newmania",1,1,150844,GL Rey,"zzzzzzRey zzMalak zGK zResistance Hero Poe, zResistance Hero Finn",1
-"Newmania",1,1,103286,NS,"zzMT zzAV zDaka Zombie Spirit",1
-"Newmania",0,1,110732,DR,"zzzDR zHK-47 zBSF Sith Empire Trooper, Sith Assassin G9",1
-"Newmania",,,359500,Malevolence,"Malevolence Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber, Vulture Droid, IG-2000",1
-"Newmania",,,131855,JKL,"zzJKL zzzJKR zHYoda zOld Ben, zBarriss",1
-"Newmania",,,491197,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter, Rex's ARC-170",1
-"Newmania",0,1,96394,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
-"Newmania",,,439942,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
-"Newmania",0,1,121346,Grievous,"zzGG zB2 zB1 zDroideka MagnaGuard",1
-"Newmania",1,1,147005,JTR,"zzJTR Scav Rey, zzBB-8 zzR2-D2 Finn",1
-"Newmania",1,0,120157,Traya,"zzTraya zDN zSion zDooku zzEP",1
-"Newmania",,,430268,Executrix,"Executrix Tie Adv, Emperor's Shuttle, TIE Reaper, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",1
-"Newmania",1,1,141992,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
-"Newmania",1,0,136007,CLS,"zzzCLS zHan zzChewbacca Leia zzC-3PO",1
-"Newmania",1,1,81883,Ewoks,"zChirpa Elder Paploo Wicket Logray G9",1
-"Newmania",1,1,93950,Carth,"zCarth Onasi, zMission zZaalbar Juhani G8, zCanderous",1
-"Newmania",0,1,104856,BH,"zzBossk Boba zJango Dengar zNest",1
-"Newmania",1,0,90605,Troopers,"zVeers Starck Range Trooper, Snowtrooper DT",1
-"Newmania",0,1,93533,Phoenix,"Hera zKanan zEzra Zeb zSabine",1
-"Newmania",1,1,87020,Rogue1,"zJyn Chirrut Baze K-2SO G8, Cassian",1
-"Newmania",1,0,107099,Zader (Counter),"zzzVader zzWampa Tarkin Sidious Stormtrooper",1
-"Newmania",1,0,70679,Jawas,"Nebit G9, Jawa Engineer G9, Jawa Scavenger G8, Jawa G9, Dathcha G9",1
-"Newmania",,,83363,Mon Mothma,"Mon Mothma 4* G9, Wedge Hoth Rebel Scout G8, Biggs Lando",0
+"Bender",1,1,143126,GL Rey,"zzzzzzRey Holdo zGK zResistance Hero Poe, zResistance Hero Finn",1
+"Bender",0,1,81446,Qira,"Qira zL3-37 Vandor Chewbacca G8, Mission G8, zZaalbar",1
+"Bender",1,1,107026,NestSisters,"zzAV zzMT zDaka Zombie zNest",1
+"Bender",0,1,113687,DRMalak,"zzzDR zHK-47 zBSF zzMalak Sith Empire Trooper",1
+"Bender",,,472728,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter, Rex's ARC-170",1
+"Bender",0,1,96303,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
+"Bender",,,394069,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
+"Bender",0,1,104788,Grievous,"zGG zB2 zB1 zDroideka zMagnaGuard",1
+"Bender",1,0,114813,Traya,"zzTraya zzDN zSion zzEP zzThrawn",1
+"Bender",1,1,145387,JTR,"zzzJTR Scav Rey, zzBB-8 zzR2-D2 zFinn",1
+"Bender",1,1,112736,GAS,"zzzzGAS zRex Echo zzFives zARC Trooper",1
+"Bender",1,1,124786,Revan Offense,"zzzJKR zGMY zHYoda zJolee zJKA",1
+"Bender",1,0,109170,CLS,"zzCLS zHan zzChewbacca Leia zzC-3PO",1
+"Bender",1,1,90350,Ewoks,"zChirpa Elder zPaploo zWicket Logray",1
+"Bender",0,1,104963,BH,"zzBossk Cad Boba zJango Dengar",1
+"Bender",0,1,109245,FO,"zzKRU zKylo FOO FOE FOST",1
+"Bender",1,0,86483,Troopers,"zVeers Starck Snowtrooper DT Range Trooper",1
+"Bender",0,1,82559,Phoenix,"Hera Zeb Ezra Sabine Kanan",1
+"Bender",1,1,75585,Rogue1,"Jyn G8, Chirrut Baze Scarif G8, Cassian G9",1
+"Bender",1,0,81697,Zader (Counter),"Vader Wampa G8, Tarkin Sidious Shoretrooper",1
+"Bender",1,0,56736,Jawas,"Nebit G8, Jawa Engineer G8, Jawa Scavenger G8, Jawa G8, Dathcha G8",1
+"Bender",,,317374,Malevolence,"Malevolence Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber 6*, Vulture Droid 5*, IG-2000",0
+"Crusader5454",0,1,120440,padme,"zzPadme zGK zJKA zAhsoka zC-3PO",1
+"Crusader5454",1,1,101146,NS_Alt,"zzMT zzAV Zombie Talia zDaka",1
+"Crusader5454",0,1,119344,Grievous,"zzGG zB2 zB1 zDroideka MagnaGuard",1
+"Crusader5454",1,1,150095,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
+"Crusader5454",1,1,87544,Ewoks,"zChirpa Elder zPaploo Scout Logray",1
+"Crusader5454",0,1,99909,BH,"zBossk Boba zJango Dengar zIG-88",1
+"Crusader5454",1,1,117594,zEP,"zzEP zzzVader Tarkin zIPD TFP",1
+"Crusader5454",1,0,106699,Troopers,"zVeers zStarck Shoretrooper zzAdmiral Piett, Snowtrooper",1
+"Crusader5454",0,1,69187,Phoenix,"Hera G8, Zeb G8, Chopper G9, Ezra G8, Kanan G8",1
+"Crusader5454",1,0,81148,Thragma (Counter),"zThrawn Magma G9, DT G9, Krennic G8, Stormtrooper G9",1
+"Crusader5454",1,0,72072,Jawas,"Nebit G8, Jawa Engineer G9, Jawa Scavenger, Jawa G9, Dathcha G9",1
+"Crusader5454",0,1,77328,Geonosians,"zGBA Poggle Geo Soldier G8, Geo Spy G9, Sun Fac G8",0
+"Crusader5454",,,354194,Executrix,"Executrix Tie Adv, Emperor's Shuttle 4*, TIE Reaper 5*, Imperial TIE Fighter, Gauntlet Starfighter 4*, First Order SF TIE Fighter 5*, First Order TIE Fighter 5*",0
+"Crusader5454",1,0,72018,CLS,"CLS G8, Han Leia G8, Old Ben G9, Chewbacca G8",0
+"DarthDado",0,1,113197,padme,"zzPadme zGK zJKA zAhsoka zBarriss G8",1
+"DarthDado",0,1,109417,Grievous,"zzGG zB2 zB1 zDroideka MagnaGuard",1
+"DarthDado",1,0,102329,Traya,"zzTraya zDN Sion zEP zThrawn",1
+"DarthDado",1,1,111774,Revan Offense,"zzzJKR zGMY zBS zJolee Ezra",1
+"DarthDado",,,106259,Nute-Sep,"zNute zDooku zJango zNest zGBA",1
+"DarthDado",0,1,104085,BH,"zzBossk Cad zBoba zDengar IG-88",1
+"DarthDado",0,1,94593,FO,"zzKRU zKylo FOO FOE FOST G8",1
+"DarthDado",1,0,89516,CLS,"zCLS zHan Leia G9, Old Ben G9, zChewbacca",1
+"DarthDado",1,0,73495,Troopers,"zVeers Starck G7, Shoretrooper G7, Snowtrooper G8, DT",1
+"DarthDado",1,0,63861,ShaakClones,"Shaak Ti 4* G7, Rex G9, Echo G8, Fives G8, Clone Sergeant G9",0
+"DarthDado",1,0,83219,Zader (Counter),"zzVader Mission G7, Zaalbar G7, Tarkin Sidious G9",0
+"Ty Platus",0,1,116658,DRMalak,"zzzDR zHK-47 BSF zzMalak Sith Empire Trooper G8",1
+"Ty Platus",0,1,127711,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
+"Ty Platus",1,1,107201,NestSisters,"zzAV zzMT zDaka Zombie zNest",1
+"Ty Platus",,,357063,Malevolence,"Malevolence Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber, Vulture Droid, IG-2000",1
+"Ty Platus",,,475495,Negotiator,"Negotiator 5* HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter, Rex's ARC-170",1
+"Ty Platus",0,1,98507,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
+"Ty Platus",0,1,125214,Grievous,"zzGG zB2 zB1 zDroideka MagnaGuard",1
+"Ty Platus",1,0,107382,Traya,"zzTraya DN Sion G9, zzEP zzThrawn",1
+"Ty Platus",1,1,104784,JTR,"zzJTR Scav Rey, zzBB-8 zzR2-D2 Finn",1
+"Ty Platus",,,145876,Disintegration,"zAurra zzGreef Karga, zBoba zzBossk zzThe Mandalorian",1
+"Ty Platus",,,105718,Nute-OR,"zNute zDooku zzJango zZaalbar zMission",1
+"Ty Platus",1,1,139390,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
+"Ty Platus",1,1,116614,Revan Offense,"zzzJKR zGMY zBS zJolee zEzra",1
+"Ty Platus",1,0,112880,CLS,"zzzCLS zHan Wedge G8, Biggs G8, zzChewbacca",1
+"Ty Platus",1,1,76672,Rogue1,"Jyn G8, Chirrut Baze Pao G8, Bodhi Rook G8",1
+"Ty Platus",,,337312,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing 6*, Phantom Ghost Cassian's U-wing 6*, Wedge X-wing",0
+"Ty Platus",,,52276,Mon Mothma,"Mon Mothma 4* G8, K-2SO G6, Bistan G7, Hoth Rebel Scout G8, Cassian G5",0
+"Ty Platus",1,0,73549,Troopers,"Veers Starck G9, Shoretrooper G8, Snowtrooper G8, DT",0
+"Ty Platus",0,1,72346,Phoenix,"Hera Zeb G7, Chopper Sabine Kanan G8",0
+"Ty Platus",1,0,65475,Jawas,"Nebit G8, Jawa Engineer 5* G8, Jawa Scavenger G8, Jawa G9, Dathcha G9",0
+"Pianist",0,1,91828,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
+"Pianist",1,1,127028,Revan,"zzzJKR zBS zzGMY zJolee zGK",1
+"Pianist",,,292527,Negotiator,"Negotiator 5* HT 5* Anakin's Eta-2 Starfighter 4*, Umbaran Starfighter 5*, Ahsoka Tano's Jedi Starfighter, Clone Sergeant's ARC-170, Jedi Consular's Starfighter, Plo Koon's Jedi Starfighter",0
+"Pianist",0,1,62468,Grievous,"GG G9, B2 G5, zDroideka 4* G8, Nute G5, T3-M4 G8",0
+"Pianist",1,0,93290,ShaakClones,"zzShaak Ti, zRex Echo zFives Clone Sergeant 6*",0
+"Pianist",1,1,80766,Ewoks,"zChirpa Elder 6* G8, Paploo zWicket 6* zLogray",0
+"Pianist",1,1,51258,Carth,"Carth Onasi 6* G7, Mission G8, Zaalbar G8, Juhani 4* G8, Canderous 4* G7",0
+"Pianist",0,1,82862,BH,"zJango 5* Cad Boba G9, Embo 4* zzBossk 5*",0
+"Pianist",1,0,58908,Wiggs,"Wedge 5* G6, Biggs G4, Han G7, Ezra Leia G8",0
+"Pianist",1,0,10513,SionSolo (Counter),"Sion 3* G9",0
+"Yord",0,1,121962,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
+"Yord",0,1,105898,DRMalak,"zzzDR zHK-47 BSF zzMalak Sith Empire Trooper",1
+"Yord",,,381248,HansMF,"Home One, Han's MF, HT Biggs X-wing, Phantom Ghost Cassian's U-wing, Bistan's U-wing",1
+"Yord",1,1,100283,NS_Alt,"zzMT Acolyte zDaka zzAV Zombie",1
+"Yord",0,1,93044,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
+"Yord",0,1,113000,Grievous,"zzGG zB2 zB1 zDroideka zMagnaGuard",1
+"Yord",1,0,111549,Traya,"zzTraya zDN zSion zzEP zThrawn",1
+"Yord",1,1,129375,JTR,"zzJTR Scav Rey, zzBB-8 zzR2-D2 Finn",1
+"Yord",1,1,118928,Revan Offense,"zzzJKR zzGMY zBS Jolee zHYoda",1
+"Yord",1,1,94636,Carth,"zCarth Onasi, zMission zZaalbar Juhani Canderous",1
+"Yord",0,1,98077,BH,"zzBossk zBoba Jango Dengar Greedo",1
+"Yord",0,1,75680,Phoenix,"zHera G8, Zeb G8, zEzra Sabine G8, Kanan G8",1
+"Yord",1,0,116366,CLS,"zzzCLS zHan Leia Old Ben, zzChewbacca",1
+"Yord",1,0,89720,Wampa (Counter),"Rex zzWampa DT Jyn G8, FOO G8",1
+"Yord",1,0,72473,Troopers,"zVeers zStarck G8, Shoretrooper Stormtrooper G7, Snowtrooper G8",1
+"Yord",1,0,15049,NestSolo (Counter),"Nest G9",1
+"Yord",,,302304,Malevolence,"Malevolence 6* Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber 4*, Vulture Droid 3*, IG-2000",0
+"Yord",,,357927,Executrix,"Executrix Tie Adv, Emperor's Shuttle, TIE Reaper 6*, Imperial TIE Fighter, Gauntlet Starfighter 6*, First Order SF TIE Fighter 6*, First Order TIE Fighter",0
+"Yord",,,79187,Mon Mothma,"Mon Mothma 2* G6, Lando Baze Chirrut Pao",0
+"Yord",1,1,77938,Ewoks,"zChirpa Elder Paploo G7, zWicket Logray G9",0
+"Yord",0,1,80327,FO,"KRU G8, zKylo Phasma G9, FOST G8, zFOTP",0
+"Yord",1,0,61443,Jawas,"Nebit G8, Jawa Engineer, Jawa Scavenger G7, Jawa G7, Dathcha G7",0
+"czappia",0,1,90922,Grievous,"zzGG zB2 zDooku IG-88 G8, T3-M4",1
+"czappia",1,1,88489,Ewoks,"zChirpa Elder zPaploo Teebo G8, zLogray",1
+"czappia",1,1,108747,Carth,"zCarth Onasi, zMission zZaalbar zJuhani zCanderous",1
+"czappia",1,0,81283,Wiggs,"Wedge G7, Biggs G7, zzzCLS zEzra Leia G9",1
+"czappia",0,1,103355,DR,"zzzDR zzHK-47 zBSF Sith Assassin G4, zzThrawn",0
+"czappia",1,1,73265,NS,"zzMT G8, zzAV Daka G5, Zombie 6* G2, Spirit G3",0
+"czappia",1,1,109976,Revan,"zzzJKR zBS GMY G7, zJolee GK G6",0
+"czappia",0,1,85158,BH,"zzBossk G9, Cad zBoba Embo 4* G7, Greedo G9",0
+"czappia",1,0,52741,501st,"Rex G6, Clone Sergeant G6, Echo G2, Fives G8, Ahsoka G8",0
+"czappia",0,1,99056,Phoenix,"zHera zZeb Chopper Sabine 4* G8, zKanan",0
+"czappia",1,0,93066,Zader (Counter),"zzVader G8, zzWampa zzTarkin Sidious G5, Stormtrooper G7",0
+"czappia",1,0,8575,SionSolo (Counter),"Sion 4* G8",0
+"Marrec",0,1,85465,Qira,"Qira L3-37 G8, Vandor Chewbacca, Mission zZaalbar",1
+"Marrec",0,1,125164,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
+"Marrec",0,1,131596,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
+"Marrec",1,1,102406,NestSisters,"zzAV zMT Daka Zombie zNest",1
+"Marrec",,,434173,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, BTL-B Y-wing Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter",1
+"Marrec",,,347453,Malevolence,"Malevolence Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber, Vulture Droid, IG-2000",1
+"Marrec",0,1,101096,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
+"Marrec",,,421919,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
+"Marrec",0,1,123780,Grievous,"zzGG zB2 zB1 zDroideka zMagnaGuard",1
+"Marrec",1,0,111512,Traya,"zzTraya zDN zSion zzEP zThrawn",1
+"Marrec",1,1,150960,JTR,"zzzJTR zScav Rey, zzBB-8 zzR2-D2 zFinn",1
+"Marrec",,,400131,Executrix,"Executrix Tie Adv, Emperor's Shuttle, TIE Reaper, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",1
+"Marrec",1,1,109275,GAS,"zzzzGAS zRex zEcho zFives zARC Trooper",1
+"Marrec",1,1,107562,Revan Offense,"zzzJKR zGMY zBS zJolee HYoda",1
+"Marrec",1,1,83891,Ewoks,"zChirpa Elder Paploo zWicket Logray",1
+"Marrec",0,1,104108,BH,"zzJango Cad Boba zzBossk Dengar",1
+"Marrec",0,1,104957,FO,"zzKRU zKylo FOO FOE zFOST",1
+"Marrec",1,0,91166,Troopers,"zVeers zStarck Stormtrooper Snowtrooper Range Trooper",1
+"Marrec",0,1,101199,Phoenix,"zHera zZeb zEzra zSabine zKanan",1
+"Marrec",1,0,104939,CLS,"zzzCLS zHan Leia Old Ben, zzChewbacca",1
+"Marrec",1,1,91763,Rogue1,"zJyn Chirrut Baze K-2SO G9, zCassian",1
+"Marrec",1,0,88188,Zader (Counter),"zzzVader Wampa G9, Tarkin Sidious G9, Shoretrooper",1
+"Marrec",1,0,69921,Jawas,"Nebit Jawa Engineer G9, Jawa Scavenger G8, Jawa G9, Dathcha",1
+"Marrec",,,81071,Mon Mothma,"Mon Mothma 5* G8, Lando Wedge zPao Biggs",0
+"Haj bolo",1,1,100536,NS,"zzMT zzAV zDaka Zombie Spirit",1
+"Haj bolo",0,1,130145,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
+"Haj bolo",0,1,118964,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
+"Haj bolo",0,1,125590,Grievous,"zzGG zB2 zB1 zDroideka zMagnaGuard",1
+"Haj bolo",1,0,104631,Traya,"zzTraya zDN G8, zSion G9, zzEP zzThrawn",1
+"Haj bolo",1,1,97925,JTR,"zzzJTR Scav Rey, zBB-8 G9, zzR2-D2 Finn G9",1
+"Haj bolo",,,303547,HansMF,"Home One, Han's MF 5*, HT Biggs X-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
+"Haj bolo",1,1,111648,Revan Offense,"zzzJKR zGMY BS zJolee zzHYoda",1
+"Haj bolo",1,1,93606,Ewoks,"zChirpa Elder zPaploo zWicket zLogray",1
+"Haj bolo",1,0,105802,ShaakClones,"zzShaak Ti, zRex zEcho zzFives zARC Trooper",1
+"Haj bolo",1,1,98983,Carth,"zCarth Onasi, zMission zZaalbar zJuhani zCanderous",1
+"Haj bolo",0,1,100639,BH,"zzBossk Boba Dengar zGreedo IG-88",1
+"Haj bolo",1,0,99908,CLS,"zzzCLS zHan Leia G9, Old Ben G9, zzChewbacca",1
+"Haj bolo",0,1,77871,Phoenix,"Hera zZeb G8, Chopper Ezra Kanan G9",1
+"Haj bolo",1,0,68599,Jawas,"Nebit G8, Jawa Engineer G9, Jawa Scavenger G8, Jawa G9, Dathcha",1
+"Haj bolo",1,0,71094,Troopers,"Veers Starck G9, Shoretrooper G9, Snowtrooper G8, DT G8",0
+"Haj bolo",0,1,66937,FO,"KRU G7, Kylo G8, FOO G8, Phasma G8, FOST G8",0
+"Lolek",0,1,93133,Qira,"Qira zL3-37 G8, zVandor Chewbacca, zMission zZaalbar",1
+"Lolek",1,1,109813,NS,"zzMT zzAV zDaka Zombie Spirit",1
+"Lolek",0,1,128924,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
+"Lolek",0,1,127534,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
+"Lolek",,,477927,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, BTL-B Y-wing Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter",1
+"Lolek",,,346473,Malevolence,"Malevolence Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber, Vulture Droid, IG-2000",1
+"Lolek",0,1,94741,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
+"Lolek",,,399446,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
+"Lolek",0,1,118736,Grievous,"zzGG zB2 zB1 zDroideka zMagnaGuard",1
+"Lolek",1,0,118937,Traya,"zzTraya zDN zSion zzEP zzThrawn",1
+"Lolek",1,1,122256,JTR,"zzzJTR zScav Rey, zzBB-8 zzR2-D2 zFinn",1
+"Lolek",,,105062,Nute-Wat,"zNute zDooku zWat Tambor, zzJango zNest",1
+"Lolek",1,1,146819,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
+"Lolek",1,1,126017,Revan Offense,"zzzJKR zzGMY zBS zJolee zHYoda",1
+"Lolek",1,1,92876,Ewoks,"zChirpa Elder zPaploo zWicket zLogray G9",1
+"Lolek",0,1,107558,BH,"zzBossk Cad zBoba zzThe Mandalorian, Dengar G9",1
+"Lolek",0,1,129369,FO,"zzKRU zKylo zHux FOE zFOST",1
+"Lolek",1,0,88559,Troopers,"zVeers zStarck Shoretrooper DT Range Trooper",1
+"Lolek",0,1,83085,Phoenix,"Hera Zeb G8, Ezra zSabine Kanan G8",1
+"Lolek",1,0,103055,CLS,"zzCLS zHan Leia Old Ben, zzChewbacca",1
+"Lolek",1,1,83379,Rogue1,"zJyn G8, Chirrut Baze G8, K-2SO Cassian",1
+"Lolek",1,0,97140,Zader (Counter),"zzzVader zzWampa Tarkin Sidious Stormtrooper G8",1
+"Lolek",1,0,69224,Jawas,"Nebit Jawa Engineer, Jawa Scavenger G9, Jawa G9, Dathcha",1
+"Lolek",,,386445,Executrix,"Executrix Tie Adv, Emperor's Shuttle 4*, TIE Reaper, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",0
+"tjcc9269",1,1,166031,SL Kylo,"zzzzzzSL Kylo, zSith Trooper, zHux zzKRU zzThrawn",1
+"tjcc9269",0,1,130219,Qira,"zQira zL3-37 zVandor Chewbacca, zMission zZaalbar",1
+"tjcc9269",1,1,128567,NS,"zzMT zzAV zDaka Zombie Spirit",1
+"tjcc9269",,,161644,JMLS,"zzzzzzJMLS zzJKL zzHYoda zzOld Ben, zEzra",1
+"tjcc9269",0,1,145722,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
+"tjcc9269",0,1,151425,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
+"tjcc9269",,,513381,HansMF,"Home One, Han's MF, HT Biggs X-wing, Phantom Ghost Cassian's U-wing, Bistan's U-wing",1
+"tjcc9269",0,1,116317,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
+"tjcc9269",0,1,137312,Grievous-Wat,"zzGG zB2 zB1 zMagnaGuard zWat Tambor",1
+"tjcc9269",1,1,140852,JTR,"zzzJTR zScav Rey, zzBB-8 zzR2-D2 Finn",1
+"tjcc9269",1,0,154842,Traya,"zzTraya zDN zSion zDooku zzEP",1
+"tjcc9269",,,487362,Executrix,"Executrix Tie Adv, Emperor's Shuttle, TIE Reaper, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",1
+"tjcc9269",0,1,153988,BH,"zzJango zBoba zzBossk zDengar zNest",1
+"tjcc9269",,,110409,Mon Mothma,"zzMon Mothma, Lando Baze Chirrut Wedge",1
+"tjcc9269",1,1,88738,Ewoks,"zChirpa Elder Paploo Wicket Logray",1
+"tjcc9269",1,0,152698,ShaakClones,"zzShaak Ti, zRex zEcho zzFives zARC Trooper",1
+"tjcc9269",1,0,106413,Troopers,"zVeers Starck zAdmiral Piett, DT Range Trooper",1
+"tjcc9269",1,0,140175,CLS,"zzzCLS zHan zLeia Fulcrum zzChewbacca",1
+"tjcc9269",0,1,94849,Phoenix,"Hera Zeb Chopper zSabine zKanan",1
+"tjcc9269",1,0,114206,zMaul,"zMaul Sidious Sith Assassin, zSavage Sith Marauder",1
+"tjcc9269",1,0,120062,Zader (Counter),"zzzVader zzWampa Tarkin Shoretrooper Stormtrooper",1
+"tjcc9269",1,0,83578,Jawas,"Nebit Jawa Engineer, Jawa Scavenger, Jawa Dathcha",1
+"Wonkster",1,1,96215,JTR,"zzzJTR zScav Rey, BB-8 zzR2-D2 Finn",1
+"Wonkster",1,1,88010,Revan Offense,"zzzJKR GMY G8, zBS Jolee zEzra",1
+"Wonkster",0,1,111271,BH,"zzJango zBoba zzEmbo zzBossk zIG-88",1
+"Wonkster",1,1,89642,zEP,"zzEP zzVader Tarkin DT G9, TFP G9",1
+"Wonkster",1,0,80437,Wiggs,"Wedge Biggs zCLS zHan Leia",1
+"Wonkster",1,0,55353,Wampa (Counter),"Rex G8, Wampa G7, HYoda G7, Jyn G8, FOO",1
+"Wonkster",0,1,77781,Phoenix,"zHera Zeb Chopper Sabine G8, zKanan",1
+"Wonkster",0,1,89924,FO,"zzKRU zKylo Phasma FOST G9, zFOTP",1
+"Wonkster",1,0,19282,SionSolo (Counter),"zSion",1
+"Wonkster",0,1,60307,padme,"Padme G7, GK G7, JKA 6* G6, Ahsoka Barriss",0
+"Wonkster",1,1,79872,NS_Alt,"zMT G9, zAV Zombie Talia G9, zDaka G9",0
+"Wonkster",0,1,85755,Grievous,"GG G8, zB2 MagnaGuard zNute zDooku",0
+"Wonkster",1,1,69808,Carth,"zCarth Onasi, Mission G9, Zaalbar G9, Juhani 6* Canderous",0
+"Wonkster",1,0,45949,Troopers,"Veers 6* G5, Starck G6, Shoretrooper G9, Stormtrooper G7, Snowtrooper G3",0
+"Wonkster",1,0,45222,Jawas,"Nebit G7, Jawa Engineer G5, Jawa Scavenger G7, Jawa G7, Dathcha G7",0
 "śÑ Waggs",1,1,154700,GL Rey,"zzzzzzRey zzMalak zGK zResistance Hero Poe, zResistance Hero Finn",1
 "śÑ Waggs",0,1,85849,Qira,"Qira L3-37 Vandor Chewbacca, zMission zZaalbar",1
 "śÑ Waggs",1,1,110162,NS,"zzMT zzAV zDaka Zombie Spirit",1
@@ -98,99 +493,282 @@ Player,Offense,Defense,GP,Name,Squad,Viable
 "śÑ Waggs",1,0,128024,CLS,"zzzCLS zHan zzChewbacca Leia zzC-3PO",1
 "śÑ Waggs",,,99408,Nute-Sep,"zNute zDooku Jango zNest zDroideka",1
 "śÑ Waggs",1,1,85233,Ewoks,"zChirpa Elder Paploo Wicket Logray",1
-"śÑ Waggs",0,1,106973,BH,"zzBossk zBoba Greedo Zam Dengar",1
-"śÑ Waggs",1,0,89067,Troopers,"zVeers Starck Range Trooper, Snowtrooper DT",1
+"śÑ Waggs",0,1,106973,BH,"zzBossk Zam zBoba Dengar Greedo",1
+"śÑ Waggs",1,0,89067,Troopers,"zVeers Starck Snowtrooper DT Range Trooper",1
 "śÑ Waggs",0,1,92387,FO,"zzKRU zKylo FOO FOE FOST",1
-"śÑ Waggs",0,1,79884,Phoenix,"Hera Chopper Kanan Zeb G8, zSabine",1
+"śÑ Waggs",0,1,79884,Phoenix,"Hera Zeb G8, Chopper zSabine Kanan",1
 "śÑ Waggs",1,1,86738,Rogue1,"Jyn Chirrut Baze K-2SO Cassian",1
 "śÑ Waggs",1,0,113817,Zader (Counter),"zzzVader zWampa zzTarkin Shoretrooper Stormtrooper",1
 "śÑ Waggs",1,0,68248,Jawas,"Nebit G8, Jawa Engineer G9, Jawa Scavenger G8, Jawa G9, Dathcha G9",1
-"śÑ Waggs",,,83960,Mon Mothma,"Mon Mothma 3* G9, Bistan Biggs Lando Scarif",0
-"Haj bolo",1,1,100536,NS,"zzMT zzAV zDaka Zombie Spirit",1
-"Haj bolo",0,1,130145,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
-"Haj bolo",0,1,118964,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
-"Haj bolo",0,1,125590,Grievous,"zzGG zB2 zB1 zDroideka zMagnaGuard",1
-"Haj bolo",1,0,104631,Traya,"zzTraya zDN G8, zSion G9, zzEP zzThrawn",1
-"Haj bolo",1,1,97925,JTR,"zzzJTR Scav Rey, zBB-8 G9, zzR2-D2 Finn G9",1
-"Haj bolo",,,303547,HansMF,"Home One, Han's MF 5*, HT Biggs X-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
-"Haj bolo",1,1,111624,Revan Offense,"zzzJKR zGMY BS zJolee zzHYoda",1
-"Haj bolo",1,1,93606,Ewoks,"zChirpa Elder zPaploo zWicket zLogray",1
-"Haj bolo",1,0,105802,ShaakClones,"zzShaak Ti, zRex zEcho zzFives zARC Trooper",1
-"Haj bolo",1,1,98983,Carth,"zCarth Onasi, zMission zZaalbar zJuhani zCanderous",1
-"Haj bolo",0,1,100639,BH,"zzBossk Boba zGreedo IG-88 Dengar",1
-"Haj bolo",1,0,99908,CLS,"zzzCLS zHan Leia G9, Old Ben G9, zzChewbacca",1
-"Haj bolo",0,1,77871,Phoenix,"Hera Chopper Kanan G9, Ezra zZeb G8",1
-"Haj bolo",1,0,68599,Jawas,"Nebit G8, Jawa Engineer G9, Jawa Scavenger G8, Jawa G9, Dathcha",1
-"Haj bolo",1,0,71094,Troopers,"Veers Starck G9, Shoretrooper G9, Snowtrooper G8, DT G8",0
-"Haj bolo",0,1,66937,FO,"KRU G7, Kylo G8, FOO G8, Phasma G8, FOST G8",0
-"Ashby165",1,1,148470,GL Rey,"zzzzzzRey zzMalak zGK zResistance Hero Poe, zResistance Hero Finn",1
-"Ashby165",1,1,97385,NS,"zMT zzAV zDaka Zombie Spirit",1
-"Ashby165",0,1,108325,DR,"zzzDR zHK-47 zBSF Sith Empire Trooper, zThrawn",1
-"Ashby165",0,1,92184,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
-"Ashby165",,,384312,HansMF,"Home One, Han's MF, HT Biggs X-wing, Phantom Ghost Cassian's U-wing, Rey's Millennium Falcon",1
-"Ashby165",0,1,119822,Grievous,"zzGG zB2 zB1 zDroideka MagnaGuard",1
-"Ashby165",1,1,136340,JTR,"zzJTR Scav Rey, zBB-8 zR2-D2 zFinn",1
-"Ashby165",1,0,102517,Traya,"zzTraya DN zSion zDooku zzEP",1
-"Ashby165",1,1,125071,Revan Offense,"zzzJKR zGMY zHYoda zJolee zJKA",1
-"Ashby165",1,0,113609,CLS,"zzCLS zHan zChewbacca Leia zC-3PO",1
-"Ashby165",1,1,88832,Ewoks,"zChirpa Elder Paploo Wicket zLogray",1
-"Ashby165",1,0,101865,ShaakClones,"zzShaak Ti, zRex Echo zFives zARC Trooper",1
-"Ashby165",1,1,88948,Carth,"zCarth Onasi, zMission Zaalbar Juhani G8, Canderous",1
-"Ashby165",0,1,104719,BH,"zzBossk zBoba zGreedo Jango Dengar",1
-"Ashby165",0,1,71208,Phoenix,"Hera G9, Chopper G9, Kanan G8, Ezra Zeb G8",1
-"Ashby165",1,0,90723,Zader (Counter),"zzVader zWampa Tarkin Sidious G8, Stormtrooper G8",1
-"Ashby165",,,67712,Mon Mothma,"Mon Mothma 6* G8, Wedge G8, Hoth Rebel Scout G8, Biggs G8, Lando",0
-"Ashby165",0,1,75947,FO,"zKRU Kylo 5* G8, FOO FOE FOTP",0
-"Ashby165",1,1,33713,Rogue1,"Jyn 5* G8, Chirrut 5* G8, Baze 5* G8, K-2SO 5* G8, Cassian 5* G8",0
-"Ashby165",1,0,6850,NestSolo (Counter),"Nest 4* G9",0
-"Lolek",0,1,93133,Qira,"Qira zL3-37 G8, zVandor Chewbacca, zMission zZaalbar",1
-"Lolek",1,1,109813,NS,"zzMT zzAV zDaka Zombie Spirit",1
-"Lolek",0,1,128924,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
-"Lolek",0,1,127534,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
-"Lolek",,,477927,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, BTL-B Y-wing Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter",1
-"Lolek",,,346473,Malevolence,"Malevolence Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber, Vulture Droid, IG-2000",1
-"Lolek",0,1,94741,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
-"Lolek",,,399446,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
-"Lolek",0,1,118736,Grievous,"zzGG zB2 zB1 zDroideka zMagnaGuard",1
-"Lolek",1,0,118937,Traya,"zzTraya zDN zSion zzEP zzThrawn",1
-"Lolek",1,1,122256,JTR,"zzzJTR zScav Rey, zzBB-8 zzR2-D2 zFinn",1
-"Lolek",,,105062,Nute-Wat,"zNute zDooku zWat Tambor, zzJango zNest",1
-"Lolek",1,1,146819,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
-"Lolek",1,1,126017,Revan Offense,"zzzJKR zzGMY zBS zJolee zHYoda",1
-"Lolek",1,1,92876,Ewoks,"zChirpa Elder zPaploo zWicket zLogray G9",1
-"Lolek",0,1,107558,BH,"zzBossk zBoba zzThe Mandalorian, Cad Dengar G9",1
-"Lolek",0,1,129369,FO,"zzKRU zKylo FOE zHux zFOST",1
-"Lolek",1,0,88559,Troopers,"zVeers zStarck Range Trooper, Shoretrooper DT",1
-"Lolek",0,1,83085,Phoenix,"Hera Kanan G8, Ezra Zeb G8, zSabine",1
-"Lolek",1,0,103055,CLS,"zzCLS zHan Leia Old Ben, zzChewbacca",1
-"Lolek",1,1,83379,Rogue1,"zJyn G8, Chirrut Baze G8, K-2SO Cassian",1
-"Lolek",1,0,97140,Zader (Counter),"zzzVader zzWampa Tarkin Sidious Stormtrooper G8",1
-"Lolek",1,0,69224,Jawas,"Nebit Jawa Engineer, Jawa Scavenger G9, Jawa G9, Dathcha",1
-"Lolek",,,386445,Executrix,"Executrix Tie Adv, Emperor's Shuttle 4*, TIE Reaper, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",0
+"śÑ Waggs",,,83960,Mon Mothma,"Mon Mothma 3* G9, Lando Bistan Scarif Biggs",0
+"Mason Vankae",0,1,136414,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
+"Mason Vankae",0,1,131965,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
+"Mason Vankae",1,1,110734,NestSisters,"zzAV zzMT zDaka Zombie zNest",1
+"Mason Vankae",,,471913,Negotiator,"Negotiator 5* HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter, Rex's ARC-170",1
+"Mason Vankae",0,1,99560,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
+"Mason Vankae",0,1,126756,Grievous,"zzGG zB2 zB1 zDroideka zMagnaGuard",1
+"Mason Vankae",1,0,117204,Traya,"zzTraya DN zSion zzEP zThrawn",1
+"Mason Vankae",1,1,105919,JTR,"zzzJTR Scav Rey, zzBB-8 zzR2-D2 RT",1
+"Mason Vankae",,,111833,Nute-OR,"zNute zDooku zzJango zZaalbar zMission",1
+"Mason Vankae",1,1,126238,Revan Offense,"zzzJKR zGMY zBS zJolee zHYoda",1
+"Mason Vankae",1,1,94864,Ewoks,"zChirpa Elder zPaploo zWicket zLogray",1
+"Mason Vankae",1,0,121356,ShaakClones,"zzShaak Ti, zRex zEcho zzFives zARC Trooper",1
+"Mason Vankae",0,1,125534,BH,"zzBossk zBoba zzThe Mandalorian, zDengar zGreedo",1
+"Mason Vankae",0,1,88981,FO,"zzKRU zKylo FOO FOE G9, zFOST G9",1
+"Mason Vankae",0,1,93697,Phoenix,"zHera zZeb zEzra zSabine zKanan",1
+"Mason Vankae",1,0,100669,CLS,"zzzCLS zHan Wedge Biggs zChewbacca",1
+"Mason Vankae",1,0,88897,Troopers,"zVeers zStarck zStormtrooper Snowtrooper DT",1
+"Mason Vankae",1,1,86026,Rogue1,"zJyn Chirrut Baze K-2SO G9, Cassian",1
+"Mason Vankae",1,0,106994,Zader (Counter),"zzzVader zzWampa Tarkin Sidious Shoretrooper",1
+"Mason Vankae",1,0,73483,Jawas,"Nebit G8, Jawa Engineer G9, Jawa Scavenger G9, Jawa G9, Dathcha",1
+"Mason Vankae",,,382475,Executrix,"Executrix Tie Adv, Emperor's Shuttle 4*, TIE Reaper 6*, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",0
+"Mason Vankae",,,72613,Mon Mothma,"zzMon Mothma 6* G8, Lando Hoth Rebel Soldier G8, Pao G8, Bodhi Rook G8",0
+"Chaser",1,1,106314,NS_Alt,"zzMT zzAV Zombie Talia zDaka",1
+"Chaser",,,336873,Negotiator,"Negotiator 6* HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter, Rex's ARC-170",1
+"Chaser",0,1,87217,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy G8, Sun Fac",1
+"Chaser",,,368572,HansMF,"Home One, Han's MF 6*, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
+"Chaser",1,0,114280,Traya,"zzTraya zzDN zSion zzEP zzThrawn",1
+"Chaser",1,1,113318,JTR,"zzzJTR zScav Rey, zzBB-8 zzR2-D2 zFinn",1
+"Chaser",1,1,123793,Revan,"zzzJKR zBS zzGMY zJolee zGK",1
+"Chaser",0,1,111680,BH,"zzJango zBoba zzBossk zDengar zGreedo",1
+"Chaser",1,1,82925,Carth,"Carth Onasi G8, zMission zZaalbar G8, zJuhani G9, zCanderous G8",1
+"Chaser",0,1,82998,Phoenix,"Hera G9, zZeb Ezra G8, zSabine G8, zKanan",1
+"Chaser",1,0,107362,Wiggs,"Wedge Biggs zzzCLS zHan zLeia",1
+"Chaser",1,0,79228,Wampa (Counter),"Rex G8, Wampa G8, Krennic G7, zzHYoda Jyn G7",1
+"Chaser",0,1,88271,FO,"zzKRU zKylo FOO G8, FOST G8, zFOTP",1
+"Chaser",1,0,83748,QGJ,"QGJ G7, Aayla G7, JKA G8, zzOld Ben, zAhsoka",1
+"Chaser",0,1,95253,Grievous,"GG G8, zB2 zMagnaGuard zDooku zIG-88",0
+"Chaser",,,345246,Executrix,"Executrix Tie Adv, Emperor's Shuttle 4*, TIE Reaper 4*, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",0
+"Chaser",,,70495,Mon Mothma,"Mon Mothma 3* G4, zK-2SO Lando Baze G8, Chirrut G8",0
+"Chaser",1,1,87181,Ewoks,"Chirpa 6* G7, Elder zPaploo zWicket zLogray",0
+"Chaser",1,0,52578,Troopers,"Veers G7, Starck G5, Stormtrooper G7, Snowtrooper G7, Range Trooper 3* G3",0
+"Chaser",1,0,68961,Jawas,"Nebit G8, Jawa Engineer G8, Jawa Scavenger G7, Jawa G8, Dathcha G8",0
+"Chaser",1,0,79451,Zader (Counter),"zzzVader zzTarkin Sidious G9, Sith Empire Trooper 6* G5, Shoretrooper 5* G5",0
+"BigCountry",0,1,106995,padme,"zzPadme zGK zJKA zAhsoka zC-3PO",1
+"BigCountry",0,1,114582,DRMalak,"zzzDR zzHK-47 zBSF zzMalak 6* Sith Empire Trooper",1
+"BigCountry",1,1,100608,NestSisters,"zzAV zzMT zDaka Zombie zNest",1
+"BigCountry",0,1,73104,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy G9, Sun Fac G8",1
+"BigCountry",1,0,107449,Traya,"zzTraya zDN zSion zzEP zThrawn",1
+"BigCountry",1,1,89852,JTR,"zJTR Scav Rey G9, zBB-8 zR2-D2 RT",1
+"BigCountry",1,1,120965,Revan Offense,"zzzJKR zGMY zBS zJolee zHYoda",1
+"BigCountry",1,1,85213,Ewoks,"zChirpa Elder Paploo zWicket Logray",1
+"BigCountry",1,1,92367,Carth,"zCarth Onasi, zMission zZaalbar Juhani zCanderous",1
+"BigCountry",0,1,94854,BH,"zBossk Boba Jango Dengar G9, Greedo",1
+"BigCountry",0,1,76027,FO,"zKRU Kylo G9, FOO FOE Phasma G8",1
+"BigCountry",1,0,94317,CLS,"zzzCLS zHan Leia G8, Old Ben, zChewbacca",1
+"BigCountry",0,1,75945,Phoenix,"Hera G9, Zeb G8, Chopper G9, zEzra Kanan G8",1
+"BigCountry",,,347576,Negotiator,"Negotiator 5* HT Anakin's Eta-2 Starfighter 5*, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, BTL-B Y-wing Starfighter 3*, Clone Sergeant's ARC-170 6*, Plo Koon's Jedi Starfighter",0
+"BigCountry",1,0,98710,ShaakClones,"zzShaak Ti, zRex zEcho zFives Clone Sergeant G9",0
+"BigCountry",1,0,62028,Troopers,"Veers G9, Starck G7, Stormtrooper G8, Snowtrooper G8, Magma G8",0
+"BigCountry",1,1,61071,Rogue1,"Jyn G7, Chirrut G7, Baze 6* G7, K-2SO G8, Cassian G6",0
+"elderjl24",1,1,104819,NS,"zzMT zzAV zDaka Zombie Spirit",1
+"elderjl24",0,1,130910,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
+"elderjl24",0,1,133960,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
+"elderjl24",,,506966,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter, Rex's ARC-170",1
+"elderjl24",0,1,96922,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
+"elderjl24",,,416203,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
+"elderjl24",0,1,115470,Grievous,"zzGG zB2 zB1 zDroideka MagnaGuard",1
+"elderjl24",1,0,115590,Traya,"zzTraya zDN zSion zzEP zThrawn",1
+"elderjl24",1,1,118640,JTR,"zzzJTR zScav Rey, zzBB-8 zzR2-D2 zFinn",1
+"elderjl24",,,97546,Nute-Wat,"zNute zDooku zWat Tambor 6*, zzJango Nest G9",1
+"elderjl24",1,1,147818,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
+"elderjl24",1,1,128368,Revan Offense,"zzzJKR zzGMY zBS zJolee zHYoda",1
+"elderjl24",1,1,80563,Ewoks,"zChirpa G9, Elder Paploo G9, zWicket Logray G9",1
+"elderjl24",1,1,92901,Carth,"zCarth Onasi, zMission zZaalbar Juhani Canderous",1
+"elderjl24",0,1,95373,BH,"zzBossk Cad Boba Dengar G9, Greedo G9",1
+"elderjl24",0,1,86799,FO,"zzKRU zKylo G9, FOO FOE G9, zFOST G8",1
+"elderjl24",1,0,116916,CLS,"zzzCLS zHan Wedge Biggs zzChewbacca",1
+"elderjl24",0,1,86482,Phoenix,"zHera Zeb G8, zEzra zSabine Kanan G8",1
+"elderjl24",1,1,74429,Rogue1,"Jyn G8, Chirrut G8, Baze G8, K-2SO Cassian",1
+"elderjl24",1,0,100259,Zader (Counter),"zzzVader zWampa Tarkin Sidious Stormtrooper G8",1
+"elderjl24",1,0,70505,Jawas,"Nebit G8, Jawa Engineer G9, Jawa Scavenger G9, Jawa G9, Dathcha G8",1
+"elderjl24",,,75802,Mon Mothma,"zzMon Mothma 5* G9, Lando Bistan G8, Scarif G8, Hoth Rebel Scout G8",0
+"elderjl24",1,0,59915,Troopers,"Veers G9, Starck G8, Shoretrooper 4* G7, Snowtrooper G7, DT G7",0
+"KoolKunt",0,1,90818,Qira,"zQira zL3-37 zVandor Chewbacca, Mission G8, Zaalbar",1
+"KoolKunt",1,1,115265,NS,"zzMT zzAV zDaka Zombie Spirit",1
+"KoolKunt",0,1,135623,padme,"zzPadme zGK zJKA zAhsoka zBarriss",1
+"KoolKunt",0,1,115521,DRMalak,"zzzDR zHK-47 zBSF zzMalak 6* Sith Empire Trooper",1
+"KoolKunt",,,462423,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, Clone Sergeant's ARC-170, Jedi Consular's Starfighter, Plo Koon's Jedi Starfighter",1
+"KoolKunt",0,1,93304,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
+"KoolKunt",,,414296,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
+"KoolKunt",0,1,120804,Grievous,"zzGG zB2 zB1 zDroideka zMagnaGuard",1
+"KoolKunt",1,0,117011,Traya,"zzTraya DN zSion zDooku zzThrawn",1
+"KoolKunt",1,1,108067,JTR,"zzJTR Scav Rey, zzBB-8 zzR2-D2 zFinn",1
+"KoolKunt",1,1,151136,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
+"KoolKunt",0,1,123630,BH,"zzJango zBoba zzBossk zDengar zNest",1
+"KoolKunt",1,1,122251,Revan Offense,"zzzJKR zGMY zBS zJolee zzHYoda",1
+"KoolKunt",1,0,126250,CLS,"zzzCLS zHan zzChewbacca Leia zC-3PO",1
+"KoolKunt",1,1,75846,Ewoks,"zChirpa G9, Elder Paploo G8, Wicket Logray G9",1
+"KoolKunt",1,1,118037,zEP,"zzEP zzzVader Tarkin zIPD TFP",1
+"KoolKunt",0,1,102408,FO,"zzKRU zKylo FOO FOE FOST",1
+"KoolKunt",1,0,84998,Troopers,"zVeers Starck Stormtrooper DT Range Trooper",1
+"KoolKunt",0,1,74561,Phoenix,"Hera Zeb G8, Ezra Sabine Kanan G8",1
+"KoolKunt",1,1,87593,Rogue1,"zJyn Chirrut Baze K-2SO Cassian",1
+"KoolKunt",1,0,95508,zMaul,"zMaul zSidious Sith Assassin, Savage Sith Marauder",1
+"KoolKunt",1,0,77678,Jawas,"Nebit Jawa Engineer, Jawa Scavenger, Jawa Dathcha",1
+"KoolKunt",,,300222,Malevolence,"Malevolence 5* Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber 4*, Vulture Droid 5*, IG-2000",0
+"KoolKunt",,,84392,Mon Mothma,"Mon Mothma 3* G8, Lando Bistan Wedge Biggs",0
+"DarthInaren",0,1,128402,padme,"zzPadme zGK zJKA zAhsoka zC-3PO",1
+"DarthInaren",,,447486,Negotiator,"Negotiator 5* HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, BTL-B Y-wing Starfighter 6*, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter",1
+"DarthInaren",,,342530,Malevolence,"Malevolence Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber, Vulture Droid, IG-2000",1
+"DarthInaren",0,1,97615,DR,"zzzDR HK-47 zBSF Sith Marauder G8, zThrawn",1
+"DarthInaren",0,1,86723,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac G9",1
+"DarthInaren",0,1,125404,Grievous,"zzGG zB2 zB1 zDroideka MagnaGuard",1
+"DarthInaren",,,96244,Nute-Wat,"zNute zDooku zWat Tambor 6*, zJango zNest",1
+"DarthInaren",1,1,130422,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper G9",1
+"DarthInaren",1,1,111068,Revan Offense,"zzzJKR zGMY zBS zJolee zHYoda",1
+"DarthInaren",1,1,78173,Ewoks,"zChirpa G8, Elder Paploo G9, zWicket G9, Logray G9",1
+"DarthInaren",0,1,104522,BH,"zzBossk Boba Embo Dengar IG-88",1
+"DarthInaren",1,0,90184,CLS,"zzCLS zHan Leia G8, Old Ben G9, zChewbacca",1
+"DarthInaren",1,0,74917,Troopers,"zVeers Starck Stormtrooper G8, Snowtrooper G8, DT G9",1
+"DarthInaren",0,1,68565,Phoenix,"Hera G8, Zeb G8, Chopper G8, Ezra G8, Kanan G8",1
+"DarthInaren",1,0,94158,Zader (Counter),"zzzVader Mission G8, Zaalbar G8, Wampa G9, Tarkin",1
+"DarthInaren",1,0,18996,SionSolo (Counter),"zSion",1
+"DarthInaren",1,1,82790,NS,"zMT 6* G8, zzAV Daka Zombie 6* Spirit 6* G9",0
+"DarthInaren",0,1,70359,FO,"zKRU G8, Kylo G8, FOO G8, FOE G9, Phasma G8",0
 "DarthSalsa",0,1,94863,Qira,"Qira zL3-37 zVandor Chewbacca, zMission zZaalbar",1
 "DarthSalsa",1,1,111041,NS,"zzMT zzAV zDaka Zombie Spirit",1
-"DarthSalsa",0,1,139490,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
-"DarthSalsa",0,1,123503,padme,"zzPadme zGK zJKA zAhsoka zC-3PO",1
+"DarthSalsa",0,1,137955,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
+"DarthSalsa",0,1,125909,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
 "DarthSalsa",,,438999,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, BTL-B Y-wing Starfighter 6*, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter",1
 "DarthSalsa",,,120122,JKL,"zzJKL zzzJKR zHYoda Old Ben, zEzra",1
 "DarthSalsa",0,1,99491,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
 "DarthSalsa",,,427192,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
 "DarthSalsa",0,1,125194,Grievous,"zzGG zB2 zB1 zDroideka zMagnaGuard",1
 "DarthSalsa",1,0,122350,Traya,"zzTraya zDN zSion zzEP zThrawn",1
-"DarthSalsa",1,1,112258,JTR,"zzzJTR Scav Rey, zzBB-8 zzR2-D2 Finn",1
+"DarthSalsa",1,1,112141,JTR,"zzzJTR Scav Rey, zzBB-8 zzR2-D2 Finn",1
 "DarthSalsa",,,106871,Disintegration,"Aurra zzGreef Karga, zBoba zBossk zThe Mandalorian",1
 "DarthSalsa",,,105200,Nute-Wat,"zNute zDooku zWat Tambor, zzJango zNest",1
 "DarthSalsa",1,1,137749,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
 "DarthSalsa",1,1,78969,Ewoks,"zChirpa Elder Paploo Scout zWicket",1
-"DarthSalsa",0,1,132846,FO,"zzKRU zKylo FOO FOE zHux",1
-"DarthSalsa",1,0,89741,Troopers,"zVeers zStarck Range Trooper, Shoretrooper DT",1
+"DarthSalsa",0,1,132846,FO,"zzKRU zKylo FOO zHux FOE",1
+"DarthSalsa",1,0,89741,Troopers,"zVeers zStarck Shoretrooper DT Range Trooper",1
 "DarthSalsa",1,0,118606,CLS,"zzzCLS zHan Leia Fulcrum zzChewbacca",1
-"DarthSalsa",0,1,84806,Phoenix,"zHera Chopper zKanan G8, Zeb G8, zSabine",1
+"DarthSalsa",0,1,84806,Phoenix,"zHera Zeb G8, Chopper zSabine zKanan G8",1
 "DarthSalsa",1,1,84385,Rogue1,"zJyn Chirrut Baze K-2SO G9, Cassian",1
 "DarthSalsa",1,0,106693,Zader (Counter),"zzzVader zzWampa Tarkin zSidious Stormtrooper",1
 "DarthSalsa",,,406517,Executrix,"Executrix Tie Adv, Emperor's Shuttle 5*, TIE Reaper, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter 6*, First Order TIE Fighter",0
-"DarthSalsa",,,87994,Mon Mothma,"zzMon Mothma 5* G8, Wedge Bistan Biggs Lando",0
+"DarthSalsa",,,87994,Mon Mothma,"zzMon Mothma 5* G8, Lando Bistan Wedge Biggs",0
 "DarthSalsa",1,0,68670,Jawas,"Nebit G8, Jawa Engineer G9, Jawa Scavenger G7, Jawa G9, Dathcha",0
+"EcceZollythurstra",0,1,95621,Qira,"zQira zL3-37 zVandor Chewbacca, zMission zZaalbar",1
+"EcceZollythurstra",0,1,139194,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
+"EcceZollythurstra",0,1,137539,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
+"EcceZollythurstra",1,1,108601,NestSisters,"zzAV zzMT zDaka Zombie zNest",1
+"EcceZollythurstra",,,135473,JKL,"zzJKL zzzJKR zzHYoda zzOld Ben, zEzra",1
+"EcceZollythurstra",,,477639,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter, Rex's ARC-170",1
+"EcceZollythurstra",0,1,94705,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
+"EcceZollythurstra",,,422899,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
+"EcceZollythurstra",0,1,132392,Grievous-Wat,"zzGG zB2 zB1 zMagnaGuard zWat Tambor",1
+"EcceZollythurstra",1,0,104594,Traya,"zzTraya DN G8, zSion zzEP zzThrawn",1
+"EcceZollythurstra",1,1,123968,JTR,"zzzJTR zScav Rey, zzBB-8 zzR2-D2 Finn",1
+"EcceZollythurstra",1,1,82649,Ewoks,"zChirpa Elder Paploo G9, Wicket Logray G9",1
+"EcceZollythurstra",1,0,120660,ShaakClones,"zzShaak Ti, zRex zEcho zzFives zARC Trooper",1
+"EcceZollythurstra",0,1,119382,BH,"zzJango zBoba zzThe Mandalorian, zzBossk Dengar",1
+"EcceZollythurstra",0,1,99243,FO,"zzKRU zKylo FOO FOE FOST G9",1
+"EcceZollythurstra",1,0,118094,Wiggs,"Wedge Biggs zzzCLS zHan zzChewbacca",1
+"EcceZollythurstra",0,1,83019,Phoenix,"Hera Zeb G8, Chopper Sabine Kanan",1
+"EcceZollythurstra",1,1,79754,Rogue1,"Jyn Chirrut Baze G8, K-2SO G9, Cassian",1
+"EcceZollythurstra",1,0,107823,Zader (Counter),"zzzVader zzWampa Tarkin Sidious Shoretrooper G8",1
+"EcceZollythurstra",,,405379,Executrix,"Executrix Tie Adv, Emperor's Shuttle, TIE Reaper 6*, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter 5*, First Order TIE Fighter",0
+"EcceZollythurstra",,,74115,Mon Mothma,"Mon Mothma 4* G8, Lando Bistan G8, Hoth Rebel Scout G9, Pao G8",0
+"EcceZollythurstra",1,0,74834,Troopers,"Veers Starck Stormtrooper G8, zDT Range Trooper 5* G7",0
+"EcceZollythurstra",1,0,67270,Jawas,"Nebit G8, Jawa Engineer G9, Jawa Scavenger G7, Jawa G8, Dathcha G9",0
+"Newmania",1,1,147780,SL Kylo,"zzzzzzSL Kylo, zSith Trooper, zHux zzKRU zThrawn",1
+"Newmania",1,1,150844,GL Rey,"zzzzzzRey zzMalak zGK zResistance Hero Poe, zResistance Hero Finn",1
+"Newmania",1,1,103286,NS,"zzMT zzAV zDaka Zombie Spirit",1
+"Newmania",0,1,110732,DR,"zzzDR zHK-47 zBSF Sith Empire Trooper, Sith Assassin G9",1
+"Newmania",,,359500,Malevolence,"Malevolence Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber, Vulture Droid, IG-2000",1
+"Newmania",,,134261,JKL,"zzJKL zzzJKR zHYoda zzOld Ben, zBarriss",1
+"Newmania",,,491197,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter, Rex's ARC-170",1
+"Newmania",0,1,96394,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
+"Newmania",,,439942,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
+"Newmania",0,1,121346,Grievous,"zzGG zB2 zB1 zDroideka MagnaGuard",1
+"Newmania",1,1,147050,JTR,"zzJTR Scav Rey, zzBB-8 zzR2-D2 Finn",1
+"Newmania",1,0,120157,Traya,"zzTraya zDN zSion zDooku zzEP",1
+"Newmania",,,430268,Executrix,"Executrix Tie Adv, Emperor's Shuttle, TIE Reaper, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",1
+"Newmania",1,1,141992,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
+"Newmania",1,0,136007,CLS,"zzzCLS zHan zzChewbacca Leia zzC-3PO",1
+"Newmania",1,1,81883,Ewoks,"zChirpa Elder Paploo Wicket Logray G9",1
+"Newmania",1,1,93950,Carth,"zCarth Onasi, zMission zZaalbar Juhani G8, zCanderous",1
+"Newmania",0,1,104856,BH,"zzBossk Boba zJango Dengar zNest",1
+"Newmania",1,0,90605,Troopers,"zVeers Starck Snowtrooper DT Range Trooper",1
+"Newmania",0,1,93533,Phoenix,"Hera Zeb zEzra zSabine zKanan",1
+"Newmania",1,1,87020,Rogue1,"zJyn Chirrut Baze K-2SO G8, Cassian",1
+"Newmania",1,0,107099,Zader (Counter),"zzzVader zzWampa Tarkin Sidious Stormtrooper",1
+"Newmania",1,0,70679,Jawas,"Nebit G9, Jawa Engineer G9, Jawa Scavenger G8, Jawa G9, Dathcha G9",1
+"Newmania",,,83363,Mon Mothma,"Mon Mothma 4* G9, Lando Hoth Rebel Scout G8, Wedge Biggs",0
+"L'one Starr",1,1,141972,GL Rey,"zzzzzzRey Holdo zGK zResistance Hero Poe, zResistance Hero Finn",1
+"L'one Starr",0,1,114139,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
+"L'one Starr",1,1,104452,NestSisters,"zzAV zzMT zDaka Zombie zNest",1
+"L'one Starr",,,428465,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, Clone Sergeant's ARC-170, Jedi Consular's Starfighter, Plo Koon's Jedi Starfighter",1
+"L'one Starr",0,1,96544,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
+"L'one Starr",,,394828,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
+"L'one Starr",0,1,113583,Grievous,"zzGG zB2 zB1 zDroideka zMagnaGuard",1
+"L'one Starr",1,1,134600,JTR,"zzzJTR Scav Rey, zBB-8 zzR2-D2 Finn",1
+"L'one Starr",1,1,139754,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
+"L'one Starr",1,1,120036,Revan Offense,"zzzJKR zzGMY zBS zJolee zzHYoda",1
+"L'one Starr",1,0,115227,CLS,"zzCLS zHan zChewbacca zzThrawn zzC-3PO",1
+"L'one Starr",1,1,89225,Ewoks,"zChirpa Elder Paploo zWicket zLogray",1
+"L'one Starr",1,1,81313,Carth,"zCarth Onasi, Mission G8, zZaalbar zJuhani Canderous G8",1
+"L'one Starr",0,1,97074,BH,"zzBossk zZam Boba Dengar G9, IG-88",1
+"L'one Starr",1,1,91130,zEP,"zEP zzzVader Tarkin IPD G8, TFP",1
+"L'one Starr",1,0,77713,Troopers,"zVeers Starck G9, Snowtrooper DT Range Trooper G7",1
+"L'one Starr",0,1,78852,Phoenix,"Hera Zeb G8, zEzra Sabine Kanan G8",1
+"L'one Starr",1,1,82844,Rogue1,"zJyn Chirrut Baze K-2SO G8, Cassian",1
+"L'one Starr",1,0,94848,QGJ,"QGJ Aayla G7, zJKA zzOld Ben, zAhsoka",1
+"L'one Starr",1,0,69959,Jawas,"Nebit Jawa Engineer, Jawa Scavenger G8, Jawa G9, Dathcha",1
+"L'one Starr",1,0,18247,SionSolo (Counter),"Sion",1
+"L'one Starr",,,329142,Executrix,"Executrix Tie Adv, Emperor's Shuttle 6*, TIE Reaper, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",0
+"L'one Starr",0,1,80638,FO,"KRU Kylo G8, FOO FOE G9, FOST",0
+"Sampsonite112",1,1,151394,SL Kylo,"zzzzzzSL Kylo, zSith Trooper, zHux zzKRU Thrawn",1
+"Sampsonite112",1,1,156878,GL Rey,"zzzzzzRey zzMalak zGK zResistance Hero Poe, zResistance Hero Finn",1
+"Sampsonite112",0,1,90564,Qira,"Qira L3-37 zVandor Chewbacca, Mission Zaalbar",1
+"Sampsonite112",1,1,101347,NS,"zMT zAV Daka Zombie Spirit",1
+"Sampsonite112",,,143765,JMLS,"zzzzzzJMLS zzJKL zHYoda Old Ben, zEzra",1
+"Sampsonite112",,,502376,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, BTL-B Y-wing Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter",1
+"Sampsonite112",0,1,118824,DR,"zzzDR zHK-47 zBSF Sith Empire Trooper, Sith Assassin G8",1
+"Sampsonite112",,,367196,Malevolence,"Malevolence Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber, Vulture Droid, IG-2000",1
+"Sampsonite112",0,1,107588,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
+"Sampsonite112",,,438250,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
+"Sampsonite112",1,1,144425,JTR,"zzzJTR Scav Rey, zBB-8 zR2-D2 Finn",1
+"Sampsonite112",1,0,116619,Traya,"zzTraya DN Sion zDooku zEP",1
+"Sampsonite112",,,438490,Executrix,"Executrix Tie Adv, Emperor's Shuttle, TIE Reaper, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",1
+"Sampsonite112",,,125529,Nute-Wat,"zNute zB1 zB2 MagnaGuard zWat Tambor",1
+"Sampsonite112",,,121983,Disintegration,"Aurra zzGreef Karga, Boba zzBossk zzThe Mandalorian",1
+"Sampsonite112",1,1,157334,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
+"Sampsonite112",,,109163,Mon Mothma,"zzMon Mothma, Lando Baze Chirrut Wedge",1
+"Sampsonite112",1,1,136132,Revan Offense,"zzzJKR zGMY zBS zJolee zJKA",1
+"Sampsonite112",1,1,83338,Ewoks,"zChirpa Elder Paploo Wicket Logray G9",1
+"Sampsonite112",0,1,77493,Phoenix,"Hera Zeb G9, Chopper Sabine G8, Kanan",1
+"Sampsonite112",1,0,89020,Krennic,"Krennic DT Shoretrooper Range Trooper, Starck",1
+"Sampsonite112",1,0,103288,Zader (Counter),"zzzVader Wampa Tarkin Sidious Stormtrooper G8",1
+"Sampsonite112",1,0,78480,Jawas,"Nebit Jawa Engineer, Jawa Scavenger G9, Jawa Dathcha",1
+"Sampsonite112",1,0,20640,NestSolo (Counter),"zNest",1
+"Sampsonite112",1,0,141385,CLS,"zzCLS zHan zzChewbacca Leia zzC-3PO",0
+"Sampsonite112",0,1,96634,BH,"Jango Embo Dengar Greedo IG-88",0
+"Mindl",1,1,150390,SL Kylo,"zzzzzzSL Kylo, zSith Trooper, zHux zzKRU zzThrawn",1
+"Mindl",0,1,89736,Qira,"Qira L3-37 Vandor Chewbacca, zMission zZaalbar",1
+"Mindl",0,1,123168,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
+"Mindl",0,1,129752,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
+"Mindl",,,453256,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter, Rex's ARC-170",1
+"Mindl",0,1,92757,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
+"Mindl",,,400604,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
+"Mindl",0,1,126776,Grievous-Wat,"zzGG zB2 zB1 zMagnaGuard zWat Tambor",1
+"Mindl",1,1,103903,JTR,"zzJTR Scav Rey, zBB-8 zzR2-D2 Finn",1
+"Mindl",1,0,118463,Traya,"zzTraya zDN zSion EP zNest",1
+"Mindl",1,1,144124,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
+"Mindl",1,1,118940,Revan Offense,"zzzJKR zzGMY zBS zJolee zHYoda",1
+"Mindl",1,1,80710,Ewoks,"zChirpa Elder Paploo Wicket Logray",1
+"Mindl",0,1,98750,BH,"zzJango Boba zBossk Dengar IG-88",1
+"Mindl",1,0,81952,Troopers,"zVeers zStarck Shoretrooper zDT Range Trooper G7",1
+"Mindl",0,1,82682,Phoenix,"Hera Zeb zEzra Sabine Kanan",1
+"Mindl",1,0,111793,Wiggs,"Wedge Biggs zCLS zHan zzChewbacca",1
+"Mindl",1,1,82112,Rogue1,"zJyn Chirrut Baze K-2SO G8, Cassian",1
+"Mindl",1,0,97139,Zader (Counter),"zzzVader Wampa Tarkin zSidious Stormtrooper G8",1
+"Mindl",,,285689,Malevolence,"Malevolence Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber 4*, Vulture Droid 5*, IG-2000",0
+"Mindl",,,404241,Executrix,"Executrix Tie Adv, Emperor's Shuttle 4*, TIE Reaper, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",0
+"Mindl",1,1,56626,NS,"MT G9, AV Daka G8, Zombie G1, Spirit G8",0
+"Mindl",1,0,39993,Jawas,"Nebit G7, Jawa Engineer G7, Jawa Scavenger G7, Jawa 6* G7, Dathcha G7",0
 "DD",1,1,98177,NS,"zzMT zzAV Daka Zombie Spirit",1
 "DD",0,1,122619,padme,"zzPadme zGK JKA zAhsoka zC-3PO",1
 "DD",0,1,112960,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
@@ -205,94 +783,34 @@ Player,Offense,Defense,GP,Name,Squad,Viable
 "DD",1,1,128101,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
 "DD",1,1,83924,Ewoks,"zChirpa Elder Paploo Wicket Logray",1
 "DD",1,1,89945,Carth,"zCarth Onasi, zMission zZaalbar zJuhani Canderous",1
-"DD",0,1,121177,BH,"zBossk zBoba Embo zzGreef Karga, Dengar",1
-"DD",0,1,89809,FO,"zKRU zKylo FOO FOE zHux",1
-"DD",1,0,86936,Troopers,"zVeers Starck Range Trooper, Shoretrooper Snowtrooper",1
+"DD",0,1,121177,BH,"zBossk zzGreef Karga, zBoba Embo Dengar",1
+"DD",0,1,89809,FO,"zKRU zKylo FOO zHux FOE",1
+"DD",1,0,86936,Troopers,"zVeers Starck Shoretrooper Snowtrooper Range Trooper",1
 "DD",1,0,106924,CLS,"zzzCLS zHan Wedge Biggs Chewbacca",1
-"DD",0,1,73521,Phoenix,"Hera Chopper Kanan G8, Zeb G8, Sabine G9",1
+"DD",0,1,73521,Phoenix,"Hera Zeb G8, Chopper Sabine G9, Kanan G8",1
 "DD",1,1,75752,Rogue1,"Jyn Chirrut Baze K-2SO G8, Cassian G9",1
 "DD",1,0,97308,Zader (Counter),"zzzVader zzWampa Tarkin Sidious G8, Stormtrooper G8",1
 "DD",1,0,67790,Jawas,"Nebit G9, Jawa Engineer G9, Jawa Scavenger G8, Jawa G9, Dathcha G8",1
-"elderjl24",1,1,104797,NS,"zzMT zzAV zDaka Zombie Spirit",1
-"elderjl24",0,1,130910,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
-"elderjl24",0,1,133960,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
-"elderjl24",,,506966,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter, Rex's ARC-170",1
-"elderjl24",0,1,96922,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
-"elderjl24",,,416203,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
-"elderjl24",0,1,115470,Grievous,"zzGG zB2 zB1 zDroideka MagnaGuard",1
-"elderjl24",1,0,115590,Traya,"zzTraya zDN zSion zzEP zThrawn",1
-"elderjl24",1,1,118640,JTR,"zzzJTR zScav Rey, zzBB-8 zzR2-D2 zFinn",1
-"elderjl24",,,97404,Nute-Wat,"zNute zDooku zWat Tambor 6*, zzJango Nest G9",1
-"elderjl24",1,1,147818,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
-"elderjl24",1,1,128368,Revan Offense,"zzzJKR zzGMY zBS zJolee zHYoda",1
-"elderjl24",1,1,80563,Ewoks,"zChirpa G9, Elder Paploo G9, zWicket Logray G9",1
-"elderjl24",1,1,92901,Carth,"zCarth Onasi, zMission zZaalbar Juhani Canderous",1
-"elderjl24",0,1,95373,BH,"zzBossk Boba Greedo G9, Cad Dengar G9",1
-"elderjl24",0,1,86799,FO,"zzKRU zKylo G9, FOO FOE G9, zFOST G8",1
-"elderjl24",1,0,116916,Wiggs,"Wedge Biggs zzzCLS zHan zzChewbacca",1
-"elderjl24",0,1,86482,Phoenix,"zHera Kanan G8, zEzra Zeb G8, zSabine",1
-"elderjl24",1,1,74429,Rogue1,"Jyn G8, Chirrut G8, Baze G8, K-2SO Cassian",1
-"elderjl24",1,0,100259,Zader (Counter),"zzzVader zWampa Tarkin Sidious Stormtrooper G8",1
-"elderjl24",1,0,70505,Jawas,"Nebit G8, Jawa Engineer G9, Jawa Scavenger G9, Jawa G9, Dathcha G8",1
-"elderjl24",,,75802,Mon Mothma,"zzMon Mothma 5* G9, Hoth Rebel Scout G8, Bistan G8, Lando Scarif G8",0
-"elderjl24",1,0,59915,Troopers,"Veers G9, Starck G8, Shoretrooper 4* G7, Snowtrooper G7, DT G7",0
-"tjcc9269",1,1,166031,SL Kylo,"zzzzzzSL Kylo, zSith Trooper, zHux zzKRU zzThrawn",1
-"tjcc9269",0,1,130219,Qira,"zQira zL3-37 zVandor Chewbacca, zMission zZaalbar",1
-"tjcc9269",1,1,128567,NS,"zzMT zzAV zDaka Zombie Spirit",1
-"tjcc9269",,,161644,JMLS,"zzzzzzJMLS zzJKL zzHYoda zzOld Ben, zEzra",1
-"tjcc9269",0,1,145722,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
-"tjcc9269",0,1,151425,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
-"tjcc9269",,,513381,HansMF,"Home One, Han's MF, HT Biggs X-wing, Phantom Ghost Cassian's U-wing, Bistan's U-wing",1
-"tjcc9269",0,1,116317,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
-"tjcc9269",0,1,137312,Grievous-Wat,"zzGG zB2 zB1 zMagnaGuard zWat Tambor",1
-"tjcc9269",1,1,140852,JTR,"zzzJTR zScav Rey, zzBB-8 zzR2-D2 Finn",1
-"tjcc9269",1,0,154842,Traya,"zzTraya zDN zSion zDooku zzEP",1
-"tjcc9269",,,487308,Executrix,"Executrix Tie Adv, Emperor's Shuttle, TIE Reaper, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",1
-"tjcc9269",0,1,153988,BH,"zzJango zBoba zDengar zzBossk zNest",1
-"tjcc9269",,,110409,Mon Mothma,"zzMon Mothma, Wedge Baze Chirrut Lando",1
-"tjcc9269",1,1,88738,Ewoks,"zChirpa Elder Paploo Wicket Logray",1
-"tjcc9269",1,0,152698,ShaakClones,"zzShaak Ti, zRex zEcho zzFives zARC Trooper",1
-"tjcc9269",1,0,106389,Troopers,"zVeers Starck Range Trooper, DT zAdmiral Piett",1
-"tjcc9269",1,0,140175,CLS,"zzzCLS zHan zLeia Fulcrum zzChewbacca",1
-"tjcc9269",0,1,94849,Phoenix,"Hera Chopper zKanan Zeb zSabine",1
-"tjcc9269",1,0,115811,zMaul,"zMaul Sidious Sith Assassin, zSavage Sith Marauder",1
-"tjcc9269",1,0,120038,Zader (Counter),"zzzVader zzWampa Tarkin Shoretrooper Stormtrooper",1
-"tjcc9269",1,0,83578,Jawas,"Nebit Jawa Engineer, Jawa Scavenger, Jawa Dathcha",1
-"DarthDado",0,1,113197,padme,"zzPadme zGK zJKA zAhsoka zBarriss G8",1
-"DarthDado",0,1,109417,Grievous,"zzGG zB2 zB1 zDroideka MagnaGuard",1
-"DarthDado",1,0,102329,Traya,"zzTraya zDN Sion zEP zThrawn",1
-"DarthDado",1,1,111774,Revan Offense,"zzzJKR zGMY zBS zJolee Ezra",1
-"DarthDado",,,106259,Nute-Sep,"zNute zDooku zJango zNest zGBA",1
-"DarthDado",0,1,104085,BH,"zzBossk zBoba IG-88 Cad zDengar",1
-"DarthDado",0,1,94593,FO,"zzKRU zKylo FOO FOE FOST G8",1
-"DarthDado",1,0,89516,CLS,"zCLS zHan Leia G9, Old Ben G9, zChewbacca",1
-"DarthDado",1,0,73495,Troopers,"zVeers Starck G7, Shoretrooper G7, Snowtrooper G8, DT",1
-"DarthDado",1,0,63861,ShaakClones,"Shaak Ti 4* G7, Rex G9, Echo G8, Fives G8, Clone Sergeant G9",0
-"DarthDado",1,0,83219,Zader (Counter),"zzVader Mission G7, Zaalbar G7, Tarkin Sidious G9",0
-"shanndmann",1,1,104532,NS,"zzMT zzAV zDaka Zombie Spirit",1
-"shanndmann",0,1,142656,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
-"shanndmann",0,1,120671,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper G8",1
-"shanndmann",,,490019,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, BTL-B Y-wing Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter",1
-"shanndmann",0,1,104916,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
-"shanndmann",,,426642,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
-"shanndmann",0,1,120869,Grievous,"zzGG zB2 zB1 zDroideka MagnaGuard",1
-"shanndmann",1,0,115099,Traya,"zzTraya zzDN zSion zDooku zzThrawn",1
-"shanndmann",1,1,109025,JTR,"zzzJTR Scav Rey, zzBB-8 zzR2-D2 Finn",1
-"shanndmann",1,1,143064,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
-"shanndmann",1,1,125344,Revan Offense,"zzzJKR zzGMY zBS zJolee zzHYoda",1
-"shanndmann",1,1,88453,Ewoks,"zChirpa Elder zPaploo zWicket Logray G9",1
-"shanndmann",0,1,123470,BH,"zzJango zBoba zzThe Mandalorian, zDengar zzBossk",1
-"shanndmann",1,1,106797,zEP,"zzEP zzzVader Tarkin zIPD TFP",1
-"shanndmann",0,1,88680,FO,"zzKRU zKylo FOO FOE FOST G8",1
-"shanndmann",1,0,88427,Troopers,"zVeers zStarck Range Trooper, Shoretrooper DT",1
-"shanndmann",1,0,106333,Wiggs,"Wedge Biggs zzzCLS zHan zzChewbacca",1
-"shanndmann",0,1,98977,Phoenix,"zHera zKanan zEzra zZeb zSabine",1
-"shanndmann",1,1,86009,Rogue1,"Jyn Chirrut Baze K-2SO zCassian",1
-"shanndmann",1,0,79288,Jawas,"Nebit G9, Jawa Engineer, Jawa Scavenger, Jawa G9, Dathcha",1
-"shanndmann",1,0,16182,NestSolo (Counter),"Nest",1
-"shanndmann",0,1,75586,Qira,"Qira L3-37 5* G8, Vandor Chewbacca 3* G7, zMission zZaalbar",0
-"shanndmann",,,349530,Executrix,"Executrix Tie Adv, Emperor's Shuttle 4*, TIE Reaper 6*, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter 4*, First Order TIE Fighter",0
-"shanndmann",,,75033,Mon Mothma,"zzMon Mothma 4* G9, Pao G8, Lando zCara Dune 5* G9, Scarif G9",0
+"Ashby165",1,1,148470,GL Rey,"zzzzzzRey zzMalak zGK zResistance Hero Poe, zResistance Hero Finn",1
+"Ashby165",1,1,97385,NS,"zMT zzAV zDaka Zombie Spirit",1
+"Ashby165",0,1,108325,DR,"zzzDR zHK-47 zBSF Sith Empire Trooper, zThrawn",1
+"Ashby165",0,1,92184,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
+"Ashby165",,,384312,HansMF,"Home One, Han's MF, HT Biggs X-wing, Phantom Ghost Cassian's U-wing, Rey's Millennium Falcon",1
+"Ashby165",0,1,119822,Grievous,"zzGG zB2 zB1 zDroideka MagnaGuard",1
+"Ashby165",1,1,136340,JTR,"zzJTR Scav Rey, zBB-8 zR2-D2 zFinn",1
+"Ashby165",1,0,102517,Traya,"zzTraya DN zSion zDooku zzEP",1
+"Ashby165",1,1,125071,Revan Offense,"zzzJKR zGMY zHYoda zJolee zJKA",1
+"Ashby165",1,0,113609,CLS,"zzCLS zHan zChewbacca Leia zC-3PO",1
+"Ashby165",1,1,88832,Ewoks,"zChirpa Elder Paploo Wicket zLogray",1
+"Ashby165",1,0,101865,ShaakClones,"zzShaak Ti, zRex Echo zFives zARC Trooper",1
+"Ashby165",1,1,88948,Carth,"zCarth Onasi, zMission Zaalbar Juhani G8, Canderous",1
+"Ashby165",0,1,104719,BH,"zzBossk zBoba Jango Dengar zGreedo",1
+"Ashby165",0,1,71208,Phoenix,"Hera G9, Zeb G8, Chopper G9, Ezra Kanan G8",1
+"Ashby165",1,0,90723,Zader (Counter),"zzVader zWampa Tarkin Sidious G8, Stormtrooper G8",1
+"Ashby165",,,67712,Mon Mothma,"Mon Mothma 6* G8, Lando Hoth Rebel Scout G8, Wedge G8, Biggs G8",0
+"Ashby165",0,1,75947,FO,"zKRU Kylo 5* G8, FOO FOE FOTP",0
+"Ashby165",1,1,33713,Rogue1,"Jyn 5* G8, Chirrut 5* G8, Baze 5* G8, K-2SO 5* G8, Cassian 5* G8",0
+"Ashby165",1,0,6850,NestSolo (Counter),"Nest 4* G9",0
 "Siegfried",0,1,109933,Qira,"zQira zL3-37 zVandor Chewbacca, zMission zZaalbar",1
 "Siegfried",1,1,92644,NS,"zMT zzAV zDaka Zombie Spirit",1
 "Siegfried",0,1,142274,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
@@ -308,225 +826,57 @@ Player,Offense,Defense,GP,Name,Squad,Viable
 "Siegfried",1,1,118855,Revan Offense,"zzzJKR zGMY zBS zJolee zHYoda",1
 "Siegfried",1,1,96359,Ewoks,"zChirpa Elder Paploo zWicket zLogray",1
 "Siegfried",1,0,91043,ShaakClones,"zzShaak Ti, Rex Echo Fives ARC Trooper G9",1
-"Siegfried",0,1,102259,BH,"zzBossk Boba Greedo Zam Dengar",1
+"Siegfried",0,1,102259,BH,"zzBossk Zam Boba Dengar Greedo",1
 "Siegfried",1,1,100748,zEP,"zEP zzzVader Tarkin IPD TFP",1
-"Siegfried",1,0,88735,Troopers,"zVeers Starck Range Trooper, Snowtrooper DT",1
+"Siegfried",1,0,88735,Troopers,"zVeers Starck Snowtrooper DT Range Trooper",1
 "Siegfried",0,1,87612,FO,"zzKRU Kylo FOO FOE zFOST",1
 "Siegfried",1,0,111843,CLS,"zzzCLS zHan Leia zOld Ben, zzChewbacca",1
-"Siegfried",0,1,87353,Phoenix,"Hera Kanan zEzra Zeb zSabine",1
+"Siegfried",0,1,87353,Phoenix,"Hera Zeb zEzra zSabine Kanan",1
 "Siegfried",1,1,93548,Rogue1,"zJyn Chirrut Baze K-2SO zCassian",1
 "Siegfried",1,0,73209,Jawas,"Nebit Jawa Engineer, Jawa Scavenger, Jawa Dathcha",1
-"Siegfried",0,1,86362,BH,"Jango Embo IG-88 Aurra Cad",0
-"Wonkster",1,1,96215,JTR,"zzzJTR zScav Rey, BB-8 zzR2-D2 Finn",1
-"Wonkster",1,1,88010,Revan Offense,"zzzJKR GMY G8, zBS Jolee zEzra",1
-"Wonkster",0,1,111271,BH,"zzJango zBoba zzEmbo zIG-88 zzBossk",1
-"Wonkster",1,1,89642,zEP,"zzEP zzVader Tarkin DT G9, TFP G9",1
-"Wonkster",1,0,80437,Wiggs,"Wedge Biggs zCLS zHan Leia",1
-"Wonkster",1,0,55353,Wampa (Counter),"Rex G8, Wampa G7, HYoda G7, Jyn G8, FOO",1
-"Wonkster",0,1,77781,Phoenix,"zHera Chopper zKanan Zeb Sabine G8",1
-"Wonkster",0,1,89014,FO,"zzKRU zKylo Phasma zFOTP FOST G9",1
-"Wonkster",1,0,19282,SionSolo (Counter),"zSion",1
-"Wonkster",0,1,59803,padme,"Padme G6, GK G7, JKA 6* G6, Ahsoka Barriss",0
-"Wonkster",1,1,79872,NS_Alt,"zMT G9, zAV zDaka G9, Talia G9, Zombie",0
-"Wonkster",0,1,85755,Grievous,"GG G8, zB2 MagnaGuard zNute zDooku",0
-"Wonkster",1,1,69808,Carth,"zCarth Onasi, Mission G9, Zaalbar G9, Juhani 6* Canderous",0
-"Wonkster",1,0,45949,Troopers,"Veers 6* G5, Starck G6, Shoretrooper G9, Stormtrooper G7, Snowtrooper G3",0
-"Wonkster",1,0,45222,Jawas,"Nebit G7, Jawa Engineer G5, Jawa Scavenger G7, Jawa G7, Dathcha G7",0
-"Cao Hao",0,1,106661,padme,"zzPadme zGK zJKA zAhsoka zBarriss G9",1
-"Cao Hao",0,1,86147,Grievous,"zzGG B2 G8, MagnaGuard G9, Nute zDooku",1
-"Cao Hao",1,1,96500,Ewoks,"zChirpa Elder zPaploo Teebo Scout",1
-"Cao Hao",0,1,95219,BH,"zzBossk Boba Greedo IG-88 Cad",1
-"Cao Hao",1,0,96824,CLS,"zzzCLS zHan Wedge Biggs zChewbacca",1
-"Cao Hao",1,0,86337,Rex (Counter),"Rex DN Chirrut Baze zzR2-D2",1
-"Cao Hao",0,1,67373,Phoenix,"Hera G8, Chopper G8, Kanan G8, Ezra G8, Zeb G8",1
-"Cao Hao",0,1,67732,Geonosians,"zGBA 5* Poggle G9, Geo Soldier G8, Geo Spy 5* G9, Sun Fac",0
-"Cao Hao",1,1,67926,NS,"zMT G9, zAV Daka G9, Zombie 5* G8, Spirit 6* G8",0
-"Cao Hao",1,0,62792,Troopers,"Veers Starck G7, Stormtrooper G7, Snowtrooper G8, Magma G8",0
-"Cao Hao",0,1,88563,BS,"zBS G9, zzGMY Jolee 5* G8, Old Ben G9, zHYoda",0
-"Cao Hao",0,1,64885,FO,"KRU G8, zKylo G9, FOO G7, Phasma G7, FOTP G8",0
-"Kymbo",0,1,100944,Qira,"Qira zL3-37 zVandor Chewbacca, Mission zZaalbar",1
-"Kymbo",1,1,99738,NS,"zzMT zzAV Daka Zombie Spirit",1
-"Kymbo",0,1,144143,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
-"Kymbo",0,1,108439,DRMalak,"zzzDR HK-47 zBSF zzMalak 6* Sith Empire Trooper",1
-"Kymbo",,,479166,Negotiator,"Negotiator 5* HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, BTL-B Y-wing Starfighter 6*, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter",1
-"Kymbo",,,368046,Malevolence,"Malevolence 6* Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber, Vulture Droid, IG-2000",1
-"Kymbo",0,1,114987,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
-"Kymbo",,,441870,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
-"Kymbo",0,1,129758,Grievous,"zzGG zB2 zB1 zDroideka MagnaGuard",1
-"Kymbo",1,0,121957,Traya,"zzTraya zDN zSion zzEP zThrawn",1
-"Kymbo",1,1,136241,JTR,"zzJTR Scav Rey, zzBB-8 zzR2-D2 Finn",1
-"Kymbo",,,105345,Nute-Wat,"zNute zDooku zWat Tambor, zJango zNest",1
-"Kymbo",1,1,147543,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
-"Kymbo",1,1,132870,Revan Offense,"zzzJKR zzGMY zBS zJolee zzHYoda",1
-"Kymbo",1,1,123737,Ewoks,"zChirpa Elder Paploo zWicket zLogray",1
-"Kymbo",0,1,106164,BH,"zzBossk Boba IG-88 zzThe Mandalorian, zDengar",1
-"Kymbo",0,1,133362,FO,"zzKRU zKylo FOO FOE zHux",1
-"Kymbo",1,0,101923,Troopers,"zVeers Starck Range Trooper, zStormtrooper DT",1
-"Kymbo",1,0,129677,CLS,"zzzCLS zHan Leia Old Ben, zzChewbacca",1
-"Kymbo",0,1,83226,Phoenix,"Hera Kanan zEzra Zeb G8, Sabine",1
-"Kymbo",1,1,94639,Rogue1,"zJyn Chirrut Baze K-2SO zCassian",1
-"Kymbo",1,0,115925,Zader (Counter),"zzzVader zzWampa zTarkin Sidious Shoretrooper",1
-"Kymbo",1,0,83940,Jawas,"Nebit Jawa Engineer, Jawa Scavenger, Jawa Dathcha",1
-"Kymbo",,,468702,Executrix,"Executrix Tie Adv, Emperor's Shuttle, TIE Reaper 4*, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",0
-"Kymbo",,,94390,Mon Mothma,"zzMon Mothma 5* G8, Wedge zPao Biggs Lando",0
-"Jacq Lau",1,1,148455,SL Kylo,"zzzzzzSL Kylo, zSith Trooper, zHux zzKRU zThrawn",1
-"Jacq Lau",0,1,90215,Qira,"Qira L3-37 zVandor Chewbacca, zMission zZaalbar",1
-"Jacq Lau",1,1,107141,NS,"zzMT zzAV zDaka Zombie Spirit",1
-"Jacq Lau",0,1,139022,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
-"Jacq Lau",0,1,123136,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
-"Jacq Lau",,,480887,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, BTL-B Y-wing Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter",1
-"Jacq Lau",,,358976,Malevolence,"Malevolence Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber, Vulture Droid, IG-2000",1
-"Jacq Lau",,,136300,JKL,"zzJKL zzzJKR zzHYoda zzOld Ben, zBarriss",1
-"Jacq Lau",0,1,101411,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
-"Jacq Lau",,,453750,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
-"Jacq Lau",0,1,121649,Grievous,"zzGG zB2 zB1 zDroideka zMagnaGuard",1
-"Jacq Lau",1,1,140687,JTR,"zzzJTR Scav Rey, zBB-8 zzR2-D2 zFinn",1
-"Jacq Lau",1,0,120208,Traya,"zzTraya zDN zSion zDooku zzEP",1
-"Jacq Lau",1,1,144126,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
-"Jacq Lau",,,100672,Mon Mothma,"zzMon Mothma 6*, Wedge Baze Chirrut Lando",1
-"Jacq Lau",1,1,85287,Ewoks,"zChirpa Elder Paploo Wicket Logray",1
-"Jacq Lau",0,1,107695,BH,"zzBossk zBoba zzGreef Karga, Dengar zNest",1
-"Jacq Lau",1,0,87434,Troopers,"zVeers zStarck Range Trooper, Stormtrooper DT",1
-"Jacq Lau",0,1,88569,Phoenix,"Hera zKanan Ezra Zeb zSabine",1
-"Jacq Lau",1,0,121308,CLS,"zzzCLS zHan Leia Fulcrum G8, zzChewbacca",1
-"Jacq Lau",1,0,111006,Zader (Counter),"zzzVader zzWampa zTarkin zSidious Shoretrooper",1
-"Jacq Lau",1,0,71142,Jawas,"Nebit G8, Jawa Engineer G9, Jawa Scavenger G8, Jawa G9, Dathcha",1
-"Jacq Lau",,,421489,Executrix,"Executrix Tie Adv, Emperor's Shuttle 4*, TIE Reaper, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",0
-"Jacq Lau",0,1,90960,BH,"zJango Greedo IG-88 Cad Zam",0
-"Bender",1,1,143126,GL Rey,"zzzzzzRey Holdo zGK zResistance Hero Poe, zResistance Hero Finn",1
-"Bender",0,1,81446,Qira,"Qira zL3-37 Vandor Chewbacca G8, Mission G8, zZaalbar",1
-"Bender",1,1,107026,NestSisters,"zzAV zzMT zDaka Zombie zNest",1
-"Bender",0,1,113687,DRMalak,"zzzDR zHK-47 zBSF zzMalak Sith Empire Trooper",1
-"Bender",,,472728,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter, Rex's ARC-170",1
-"Bender",0,1,96303,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
-"Bender",,,394069,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
-"Bender",0,1,104788,Grievous,"zGG zB2 zB1 zDroideka zMagnaGuard",1
-"Bender",1,0,114813,Traya,"zzTraya zzDN zSion zzEP zzThrawn",1
-"Bender",1,1,145387,JTR,"zzzJTR Scav Rey, zzBB-8 zzR2-D2 zFinn",1
-"Bender",1,1,112736,GAS,"zzzzGAS zRex Echo zzFives zARC Trooper",1
-"Bender",1,1,124786,Revan Offense,"zzzJKR zGMY zHYoda zJolee zJKA",1
-"Bender",1,0,109170,CLS,"zzCLS zHan zzChewbacca Leia zzC-3PO",1
-"Bender",1,1,90350,Ewoks,"zChirpa Elder zPaploo zWicket Logray",1
-"Bender",0,1,104963,BH,"zzBossk Boba zJango Cad Dengar",1
-"Bender",0,1,109245,FO,"zzKRU zKylo FOO FOE FOST",1
-"Bender",1,0,86483,Troopers,"zVeers Starck Range Trooper, Snowtrooper DT",1
-"Bender",0,1,82559,Phoenix,"Hera Kanan Ezra Zeb Sabine",1
-"Bender",1,1,75585,Rogue1,"Jyn G8, Chirrut Baze Cassian G9, Scarif G8",1
-"Bender",1,0,81697,Zader (Counter),"Vader Wampa G8, Tarkin Sidious Shoretrooper",1
-"Bender",1,0,56736,Jawas,"Nebit G8, Jawa Engineer G8, Jawa Scavenger G8, Jawa G8, Dathcha G8",1
-"Bender",,,317374,Malevolence,"Malevolence Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber 6*, Vulture Droid 5*, IG-2000",0
-"sir5centalot",1,1,104552,NS,"zzMT zzAV zDaka Zombie Spirit",1
-"sir5centalot",0,1,141127,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
-"sir5centalot",0,1,132376,padme,"zzPadme zGK zJKA zAhsoka zC-3PO",1
-"sir5centalot",,,482036,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, BTL-B Y-wing Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter",1
-"sir5centalot",,,353853,Malevolence,"Malevolence Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber, Vulture Droid, IG-2000",1
-"sir5centalot",,,138534,JKL,"zzJKL zzzJKR zzHYoda zzOld Ben, zEzra",1
-"sir5centalot",0,1,98040,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
-"sir5centalot",,,477791,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
-"sir5centalot",0,1,127574,Grievous-Wat,"zzGG zB2 zB1 zMagnaGuard zWat Tambor",1
-"sir5centalot",1,0,118721,Traya,"zzTraya DN zSion zzEP zzThrawn",1
-"sir5centalot",1,1,127566,JTR,"zzzJTR zScav Rey, zzBB-8 zzR2-D2 zFinn",1
-"sir5centalot",,,109737,Nute-OR,"zNute zDooku zzJango zZaalbar zMission",1
-"sir5centalot",1,1,120629,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
-"sir5centalot",1,1,79783,Ewoks,"zChirpa Elder Paploo Wicket Logray",1
-"sir5centalot",0,1,139237,BH,"zzBossk zBoba zzThe Mandalorian, zZam zDengar",1
-"sir5centalot",0,1,96221,FO,"zzKRU zKylo FOO FOE FOST G9",1
-"sir5centalot",1,0,94097,Troopers,"zVeers zStarck Range Trooper, Shoretrooper DT",1
-"sir5centalot",1,0,133816,CLS,"zzzCLS zHan zLeia zFulcrum zzChewbacca",1
-"sir5centalot",0,1,95120,Phoenix,"zHera Chopper zKanan zZeb zSabine",1
-"sir5centalot",1,1,90508,Rogue1,"zJyn Chirrut Baze zK-2SO zCassian",1
-"sir5centalot",1,0,108541,Zader (Counter),"zzzVader zzWampa Tarkin Sidious Stormtrooper G8",1
-"sir5centalot",1,0,71883,Jawas,"Nebit G8, Jawa Engineer G9, Jawa Scavenger G8, Jawa G9, Dathcha",1
-"sir5centalot",1,0,24688,NestSolo (Counter),"zNest",1
-"sir5centalot",,,95887,Mon Mothma,"zzMon Mothma 4* G8, Wedge Hoth Rebel Scout G9, Biggs Lando",0
+"Siegfried",0,1,86362,BH,"Jango Cad Aurra Embo IG-88",0
+"BBalint97",1,1,100006,Revan Offense,"zzzJKR zGMY zBS zJolee JKA 6*",0
+"BBalint97",1,1,34301,NS_Alt,"MT 5* G8, AV 6* G8, Spirit 5* G8, Talia 5* G8, Daka 5* G8",0
+"BBalint97",1,0,41827,501st,"Rex 5* G8, Clone Sergeant 5* G8, Echo 5* G8, Fives 5* G8, Ahsoka",0
+"BBalint97",0,1,39426,BH,"Bossk 4* G8, Cad 5* G8, Boba 5* G8, Greedo 5* G8, IG-88 5* G8",0
+"BBalint97",1,0,33161,Wiggs,"Wedge 5* G8, Biggs 5* G8, Leia 5* G8, Chirrut 5* G8, Baze 5* G8",0
+"BBalint97",0,1,40727,Phoenix,"Hera 5* G8, Zeb 5* G8, Ezra 5* G8, Sabine 5* G8, Kanan G8",0
+"BBalint97",0,1,32609,FO,"KRU 5* G8, Kylo 5* G8, FOE 5* G8, Phasma 5* G8, FOST 5* G8",0
+"BBalint97",1,0,38352,Zader (Counter),"Vader G8, Mission G7, Zaalbar G7, Tarkin 5* G8, Sidious 5* G8",0
+"QuiGonChi",1,1,109735,NS,"zzMT zzAV zDaka Zombie Spirit",1
+"QuiGonChi",0,1,140000,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
+"QuiGonChi",0,1,113585,DRMalak,"zzzDR zHK-47 zBSF zzMalak Sith Empire Trooper",1
+"QuiGonChi",,,482813,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, BTL-B Y-wing Starfighter 6*, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter",1
+"QuiGonChi",,,381169,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
+"QuiGonChi",1,0,108701,Traya,"zzTraya DN zSion zzEP zThrawn",1
+"QuiGonChi",1,1,98820,JTR,"zJTR Scav Rey, zBB-8 zzR2-D2 Finn",1
+"QuiGonChi",,,101669,Nute-Wat,"zNute zB1 zB2 MagnaGuard zWat Tambor",1
+"QuiGonChi",1,1,156719,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
+"QuiGonChi",1,1,116022,Revan Offense,"zzzJKR zGMY zBS zJolee zHYoda",1
+"QuiGonChi",0,1,98822,BH,"zzBossk Cad Boba Dengar G9, zNest",1
+"QuiGonChi",0,1,74980,Phoenix,"Hera Zeb G8, Ezra Sabine Kanan G8",1
+"QuiGonChi",1,0,116981,CLS,"zzCLS zHan Wedge Biggs zzChewbacca",1
+"QuiGonChi",1,0,82902,Troopers,"zVeers Starck Shoretrooper Snowtrooper DT",1
+"QuiGonChi",1,1,84285,Rogue1,"zJyn Chirrut Baze K-2SO Cassian",1
+"QuiGonChi",1,0,106572,Zader (Counter),"zzzVader zMission zZaalbar zWampa Stormtrooper",1
+"QuiGonChi",,,315846,Malevolence,"Malevolence Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber, Vulture Droid 5*, IG-2000",0
+"QuiGonChi",0,1,101298,Geonosians,"zGBA Poggle Geo Soldier, Geo Spy, Sun Fac",0
+"QuiGonChi",,,334867,Executrix,"Executrix Tie Adv, Emperor's Shuttle 5*, TIE Reaper, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",0
+"QuiGonChi",,,64427,Mon Mothma,"Mon Mothma 4* G8, Lando Hoth Rebel Soldier G8, Hoth Rebel Scout G8, Pao G8",0
+"QuiGonChi",1,1,84632,Ewoks,"Chirpa G9, Elder zPaploo zWicket Logray",0
+"QuiGonChi",0,1,95032,FO,"zKRU zKylo FOO zSith Trooper, FOST",0
+"QuiGonChi",1,0,49103,Jawas,"Nebit G8, Jawa Engineer G9, Jawa Scavenger G7, Jawa G8, Dathcha G8",0
 "SithLordDantar",0,1,119463,DRMalak,"zzzDR HK-47 zBSF zzMalak 6* zThrawn",1
 "SithLordDantar",1,1,122290,Revan,"zzzJKR BS zzGMY zJolee zGK",1
-"SithLordDantar",0,1,72095,Phoenix,"Hera G8, Chopper G9, Kanan G8, Ezra Zeb G8",1
+"SithLordDantar",0,1,72095,Phoenix,"Hera G8, Zeb G8, Chopper G9, Ezra Kanan G8",1
 "SithLordDantar",1,0,105862,Zader (Counter),"zzVader zMission Zaalbar Tarkin Sidious",1
 "SithLordDantar",0,1,79248,Geonosians,"zGBA G9, Poggle Geo Soldier, Geo Spy G8, Sun Fac G9",0
-"SithLordDantar",1,1,63555,NS_Alt,"MT 5* G8, AV Daka Talia 5* Spirit 5* G8",0
+"SithLordDantar",1,1,63555,NS_Alt,"MT 5* G8, AV Spirit 5* G8, Talia 5* Daka",0
 "SithLordDantar",1,0,77066,ShaakClones,"Shaak Ti 6* G8, zRex Echo zFives Clone Sergeant 5* G8",0
-"SithLordDantar",0,1,70512,BH,"Bossk 5* G8, Boba G9, Greedo G8, IG-88 G8, Cad G8",0
-"SithLordDantar",1,0,72926,Troopers,"Veers Starck Shoretrooper Stormtrooper G8, Admiral Piett 5* G8",0
+"SithLordDantar",0,1,70512,BH,"Bossk 5* G8, Cad G8, Boba G9, Greedo G8, IG-88 G8",0
+"SithLordDantar",1,0,73124,Troopers,"Veers Starck Shoretrooper Admiral Piett 5* G8, Stormtrooper G8",0
 "SithLordDantar",1,1,49564,Rogue1,"Jyn 5* G8, Chirrut 5* G8, Baze 5* G8, K-2SO G8, Cassian G8",0
 "SithLordDantar",0,1,67864,FO,"KRU G8, Kylo FOO G8, FOE 5* G9, Phasma G8",0
-"Mindl",1,1,150390,SL Kylo,"zzzzzzSL Kylo, zSith Trooper, zHux zzKRU zzThrawn",1
-"Mindl",0,1,89736,Qira,"Qira L3-37 Vandor Chewbacca, zMission zZaalbar",1
-"Mindl",0,1,123168,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
-"Mindl",0,1,129752,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
-"Mindl",,,453256,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter, Rex's ARC-170",1
-"Mindl",0,1,92757,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
-"Mindl",,,400604,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
-"Mindl",0,1,126776,Grievous-Wat,"zzGG zB2 zB1 zMagnaGuard zWat Tambor",1
-"Mindl",1,1,103903,JTR,"zzJTR Scav Rey, zBB-8 zzR2-D2 Finn",1
-"Mindl",1,0,118463,Traya,"zzTraya zDN zSion EP zNest",1
-"Mindl",1,1,144124,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
-"Mindl",1,1,118940,Revan Offense,"zzzJKR zzGMY zBS zJolee zHYoda",1
-"Mindl",1,1,80710,Ewoks,"zChirpa Elder Paploo Wicket Logray",1
-"Mindl",0,1,98750,BH,"zzJango Boba IG-88 Dengar zBossk",1
-"Mindl",1,0,81952,Troopers,"zVeers zStarck Range Trooper G7, Shoretrooper zDT",1
-"Mindl",0,1,82682,Phoenix,"Hera Kanan zEzra Zeb Sabine",1
-"Mindl",1,0,111793,Wiggs,"Wedge Biggs zCLS zHan zzChewbacca",1
-"Mindl",1,1,82112,Rogue1,"zJyn Chirrut Baze K-2SO G8, Cassian",1
-"Mindl",1,0,97139,Zader (Counter),"zzzVader Wampa Tarkin zSidious Stormtrooper G8",1
-"Mindl",,,285689,Malevolence,"Malevolence Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber 4*, Vulture Droid 5*, IG-2000",0
-"Mindl",,,404241,Executrix,"Executrix Tie Adv, Emperor's Shuttle 4*, TIE Reaper, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",0
-"Mindl",1,1,56626,NS,"MT G9, AV Daka G8, Zombie G1, Spirit G8",0
-"Mindl",1,0,39993,Jawas,"Nebit G7, Jawa Engineer G7, Jawa Scavenger G7, Jawa 6* G7, Dathcha G7",0
-"KoolKunt",0,1,90818,Qira,"zQira zL3-37 zVandor Chewbacca, Mission G8, Zaalbar",1
-"KoolKunt",1,1,115265,NS,"zzMT zzAV zDaka Zombie Spirit",1
-"KoolKunt",0,1,135623,padme,"zzPadme zGK zJKA zAhsoka zBarriss",1
-"KoolKunt",0,1,115521,DRMalak,"zzzDR zHK-47 zBSF zzMalak 6* Sith Empire Trooper",1
-"KoolKunt",,,462423,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, Clone Sergeant's ARC-170, Jedi Consular's Starfighter, Plo Koon's Jedi Starfighter",1
-"KoolKunt",0,1,93304,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
-"KoolKunt",,,414296,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
-"KoolKunt",0,1,120804,Grievous,"zzGG zB2 zB1 zDroideka zMagnaGuard",1
-"KoolKunt",1,0,117011,Traya,"zzTraya DN zSion zDooku zzThrawn",1
-"KoolKunt",1,1,108067,JTR,"zzJTR Scav Rey, zzBB-8 zzR2-D2 zFinn",1
-"KoolKunt",1,1,151136,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
-"KoolKunt",0,1,123630,BH,"zzJango zBoba zDengar zzBossk zNest",1
-"KoolKunt",1,1,122251,Revan Offense,"zzzJKR zGMY zBS zJolee zzHYoda",1
-"KoolKunt",1,0,126250,CLS,"zzzCLS zHan zzChewbacca Leia zC-3PO",1
-"KoolKunt",1,1,75846,Ewoks,"zChirpa G9, Elder Paploo G8, Wicket Logray G9",1
-"KoolKunt",1,1,118037,zEP,"zzEP zzzVader Tarkin zIPD TFP",1
-"KoolKunt",0,1,102408,FO,"zzKRU zKylo FOO FOE FOST",1
-"KoolKunt",1,0,84998,Troopers,"zVeers Starck Range Trooper, Stormtrooper DT",1
-"KoolKunt",0,1,74561,Phoenix,"Hera Kanan G8, Ezra Zeb G8, Sabine",1
-"KoolKunt",1,1,87593,Rogue1,"zJyn Chirrut Baze K-2SO Cassian",1
-"KoolKunt",1,0,95508,zMaul,"zMaul zSidious Sith Assassin, Savage Sith Marauder",1
-"KoolKunt",1,0,77678,Jawas,"Nebit Jawa Engineer, Jawa Scavenger, Jawa Dathcha",1
-"KoolKunt",,,300222,Malevolence,"Malevolence 5* Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber 4*, Vulture Droid 5*, IG-2000",0
-"KoolKunt",,,84392,Mon Mothma,"Mon Mothma 3* G8, Wedge Bistan Biggs Lando",0
-"czappia",0,1,90922,Grievous,"zzGG zB2 zDooku IG-88 G8, T3-M4",1
-"czappia",1,1,88489,Ewoks,"zChirpa Elder zPaploo Teebo G8, zLogray",1
-"czappia",1,1,108747,Carth,"zCarth Onasi, zMission zZaalbar zJuhani zCanderous",1
-"czappia",1,0,81283,Wiggs,"Wedge G7, Biggs G7, zzzCLS zEzra Leia G9",1
-"czappia",0,1,103355,DR,"zzzDR zzHK-47 zBSF Sith Assassin G4, zzThrawn",0
-"czappia",1,1,73265,NS,"zzMT G8, zzAV Daka G5, Zombie 6* G2, Spirit G3",0
-"czappia",1,1,109976,Revan,"zzzJKR zBS GMY G7, zJolee GK G6",0
-"czappia",0,1,85158,BH,"zzBossk G9, zBoba Embo 4* G7, Greedo G9, Cad",0
-"czappia",1,0,52741,501st,"Rex G6, Clone Sergeant G6, Echo G2, Fives G8, Ahsoka G8",0
-"czappia",0,1,99056,Phoenix,"zHera Chopper zKanan zZeb Sabine 4* G8",0
-"czappia",1,0,93066,Zader (Counter),"zzVader G8, zzWampa zzTarkin Sidious G5, Stormtrooper G7",0
-"czappia",1,0,8575,SionSolo (Counter),"Sion 4* G8",0
-"DarthInaren",0,1,128402,padme,"zzPadme zGK zJKA zAhsoka zC-3PO",1
-"DarthInaren",,,447486,Negotiator,"Negotiator 5* HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, BTL-B Y-wing Starfighter 6*, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter",1
-"DarthInaren",,,342530,Malevolence,"Malevolence Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber, Vulture Droid, IG-2000",1
-"DarthInaren",0,1,97615,DR,"zzzDR HK-47 zBSF Sith Marauder G8, zThrawn",1
-"DarthInaren",0,1,86723,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac G9",1
-"DarthInaren",0,1,125404,Grievous,"zzGG zB2 zB1 zDroideka MagnaGuard",1
-"DarthInaren",,,96244,Nute-Wat,"zNute zDooku zWat Tambor 6*, zJango zNest",1
-"DarthInaren",1,1,130422,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper G9",1
-"DarthInaren",1,1,111068,Revan Offense,"zzzJKR zGMY zBS zJolee zHYoda",1
-"DarthInaren",1,1,78173,Ewoks,"zChirpa G8, Elder Paploo G9, zWicket G9, Logray G9",1
-"DarthInaren",0,1,104522,BH,"zzBossk Boba Embo IG-88 Dengar",1
-"DarthInaren",1,0,90184,CLS,"zzCLS zHan Leia G8, Old Ben G9, zChewbacca",1
-"DarthInaren",1,0,74917,Troopers,"zVeers Starck Stormtrooper G8, Snowtrooper G8, DT G9",1
-"DarthInaren",0,1,68565,Phoenix,"Hera G8, Chopper G8, Kanan G8, Ezra G8, Zeb G8",1
-"DarthInaren",1,0,94158,Zader (Counter),"zzzVader Mission G8, Zaalbar G8, Wampa G9, Tarkin",1
-"DarthInaren",1,0,18996,SionSolo (Counter),"zSion",1
-"DarthInaren",1,1,82790,NS,"zMT 6* G8, zzAV Daka Zombie 6* Spirit 6* G9",0
-"DarthInaren",0,1,70359,FO,"zKRU G8, Kylo G8, FOO G8, FOE G9, Phasma G8",0
 "Fainsan",1,1,113573,NS,"zzMT zzAV zDaka Zombie Spirit",1
 "Fainsan",0,1,141642,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
 "Fainsan",0,1,114876,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
@@ -541,15 +891,64 @@ Player,Offense,Defense,GP,Name,Squad,Viable
 "Fainsan",1,1,150467,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
 "Fainsan",1,1,89903,Ewoks,"zChirpa Elder zPaploo Wicket Logray",1
 "Fainsan",1,1,83755,Carth,"zCarth Onasi, Mission G9, Zaalbar Juhani Canderous",1
-"Fainsan",0,1,107050,BH,"zzBossk zBoba Greedo zZam Dengar",1
+"Fainsan",0,1,107050,BH,"zzBossk zZam zBoba Dengar Greedo",1
 "Fainsan",0,1,88484,FO,"zKRU zKylo FOO FOE FOST",1
 "Fainsan",1,0,95852,Troopers,"zVeers Starck Shoretrooper Stormtrooper DT",1
 "Fainsan",1,0,107607,CLS,"zzzCLS zHan Wedge G8, Biggs zChewbacca",1
-"Fainsan",0,1,79658,Phoenix,"Hera Chopper Kanan G8, Zeb G8, zSabine",1
+"Fainsan",0,1,79658,Phoenix,"Hera Zeb G8, Chopper zSabine Kanan G8",1
 "Fainsan",1,1,87997,Rogue1,"zJyn Chirrut Baze K-2SO G9, Cassian",1
 "Fainsan",1,0,75035,Jawas,"Nebit Jawa Engineer, Jawa Scavenger G9, Jawa Dathcha",1
 "Fainsan",,,437165,Executrix,"Executrix Tie Adv, Emperor's Shuttle, TIE Reaper 6*, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",0
-"Fainsan",,,76508,Mon Mothma,"Mon Mothma 3* G8, Pao G8, Bistan Lando Scarif G8",0
+"Fainsan",,,76508,Mon Mothma,"Mon Mothma 3* G8, Lando Bistan Scarif G8, Pao G8",0
+"Jacq Lau",1,1,148455,SL Kylo,"zzzzzzSL Kylo, zSith Trooper, zHux zzKRU zThrawn",1
+"Jacq Lau",0,1,90215,Qira,"Qira L3-37 zVandor Chewbacca, zMission zZaalbar",1
+"Jacq Lau",1,1,107141,NS,"zzMT zzAV zDaka Zombie Spirit",1
+"Jacq Lau",0,1,139022,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
+"Jacq Lau",0,1,123136,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
+"Jacq Lau",,,480887,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, BTL-B Y-wing Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter",1
+"Jacq Lau",,,358976,Malevolence,"Malevolence Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber, Vulture Droid, IG-2000",1
+"Jacq Lau",,,136300,JKL,"zzJKL zzzJKR zzHYoda zzOld Ben, zBarriss",1
+"Jacq Lau",0,1,101411,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
+"Jacq Lau",,,453750,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
+"Jacq Lau",0,1,121649,Grievous,"zzGG zB2 zB1 zDroideka zMagnaGuard",1
+"Jacq Lau",1,1,140687,JTR,"zzzJTR Scav Rey, zBB-8 zzR2-D2 zFinn",1
+"Jacq Lau",1,0,120208,Traya,"zzTraya zDN zSion zDooku zzEP",1
+"Jacq Lau",1,1,144126,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
+"Jacq Lau",,,100672,Mon Mothma,"zzMon Mothma 6*, Lando Baze Chirrut Wedge",1
+"Jacq Lau",1,1,85287,Ewoks,"zChirpa Elder Paploo Wicket Logray",1
+"Jacq Lau",0,1,107695,BH,"zzBossk zzGreef Karga, zBoba Dengar zNest",1
+"Jacq Lau",1,0,87434,Troopers,"zVeers zStarck Stormtrooper DT Range Trooper",1
+"Jacq Lau",0,1,88569,Phoenix,"Hera Zeb Ezra zSabine zKanan",1
+"Jacq Lau",1,0,121308,CLS,"zzzCLS zHan Leia Fulcrum G8, zzChewbacca",1
+"Jacq Lau",1,0,111006,Zader (Counter),"zzzVader zzWampa zTarkin zSidious Shoretrooper",1
+"Jacq Lau",1,0,71142,Jawas,"Nebit G8, Jawa Engineer G9, Jawa Scavenger G8, Jawa G9, Dathcha",1
+"Jacq Lau",,,421489,Executrix,"Executrix Tie Adv, Emperor's Shuttle 4*, TIE Reaper, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",0
+"Jacq Lau",0,1,90960,BH,"zJango Cad Zam Greedo IG-88",0
+"Kymbo",0,1,100944,Qira,"Qira zL3-37 zVandor Chewbacca, Mission zZaalbar",1
+"Kymbo",1,1,99738,NS,"zzMT zzAV Daka Zombie Spirit",1
+"Kymbo",0,1,144188,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
+"Kymbo",0,1,108439,DRMalak,"zzzDR HK-47 zBSF zzMalak 6* Sith Empire Trooper",1
+"Kymbo",,,479166,Negotiator,"Negotiator 5* HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, BTL-B Y-wing Starfighter 6*, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter",1
+"Kymbo",,,368046,Malevolence,"Malevolence 6* Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber, Vulture Droid, IG-2000",1
+"Kymbo",0,1,114987,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
+"Kymbo",,,441870,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
+"Kymbo",0,1,129758,Grievous,"zzGG zB2 zB1 zDroideka MagnaGuard",1
+"Kymbo",1,0,121957,Traya,"zzTraya zDN zSion zzEP zThrawn",1
+"Kymbo",1,1,136241,JTR,"zzJTR Scav Rey, zzBB-8 zzR2-D2 Finn",1
+"Kymbo",,,105345,Nute-Wat,"zNute zDooku zWat Tambor, zJango zNest",1
+"Kymbo",1,1,147543,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
+"Kymbo",1,1,132870,Revan Offense,"zzzJKR zzGMY zBS zJolee zzHYoda",1
+"Kymbo",1,1,123737,Ewoks,"zChirpa Elder Paploo zWicket zLogray",1
+"Kymbo",0,1,106164,BH,"zzBossk Boba zzThe Mandalorian, zDengar IG-88",1
+"Kymbo",0,1,133362,FO,"zzKRU zKylo FOO zHux FOE",1
+"Kymbo",1,0,101923,Troopers,"zVeers Starck zStormtrooper DT Range Trooper",1
+"Kymbo",1,0,129677,CLS,"zzzCLS zHan Leia Old Ben, zzChewbacca",1
+"Kymbo",0,1,83226,Phoenix,"Hera Zeb G8, zEzra Sabine Kanan",1
+"Kymbo",1,1,94639,Rogue1,"zJyn Chirrut Baze K-2SO zCassian",1
+"Kymbo",1,0,115925,Zader (Counter),"zzzVader zzWampa zTarkin Sidious Shoretrooper",1
+"Kymbo",1,0,83940,Jawas,"Nebit Jawa Engineer, Jawa Scavenger, Jawa Dathcha",1
+"Kymbo",,,468702,Executrix,"Executrix Tie Adv, Emperor's Shuttle, TIE Reaper 4*, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",0
+"Kymbo",,,94390,Mon Mothma,"zzMon Mothma 5* G8, Lando Wedge zPao Biggs",0
 "Abachalypse",1,1,154169,SL Kylo,"zzzzzzSL Kylo, zSith Trooper, zHux zzKRU zThrawn",1
 "Abachalypse",0,1,128072,padme,"zzPadme zGK zJKA zAhsoka zC-3PO",1
 "Abachalypse",1,1,104922,NestSisters,"zzAV zzMT zDaka Zombie zNest",1
@@ -566,422 +965,23 @@ Player,Offense,Defense,GP,Name,Squad,Viable
 "Abachalypse",1,1,118818,Revan Offense,"zzzJKR zzGMY zBS zJolee zHYoda",1
 "Abachalypse",1,1,84045,Ewoks,"zChirpa Elder Paploo Wicket Logray",1
 "Abachalypse",1,1,95027,Carth,"zCarth Onasi, zMission Zaalbar Juhani zCanderous",1
-"Abachalypse",0,1,102115,BH,"zzBossk Boba zJango zZam Dengar",1
-"Abachalypse",1,0,95948,Troopers,"zVeers zStarck Range Trooper, Snowtrooper DT",1
-"Abachalypse",0,1,83876,Phoenix,"Hera Kanan G8, zEzra Zeb G8, zSabine",1
+"Abachalypse",0,1,102115,BH,"zzBossk zZam Boba zJango Dengar",1
+"Abachalypse",1,0,95948,Troopers,"zVeers zStarck Snowtrooper DT Range Trooper",1
+"Abachalypse",0,1,83876,Phoenix,"Hera Zeb G8, zEzra zSabine Kanan G8",1
 "Abachalypse",1,0,111317,CLS,"zzzCLS zHan Wedge Biggs zzChewbacca",1
 "Abachalypse",1,1,90370,Rogue1,"zJyn Chirrut Baze K-2SO G8, zCassian",1
 "Abachalypse",1,0,123715,Zader (Counter),"zzzVader zzWampa zzTarkin Sidious Stormtrooper",1
 "Abachalypse",1,0,67403,Jawas,"Nebit G9, Jawa Engineer G9, Jawa Scavenger G8, Jawa G9, Dathcha G9",1
-"Abachalypse",,,78241,Mon Mothma,"zzMon Mothma 5* G8, Hoth Rebel Scout G8, Pao G8, Lando Scarif",0
-"JediKnight06",0,1,132063,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
-"JediKnight06",0,1,134521,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
-"JediKnight06",,,339483,Malevolence,"Malevolence Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber, Vulture Droid, IG-2000",1
-"JediKnight06",1,1,107045,NS_Alt,"zzMT zzAV zDaka Talia Zombie",1
-"JediKnight06",,,496047,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter, Rex's ARC-170",1
-"JediKnight06",0,1,100522,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
-"JediKnight06",,,399366,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
-"JediKnight06",0,1,120121,Grievous,"zzGG zB2 zB1 zDroideka MagnaGuard",1
-"JediKnight06",1,0,106964,Traya,"zzTraya DN zSion zzEP zThrawn",1
-"JediKnight06",1,1,119915,JTR,"zzzJTR Scav Rey, zzBB-8 zzR2-D2 RT",1
-"JediKnight06",,,95416,Nute-Wat,"zNute zDooku zWat Tambor, Jango Nest",1
-"JediKnight06",1,1,145884,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
-"JediKnight06",1,1,118532,Revan Offense,"zzzJKR zzGMY zBS zJolee zHYoda",1
-"JediKnight06",1,1,80232,Ewoks,"zChirpa G9, Elder Paploo G9, zWicket Logray",1
-"JediKnight06",0,1,95793,BH,"zzBossk Boba Greedo IG-88 Dengar G9",1
-"JediKnight06",1,0,88924,Troopers,"zVeers Starck Range Trooper, Snowtrooper DT",1
-"JediKnight06",0,1,85822,FO,"zzKRU Kylo FOO FOE FOST",1
-"JediKnight06",0,1,82138,Phoenix,"Hera zKanan G8, zEzra Zeb G8, zSabine",1
-"JediKnight06",1,0,104228,CLS,"zzzCLS zHan Wedge Biggs zzChewbacca",1
-"JediKnight06",1,1,84916,Rogue1,"zJyn Chirrut Baze K-2SO G9, Cassian",1
-"JediKnight06",1,0,110878,Zader (Counter),"zzzVader zMission zZaalbar zzWampa Shoretrooper",1
-"JediKnight06",,,329506,Executrix,"Executrix Tie Adv, Emperor's Shuttle 4*, TIE Reaper, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter 6*, First Order TIE Fighter",0
-"JediKnight06",1,0,65449,Jawas,"Nebit G8, Jawa Engineer G9, Jawa Scavenger G7, Jawa G8, Dathcha G9",0
-"Misfit Egghead",0,1,112879,padme,"zzPadme zGK JKA zAhsoka zzC-3PO",1
-"Misfit Egghead",1,1,105202,NestSisters,"zzAV zzMT zDaka Zombie zNest",1
-"Misfit Egghead",0,1,115269,DR,"zzzDR zzHK-47 zBSF Sith Empire Trooper, Sith Assassin G8",1
-"Misfit Egghead",,,437625,HansMF,"Home One, Han's MF, HT Biggs X-wing, Phantom Ghost Cassian's U-wing, Bistan's U-wing",1
-"Misfit Egghead",0,1,94258,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
-"Misfit Egghead",1,0,115046,Traya,"zzTraya zzDN zSion zzEP zThrawn",1
-"Misfit Egghead",0,1,100198,Grievous,"zzGG B2 zB1 zDroideka MagnaGuard",1
-"Misfit Egghead",1,1,114448,JTR,"zzzJTR Scav Rey, zzBB-8 zzR2-D2 zFinn",1
-"Misfit Egghead",,,404041,Executrix,"Executrix Tie Adv, Emperor's Shuttle, TIE Reaper, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",1
-"Misfit Egghead",,,112003,Nute-OR,"zNute zDooku zzJango zZaalbar zMission",1
-"Misfit Egghead",1,1,135243,Revan Offense,"zzzJKR zzGMY zBS zJolee zzHYoda",1
-"Misfit Egghead",1,1,85269,Ewoks,"zChirpa Elder Paploo Wicket Logray",1
-"Misfit Egghead",1,0,98853,ShaakClones,"zzShaak Ti, zRex zEcho Fives Clone Sergeant",1
-"Misfit Egghead",0,1,107943,BH,"zzBossk zBoba zEmbo zAurra Dengar G9",1
-"Misfit Egghead",0,1,90591,FO,"zzKRU zKylo FOO FOE FOST G9",1
-"Misfit Egghead",1,0,114643,CLS,"zzzCLS zHan Wedge Biggs zzChewbacca",1
-"Misfit Egghead",0,1,97150,Phoenix,"zHera zKanan zEzra Zeb zSabine",1
-"Misfit Egghead",1,0,86412,Troopers,"zVeers Starck Shoretrooper Snowtrooper DT",1
-"Misfit Egghead",1,1,80444,Rogue1,"Jyn Chirrut Baze K-2SO G9, Cassian",1
-"Misfit Egghead",1,0,109470,Zader (Counter),"zzzVader zzWampa Tarkin Sidious Stormtrooper",1
-"Misfit Egghead",1,0,68963,Jawas,"Nebit G8, Jawa Engineer G9, Jawa Scavenger G8, Jawa G9, Dathcha",1
-"Misfit Egghead",,,75582,Mon Mothma,"Mon Mothma 3* G8, Hoth Rebel Scout, Bistan G8, Hoth Rebel Soldier, Lando",0
-"Tacnew  Gazzem",0,1,87909,padme,"zzPadme zGK JKA Ahsoka CW Chewbacca G8",1
-"Tacnew  Gazzem",0,1,114101,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
-"Tacnew  Gazzem",1,1,105411,JTR,"zzzJTR zScav Rey, zzBB-8 zzR2-D2 Finn",1
-"Tacnew  Gazzem",,,100954,Nute-OR,"zNute zDooku zzJango zZaalbar zMission",1
-"Tacnew  Gazzem",1,1,111508,Revan Offense,"zzzJKR zzGMY zBS zJolee HYoda G8",1
-"Tacnew  Gazzem",1,0,92882,ShaakClones,"zzShaak Ti, zRex Echo zFives ARC Trooper G8",1
-"Tacnew  Gazzem",0,1,94945,BH,"zzBossk zBoba Greedo Zam Dengar G9",1
-"Tacnew  Gazzem",1,1,108227,zEP,"zzEP zzzVader zzTarkin IPD G8, TFP G8",1
-"Tacnew  Gazzem",0,1,91235,Phoenix,"zHera zKanan zEzra Zeb Sabine",1
-"Tacnew  Gazzem",1,0,88331,Wiggs,"Wedge Biggs G8, zzzCLS zHan Leia",1
-"Tacnew  Gazzem",0,1,89829,FO,"zzKRU Kylo FOO zPhasma FOST",1
-"Tacnew  Gazzem",1,0,81059,Thragma (Counter),"zzThrawn Magma G9, Krennic G8, Stormtrooper G8, Shoretrooper G9",1
-"Tacnew  Gazzem",1,1,74912,Rogue1,"Jyn Chirrut G8, Baze G8, K-2SO G8, Cassian G9",1
-"Tacnew  Gazzem",1,0,25039,SionSolo (Counter),"zSion",1
-"Tacnew  Gazzem",,,347907,Negotiator,"Negotiator 5* HT Anakin's Eta-2 Starfighter 3*, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, BTL-B Y-wing Starfighter 3*, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter",0
-"Tacnew  Gazzem",1,1,66190,NS,"MT 6* G8, zzAV Daka Zombie 6* G6, Spirit 6* G3",0
-"Tacnew  Gazzem",0,1,81113,DR,"zDR G8, zzHK-47 zBSF Sith Empire Trooper 4* G7, Sith Assassin G7",0
-"Tacnew  Gazzem",0,1,87761,Grievous,"zzGG B2 6* G8, zDroideka G9, MagnaGuard G8, zzT3-M4",0
-"Tacnew  Gazzem",,,385911,Executrix,"Executrix Tie Adv, Emperor's Shuttle, TIE Reaper 6*, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",0
-"Tacnew  Gazzem",,,63482,Mon Mothma,"Mon Mothma 3* G4, Bistan G8, Bodhi Rook G8, Lando zCara Dune 3* G9",0
-"Tacnew  Gazzem",1,1,83231,Ewoks,"zChirpa Elder Paploo G7, Scout zWicket",0
-"Tacnew  Gazzem",1,0,58189,Troopers,"Veers Starck G7, Range Trooper 4* G6, Snowtrooper G8, DT 5* G8",0
-"Tacnew  Gazzem",1,0,67076,Jawas,"Nebit G8, Jawa Engineer G9, Jawa Scavenger G7, Jawa 6* G9, Dathcha",0
-"Tacnew  Gazzem",1,0,8913,NestSolo (Counter),"Nest 4* G6",0
-"Hego Damask",1,1,150350,GL Rey,"zzzzzzRey zzChewbacca zGK zResistance Hero Poe, zResistance Hero Finn",1
-"Hego Damask",0,1,83950,Qira,"Qira L3-37 G8, Vandor Chewbacca G8, zMission zZaalbar",1
-"Hego Damask",1,1,105450,NS,"zzMT zzAV zDaka Zombie Spirit",1
-"Hego Damask",0,1,123963,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
-"Hego Damask",,,466581,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, BTL-B Y-wing Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter",1
-"Hego Damask",,,328066,Malevolence,"Malevolence 5* Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber, Vulture Droid, IG-2000",1
-"Hego Damask",,,131790,JKL,"zzJKL zzzJKR zzHYoda Old Ben, zEzra",1
-"Hego Damask",0,1,97881,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
-"Hego Damask",,,430539,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
-"Hego Damask",0,1,119195,Grievous,"zzGG zB2 zB1 zDroideka zMagnaGuard",1
-"Hego Damask",1,0,111308,Traya,"zzTraya zDN zSion zzEP zThrawn",1
-"Hego Damask",1,1,151888,JTR,"zzzJTR zScav Rey, zBB-8 zzR2-D2 zFinn",1
-"Hego Damask",,,405320,Executrix,"Executrix Tie Adv, Emperor's Shuttle, TIE Reaper, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",1
-"Hego Damask",,,100636,Nute-Wat,"zNute zDooku zWat Tambor, zzJango Nest",1
-"Hego Damask",,,92434,Disintegration,"Aurra Greef Karga G8, zBoba zzBossk The Mandalorian G8",1
-"Hego Damask",1,1,131898,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
-"Hego Damask",,,97258,Mon Mothma,"zMon Mothma 6*, Wedge Baze Chirrut Lando",1
-"Hego Damask",1,1,85756,Ewoks,"zChirpa Elder Paploo zWicket zLogray G9",1
-"Hego Damask",1,0,88978,Troopers,"zVeers Starck Range Trooper, Shoretrooper DT",1
-"Hego Damask",0,1,95238,FO,"zzKRU zKylo FOO FOE zFOST",1
-"Hego Damask",0,1,75656,Phoenix,"Hera Chopper Kanan G8, Zeb G8, Sabine",1
-"Hego Damask",1,0,102899,Zader (Counter),"zzzVader zzWampa Tarkin Sidious Stormtrooper G8",1
-"Hego Damask",1,0,69608,Jawas,"Nebit G9, Jawa Engineer G9, Jawa Scavenger G8, Jawa G9, Dathcha G9",1
-"Ty Platus",0,1,116658,DRMalak,"zzzDR zHK-47 BSF zzMalak Sith Empire Trooper G8",1
-"Ty Platus",0,1,127711,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
-"Ty Platus",1,1,107201,NestSisters,"zzAV zzMT zDaka Zombie zNest",1
-"Ty Platus",,,357063,Malevolence,"Malevolence Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber, Vulture Droid, IG-2000",1
-"Ty Platus",,,475495,Negotiator,"Negotiator 5* HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter, Rex's ARC-170",1
-"Ty Platus",0,1,98507,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
-"Ty Platus",0,1,125214,Grievous,"zzGG zB2 zB1 zDroideka MagnaGuard",1
-"Ty Platus",1,0,107382,Traya,"zzTraya DN Sion G9, zzEP zzThrawn",1
-"Ty Platus",1,1,104784,JTR,"zzJTR Scav Rey, zzBB-8 zzR2-D2 Finn",1
-"Ty Platus",,,145876,Disintegration,"zAurra zzGreef Karga, zBoba zzBossk zzThe Mandalorian",1
-"Ty Platus",,,105718,Nute-OR,"zNute zDooku zzJango zZaalbar zMission",1
-"Ty Platus",1,1,139390,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
-"Ty Platus",1,1,116614,Revan Offense,"zzzJKR zGMY zBS zJolee zEzra",1
-"Ty Platus",1,0,112880,CLS,"zzzCLS zHan Wedge G8, Biggs G8, zzChewbacca",1
-"Ty Platus",1,1,76672,Rogue1,"Jyn G8, Chirrut Baze Pao G8, Bodhi Rook G8",1
-"Ty Platus",,,337312,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing 6*, Phantom Ghost Cassian's U-wing 6*, Wedge X-wing",0
-"Ty Platus",,,52276,Mon Mothma,"Mon Mothma 4* G8, Hoth Rebel Scout G8, K-2SO G6, Bistan G7, Cassian G5",0
-"Ty Platus",1,0,73549,Troopers,"Veers Starck G9, Shoretrooper G8, Snowtrooper G8, DT",0
-"Ty Platus",0,1,72346,Phoenix,"Hera Chopper Kanan G8, Zeb G7, Sabine",0
-"Ty Platus",1,0,65475,Jawas,"Nebit G8, Jawa Engineer 5* G8, Jawa Scavenger G8, Jawa G9, Dathcha G9",0
-"Sampsonite112",1,1,151394,SL Kylo,"zzzzzzSL Kylo, zSith Trooper, zHux zzKRU Thrawn",1
-"Sampsonite112",1,1,156878,GL Rey,"zzzzzzRey zzMalak zGK zResistance Hero Poe, zResistance Hero Finn",1
-"Sampsonite112",0,1,90564,Qira,"Qira L3-37 zVandor Chewbacca, Mission Zaalbar",1
-"Sampsonite112",1,1,101347,NS,"zMT zAV Daka Zombie Spirit",1
-"Sampsonite112",,,143765,JMLS,"zzzzzzJMLS zzJKL zHYoda Old Ben, zEzra",1
-"Sampsonite112",,,502376,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, BTL-B Y-wing Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter",1
-"Sampsonite112",0,1,118824,DR,"zzzDR zHK-47 zBSF Sith Empire Trooper, Sith Assassin G8",1
-"Sampsonite112",,,367196,Malevolence,"Malevolence Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber, Vulture Droid, IG-2000",1
-"Sampsonite112",0,1,107588,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
-"Sampsonite112",,,438250,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
-"Sampsonite112",1,1,144402,JTR,"zzzJTR Scav Rey, zBB-8 zR2-D2 Finn",1
-"Sampsonite112",1,0,116619,Traya,"zzTraya DN Sion zDooku zEP",1
-"Sampsonite112",,,438490,Executrix,"Executrix Tie Adv, Emperor's Shuttle, TIE Reaper, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",1
-"Sampsonite112",,,125529,Nute-Wat,"zNute zB1 zB2 MagnaGuard zWat Tambor",1
-"Sampsonite112",,,121983,Disintegration,"Aurra zzGreef Karga, Boba zzBossk zzThe Mandalorian",1
-"Sampsonite112",1,1,157334,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
-"Sampsonite112",,,109163,Mon Mothma,"zzMon Mothma, Wedge Baze Chirrut Lando",1
-"Sampsonite112",1,1,136132,Revan Offense,"zzzJKR zGMY zBS zJolee zJKA",1
-"Sampsonite112",1,1,83338,Ewoks,"zChirpa Elder Paploo Wicket Logray G9",1
-"Sampsonite112",0,1,77493,Phoenix,"Hera Chopper Kanan Zeb G9, Sabine G8",1
-"Sampsonite112",1,0,89020,Krennic,"Krennic DT Shoretrooper Range Trooper, Starck",1
-"Sampsonite112",1,0,103288,Zader (Counter),"zzzVader Wampa Tarkin Sidious Stormtrooper G8",1
-"Sampsonite112",1,0,78480,Jawas,"Nebit Jawa Engineer, Jawa Scavenger G9, Jawa Dathcha",1
-"Sampsonite112",1,0,20640,NestSolo (Counter),"zNest",1
-"Sampsonite112",1,0,141385,CLS,"zzCLS zHan zzChewbacca Leia zzC-3PO",0
-"Sampsonite112",0,1,96634,BH,"Jango Embo Greedo IG-88 Dengar",0
-"Mason Vankae",0,1,136414,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
-"Mason Vankae",0,1,131965,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
-"Mason Vankae",1,1,110734,NestSisters,"zzAV zzMT zDaka Zombie zNest",1
-"Mason Vankae",,,471913,Negotiator,"Negotiator 5* HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter, Rex's ARC-170",1
-"Mason Vankae",0,1,99560,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
-"Mason Vankae",0,1,126756,Grievous,"zzGG zB2 zB1 zDroideka zMagnaGuard",1
-"Mason Vankae",1,0,117204,Traya,"zzTraya DN zSion zzEP zThrawn",1
-"Mason Vankae",1,1,105919,JTR,"zzzJTR Scav Rey, zzBB-8 zzR2-D2 RT",1
-"Mason Vankae",,,111833,Nute-OR,"zNute zDooku zzJango zZaalbar zMission",1
-"Mason Vankae",1,1,126238,Revan Offense,"zzzJKR zGMY zBS zJolee zHYoda",1
-"Mason Vankae",1,1,94864,Ewoks,"zChirpa Elder zPaploo zWicket zLogray",1
-"Mason Vankae",1,0,121356,ShaakClones,"zzShaak Ti, zRex zEcho zzFives zARC Trooper",1
-"Mason Vankae",0,1,125534,BH,"zzBossk zBoba zGreedo zzThe Mandalorian, zDengar",1
-"Mason Vankae",0,1,88981,FO,"zzKRU zKylo FOO FOE G9, zFOST G9",1
-"Mason Vankae",0,1,93697,Phoenix,"zHera zKanan zEzra zZeb zSabine",1
-"Mason Vankae",1,0,100471,CLS,"zzzCLS zHan Wedge Biggs zChewbacca",1
-"Mason Vankae",1,0,88897,Troopers,"zVeers zStarck zStormtrooper Snowtrooper DT",1
-"Mason Vankae",1,1,86026,Rogue1,"zJyn Chirrut Baze K-2SO G9, Cassian",1
-"Mason Vankae",1,0,106994,Zader (Counter),"zzzVader zzWampa Tarkin Sidious Shoretrooper",1
-"Mason Vankae",1,0,73483,Jawas,"Nebit G8, Jawa Engineer G9, Jawa Scavenger G9, Jawa G9, Dathcha",1
-"Mason Vankae",,,382475,Executrix,"Executrix Tie Adv, Emperor's Shuttle 4*, TIE Reaper 6*, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",0
-"Mason Vankae",,,72613,Mon Mothma,"zzMon Mothma 6* G8, Pao G8, Bodhi Rook G8, Hoth Rebel Soldier G8, Lando",0
-"QuiGonChi",1,1,109735,NS,"zzMT zzAV zDaka Zombie Spirit",1
-"QuiGonChi",0,1,140000,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
-"QuiGonChi",0,1,113585,DRMalak,"zzzDR zHK-47 zBSF zzMalak Sith Empire Trooper",1
-"QuiGonChi",,,482813,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, BTL-B Y-wing Starfighter 6*, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter",1
-"QuiGonChi",,,378748,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
-"QuiGonChi",1,0,108701,Traya,"zzTraya DN zSion zzEP zThrawn",1
-"QuiGonChi",1,1,98820,JTR,"zJTR Scav Rey, zBB-8 zzR2-D2 Finn",1
-"QuiGonChi",,,101669,Nute-Wat,"zNute zB1 zB2 MagnaGuard zWat Tambor",1
-"QuiGonChi",1,1,156719,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
-"QuiGonChi",1,1,116022,Revan Offense,"zzzJKR zGMY zBS zJolee zHYoda",1
-"QuiGonChi",0,1,98822,BH,"zzBossk Boba Cad Dengar G9, zNest",1
-"QuiGonChi",0,1,74980,Phoenix,"Hera Kanan G8, Ezra Zeb G8, Sabine",1
-"QuiGonChi",1,0,116981,CLS,"zzCLS zHan Wedge Biggs zzChewbacca",1
-"QuiGonChi",1,0,82902,Troopers,"zVeers Starck Shoretrooper Snowtrooper DT",1
-"QuiGonChi",1,1,84285,Rogue1,"zJyn Chirrut Baze K-2SO Cassian",1
-"QuiGonChi",1,0,106572,Zader (Counter),"zzzVader zMission zZaalbar zWampa Stormtrooper",1
-"QuiGonChi",,,315006,Malevolence,"Malevolence Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber, Vulture Droid 5*, IG-2000",0
-"QuiGonChi",0,1,101298,Geonosians,"zGBA Poggle Geo Soldier, Geo Spy, Sun Fac",0
-"QuiGonChi",,,330835,Executrix,"Executrix Tie Adv, Emperor's Shuttle 5*, TIE Reaper, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",0
-"QuiGonChi",,,64427,Mon Mothma,"Mon Mothma 4* G8, Hoth Rebel Scout G8, Pao G8, Hoth Rebel Soldier G8, Lando",0
-"QuiGonChi",1,1,84632,Ewoks,"Chirpa G9, Elder zPaploo zWicket Logray",0
-"QuiGonChi",0,1,95032,FO,"zKRU zKylo FOO zSith Trooper, FOST",0
-"QuiGonChi",1,0,49103,Jawas,"Nebit G8, Jawa Engineer G9, Jawa Scavenger G7, Jawa G8, Dathcha G8",0
-"EcceZollythurstra",0,1,95621,Qira,"zQira zL3-37 zVandor Chewbacca, zMission zZaalbar",1
-"EcceZollythurstra",0,1,135555,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
-"EcceZollythurstra",0,1,139122,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
-"EcceZollythurstra",1,1,108918,NestSisters,"zzAV zzMT zDaka Zombie zNest",1
-"EcceZollythurstra",,,133825,JKL,"zzJKL zzzJKR zzHYoda zzOld Ben, zEzra",1
-"EcceZollythurstra",,,478350,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter, Rex's ARC-170",1
-"EcceZollythurstra",0,1,95248,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
-"EcceZollythurstra",,,425506,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
-"EcceZollythurstra",0,1,126942,Grievous-Wat,"zzGG zB2 zB1 zMagnaGuard zWat Tambor",1
-"EcceZollythurstra",1,0,104594,Traya,"zzTraya DN G8, zSion zzEP zzThrawn",1
-"EcceZollythurstra",1,1,125916,JTR,"zzzJTR zScav Rey, zzBB-8 zzR2-D2 Finn",1
-"EcceZollythurstra",1,1,82649,Ewoks,"zChirpa Elder Paploo G9, Wicket Logray G9",1
-"EcceZollythurstra",1,0,120660,ShaakClones,"zzShaak Ti, zRex zEcho zzFives zARC Trooper",1
-"EcceZollythurstra",0,1,119698,BH,"zzJango zBoba zzThe Mandalorian, Dengar zzBossk",1
-"EcceZollythurstra",0,1,100192,FO,"zzKRU zKylo FOO FOE FOST G9",1
-"EcceZollythurstra",1,0,121291,Wiggs,"Wedge Biggs zzzCLS zHan zzChewbacca",1
-"EcceZollythurstra",0,1,83019,Phoenix,"Hera Chopper Kanan Zeb G8, Sabine",1
-"EcceZollythurstra",1,1,79754,Rogue1,"Jyn Chirrut Baze G8, K-2SO G9, Cassian",1
-"EcceZollythurstra",1,0,107490,Zader (Counter),"zzzVader zzWampa Tarkin Sidious Shoretrooper G8",1
-"EcceZollythurstra",,,405197,Executrix,"Executrix Tie Adv, Emperor's Shuttle, TIE Reaper 6*, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter 5*, First Order TIE Fighter",0
-"EcceZollythurstra",,,74115,Mon Mothma,"Mon Mothma 4* G8, Hoth Rebel Scout G9, Pao G8, Bistan G8, Lando",0
-"EcceZollythurstra",1,0,74834,Troopers,"Veers Starck Range Trooper 5* G7, Stormtrooper G8, zDT",0
-"EcceZollythurstra",1,0,67270,Jawas,"Nebit G8, Jawa Engineer G9, Jawa Scavenger G7, Jawa G8, Dathcha G9",0
-"L'one Starr",1,1,141972,GL Rey,"zzzzzzRey Holdo zGK zResistance Hero Poe, zResistance Hero Finn",1
-"L'one Starr",0,1,114139,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
-"L'one Starr",1,1,104452,NestSisters,"zzAV zzMT zDaka Zombie zNest",1
-"L'one Starr",,,428465,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, Clone Sergeant's ARC-170, Jedi Consular's Starfighter, Plo Koon's Jedi Starfighter",1
-"L'one Starr",0,1,96544,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
-"L'one Starr",,,394828,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
-"L'one Starr",0,1,113583,Grievous,"zzGG zB2 zB1 zDroideka zMagnaGuard",1
-"L'one Starr",1,1,134600,JTR,"zzzJTR Scav Rey, zBB-8 zzR2-D2 Finn",1
-"L'one Starr",1,1,139754,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
-"L'one Starr",1,1,120036,Revan Offense,"zzzJKR zzGMY zBS zJolee zzHYoda",1
-"L'one Starr",1,0,115227,CLS,"zzCLS zHan zChewbacca zzThrawn zzC-3PO",1
-"L'one Starr",1,1,89225,Ewoks,"zChirpa Elder Paploo zWicket zLogray",1
-"L'one Starr",1,1,81313,Carth,"zCarth Onasi, Mission G8, zZaalbar zJuhani Canderous G8",1
-"L'one Starr",0,1,97074,BH,"zzBossk Boba IG-88 zZam Dengar G9",1
-"L'one Starr",1,1,91130,zEP,"zEP zzzVader Tarkin IPD G8, TFP",1
-"L'one Starr",1,0,77713,Troopers,"zVeers Starck G9, Range Trooper G7, Snowtrooper DT",1
-"L'one Starr",0,1,78852,Phoenix,"Hera Kanan G8, zEzra Zeb G8, Sabine",1
-"L'one Starr",1,1,82844,Rogue1,"zJyn Chirrut Baze K-2SO G8, Cassian",1
-"L'one Starr",1,0,94848,QGJ,"QGJ Aayla G7, zJKA zzOld Ben, zAhsoka",1
-"L'one Starr",1,0,69959,Jawas,"Nebit Jawa Engineer, Jawa Scavenger G8, Jawa G9, Dathcha",1
-"L'one Starr",1,0,18247,SionSolo (Counter),"Sion",1
-"L'one Starr",,,329142,Executrix,"Executrix Tie Adv, Emperor's Shuttle 6*, TIE Reaper, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",0
-"L'one Starr",0,1,80638,FO,"KRU Kylo G8, FOO FOE G9, FOST",0
-"Zigz",1,1,144505,GL Rey,"zzzzzzRey zHoldo zGK zResistance Hero Poe, zResistance Hero Finn",1
-"Zigz",0,1,122013,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
-"Zigz",1,1,102164,NestSisters,"zzAV zzMT Daka Zombie zNest",1
-"Zigz",,,454488,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, BTL-B Y-wing Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter",1
-"Zigz",0,1,94966,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
-"Zigz",,,444313,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
-"Zigz",0,1,126016,Grievous,"zzGG zB2 zB1 zDroideka zMagnaGuard",1
-"Zigz",1,0,109396,Traya,"zzTraya zDN zSion zzEP zThrawn",1
-"Zigz",1,1,145773,JTR,"zzzJTR zScav Rey, zzBB-8 zzR2-D2 zFinn",1
-"Zigz",,,400799,Executrix,"Executrix Tie Adv, Emperor's Shuttle, TIE Reaper, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",1
-"Zigz",1,1,115439,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
-"Zigz",1,1,130765,Revan Offense,"zzzJKR zzGMY zzHYoda zJolee zJKA",1
-"Zigz",1,0,124803,CLS,"zzzCLS zHan zzChewbacca Leia zzC-3PO",1
-"Zigz",1,1,83814,Ewoks,"zChirpa Elder Paploo zWicket Logray",1
-"Zigz",1,1,92943,Carth,"zCarth Onasi, zMission zZaalbar zJuhani Canderous",1
-"Zigz",0,1,105434,BH,"zzBossk Boba Cad zZam Dengar",1
-"Zigz",0,1,89174,Phoenix,"Hera Kanan zEzra Zeb Sabine",1
-"Zigz",1,0,84244,Troopers,"zVeers Starck Shoretrooper Snowtrooper DT",1
-"Zigz",0,1,96913,FO,"zzKRU zKylo FOO zFOTP zFOST",1
-"Zigz",1,1,85206,Rogue1,"Jyn Chirrut Baze K-2SO Cassian",1
-"Zigz",1,0,99414,Zader (Counter),"zzzVader zWampa Tarkin Sidious G8, Stormtrooper",1
-"Zigz",1,0,72177,Jawas,"Nebit Jawa Engineer, Jawa Scavenger G8, Jawa Dathcha",1
-"Zigz",,,326930,Malevolence,"Malevolence 5* Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber 5*, Vulture Droid 6*, IG-2000",0
-"Crusader5454",0,1,120440,padme,"zzPadme zGK zJKA zAhsoka zC-3PO",1
-"Crusader5454",1,1,101146,NS_Alt,"zzMT zzAV zDaka Talia Zombie",1
-"Crusader5454",0,1,119344,Grievous,"zzGG zB2 zB1 zDroideka MagnaGuard",1
-"Crusader5454",1,1,150095,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
-"Crusader5454",1,1,87544,Ewoks,"zChirpa Elder zPaploo Scout Logray",1
-"Crusader5454",0,1,99909,BH,"zBossk Boba zIG-88 zJango Dengar",1
-"Crusader5454",1,1,117594,zEP,"zzEP zzzVader Tarkin zIPD TFP",1
-"Crusader5454",1,0,106489,Troopers,"zVeers zStarck Shoretrooper Snowtrooper zzAdmiral Piett",1
-"Crusader5454",0,1,69187,Phoenix,"Hera G8, Chopper G9, Kanan G8, Ezra G8, Zeb G8",1
-"Crusader5454",1,0,81148,Thragma (Counter),"zThrawn Magma G9, DT G9, Krennic G8, Stormtrooper G9",1
-"Crusader5454",1,0,72072,Jawas,"Nebit G8, Jawa Engineer G9, Jawa Scavenger, Jawa G9, Dathcha G9",1
-"Crusader5454",0,1,77328,Geonosians,"zGBA Poggle Geo Soldier G8, Geo Spy G9, Sun Fac G8",0
-"Crusader5454",,,354194,Executrix,"Executrix Tie Adv, Emperor's Shuttle 4*, TIE Reaper 5*, Imperial TIE Fighter, Gauntlet Starfighter 4*, First Order SF TIE Fighter 5*, First Order TIE Fighter 5*",0
-"Crusader5454",1,0,72018,CLS,"CLS G8, Han Leia G8, Old Ben G9, Chewbacca G8",0
-"Pianist",0,1,91828,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
-"Pianist",1,1,127028,Revan,"zzzJKR zBS zzGMY zJolee zGK",1
-"Pianist",,,292527,Negotiator,"Negotiator 5* HT 5* Anakin's Eta-2 Starfighter 4*, Umbaran Starfighter 5*, Ahsoka Tano's Jedi Starfighter, Clone Sergeant's ARC-170, Jedi Consular's Starfighter, Plo Koon's Jedi Starfighter",0
-"Pianist",0,1,62468,Grievous,"GG G9, B2 G5, zDroideka 4* G8, Nute G5, T3-M4 G8",0
-"Pianist",1,0,93290,ShaakClones,"zzShaak Ti, zRex Echo zFives Clone Sergeant 6*",0
-"Pianist",1,1,80766,Ewoks,"zChirpa Elder 6* G8, Paploo zWicket 6* zLogray",0
-"Pianist",1,1,51258,Carth,"Carth Onasi 6* G7, Mission G8, Zaalbar G8, Juhani 4* G8, Canderous 4* G7",0
-"Pianist",0,1,82862,BH,"zzBossk 5* Boba G9, Embo 4* zJango 5* Cad",0
-"Pianist",1,0,58908,Wiggs,"Wedge 5* G6, Biggs G4, Han G7, Ezra Leia G8",0
-"Pianist",1,0,10513,SionSolo (Counter),"Sion 3* G9",0
-"Слава Украине",0,1,86411,Qira,"zQira L3-37 G8, Vandor Chewbacca G8, zMission zZaalbar",1
-"Слава Украине",0,1,120062,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper G8",1
-"Слава Украине",,,400522,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter, Rex's ARC-170",1
-"Слава Украине",0,1,96342,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac G9",1
-"Слава Украине",,,356461,HansMF,"Home One, Han's MF 5*, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
-"Слава Украине",1,0,106543,Traya,"zzTraya DN G8, Sion G9, zNest zzThrawn",1
-"Слава Украине",0,1,90617,Grievous,"zzGG B2 G8, zB1 zDroideka MagnaGuard G8",1
-"Слава Украине",1,1,119969,JTR,"zzzJTR Scav Rey, zzBB-8 zzR2-D2 RT",1
-"Слава Украине",1,1,135718,Revan,"zzzJKR zBS zzGMY zJolee zGK",1
-"Слава Украине",1,0,116956,CLS,"zzzCLS zHan zzChewbacca zLeia zzC-3PO",1
-"Слава Украине",1,1,92666,Ewoks,"zChirpa Elder zPaploo zWicket zLogray",1
-"Слава Украине",1,0,106648,ShaakClones,"zzShaak Ti, zRex zEcho zzFives zARC Trooper",1
-"Слава Украине",0,1,117357,BH,"zzJango zBoba zzEmbo zDengar zzBossk",1
-"Слава Украине",1,1,101604,zEP,"zzEP zzzVader zzTarkin IPD G8, TFP",1
-"Слава Украине",0,1,92711,FO,"zKRU zKylo FOE zPhasma FOTP",1
-"Слава Украине",0,1,74657,Phoenix,"Hera Chopper G8, Kanan Ezra G8, Zeb G8",1
-"Слава Украине",1,1,92631,NS,"zzMT zzAV zDaka Zombie G8, Spirit G9",0
-"Слава Украине",,,378393,Executrix,"Executrix Tie Adv, Emperor's Shuttle 6*, TIE Reaper, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",0
-"Слава Украине",1,0,69878,Troopers,"Veers Starck Range Trooper 5* G8, Snowtrooper DT G9",0
-"Слава Украине",1,0,88431,QGJ,"QGJ Aayla G6, JKA zzHYoda Ahsoka",0
-"Marrec",0,1,85465,Qira,"Qira L3-37 G8, Vandor Chewbacca, Mission zZaalbar",1
-"Marrec",0,1,125164,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
-"Marrec",0,1,131596,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
-"Marrec",1,1,102406,NestSisters,"zzAV zMT Daka Zombie zNest",1
-"Marrec",,,434173,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, BTL-B Y-wing Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter",1
-"Marrec",,,347453,Malevolence,"Malevolence Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber, Vulture Droid, IG-2000",1
-"Marrec",0,1,101096,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
-"Marrec",,,421919,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
-"Marrec",0,1,123780,Grievous,"zzGG zB2 zB1 zDroideka zMagnaGuard",1
-"Marrec",1,0,111512,Traya,"zzTraya zDN zSion zzEP zThrawn",1
-"Marrec",1,1,150960,JTR,"zzzJTR zScav Rey, zzBB-8 zzR2-D2 zFinn",1
-"Marrec",,,400131,Executrix,"Executrix Tie Adv, Emperor's Shuttle, TIE Reaper, Imperial TIE Fighter, Gauntlet Starfighter, First Order SF TIE Fighter, First Order TIE Fighter",1
-"Marrec",1,1,109275,GAS,"zzzzGAS zRex zEcho zFives zARC Trooper",1
-"Marrec",1,1,107562,Revan Offense,"zzzJKR zGMY zBS zJolee HYoda",1
-"Marrec",1,1,83714,Ewoks,"zChirpa Elder Paploo zWicket Logray",1
-"Marrec",0,1,104108,BH,"zzJango Boba Cad Dengar zzBossk",1
-"Marrec",0,1,104759,FO,"zzKRU zKylo FOO FOE zFOST",1
-"Marrec",1,0,91166,Troopers,"zVeers zStarck Range Trooper, Stormtrooper Snowtrooper",1
-"Marrec",0,1,101199,Phoenix,"zHera zKanan zEzra zZeb zSabine",1
-"Marrec",1,0,104939,CLS,"zzzCLS zHan Leia Old Ben, zzChewbacca",1
-"Marrec",1,1,91763,Rogue1,"zJyn Chirrut Baze K-2SO G9, zCassian",1
-"Marrec",1,0,88188,Zader (Counter),"zzzVader Wampa G9, Tarkin Sidious G9, Shoretrooper",1
-"Marrec",1,0,69921,Jawas,"Nebit Jawa Engineer G9, Jawa Scavenger G8, Jawa G9, Dathcha",1
-"Marrec",,,81071,Mon Mothma,"Mon Mothma 5* G8, Wedge zPao Biggs Lando",0
-"llama the hut",1,0,114842,CLS,"zzCLS zHan zChewbacca zzR2-D2 zzC-3PO",1
-"llama the hut",0,1,124490,BH,"zzJango zBoba zDengar zzBossk zNest",1
-"llama the hut",1,1,140656,Revan,"zzzJKR zBS zzGMY zJolee GK",1
-"llama the hut",1,1,93278,Ewoks,"zChirpa Elder zPaploo Teebo zLogray",1
-"llama the hut",1,1,84295,Carth,"zCarth Onasi, zMission Zaalbar G8, zJuhani Canderous G8",1
-"llama the hut",0,1,85697,Phoenix,"zHera zKanan G8, zEzra Zeb G8, zSabine",1
-"llama the hut",0,1,115034,DRMalak,"zzzDR zHK-47 zBSF zMalak 5* zzThrawn",0
-"llama the hut",0,1,61097,Geonosians,"GBA G8, Poggle G7, Geo Soldier G7, Geo Spy G5, Sun Fac G5",0
-"llama the hut",0,1,81890,Grievous,"zGG G9, B2 G8, MagnaGuard G9, IG-88 T3-M4",0
-"llama the hut",1,1,66518,NS_Alt,"AV Daka G9, Talia G7, Zombie Spirit 6* G7",0
-"llama the hut",1,1,106312,zEP,"zzEP zzzVader zzTarkin IPD G7, TFP",0
-"llama the hut",1,0,76828,501st,"Rex Clone Sergeant G9, Echo G9, Fives zAhsoka",0
-"llama the hut",0,1,78332,FO,"zzKRU Kylo G8, FOO Phasma G7, FOTP G7",0
-"Biggie",1,1,158223,SL Kylo,"zzzzzzSL Kylo, zSith Trooper, zHux zzKRU zzThrawn",1
-"Biggie",0,1,90091,Qira,"Qira L3-37 zVandor Chewbacca, Mission Zaalbar",1
-"Biggie",1,1,114381,NS,"zzMT zzAV zDaka Zombie Spirit",1
-"Biggie",0,1,139959,DRMalak,"zzzDR zzHK-47 zBSF zzMalak Sith Empire Trooper",1
-"Biggie",0,1,137673,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
-"Biggie",,,507567,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter, Rex's ARC-170",1
-"Biggie",0,1,105023,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
-"Biggie",,,405874,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
-"Biggie",0,1,117352,Grievous,"zzGG zB2 zB1 zDroideka MagnaGuard",1
-"Biggie",1,1,124592,JTR,"zzzJTR Scav Rey, zzBB-8 zzR2-D2 Finn",1
-"Biggie",1,0,138273,Traya,"zzTraya zDN zSion zzEP zNest",1
-"Biggie",1,1,148920,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
-"Biggie",1,1,130801,Revan Offense,"zzzJKR zGMY zBS zJolee zzHYoda",1
-"Biggie",1,1,88861,Ewoks,"zChirpa Elder Paploo zWicket Logray",1
-"Biggie",0,1,117740,BH,"zzBossk zBoba zzThe Mandalorian, zJango Dengar G9",1
-"Biggie",1,0,84854,Troopers,"zVeers Starck Range Trooper G9, Shoretrooper Snowtrooper",1
-"Biggie",0,1,75850,Phoenix,"Hera G9, Kanan G8, Ezra Zeb G8, zSabine",1
-"Biggie",1,0,121807,CLS,"zzzCLS zHan Wedge Biggs zzChewbacca",1
-"Biggie",1,1,90189,Rogue1,"zJyn Chirrut Baze K-2SO G9, Cassian",1
-"Biggie",1,0,101035,zMaul,"zMaul zDooku Sidious zSavage Sith Marauder",1
-"Biggie",1,0,79520,Jawas,"Nebit Jawa Engineer, Jawa Scavenger, Jawa Dathcha",1
-"Biggie",,,309397,Malevolence,"Malevolence 5* Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber 6*, Vulture Droid 5*, IG-2000",0
-"Biggie",,,438529,Executrix,"Executrix Tie Adv, Emperor's Shuttle 5*, TIE Reaper 5*, Imperial TIE Fighter, Gauntlet Starfighter 6*, First Order SF TIE Fighter, First Order TIE Fighter",0
-"Tucker McFly",0,1,87487,Qira,"Qira L3-37 G8, zVandor Chewbacca, zMission Zaalbar",1
-"Tucker McFly",0,1,134315,DRMalak,"zzzDR zHK-47 zBSF zzMalak Sith Empire Trooper",1
-"Tucker McFly",0,1,135888,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
-"Tucker McFly",,,467488,Negotiator,"Negotiator HT Anakin's Eta-2 Starfighter, Umbaran Starfighter, Ahsoka Tano's Jedi Starfighter, BTL-B Y-wing Starfighter, Clone Sergeant's ARC-170, Plo Koon's Jedi Starfighter",1
-"Tucker McFly",,,341346,Malevolence,"Malevolence Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber, Vulture Droid, IG-2000",1
-"Tucker McFly",0,1,100056,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
-"Tucker McFly",,,376908,HansMF,"Home One, Han's MF, Biggs X-wing, Bistan's U-wing, Phantom Ghost Cassian's U-wing, Wedge X-wing",1
-"Tucker McFly",1,0,117617,Traya,"zzTraya zDN zSion zzEP Thrawn",1
-"Tucker McFly",1,1,105801,JTR,"zzzJTR Scav Rey, zzBB-8 zzR2-D2 Finn",1
-"Tucker McFly",,,112858,Nute-Wat,"zNute zB1 zB2 MagnaGuard zWat Tambor",1
-"Tucker McFly",1,1,136145,GAS,"zzzzGAS zRex zEcho zzFives zARC Trooper",1
-"Tucker McFly",1,1,119608,Revan Offense,"zzzJKR zGMY zBS zJolee zHYoda",1
-"Tucker McFly",1,1,77240,Ewoks,"zChirpa Elder Paploo G9, Wicket Logray G9",1
-"Tucker McFly",0,1,110638,BH,"zzBossk Boba zThe Mandalorian, Dengar zNest",1
-"Tucker McFly",0,1,132558,FO,"zzKRU Kylo FOE zHux zFOST",1
-"Tucker McFly",0,1,74530,Phoenix,"Hera Kanan G8, zEzra Zeb G8, Sabine G8",1
-"Tucker McFly",1,0,106706,Wiggs,"Wedge Biggs zzCLS zHan zzChewbacca",1
-"Tucker McFly",1,1,68764,Rogue1,"Jyn G8, Chirrut G8, Baze G8, K-2SO G8, Cassian G8",1
-"Tucker McFly",1,0,100869,Zader (Counter),"zzzVader zzWampa Tarkin G9, Sidious G9, Shoretrooper G8",1
-"Tucker McFly",1,0,63654,Jawas,"Nebit G8, Jawa Engineer G9, Jawa Scavenger G8, Jawa G9, Dathcha G9",1
-"Tucker McFly",1,1,89032,NS,"MT G9, zzAV Daka Zombie Spirit G9",0
-"Tucker McFly",,,369078,Executrix,"Executrix Tie Adv, Emperor's Shuttle, TIE Reaper, Imperial TIE Fighter, Gauntlet Starfighter 6*, First Order SF TIE Fighter, First Order TIE Fighter",0
-"Tucker McFly",,,72128,Mon Mothma,"Mon Mothma 6* G8, Pao G8, Hoth Rebel Soldier G8, Lando Cara Dune G7",0
-"Tucker McFly",1,0,68813,Troopers,"Veers Starck G9, Range Trooper G9, Stormtrooper G8, DT",0
-"Tucker McFly",0,1,93738,BH,"Jango Embo Greedo IG-88 zzGreef Karga",0
-"Yord",0,1,121962,padme,"zzPadme zGK zJKA zAhsoka zzC-3PO",1
-"Yord",0,1,105898,DRMalak,"zzzDR zHK-47 BSF zzMalak Sith Empire Trooper",1
-"Yord",,,381248,HansMF,"Home One, Han's MF, HT Biggs X-wing, Phantom Ghost Cassian's U-wing, Bistan's U-wing",1
-"Yord",1,1,100283,NS_Alt,"zzMT Acolyte zDaka zzAV Zombie",1
-"Yord",0,1,93044,Geonosians,"zzGBA Poggle Geo Soldier, Geo Spy, Sun Fac",1
-"Yord",0,1,113000,Grievous,"zzGG zB2 zB1 zDroideka zMagnaGuard",1
-"Yord",1,0,111549,Traya,"zzTraya zDN zSion zzEP zThrawn",1
-"Yord",1,1,129375,JTR,"zzJTR Scav Rey, zzBB-8 zzR2-D2 Finn",1
-"Yord",1,1,118928,Revan Offense,"zzzJKR zzGMY zBS Jolee zHYoda",1
-"Yord",1,1,94636,Carth,"zCarth Onasi, zMission zZaalbar Juhani Canderous",1
-"Yord",0,1,98077,BH,"zzBossk zBoba Greedo Jango Dengar",1
-"Yord",0,1,75680,Phoenix,"zHera G8, Kanan G8, zEzra Zeb G8, Sabine G8",1
-"Yord",1,0,116366,CLS,"zzzCLS zHan Leia Old Ben, zzChewbacca",1
-"Yord",1,0,89720,Wampa (Counter),"Rex zzWampa DT Jyn G8, FOO G8",1
-"Yord",1,0,72473,Troopers,"zVeers zStarck G8, Shoretrooper Stormtrooper G7, Snowtrooper G8",1
-"Yord",1,0,15049,NestSolo (Counter),"Nest G9",1
-"Yord",,,302304,Malevolence,"Malevolence 6* Sun Fac SF, Soldier SF, Spy SF, Hyena Bomber 4*, Vulture Droid 3*, IG-2000",0
-"Yord",,,357927,Executrix,"Executrix Tie Adv, Emperor's Shuttle, TIE Reaper 6*, Imperial TIE Fighter, Gauntlet Starfighter 6*, First Order SF TIE Fighter 6*, First Order TIE Fighter",0
-"Yord",,,79187,Mon Mothma,"Mon Mothma 2* G6, Baze Pao Chirrut Lando",0
-"Yord",1,1,77938,Ewoks,"zChirpa Elder Paploo G7, zWicket Logray G9",0
-"Yord",0,1,80327,FO,"KRU G8, zKylo Phasma G9, zFOTP FOST G8",0
-"Yord",1,0,61443,Jawas,"Nebit G8, Jawa Engineer, Jawa Scavenger G7, Jawa G7, Dathcha G7",0
-"BBalint97",1,1,100006,Revan Offense,"zzzJKR zGMY zBS zJolee JKA 6*",0
-"BBalint97",1,1,34301,NS_Alt,"MT 5* G8, AV 6* G8, Daka 5* G8, Talia 5* G8, Spirit 5* G8",0
-"BBalint97",1,0,41827,501st,"Rex 5* G8, Clone Sergeant 5* G8, Echo 5* G8, Fives 5* G8, Ahsoka",0
-"BBalint97",0,1,39426,BH,"Bossk 4* G8, Boba 5* G8, Greedo 5* G8, IG-88 5* G8, Cad 5* G8",0
-"BBalint97",1,0,33161,Wiggs,"Wedge 5* G8, Biggs 5* G8, Leia 5* G8, Chirrut 5* G8, Baze 5* G8",0
-"BBalint97",0,1,40727,Phoenix,"Hera 5* G8, Kanan G8, Ezra 5* G8, Zeb 5* G8, Sabine 5* G8",0
-"BBalint97",0,1,32609,FO,"KRU 5* G8, Kylo 5* G8, FOE 5* G8, Phasma 5* G8, FOST 5* G8",0
-"BBalint97",1,0,38352,Zader (Counter),"Vader G8, Mission G7, Zaalbar G7, Tarkin 5* G8, Sidious 5* G8",0
+"Abachalypse",,,78241,Mon Mothma,"zzMon Mothma 5* G8, Lando Scarif Hoth Rebel Scout G8, Pao G8",0
+"Cao Hao",0,1,106661,padme,"zzPadme zGK zJKA zAhsoka zBarriss G9",1
+"Cao Hao",0,1,86147,Grievous,"zzGG B2 G8, MagnaGuard G9, Nute zDooku",1
+"Cao Hao",1,1,96500,Ewoks,"zChirpa Elder zPaploo Teebo Scout",1
+"Cao Hao",0,1,95219,BH,"zzBossk Cad Boba Greedo IG-88",1
+"Cao Hao",1,0,96824,CLS,"zzzCLS zHan Wedge Biggs zChewbacca",1
+"Cao Hao",1,0,86337,Rex (Counter),"Rex DN Chirrut Baze zzR2-D2",1
+"Cao Hao",0,1,67373,Phoenix,"Hera G8, Zeb G8, Chopper G8, Ezra G8, Kanan G8",1
+"Cao Hao",0,1,67732,Geonosians,"zGBA 5* Poggle G9, Geo Soldier G8, Geo Spy 5* G9, Sun Fac",0
+"Cao Hao",1,1,67926,NS,"zMT G9, zAV Daka G9, Zombie 5* G8, Spirit 6* G8",0
+"Cao Hao",1,0,62792,Troopers,"Veers Starck G7, Stormtrooper G7, Snowtrooper G8, Magma G8",0
+"Cao Hao",0,1,88563,BS,"zBS G9, zzGMY Jolee 5* G8, Old Ben G9, zHYoda",0
+"Cao Hao",0,1,64885,FO,"KRU G8, zKylo G9, FOO G7, Phasma G7, FOTP G8",0
