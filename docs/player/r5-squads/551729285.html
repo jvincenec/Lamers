@@ -1,0 +1,120 @@
+<meta charset="UTF-8"><link rel="stylesheet" type="text/css" href="../../toons.css">
+<style type="text/css">
+.toT { text-align:center; font-size: 60%; }
+.toI {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin: 0 2.5px;
+}
+.toIs {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 0 2.5px;
+}
+.opponent {
+    border: 2px solid grey;
+}
+.hardCounter {
+    border: 2px solid red;
+}
+.softCounter {
+    border: 2px solid blue;
+}
+.squad {
+    border: 2px solid black;
+}
+.verbage {
+    font-size: 70%;
+}
+</style><style type="text/css">
+body {
+ background-image: url("../../i/more_faded_logo.jpg");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+</style><style type="text/css">
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background: #dddddd}
+tr:nth-child(odd) {background: #ffffff}
+
+.toggleable {
+    display: none;
+}
+</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
+<link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
+<script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/fixedheader/3.1.5/js/dataTables.fixedHeader.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/fixedcolumns/3.2.6/js/dataTables.fixedColumns.min.js"></script>    <script>
+    $(document).ready( function () {
+        $('#squads').DataTable({
+        "paging":   false,
+        "info":     false,
+        
+        
+        
+        
+        });
+    } );
+    </script><script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="../../j/graph.js"></script><title>BRG Alliance - BRG Hope: PrincessKitana R5+ Squads</title>
+<div style="display: flex; align-items:baseline"><img src="../../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance - BRG Hope: PrincessKitana R5+ Squads</h1></div>
+
+<div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
+
+<a href="../../alliance/index.html">Alliance</a> |
+<a href="../../guild/hope/index.html">BRG Hope</a> |
+<a href="../info/551729285.html">Info</a> |
+<a href="../tw-squads/551729285.html">TW+GA Squads</a> |
+<a href="551729285.html">R5 Squads</a> |
+<a href="../counters/551729285.html">Counters</a> |
+<a href="../target/551729285.html">Targets</a> |
+<a href="../unlock/551729285.html">Unlocks</a> |
+<a href="../zeta/551729285.html">Zetas</a> |
+<a href="../farm/551729285.html">Farming</a> |
+<a href="../dsgeotb/551729285.html">DS Geo TB</a> |
+<a href="../lsgeotb/551729285.html">LS Geo TB</a>
+<div style="float:right;"><a href="../../r">Resources</a></div>
+</div>
+<br/><script>
+c1 = new Chart("../../guild/hope/player-squad-gp.json", "551729285", null)
+c1.id = "chart"
+c1.filter = function(data) {
+    data.series = data.series.filter(function (x) {
+        if (x.name == "HansMF") { return false }
+        if (x.name == "Negotiator") { return false }
+        if (x.name == "Malevolence") { return false }
+        if (x.name == "Raddus") { return false }
+        if (x.name == "Executrix") { return false }
+        if (x.name == "NestSolo") { return false }
+        return true
+    })
+    return data
+}
+c1.title = "Squads"
+c1.tightScale = true
+c1.round = 1000
+c1.height = 400
+c1.width = 600
+c1.display()
+</script><div id="chart" style="float: right"></div>
+<h2><a href="../../help/player-tw-squads.html">HELP</a></h2>
+<p>
+Note: these teams may all be used simultaneously --- there is no overlap.
+</p><table><thead><tr><th>Leader</th><th>Squad</th><th>gp</th></tr></thead><tr><td data-order="padme"><div class="toT"><img class="toI squad PADMEAMIDALA-i"/><br/>padme</div></td><td data-order="140638">zzPadme R5, zGK R5, zJKA R5, zAhsoka R7, zzC-3PO R5</td><td data-order="140638">140k</td></tr></table><p>
+These are R5+ units that don't fit into any of the squads above:<table><thead><tr><th>Unit</th><th>gp</th></tr></thead><tr><td data-order="Hermit Yoda"><div class="toT"><img class="toI squad HERMITYODA-i"/><br/>Hermit Yoda</div></td><td data-order="28912">28k</td></tr><tr><td data-order="Jedi Knight Revan"><div class="toT"><img class="toI squad JEDIKNIGHTREVAN-i"/><br/>Jedi Knight Revan</div></td><td data-order="35308">35k</td></tr><tr><td data-order="Geonosian Brood Alpha"><div class="toT"><img class="toI squad GEONOSIANBROODALPHA-i"/><br/>Geonosian Brood Alpha</div></td><td data-order="29427">29k</td></tr><tr><td data-order="Grand Master Yoda"><div class="toT"><img class="toI squad GRANDMASTERYODA-i"/><br/>Grand Master Yoda</div></td><td data-order="28912">28k</td></tr><tr><td data-order="Bossk"><div class="toT"><img class="toI squad BOSSK-i"/><br/>Bossk</div></td><td data-order="29472">29k</td></tr><tr><td data-order="Darth Malak"><div class="toT"><img class="toI squad DARTHMALAK-i"/><br/>Darth Malak</div></td><td data-order="32328">32k</td></tr><tr><td data-order="Wampa"><div class="toT"><img class="toI squad WAMPA-i"/><br/>Wampa</div></td><td data-order="24117">24k</td></tr><tr><td data-order="Jolee Bindo"><div class="toT"><img class="toI squad JOLEEBINDO-i"/><br/>Jolee Bindo</div></td><td data-order="26716">26k</td></tr><tr><td data-order="Darth Vader"><div class="toT"><img class="toI squad VADER-i"/><br/>Darth Vader</div></td><td data-order="31893">31k</td></tr><tr><td data-order="Commander Luke Skywalker"><div class="toT"><img class="toI squad COMMANDERLUKESKYWALKER-i"/><br/>Commander Luke Skywalker</div></td><td data-order="31893">31k</td></tr><tr><td data-order="Darth Revan"><div class="toT"><img class="toI squad DARTHREVAN-i"/><br/>Darth Revan</div></td><td data-order="35424">35k</td></tr></table><br/>
+<font size="-2">Generated 2020-12-10 00:12:10 +0000</font>

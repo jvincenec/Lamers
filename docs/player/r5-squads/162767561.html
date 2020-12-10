@@ -1,0 +1,120 @@
+<meta charset="UTF-8"><link rel="stylesheet" type="text/css" href="../../toons.css">
+<style type="text/css">
+.toT { text-align:center; font-size: 60%; }
+.toI {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin: 0 2.5px;
+}
+.toIs {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 0 2.5px;
+}
+.opponent {
+    border: 2px solid grey;
+}
+.hardCounter {
+    border: 2px solid red;
+}
+.softCounter {
+    border: 2px solid blue;
+}
+.squad {
+    border: 2px solid black;
+}
+.verbage {
+    font-size: 70%;
+}
+</style><style type="text/css">
+body {
+ background-image: url("../../i/more_faded_logo.jpg");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+</style><style type="text/css">
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background: #dddddd}
+tr:nth-child(odd) {background: #ffffff}
+
+.toggleable {
+    display: none;
+}
+</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
+<link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
+<script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/fixedheader/3.1.5/js/dataTables.fixedHeader.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/fixedcolumns/3.2.6/js/dataTables.fixedColumns.min.js"></script>    <script>
+    $(document).ready( function () {
+        $('#squads').DataTable({
+        "paging":   false,
+        "info":     false,
+        
+        
+        
+        
+        });
+    } );
+    </script><script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="../../j/graph.js"></script><title>BRG Alliance - BRG Hope: TheDoctor R5+ Squads</title>
+<div style="display: flex; align-items:baseline"><img src="../../i/simple_logo_48.jpg"/>&nbsp;<h1>Alliance - BRG Hope: TheDoctor R5+ Squads</h1></div>
+
+<div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
+
+<a href="../../alliance/index.html">Alliance</a> |
+<a href="../../guild/hope/index.html">BRG Hope</a> |
+<a href="../info/162767561.html">Info</a> |
+<a href="../tw-squads/162767561.html">TW+GA Squads</a> |
+<a href="162767561.html">R5 Squads</a> |
+<a href="../counters/162767561.html">Counters</a> |
+<a href="../target/162767561.html">Targets</a> |
+<a href="../unlock/162767561.html">Unlocks</a> |
+<a href="../zeta/162767561.html">Zetas</a> |
+<a href="../farm/162767561.html">Farming</a> |
+<a href="../dsgeotb/162767561.html">DS Geo TB</a> |
+<a href="../lsgeotb/162767561.html">LS Geo TB</a>
+<div style="float:right;"><a href="../../r">Resources</a></div>
+</div>
+<br/><script>
+c1 = new Chart("../../guild/hope/player-squad-gp.json", "162767561", null)
+c1.id = "chart"
+c1.filter = function(data) {
+    data.series = data.series.filter(function (x) {
+        if (x.name == "HansMF") { return false }
+        if (x.name == "Negotiator") { return false }
+        if (x.name == "Malevolence") { return false }
+        if (x.name == "Raddus") { return false }
+        if (x.name == "Executrix") { return false }
+        if (x.name == "NestSolo") { return false }
+        return true
+    })
+    return data
+}
+c1.title = "Squads"
+c1.tightScale = true
+c1.round = 1000
+c1.height = 400
+c1.width = 600
+c1.display()
+</script><div id="chart" style="float: right"></div>
+<h2><a href="../../help/player-tw-squads.html">HELP</a></h2>
+<p>
+Note: these teams may all be used simultaneously --- there is no overlap.
+</p><table><thead><tr><th>Leader</th><th>Squad</th><th>gp</th></tr></thead><tr><td data-order="padme"><div class="toT"><img class="toI squad PADMEAMIDALA-i"/><br/>padme</div></td><td data-order="154481">zzPadme R7, zGK R7, zJKA R7, zAhsoka R7, zzC-3PO R7</td><td data-order="154481">154k</td></tr><tr><td data-order="Grievous"><div class="toT"><img class="toI squad GRIEVOUS-i"/><br/>Grievous</div></td><td data-order="129220">zzGG R5, zB2 R5, zB1 R5, zDroideka R5, MagnaGuard R5</td><td data-order="129220">129k</td></tr><tr><td data-order="GAS"><div class="toT"><img class="toI squad GENERALSKYWALKER-i"/><br/>GAS</div></td><td data-order="157580">zzzzGAS R7, zRex R7, zEcho R7, zzFives R7, zARC Trooper R7</td><td data-order="157580">157k</td></tr><tr><td data-order="Revan Offense"><div class="toT"><img class="toI squad JEDIKNIGHTREVAN-i"/><br/>Revan Offense</div></td><td data-order="151797">zzzJKR R7, zzGMY R6, zBS R5, zJolee R7, zzHYoda R5</td><td data-order="151797">151k</td></tr><tr><td data-order="CLS"><div class="toT"><img class="toI squad COMMANDERLUKESKYWALKER-i"/><br/>CLS</div></td><td data-order="143510">zzzCLS R6, zHan R7, Leia R6, Old Ben R5, zzChewbacca R7</td><td data-order="143510">143k</td></tr></table><p>
+These are R5+ units that don't fit into any of the squads above:<table><thead><tr><th>Unit</th><th>gp</th></tr></thead><tr><td data-order="Darth Malak"><div class="toT"><img class="toI squad DARTHMALAK-i"/><br/>Darth Malak</div></td><td data-order="28618">28k</td></tr><tr><td data-order="Lando Calrissian"><div class="toT"><img class="toI squad ADMINISTRATORLANDO-i"/><br/>Lando Calrissian</div></td><td data-order="26461">26k</td></tr><tr><td data-order="CC-2224 "Cody""><div class="toT"><img class="toI squad CC2224-i"/><br/>CC-2224 "Cody"</div></td><td data-order="29077">29k</td></tr><tr><td data-order="Bossk"><div class="toT"><img class="toI squad BOSSK-i"/><br/>Bossk</div></td><td data-order="29697">29k</td></tr><tr><td data-order="Count Dooku"><div class="toT"><img class="toI squad COUNTDOOKU-i"/><br/>Count Dooku</div></td><td data-order="26446">26k</td></tr><tr><td data-order="Jedi Master Luke Skywalker"><div class="toT"><img class="toI squad GRANDMASTERLUKE-i"/><br/>Jedi Master Luke Skywalker</div></td><td data-order="42111">42k</td></tr><tr><td data-order="Clone Sergeant - Phase I"><div class="toT"><img class="toI squad CLONESERGEANTPHASEI-i"/><br/>Clone Sergeant - Phase I</div></td><td data-order="22816">22k</td></tr><tr><td data-order="Threepio & Chewie"><div class="toT"><img class="toI squad C3POCHEWBACCA-i"/><br/>Threepio & Chewie</div></td><td data-order="27405">27k</td></tr><tr><td data-order="Rey (Jedi Training)"><div class="toT"><img class="toI squad REYJEDITRAINING-i"/><br/>Rey (Jedi Training)</div></td><td data-order="35308">35k</td></tr><tr><td data-order="Shaak Ti"><div class="toT"><img class="toI squad SHAAKTI-i"/><br/>Shaak Ti</div></td><td data-order="28572">28k</td></tr><tr><td data-order="Darth Revan"><div class="toT"><img class="toI squad DARTHREVAN-i"/><br/>Darth Revan</div></td><td data-order="31779">31k</td></tr><tr><td data-order="R2-D2"><div class="toT"><img class="toI squad R2D2_LEGENDARY-i"/><br/>R2-D2</div></td><td data-order="32283">32k</td></tr><tr><td data-order="Geonosian Brood Alpha"><div class="toT"><img class="toI squad GEONOSIANBROODALPHA-i"/><br/>Geonosian Brood Alpha</div></td><td data-order="31215">31k</td></tr><tr><td data-order="Mon Mothma"><div class="toT"><img class="toI squad MONMOTHMA-i"/><br/>Mon Mothma</div></td><td data-order="30250">30k</td></tr><tr><td data-order="Jedi Knight Luke Skywalker"><div class="toT"><img class="toI squad JEDIKNIGHTLUKE-i"/><br/>Jedi Knight Luke Skywalker</div></td><td data-order="32361">32k</td></tr></table><br/>
+<font size="-2">Generated 2020-12-10 00:12:07 +0000</font>
