@@ -90,31 +90,9 @@ tr:nth-child(odd) {background: #ffffff}
 <a href="../lsgeotb/225878843.html">LS Geo TB</a>
 <div style="float:right;"><a href="../../r">Resources</a></div>
 </div>
-<br/><script>
-c1 = new Chart("../../guild/hope/player-squad-gp.json", "225878843", null)
-c1.id = "chart"
-c1.filter = function(data) {
-    data.series = data.series.filter(function (x) {
-        if (x.name == "HansMF") { return false }
-        if (x.name == "Negotiator") { return false }
-        if (x.name == "Malevolence") { return false }
-        if (x.name == "Raddus") { return false }
-        if (x.name == "Executrix") { return false }
-        if (x.name == "NestSolo") { return false }
-        return true
-    })
-    return data
-}
-c1.title = "Squads"
-c1.tightScale = true
-c1.round = 1000
-c1.height = 400
-c1.width = 600
-c1.display()
-</script><div id="chart" style="float: right"></div>
-<h2><a href="../../help/player-tw-squads.html">HELP</a></h2>
-<p>
+<br/><p>
 Note: these teams may all be used simultaneously --- there is no overlap.
-</p><table><thead><tr><th>Leader</th><th>Squad</th><th>gp</th></tr></thead></table><p>
-These are R5+ units that don't fit into any of the squads above:<table><thead><tr><th>Unit</th><th>gp</th></tr></thead><tr><td data-order="Jedi Knight Anakin"><div class="toT"><img class="toI squad ANAKINKNIGHT-i"/><br/>Jedi Knight Anakin</div></td><td data-order="27450">27k</td></tr><tr><td data-order="Sith Trooper"><div class="toT"><img class="toI squad FOSITHTROOPER-i"/><br/>Sith Trooper</div></td><td data-order="25797">25k</td></tr><tr><td data-order="Padmé Amidala"><div class="toT"><img class="toI squad PADMEAMIDALA-i"/><br/>Padmé Amidala</div></td><td data-order="28912">28k</td></tr><tr><td data-order="Kylo Ren (Unmasked)"><div class="toT"><img class="toI squad KYLORENUNMASKED-i"/><br/>Kylo Ren (Unmasked)</div></td><td data-order="32193">32k</td></tr></table><br/>
-<font size="-2">Generated 2020-12-10 00:12:02 +0000</font>
+</p><table><thead><tr><th>Leader</th><th>Squad</th><th>gp</th></tr></thead></table><br/>
+<p>
+These are R5+ units that don't fit into any of the squads above:<table><thead><tr><th>Unit</th><th>gp</th></tr></thead><tr><td data-order="Kylo Ren (Unmasked)"><div class="toT"><img class="toI squad KYLORENUNMASKED-i"/><br/>Kylo Ren (Unmasked)</div></td><td data-order="32193">32k</td></tr><tr><td data-order="Padmé Amidala"><div class="toT"><img class="toI squad PADMEAMIDALA-i"/><br/>Padmé Amidala</div></td><td data-order="28912">28k</td></tr><tr><td data-order="Sith Trooper"><div class="toT"><img class="toI squad FOSITHTROOPER-i"/><br/>Sith Trooper</div></td><td data-order="25797">25k</td></tr><tr><td data-order="Jedi Knight Anakin"><div class="toT"><img class="toI squad ANAKINKNIGHT-i"/><br/>Jedi Knight Anakin</div></td><td data-order="27450">27k</td></tr></table><br/>
+<font size="-2">Generated 2020-12-10 00:19:36 +0000</font>

@@ -90,30 +90,7 @@ tr:nth-child(odd) {background: #ffffff}
 <a href="../lsgeotb/755372417.html">LS Geo TB</a>
 <div style="float:right;"><a href="../../r">Resources</a></div>
 </div>
-<br/><script>
-c1 = new Chart("../../guild/hope/player-squad-gp.json", "755372417", null)
-c1.id = "chart"
-c1.filter = function(data) {
-    data.series = data.series.filter(function (x) {
-        if (x.name == "HansMF") { return false }
-        if (x.name == "Negotiator") { return false }
-        if (x.name == "Malevolence") { return false }
-        if (x.name == "Raddus") { return false }
-        if (x.name == "Executrix") { return false }
-        if (x.name == "NestSolo") { return false }
-        return true
-    })
-    return data
-}
-c1.title = "Squads"
-c1.tightScale = true
-c1.round = 1000
-c1.height = 400
-c1.width = 600
-c1.display()
-</script><div id="chart" style="float: right"></div>
-<h2><a href="../../help/player-tw-squads.html">HELP</a></h2>
-<p>
+<br/><p>
 Note: these teams may all be used simultaneously --- there is no overlap.
 </p><table><thead><tr><th>Leader</th><th>Squad</th><th>gp</th></tr></thead></table><br/>
-<font size="-2">Generated 2020-12-10 00:12:02 +0000</font>
+<font size="-2">Generated 2020-12-10 00:19:40 +0000</font>
