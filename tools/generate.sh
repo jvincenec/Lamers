@@ -26,6 +26,7 @@ guilds=(
 	'lazerfaces 469344695'
 	'kotor 815925164'
 	'thrawn 464574793'
+	'han 445419677'
 )
 
 # prime the pipe -- fetch the first guild
