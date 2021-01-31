@@ -162,7 +162,7 @@ tr:nth-child(odd) {background: #ffffff}
 					}
 				})
 				
-				let offset = 10
+				let offset = 2
 				let every = 1
 				let deltas = gps.map(function(x, i) {
 					if (i < offset || gps_per_player[i - offset] == null) {
@@ -182,7 +182,7 @@ tr:nth-child(odd) {background: #ffffff}
 			});
 		
 			layout = {
-				title: "Delta GP per player per day, ~10 sliding window",
+				title: "Delta GP per Player per Day",
 				hovermode: "closest",
 			}
 			
@@ -204,7 +204,7 @@ tr:nth-child(odd) {background: #ffffff}
 					}
 				})
 				
-				let offset = 10
+				let offset = 2
 				let every = 1
 				let deltas = gps.map(function(x, i) {
 					if (i < offset || gps_per_player[i - offset] == null) {
@@ -228,7 +228,7 @@ tr:nth-child(odd) {background: #ffffff}
 			});
 		
 			layout = {
-				title: "Negative Delta GP / Day with ~10 day window",
+				title: "Only Negative Delta GP per Player per Day",
 				hovermode: "closest",
 			}
 			
