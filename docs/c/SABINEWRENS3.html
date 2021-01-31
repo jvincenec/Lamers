@@ -35,7 +35,7 @@ body {
         bFilter: false,
         });
     } );
-    </script><link rel="stylesheet" type="text/css" href="../mods.css">
+    </script><script src="https://cdn.plot.ly/plotly-latest.min.js"></script><link rel="stylesheet" type="text/css" href="../mods.css">
 <style>
 #zetas {
     width: 800;
@@ -61,7 +61,10 @@ td.examples {
     height: 24px;
 }
 .priority {
-    background-color: lightblue;
+    border: 1px solid black;
+    margin: 2px;
+    margin-right: 10px;
+    background-color: #c0c0c0;
 }
 .mod-cell {
     border: 1px solid black;
@@ -76,11 +79,420 @@ td.examples {
 <div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a>
 </div>
-<br/><h1><img id="picture" src="https://swgoh.gg/game-asset/u/SABINEWRENS3/" />Alliance Character Data: Sabine Wren</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/sabine-wren/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/sabine-wren/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/sabine-wren/data/mods/">mods meta report</a></li><li><a href="https://swgoh.gg/characters/sabine-wren/data/stats/">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Recommendations (External)</h3><ul><li><a href="https://gaming-fans.com/2017/04/swgoh-best-mods-sabine-wren/">https://gaming-fans.com/2017/04/swgoh-best-mods-sabine-wren/</a></li></ul><h3>Mod Recommendations (Alliance + Top Guilds)</h3><p>
-Based on 792 units.  This shows the priorities
+<br/><h1><img id="picture" src="https://swgoh.gg/game-asset/u/SABINEWRENS3/" />Alliance Character Data: Sabine Wren</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/sabine-wren/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/sabine-wren/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/sabine-wren/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/sabine-wren/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 803 units from the
+alliance and top guilds.  The bonuses are shown as applied to an R5 unit.
+Specific distributions are shown below by common mod configurations.<div id="mc-all" style="height:500px" /><script>
+{
+let traces = [];traces.push({
+    name: "speed",
+    x: [ 0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130 ],
+    y: [ 0, 3, 2, 3, 5, 8, 12, 16, 18, 13, 7, 2, 1, 0 ],
+    text: [ 0.0, 4.0, 6.0, 10.0, 16.0, 25.0, 37.0, 54.0, 72.0, 86.0, 94.0, 97.0, 99.0, 99.0 ],
+    hovertemplate: '%{y}% of players have +%{x} speed<br>%{text}% of players have +%{x} or less<br>speed range: +0 - +130',});traces.push({
+    name: "health",
+    x: [ 0, 2500, 5000, 7500, 10000, 12500, 15000, 17500, 20000 ],
+    y: [ 6, 32, 26, 14, 11, 3, 2, 1, 0 ],
+    text: [ 7.0, 40.0, 67.0, 81.0, 92.0, 96.0, 98.0, 99.0, 100.0 ],
+    hovertemplate: '%{y}% of players have +%{x} health<br>%{text}% of players have +%{x} or less<br>health range: +0 - +20000',xaxis: "x2",});traces.push({
+    name: "protection",
+    x: [ 0, 2500, 5000, 7500, 10000, 12500, 15000, 17500, 20000, 22500, 25000, 27500, 30000 ],
+    y: [ 1, 9, 9, 4, 18, 22, 7, 5, 8, 5, 2, 3, 0 ],
+    text: [ 1.0, 11.0, 21.0, 25.0, 44.0, 66.0, 74.0, 80.0, 88.0, 93.0, 96.0, 99.0, 99.0 ],
+    hovertemplate: '%{y}% of players have +%{x} protection<br>%{text}% of players have +%{x} or less<br>protection range: +0 - +30000',xaxis: "x2",});traces.push({
+    name: "offense",
+    x: [ 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1400, 1500, 1600 ],
+    y: [ 0, 2, 17, 20, 11, 13, 12, 5, 4, 3, 1, 1, 0, 0, 1, 0 ],
+    text: [ 0.0, 2.0, 19.0, 40.0, 51.0, 64.0, 77.0, 83.0, 88.0, 91.0, 93.0, 95.0, 96.0, 96.0, 97.0, 98.0 ],
+    hovertemplate: '%{y}% of players have +%{x} offense<br>%{text}% of players have +%{x} or less<br>offense range: +200 - +1600',xaxis: "x3",});traces.push({
+    name: "defense",
+    x: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+    y: [ 0, 1, 26, 30, 15, 11, 4, 4, 1, 1, 1, 0 ],
+    text: [ 0.0, 2.0, 29.0, 60.0, 75.0, 86.0, 91.0, 95.0, 97.0, 98.0, 99.0, 99.0 ],
+    hovertemplate: '%{y}% of players have +%{x} defense<br>%{text}% of players have +%{x} or less<br>defense range: +1 - +12',xaxis: "x4",});traces.push({
+    name: "crit chance",
+    x: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 25, 26, 27 ],
+    y: [ 4, 4, 1, 4, 4, 3, 4, 3, 5, 5, 4, 5, 5, 6, 5, 4, 3, 3, 2, 1, 2, 1, 1, 1, 1, 0, 0, 1, 0 ],
+    text: [ 4.0, 9.0, 10.0, 15.0, 19.0, 23.0, 27.0, 31.0, 37.0, 43.0, 48.0, 53.0, 59.0, 65.0, 71.0, 76.0, 79.0, 82.0, 85.0, 86.0, 88.0, 90.0, 92.0, 93.0, 94.0, 95.0, 95.0, 96.0, 97.0 ],
+    hovertemplate: '%{y}% of players have +%{x} crit chance<br>%{text}% of players have +%{x} or less<br>crit chance range: +0 - +27',xaxis: "x4",});let layout = {
+      title: "",
+      hovermode: "closest",
+      yaxis: {
+        title: '% of players',
+      },
+      xaxis: {
+          zeroline: false,
+          showline: false,
+          autotick: true,
+          ticks: '',
+          showticklabels: false
+      },
+      xaxis2: {
+          overlaying: 'x',
+          zeroline: false,
+          showline: false,
+          autotick: true,
+          showgrid: false,
+          ticks: '',
+          showticklabels: false
+      },
+      xaxis3: {
+          overlaying: 'x',
+          zeroline: false,
+          showline: false,
+          autotick: true,
+          showgrid: false,
+          ticks: '',
+          showticklabels: false
+      },
+      xaxis4: {
+          overlaying: 'x',
+          zeroline: false,
+          showline: false,
+          autotick: true,
+          showgrid: false,
+          ticks: '',
+          showticklabels: false
+      },
+      margin: {
+          t: 60,
+          b: 0,
+      }
+}
+Plotly.newPlot('mc-all', traces, layout)
+}
+</script><h3>Mod Recommendations (External)</h3><ul><li><a href="https://gaming-fans.com/2017/04/swgoh-best-mods-sabine-wren/">https://gaming-fans.com/2017/04/swgoh-best-mods-sabine-wren/</a></li></ul><h3>Mod Recommendations (Alliance + Top Guilds)</h3><p>
+Based on 803 units.  This shows the priorities
 used in assigning mods to the characters.  For example: <b>speed, offense</b>
-would prefer speed over all else and then offense next.
+would prefer speed over all else and then offense next.  These are not
+necessarily good mod setups, but they are commonly used.
 
 <p>
-The example stats are shown for these mods being applied to an R5 character.<h4>#1 - 29% - crit damage, speed, protection, health, crit chance, offense</h4><table><tr><td class="examples"><b>Typical Mods: </b><br/>crit damage +66, speed +82, protection +7343, health +6010, crit chance +15, offense +758<table class="mods"><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+5.88% offense</b><ul><li><b>+14 speed</b> (3)</li><li><b>+1.57% protection</b> (1)</li><li><b>+821 protection</b> (1)</li><li><b>+970 health</b> (3)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m5" /><b>+30 speed</b><ul><li><b>+2458 protection</b> (4)</li><li><b>+1.17% crit chance</b> (1)</li><li>+17 defense (2)</li><li><b>+40 offense</b> (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" />+11.75% defense<ul><li><b>+9 speed</b> (2)</li><li><b>+325 health</b> (1)</li><li><b>+85 offense</b> (3)</li><li><b>+1.93% health</b> (2)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+36% crit damage</b><ul><li><b>+1398 protection</b> (2)</li><li>+3.4% potency (2)</li><li><b>+1029 health</b> (3)</li><li><b>+3 speed</b> (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+5.88% health</b><ul><li>+0.96% defense (1)</li><li><b>+1129 protection</b> (2)</li><li><b>+2.7% crit chance</b> (2)</li><li><b>+12 speed</b> (3)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m5" /><b>+5.88% offense</b><ul><li><b>+2.78% protection</b> (2)</li><li><b>+3.49% crit chance</b> (2)</li><li><b>+14 speed</b> (3)</li><li>+7 defense (1)</li></ul></div></td></tr></table></td><td class="examples"><b>Great Mods: </b><br/>crit damage +72, speed +61, protection +13069, health +11228, crit chance +16, offense +768<table class="mods"><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m5" /><b>+8.5% offense</b><ul><li><b>+81 offense</b> (2)</li><li><b>+2.14% protection</b> (1)</li><li>+6.51% potency (3)</li><li><b>+2.29% health</b> (2)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+32 speed</b><ul><li>+39 defense (3)</li><li>+4.77% potency (2)</li><li>+1.86% tenacity (1)</li><li><b>+4.36% protection</b> (2)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" />+20% defense<ul><li><b>+1.4% crit chance</b> (1)</li><li><b>+4.29% protection</b> (2)</li><li><b>+14 speed</b> (3)</li><li>+5.31% potency (2)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m5" /><b>+42% crit damage</b><ul><li><b>+2.97% offense</b> (2)</li><li>+27 defense (2)</li><li><b>+1.93% crit chance</b> (1)</li><li><b>+1332 health</b> (3)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+16% health</b><ul><li>+4.38% potency (2)</li><li><b>+70 offense</b> (2)</li><li><b>+10 speed</b> (2)</li><li>+5.03% tenacity (2)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+24% protection</b><ul><li><b>+5 speed</b> (1)</li><li><b>+787 protection</b> (1)</li><li><b>+4.7% crit chance</b> (3)</li><li><b>+1266 health</b> (3)</li></ul></div></td></tr></table></td></tr></table><h4>#2 - 22% - speed, protection, health</h4><table><tr><td class="examples"><b>Typical Mods: </b><br/>speed +108, protection +14124, health +6582<table class="mods"><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m4" />+5.88% offense<ul><li><b>+1248 protection</b> (2)</li><li>+3.41% crit chance (2)</li><li>+1.82% tenacity (1)</li><li><b>+13 speed</b> (3)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" /><b>+30 speed</b><ul><li>+5 defense (1)</li><li>+2.77% crit chance (2)</li><li>+2.68% defense (2)</li><li><b>+2.15% protection</b> (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m4" />+11.75% defense<ul><li><b>+12 speed</b> (3)</li><li>+3.35% potency (2)</li><li><b>+2.83% protection</b> (2)</li><li>+28 offense (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" />+5.88% offense<ul><li>+2.82% defense (2)</li><li><b>+303 health</b> (1)</li><li><b>+11 speed</b> (2)</li><li><b>+2.8% protection</b> (2)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m4" /><b>+23.5% protection</b><ul><li><b>+11 speed</b> (2)</li><li>+3.7% potency (2)</li><li><b>+2.41% health</b> (3)</li><li>+35 offense (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m4" />+5.88% offense<ul><li><b>+0.9% health</b> (1)</li><li>+0.99% defense (1)</li><li><b>+14 speed</b> (3)</li><li><b>+5.19% protection</b> (3)</li></ul></div></td></tr></table></td><td class="examples"><b>Great Mods: </b><br/>speed +117, protection +24095, health +8253<table class="mods"><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m4" />+8.5% offense<ul><li>+17 defense (2)</li><li><b>+14 speed</b> (3)</li><li><b>+913 protection</b> (1)</li><li><b>+4.99% protection</b> (2)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m4" /><b>+32 speed</b><ul><li><b>+1395 protection</b> (2)</li><li>+6.04% defense (2)</li><li>+1.85% tenacity (1)</li><li>+125 offense (3)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m4" />+20% defense<ul><li><b>+14 speed</b> (3)</li><li>+3.17% crit chance (2)</li><li><b>+1.86% health</b> (1)</li><li><b>+1502 protection</b> (2)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" />+42% crit damage<ul><li><b>+2.65% protection</b> (1)</li><li><b>+13 speed</b> (3)</li><li><b>+1081 health</b> (3)</li><li>+12 defense (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" /><b>+24% protection</b><ul><li><b>+14 speed</b> (3)</li><li>+3.03% offense (2)</li><li><b>+3.34% health</b> (2)</li><li><b>+646 protection</b> (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m4" /><b>+24% protection</b><ul><li><b>+13 speed</b> (3)</li><li>+3.67% defense (1)</li><li>+4.24% potency (2)</li><li>+2.04% offense (2)</li></ul></div></td></tr></table></td></tr></table><h4>#3 - 6% - crit chance, crit damage, speed, protection, health, offense, defense, potency</h4><table><tr><td class="examples"><b>Typical Mods: </b><br/>crit chance +21, crit damage +30, speed +56, protection +6905, health +3514, offense +782, defense +4, potency +6<table class="mods"><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+5.88% offense</b><ul><li><b>+3 speed</b> (1)</li><li><b>+4.89% protection</b> (3)</li><li><b>+1.63% crit chance</b> (1)</li><li><b>+742 protection</b> (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+30 speed</b><ul><li><b>+1584 protection</b> (2)</li><li>+1.69% tenacity (1)</li><li><b>+413 health</b> (1)</li><li><b>+34 offense</b> (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m5" /><b>+11.75% defense</b><ul><li><b>+1.11% offense</b> (3)</li><li><b>+8 speed</b> (2)</li><li><b>+1.54% potency</b> (1)</li><li><b>+3.3% protection</b> (2)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+12% crit chance</b><ul><li><b>+3.59% potency</b> (2)</li><li><b>+5 speed</b> (1)</li><li><b>+29 offense</b> (1)</li><li><b>+5 defense</b> (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m5" /><b>+5.88% health</b><ul><li><b>+10 speed</b> (2)</li><li><b>+9 defense</b> (1)</li><li><b>+5.42% defense</b> (4)</li><li><b>+2.23% protection</b> (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+5.88% offense</b><ul><li><b>+2.56% protection</b> (2)</li><li><b>+26 offense</b> (1)</li><li><b>+1.3% potency</b> (1)</li><li><b>+327 health</b> (1)</li></ul></div></td></tr></table></td><td class="examples"><b>Great Mods: </b><br/>crit chance +38, crit damage +30, speed +90, protection +17832, health +2025, offense +782, defense +7, potency +12<table class="mods"><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m5" /><b>+8.5% offense</b><ul><li><b>+82 offense</b> (2)</li><li><b>+10 speed</b> (2)</li><li>+2.29% tenacity (1)</li><li><b>+4.56% crit chance</b> (3)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+32 speed</b><ul><li><b>+6.73% defense</b> (2)</li><li>+7.28% tenacity (3)</li><li><b>+75 offense</b> (2)</li><li><b>+1.78% crit chance</b> (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m5" /><b>+20% defense</b><ul><li><b>+87 offense</b> (3)</li><li><b>+888 protection</b> (1)</li><li><b>+13 speed</b> (3)</li><li><b>+1.35% crit chance</b> (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+20% crit chance</b><ul><li><b>+9.88% potency</b> (4)</li><li><b>+418 health</b> (1)</li><li><b>+5.87% defense</b> (2)</li><li><b>+6 speed</b> (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+24% protection</b><ul><li><b>+1607 health</b> (4)</li><li><b>+11 speed</b> (2)</li><li>+2.82% tenacity (1)</li><li><b>+0.93% offense</b> (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+24% protection</b><ul><li><b>+18 speed</b> (4)</li><li><b>+2.17% potency</b> (1)</li><li><b>+2.77% crit chance</b> (2)</li><li><b>+31 offense</b> (1)</li></ul></div></td></tr></table></td></tr></table><h4>#4 - 6% - health, protection, speed, crit chance</h4><table><tr><td class="examples"><b>Typical Mods: </b><br/>health +13369, protection +10696, speed +74, crit chance +12<table class="mods"><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" />+5.88% offense<ul><li><b>+8 speed</b> (2)</li><li><b>+0.76% health</b> (1)</li><li><b>+587 protection</b> (1)</li><li><b>+1.45% protection</b> (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set m8" /><b>+30 speed</b><ul><li><b>+1.85% health</b> (2)</li><li>+58 offense (2)</li><li><b>+542 health</b> (2)</li><li>+1.06% offense (2)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" />+11.75% defense<ul><li><b>+10 speed</b> (2)</li><li>+5.74% tenacity (3)</li><li><b>+494 protection</b> (1)</li><li><b>+0.84% health</b> (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" /><b>+12% crit chance</b><ul><li>+3.85% tenacity (2)</li><li><b>+10 speed</b> (2)</li><li>+7 defense (1)</li><li>+34 offense (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" /><b>+23.5% protection</b><ul><li><b>+8 speed</b> (2)</li><li>+5 defense (1)</li><li><b>+1.42% health</b> (2)</li><li><b>+808 protection</b> (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" />+11.75% defense<ul><li><b>+8 speed</b> (2)</li><li><b>+1.52% health</b> (2)</li><li><b>+380 health</b> (1)</li><li>+8 defense (1)</li></ul></div></td></tr></table></td><td class="examples"><b>Great Mods: </b><br/>health +18183, protection +22938, speed +51, crit chance +10<table class="mods"><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" />+5.88% offense<ul><li>+1.45% potency (1)</li><li><b>+8 speed</b> (2)</li><li><b>+5.6% crit chance</b> (3)</li><li>+2.87% defense (2)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" /><b>+30 speed</b><ul><li><b>+758 protection</b> (1)</li><li><b>+2.85% health</b> (3)</li><li>+3.56% defense (3)</li><li><b>+1.6% protection</b> (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" />+11.75% defense<ul><li><b>+13 speed</b> (3)</li><li>+1.26% potency (1)</li><li>+0.47% offense (1)</li><li><b>+5.56% protection</b> (3)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" />+11.75% defense<ul><li><b>+4.16% protection</b> (3)</li><li>+16 defense (2)</li><li><b>+1.68% health</b> (2)</li><li>+41 offense (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" /><b>+23.5% protection</b><ul><li><b>+1.91% health</b> (2)</li><li><b>+1591 protection</b> (2)</li><li><b>+3.16% crit chance</b> (2)</li><li>+3.25% tenacity (2)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" /><b>+23.5% protection</b><ul><li><b>+1.28% crit chance</b> (1)</li><li><b>+992 health</b> (3)</li><li>+4.59% tenacity (3)</li><li>+45 offense (1)</li></ul></div></td></tr></table></td></tr></table><h4>#5 - 6% - protection, crit damage, crit chance, health, speed</h4><table><tr><td class="examples"><b>Typical Mods: </b><br/>protection +27879, crit damage +30, crit chance +10, health +2957, speed +30<table class="mods"><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" />+5.88% offense<ul><li>+3.39% tenacity (2)</li><li>+62 offense (2)</li><li><b>+1.2% crit chance</b> (1)</li><li>+4.86% potency (3)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+30 speed</b><ul><li>+1.75% tenacity (1)</li><li><b>+534 protection</b> (1)</li><li><b>+279 health</b> (1)</li><li><b>+3.17% protection</b> (2)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m5" />+11.75% defense<ul><li>+9 defense (1)</li><li><b>+1.52% crit chance</b> (1)</li><li>+3.97% tenacity (2)</li><li><b>+3.74% health</b> (4)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m5" /><b>+23.5% protection</b><ul><li>+24 offense (1)</li><li>+0.29% offense (1)</li><li>+1.12% defense (1)</li><li><b>+276 health</b> (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+23.5% protection</b><ul><li><b>+1341 protection</b> (2)</li><li>+1.82% tenacity (1)</li><li>+1.19% defense (1)</li><li><b>+252 health</b> (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+23.5% protection</b><ul><li>+0.63% offense (2)</li><li>+4.93% potency (3)</li><li><b>+386 health</b> (1)</li><li>+16 defense (2)</li></ul></div></td></tr></table></td><td class="examples"><b>Great Mods: </b><br/>protection +28566, crit damage +30, crit chance +18, health +980, speed +62<table class="mods"><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" />+5.88% offense<ul><li>+1.33% tenacity (1)</li><li><b>+6.93% crit chance</b> (4)</li><li><b>+4 speed</b> (1)</li><li><b>+365 health</b> (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+30 speed</b><ul><li><b>+4.64% protection</b> (3)</li><li><b>+2.56% crit chance</b> (2)</li><li><b>+0.78% health</b> (1)</li><li><b>+449 protection</b> (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" />+11.75% defense<ul><li><b>+248 health</b> (1)</li><li>+7 defense (1)</li><li><b>+4.01% protection</b> (2)</li><li><b>+15 speed</b> (4)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m5" /><b>+23.5% protection</b><ul><li><b>+1.37% crit chance</b> (1)</li><li>+8 defense (1)</li><li>+1.17% offense (3)</li><li>+2.17% potency (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m5" /><b>+23.5% protection</b><ul><li>+1.52% defense (1)</li><li>+12 defense (2)</li><li>+3.44% potency (2)</li><li>+0.93% offense (2)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+24% protection</b><ul><li>+22 defense (2)</li><li><b>+13 speed</b> (3)</li><li>+30 offense (1)</li><li>+4.65% tenacity (2)</li></ul></div></td></tr></table></td></tr></table><h4>#6 - 5% - offense, speed, health, protection, defense, crit chance</h4><table><tr><td class="examples"><b>Typical Mods: </b><br/>offense +1423, speed +74, health +5019, protection +11728, defense +4, crit chance +12<table class="mods"><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m2" /><b>+5.88% offense</b><ul><li><b>+2.55% protection</b> (2)</li><li><b>+21 defense</b> (3)</li><li><b>+7 speed</b> (2)</li><li><b>+462 protection</b> (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" /><b>+30 speed</b><ul><li><b>+1.09% defense</b> (1)</li><li><b>+32 offense</b> (1)</li><li><b>+4 defense</b> (1)</li><li><b>+302 health</b> (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m2" /><b>+8% defense</b><ul><li><b>+8 speed</b> (2)</li><li><b>+10 defense</b> (2)</li><li>+4.06% tenacity (3)</li><li><b>+29 offense</b> (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m2" /><b>+12% crit chance</b><ul><li><b>+1411 protection</b> (2)</li><li>+3.29% tenacity (2)</li><li><b>+7 speed</b> (2)</li><li><b>+0.53% offense</b> (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" /><b>+23.5% protection</b><ul><li><b>+8 speed</b> (2)</li><li><b>+2.1% defense</b> (2)</li><li>+5.49% tenacity (3)</li><li><b>+5 defense</b> (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m2" /><b>+3.88% offense</b><ul><li><b>+14 speed</b> (4)</li><li><b>+0.89% protection</b> (1)</li><li><b>+1.2% defense</b> (1)</li><li><b>+344 protection</b> (1)</li></ul></div></td></tr></table></td><td class="examples"><b>Great Mods: </b><br/>offense +2295, speed +91, health +10100, protection +5704, defense +7, crit chance +29<table class="mods"><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m2" /><b>+8.5% offense</b><ul><li><b>+116 offense</b> (3)</li><li><b>+5.89% defense</b> (2)</li><li><b>+9 speed</b> (2)</li><li><b>+2.86% protection</b> (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m2" /><b>+32 speed</b><ul><li><b>+4.79% health</b> (3)</li><li><b>+1.58% offense</b> (1)</li><li><b>+539 protection</b> (1)</li><li>+5.77% potency (3)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m2" /><b>+20% defense</b><ul><li><b>+1.48% crit chance</b> (1)</li><li>+4.68% tenacity (2)</li><li><b>+30 defense</b> (2)</li><li><b>+14 speed</b> (3)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m5" /><b>+20% crit chance</b><ul><li><b>+292 health</b> (1)</li><li><b>+4.65% offense</b> (3)</li><li><b>+14 speed</b> (3)</li><li><b>+44 offense</b> (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m2" /><b>+16% health</b><ul><li>+4.21% potency (2)</li><li><b>+820 protection</b> (1)</li><li><b>+14 speed</b> (3)</li><li><b>+77 offense</b> (2)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m5" /><b>+8.5% offense</b><ul><li><b>+2297 protection</b> (3)</li><li><b>+6.17% defense</b> (2)</li><li><b>+2.94% protection</b> (1)</li><li><b>+8 speed</b> (2)</li></ul></div></td></tr></table></td></tr></table><h4>#7 - 5% - crit damage, speed, protection, crit chance, health, defense, offense</h4><table><tr><td class="examples"><b>Typical Mods: </b><br/>crit damage +30, speed +76, protection +20626, crit chance +14, health +6251, defense +5, offense +397<table class="mods"><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+5.88% offense</b><ul><li><b>+710 protection</b> (1)</li><li>+4.92% potency (3)</li><li><b>+8 speed</b> (2)</li><li><b>+2.81% defense</b> (2)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+30 speed</b><ul><li><b>+2.74% defense</b> (2)</li><li><b>+390 health</b> (1)</li><li><b>+0.88% health</b> (1)</li><li><b>+0.34% offense</b> (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+11.75% defense</b><ul><li><b>+1339 protection</b> (2)</li><li><b>+13 defense</b> (2)</li><li><b>+729 health</b> (2)</li><li><b>+9 speed</b> (2)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" /><b>+12% crit chance</b><ul><li>+1.15% tenacity (1)</li><li><b>+6 defense</b> (1)</li><li><b>+10 speed</b> (2)</li><li><b>+1986 protection</b> (3)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" /><b>+23.5% protection</b><ul><li><b>+2.43% defense</b> (2)</li><li><b>+0.86% offense</b> (2)</li><li><b>+2.85% crit chance</b> (2)</li><li><b>+10 speed</b> (2)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+23.5% protection</b><ul><li><b>+9 speed</b> (2)</li><li>+1.6% potency (1)</li><li><b>+13 defense</b> (2)</li><li><b>+0.3% offense</b> (1)</li></ul></div></td></tr></table></td><td class="examples"><b>Great Mods: </b><br/>crit damage +66, speed +93, protection +0, crit chance +16, health +11302, defense +6, offense +591<table class="mods"><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+5.88% offense</b><ul><li><b>+14 speed</b> (3)</li><li><b>+2.19% crit chance</b> (1)</li><li><b>+322 health</b> (1)</li><li><b>+4.15% defense</b> (3)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+30 speed</b><ul><li><b>+3.58% defense</b> (3)</li><li><b>+1.8% crit chance</b> (1)</li><li>+1.75% potency (1)</li><li>+1.8% tenacity (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+11.75% defense</b><ul><li><b>+0.79% offense</b> (2)</li><li><b>+14 speed</b> (3)</li><li><b>+2.97% crit chance</b> (2)</li><li><b>+8 defense</b> (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m5" /><b>+36% crit damage</b><ul><li><b>+1.44% crit chance</b> (1)</li><li><b>+73 offense</b> (2)</li><li><b>+13 speed</b> (3)</li><li><b>+1.39% health</b> (2)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m5" /><b>+5.88% health</b><ul><li><b>+4.24% defense</b> (3)</li><li>+3.43% tenacity (2)</li><li><b>+11 speed</b> (2)</li><li><b>+0.37% offense</b> (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+16% health</b><ul><li>+1.7% potency (1)</li><li><b>+10 defense</b> (1)</li><li><b>+11 speed</b> (2)</li><li><b>+139 offense</b> (4)</li></ul></div></td></tr></table></td></tr></table><h2>Alliance Demographic Data</h2><table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="specialskill_SABINEWRENS302"><img src="https://swgoh.gg/game-asset/a/specialskill_SABINEWRENS302/" style="width: 30px" /> Demolish</td><td>Phoenix allies gain Critical Chance Up and Offense Up for 2 turns, reduce Sabine's cooldowns by 2 on a Critical Hit, Stagger all enemies for 2 turns, and for each active Phoenix ally deal 15% more damage and Expose a random enemy</td><td>204</td><td>17%</td></tr></table><br/><br/><table id="gearLevels"><thead><tr><th>Gear Level</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="1">1</td><td>32</td><td>3%</td></tr><tr><td data-order="2">2</td><td>9</td><td>1%</td></tr><tr><td data-order="3">3</td><td>5</td><td>0%</td></tr><tr><td data-order="4">4</td><td>17</td><td>1%</td></tr><tr><td data-order="5">5</td><td>11</td><td>1%</td></tr><tr><td data-order="6">6</td><td>30</td><td>3%</td></tr><tr><td data-order="7">7</td><td>181</td><td>15%</td></tr><tr><td data-order="8">8</td><td>505</td><td>42%</td></tr><tr><td data-order="9">9</td><td>24</td><td>2%</td></tr><tr><td data-order="10">10</td><td>133</td><td>11%</td></tr><tr><td data-order="11">11</td><td>121</td><td>10%</td></tr><tr><td data-order="12">12</td><td>103</td><td>9%</td></tr><tr><td data-order="13">13</td><td>0</td><td>0%</td></tr><tr><td data-order="21">R1</td><td>3</td><td>0%</td></tr><tr><td data-order="22">R2</td><td>1</td><td>0%</td></tr><tr><td data-order="23">R3</td><td>3</td><td>0%</td></tr><tr><td data-order="24">R4</td><td>4</td><td>0%</td></tr><tr><td data-order="25">R5</td><td>4</td><td>0%</td></tr><tr><td data-order="26">R6</td><td>1</td><td>0%</td></tr><tr><td data-order="27">R7</td><td>3</td><td>0%</td></tr></table><br/>
-<font size="-2">Generated 2021-01-28 07:03:58 +0000</font>
+The example stats are shown for these mods being applied to an R5 character.<h4>#1 - 26% - speed, health, protection, offense</h4><table><tr><td class="examples"><b>Typical Mods: </b><br/>speed +112, health +8607, protection +12568, offense +973<table class="mods"><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m4" /><b>+8.5% offense</b><ul><li><b>+15 speed</b> (3)</li><li>+3.43% defense (1)</li><li><b>+3.88% protection</b> (2)</li><li>+5.28% tenacity (2)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" /><b>+32 speed</b><ul><li><b>+145 offense</b> (4)</li><li>+4.19% potency (2)</li><li>+10 defense (1)</li><li><b>+1.5% health</b> (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m4" />+20% defense<ul><li><b>+15 speed</b> (3)</li><li><b>+2.96% health</b> (2)</li><li><b>+284 health</b> (1)</li><li><b>+3.58% protection</b> (2)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m4" />+36% crit damage<ul><li><b>+1.01% offense</b> (2)</li><li><b>+2.84% protection</b> (2)</li><li><b>+7 speed</b> (2)</li><li>+3.88% tenacity (2)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" /><b>+23.5% protection</b><ul><li><b>+634 protection</b> (1)</li><li><b>+861 health</b> (3)</li><li>+2.15% crit chance (1)</li><li><b>+13 speed</b> (3)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m4" /><b>+5.88% offense</b><ul><li>+3.01% potency (2)</li><li><b>+13 speed</b> (3)</li><li><b>+1.37% health</b> (2)</li><li>+2.04% tenacity (1)</li></ul></div></td></tr></table></td><td class="examples"><b>Great Mods: </b><br/>speed +100, health +2818, protection +18120, offense +432<table class="mods"><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m4" /><b>+5.88% offense</b><ul><li><b>+10 speed</b> (2)</li><li>+5.74% tenacity (3)</li><li><b>+45 offense</b> (1)</li><li>+0.86% defense (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m4" /><b>+30 speed</b><ul><li>+2.04% tenacity (1)</li><li><b>+0.47% offense</b> (1)</li><li><b>+0.94% health</b> (1)</li><li>+2.47% defense (2)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m4" />+11.75% defense<ul><li><b>+8 speed</b> (2)</li><li>+6 defense (1)</li><li><b>+0.9% health</b> (1)</li><li>+3.12% tenacity (2)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m4" />+12% crit chance<ul><li><b>+0.98% health</b> (1)</li><li><b>+10 speed</b> (3)</li><li><b>+922 protection</b> (2)</li><li><b>+45 offense</b> (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m2" /><b>+23.5% protection</b><ul><li>+1.42% crit chance (1)</li><li>+15 defense (2)</li><li><b>+12 speed</b> (3)</li><li>+3.55% potency (2)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set m6" /><b>+23.5% protection</b><ul><li><b>+3.15% health</b> (3)</li><li><b>+13 speed</b> (3)</li><li><b>+607 protection</b> (1)</li><li>+1.52% defense (1)</li></ul></div></td></tr></table></td></tr></table><div id="mc-0" style="height:500px" /><script>
+{
+let traces = [];traces.push({
+    name: "speed",
+    x: [ 50, 60, 70, 80, 90, 100, 110 ],
+    y: [ 0, 1, 8, 18, 32, 23, 9 ],
+    text: [ 0.0, 2.0, 10.0, 29.0, 62.0, 85.0, 94.0 ],
+    hovertemplate: '%{y}% of players have +%{x} speed<br>%{text}% of players have +%{x} or less<br>speed range: +50 - +110',});traces.push({
+    name: "health",
+    x: [ 0, 2500, 5000, 7500, 10000, 12500, 12500, 15000 ],
+    y: [ 7, 24, 35, 21, 9, 0, 0, 1 ],
+    text: [ 7.0, 32.0, 67.0, 88.0, 98.0, 98.0, 98.0, 99.0 ],
+    hovertemplate: '%{y}% of players have +%{x} health<br>%{text}% of players have +%{x} or less<br>health range: +0 - +15000',xaxis: "x2",});traces.push({
+    name: "protection",
+    x: [ 0, 2500, 5000, 7500, 10000, 12500, 15000, 17500, 20000, 22500, 25000 ],
+    y: [ 1, 7, 9, 3, 16, 27, 5, 8, 9, 3, 1 ],
+    text: [ 2.0, 10.0, 19.0, 23.0, 40.0, 68.0, 73.0, 82.0, 91.0, 95.0, 97.0 ],
+    hovertemplate: '%{y}% of players have +%{x} protection<br>%{text}% of players have +%{x} or less<br>protection range: +0 - +25000',xaxis: "x2",});traces.push({
+    name: "offense",
+    x: [ 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200 ],
+    y: [ 0, 18, 15, 11, 13, 14, 9, 10, 3, 2 ],
+    text: [ 0.0, 18.0, 34.0, 45.0, 58.0, 73.0, 82.0, 92.0, 96.0, 99.0 ],
+    hovertemplate: '%{y}% of players have +%{x} offense<br>%{text}% of players have +%{x} or less<br>offense range: +300 - +1200',xaxis: "x3",});let layout = {
+      title: "Attribute distribution for R5 unit prioritizing speed, health, protection, offense.",
+      hovermode: "closest",
+      yaxis: {
+        title: '% of players',
+      },
+      xaxis: {
+          zeroline: false,
+          showline: false,
+          autotick: true,
+          ticks: '',
+          showticklabels: false
+      },
+      xaxis2: {
+          overlaying: 'x',
+          zeroline: false,
+          showline: false,
+          autotick: true,
+          showgrid: false,
+          ticks: '',
+          showticklabels: false
+      },
+      xaxis3: {
+          overlaying: 'x',
+          zeroline: false,
+          showline: false,
+          autotick: true,
+          showgrid: false,
+          ticks: '',
+          showticklabels: false
+      },
+      xaxis4: {
+          overlaying: 'x',
+          zeroline: false,
+          showline: false,
+          autotick: true,
+          showgrid: false,
+          ticks: '',
+          showticklabels: false
+      },
+      margin: {
+          t: 60,
+          b: 0,
+      }
+}
+Plotly.newPlot('mc-0', traces, layout)
+}
+</script><h4>#2 - 22% - crit damage, speed, protection, crit chance, health, offense</h4><table><tr><td class="examples"><b>Typical Mods: </b><br/>crit damage +66, speed +74, protection +5991, crit chance +11, health +4395, offense +784<table class="mods"><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m5" /><b>+5.88% offense</b><ul><li><b>+5 speed</b> (1)</li><li><b>+2.88% health</b> (3)</li><li><b>+749 protection</b> (1)</li><li>+1.28% tenacity (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+30 speed</b><ul><li>+6 defense (1)</li><li><b>+804 protection</b> (1)</li><li><b>+32 offense</b> (1)</li><li><b>+2.04% protection</b> (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m5" />+11.75% defense<ul><li><b>+3.87% crit chance</b> (2)</li><li><b>+11 speed</b> (3)</li><li><b>+0.68% offense</b> (2)</li><li><b>+43 offense</b> (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+36% crit damage</b><ul><li>+13 defense (2)</li><li>+2.06% tenacity (1)</li><li><b>+5.01% protection</b> (3)</li><li><b>+8 speed</b> (2)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+5.88% health</b><ul><li><b>+40 offense</b> (1)</li><li><b>+7 speed</b> (2)</li><li>+2.96% tenacity (2)</li><li><b>+4.13% protection</b> (3)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+5.88% offense</b><ul><li>+1.97% potency (1)</li><li><b>+13 speed</b> (3)</li><li><b>+1.39% protection</b> (1)</li><li><b>+262 health</b> (1)</li></ul></div></td></tr></table></td><td class="examples"><b>Great Mods: </b><br/>crit damage +72, speed +61, protection +13069, crit chance +16, health +11228, offense +768<table class="mods"><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m5" /><b>+8.5% offense</b><ul><li><b>+81 offense</b> (2)</li><li><b>+2.14% protection</b> (1)</li><li>+6.51% potency (3)</li><li><b>+2.29% health</b> (2)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+32 speed</b><ul><li>+39 defense (3)</li><li>+4.77% potency (2)</li><li>+1.86% tenacity (1)</li><li><b>+4.36% protection</b> (2)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" />+20% defense<ul><li><b>+1.4% crit chance</b> (1)</li><li><b>+4.29% protection</b> (2)</li><li><b>+14 speed</b> (3)</li><li>+5.31% potency (2)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m5" /><b>+42% crit damage</b><ul><li><b>+2.97% offense</b> (2)</li><li>+27 defense (2)</li><li><b>+1.93% crit chance</b> (1)</li><li><b>+1332 health</b> (3)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+16% health</b><ul><li>+4.38% potency (2)</li><li><b>+70 offense</b> (2)</li><li><b>+10 speed</b> (2)</li><li>+5.03% tenacity (2)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+24% protection</b><ul><li><b>+5 speed</b> (1)</li><li><b>+787 protection</b> (1)</li><li><b>+4.7% crit chance</b> (3)</li><li><b>+1266 health</b> (3)</li></ul></div></td></tr></table></td></tr></table><div id="mc-1" style="height:500px" /><script>
+{
+let traces = [];traces.push({
+    name: "speed",
+    x: [ 20, 30, 40, 50, 60, 70, 80, 90, 100 ],
+    y: [ 0, 1, 6, 10, 24, 21, 23, 7, 4 ],
+    text: [ 0.0, 2.0, 8.0, 18.0, 43.0, 64.0, 87.0, 95.0, 99.0 ],
+    hovertemplate: '%{y}% of players have +%{x} speed<br>%{text}% of players have +%{x} or less<br>speed range: +20 - +100',});traces.push({
+    name: "protection",
+    x: [ 0, 2500, 5000, 7500, 10000, 12500, 15000, 17500, 20000, 22500 ],
+    y: [ 1, 5, 10, 3, 21, 29, 5, 7, 8, 4 ],
+    text: [ 1.0, 7.0, 17.0, 21.0, 42.0, 72.0, 78.0, 85.0, 93.0, 98.0 ],
+    hovertemplate: '%{y}% of players have +%{x} protection<br>%{text}% of players have +%{x} or less<br>protection range: +0 - +22500',xaxis: "x2",});traces.push({
+    name: "crit chance",
+    x: [ 0, 1, 2, 2, 3, 4, 5, 6, 7, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 21, 22, 23 ],
+    y: [ 0, 4, 0, 0, 2, 4, 4, 3, 0, 0, 8, 7, 4, 7, 7, 10, 5, 6, 5, 6, 1, 1, 2, 0, 0, 1, 0 ],
+    text: [ 0.0, 4.0, 4.0, 4.0, 7.0, 11.0, 15.0, 19.0, 20.0, 20.0, 28.0, 36.0, 40.0, 47.0, 54.0, 65.0, 70.0, 77.0, 83.0, 89.0, 91.0, 93.0, 95.0, 96.0, 96.0, 97.0, 98.0 ],
+    hovertemplate: '%{y}% of players have +%{x} crit chance<br>%{text}% of players have +%{x} or less<br>crit chance range: +0 - +23',xaxis: "x4",});traces.push({
+    name: "health",
+    x: [ 0, 2500, 5000, 7500, 10000 ],
+    y: [ 11, 42, 29, 9, 6 ],
+    text: [ 12.0, 54.0, 83.0, 93.0, 99.0 ],
+    hovertemplate: '%{y}% of players have +%{x} health<br>%{text}% of players have +%{x} or less<br>health range: +0 - +10000',xaxis: "x2",});traces.push({
+    name: "offense",
+    x: [ 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200 ],
+    y: [ 0, 2, 18, 21, 13, 14, 17, 7, 2, 1, 0 ],
+    text: [ 0.0, 2.0, 21.0, 43.0, 56.0, 70.0, 88.0, 95.0, 98.0, 99.0, 99.0 ],
+    hovertemplate: '%{y}% of players have +%{x} offense<br>%{text}% of players have +%{x} or less<br>offense range: +200 - +1200',xaxis: "x3",});let layout = {
+      title: "Attribute distribution for R5 unit prioritizing crit damage, speed, protection, crit chance, health, offense.",
+      hovermode: "closest",
+      yaxis: {
+        title: '% of players',
+      },
+      xaxis: {
+          zeroline: false,
+          showline: false,
+          autotick: true,
+          ticks: '',
+          showticklabels: false
+      },
+      xaxis2: {
+          overlaying: 'x',
+          zeroline: false,
+          showline: false,
+          autotick: true,
+          showgrid: false,
+          ticks: '',
+          showticklabels: false
+      },
+      xaxis3: {
+          overlaying: 'x',
+          zeroline: false,
+          showline: false,
+          autotick: true,
+          showgrid: false,
+          ticks: '',
+          showticklabels: false
+      },
+      xaxis4: {
+          overlaying: 'x',
+          zeroline: false,
+          showline: false,
+          autotick: true,
+          showgrid: false,
+          ticks: '',
+          showticklabels: false
+      },
+      margin: {
+          t: 60,
+          b: 0,
+      }
+}
+Plotly.newPlot('mc-1', traces, layout)
+}
+</script><h4>#3 - 7% - protection, crit damage, crit chance, speed, health, defense, offense</h4><table><tr><td class="examples"><b>Typical Mods: </b><br/>protection +27667, crit damage +30, crit chance +13, speed +44, health +2420, defense +4, offense +458<table class="mods"><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+5.88% offense</b><ul><li><b>+43 offense</b> (1)</li><li><b>+7 defense</b> (1)</li><li><b>+5 speed</b> (1)</li><li><b>+372 health</b> (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m5" /><b>+30 speed</b><ul><li><b>+1.46% health</b> (2)</li><li><b>+13 defense</b> (2)</li><li><b>+0.48% offense</b> (1)</li><li><b>+1425 protection</b> (2)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m5" /><b>+11.75% defense</b><ul><li><b>+5 speed</b> (1)</li><li><b>+0.29% offense</b> (1)</li><li><b>+744 protection</b> (1)</li><li><b>+5 defense</b> (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+23.5% protection</b><ul><li><b>+37 offense</b> (1)</li><li><b>+5.72% crit chance</b> (3)</li><li><b>+1.09% health</b> (1)</li><li><b>+612 protection</b> (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+23.5% protection</b><ul><li><b>+0.98% defense</b> (1)</li><li><b>+0.79% health</b> (1)</li><li><b>+6 defense</b> (1)</li><li><b>+4 speed</b> (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+23.5% protection</b><ul><li><b>+1.01% health</b> (1)</li><li>+5.57% tenacity (3)</li><li><b>+0.38% offense</b> (1)</li><li><b>+3.9% defense</b> (3)</li></ul></div></td></tr></table></td><td class="examples"><b>Great Mods: </b><br/>protection +25010, crit damage +66, crit chance +17, speed +57, health +3038, defense +3, offense +469<table class="mods"><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+5.88% offense</b><ul><li><b>+2.15% health</b> (2)</li><li><b>+10 speed</b> (3)</li><li><b>+525 health</b> (2)</li><li><b>+817 protection</b> (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m5" /><b>+30 speed</b><ul><li>+3.17% tenacity (2)</li><li>+3.94% potency (3)</li><li><b>+0.57% health</b> (1)</li><li><b>+1281 protection</b> (2)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+11.75% defense</b><ul><li><b>+13 speed</b> (3)</li><li><b>+0.77% offense</b> (2)</li><li><b>+402 health</b> (1)</li><li><b>+2.76% protection</b> (2)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+36% crit damage</b><ul><li><b>+3450 protection</b> (5)</li><li><b>+0.56% health</b> (1)</li><li><b>+4 speed</b> (1)</li><li><b>+6 defense</b> (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m5" /><b>+23.5% protection</b><ul><li><b>+6.6% crit chance</b> (3)</li><li><b>+562 health</b> (2)</li><li><b>+70 offense</b> (2)</li><li><b>+1.14% defense</b> (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+23.5% protection</b><ul><li><b>+1897 protection</b> (3)</li><li>+3.5% potency (2)</li><li><b>+3.02% crit chance</b> (2)</li><li><b>+41 offense</b> (1)</li></ul></div></td></tr></table></td></tr></table><div id="mc-2" style="height:500px" /><script>
+{
+let traces = [];traces.push({
+    name: "protection",
+    x: [ 15000, 17500, 20000, 22500, 25000, 27500, 30000 ],
+    y: [ 0, 3, 13, 20, 23, 33, 3 ],
+    text: [ 0.0, 3.0, 17.0, 37.0, 60.0, 93.0, 97.0 ],
+    hovertemplate: '%{y}% of players have +%{x} protection<br>%{text}% of players have +%{x} or less<br>protection range: +15000 - +30000',xaxis: "x2",});traces.push({
+    name: "crit chance",
+    x: [ 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 21, 22, 23, 24 ],
+    y: [ 0, 3, 0, 0, 16, 3, 6, 3, 6, 6, 10, 10, 16, 6, 0, 0, 3, 3, 0 ],
+    text: [ 0.0, 3.0, 3.0, 3.0, 20.0, 23.0, 30.0, 33.0, 40.0, 47.0, 57.0, 67.0, 83.0, 90.0, 90.0, 90.0, 93.0, 97.0, 97.0 ],
+    hovertemplate: '%{y}% of players have +%{x} crit chance<br>%{text}% of players have +%{x} or less<br>crit chance range: +4 - +24',xaxis: "x4",});traces.push({
+    name: "speed",
+    x: [ 0, 10, 20, 20, 30, 40, 50, 60, 70, 80 ],
+    y: [ 3, 6, 0, 0, 16, 13, 16, 23, 16, 0 ],
+    text: [ 3.0, 10.0, 10.0, 10.0, 27.0, 40.0, 57.0, 80.0, 97.0, 97.0 ],
+    hovertemplate: '%{y}% of players have +%{x} speed<br>%{text}% of players have +%{x} or less<br>speed range: +0 - +80',});traces.push({
+    name: "health",
+    x: [ 0, 2500, 5000 ],
+    y: [ 6, 76, 10 ],
+    text: [ 7.0, 83.0, 93.0 ],
+    hovertemplate: '%{y}% of players have +%{x} health<br>%{text}% of players have +%{x} or less<br>health range: +0 - +5000',xaxis: "x2",});traces.push({
+    name: "defense",
+    x: [ 1, 2, 3, 4, 5, 6 ],
+    y: [ 0, 3, 36, 40, 6, 10 ],
+    text: [ 0.0, 3.0, 40.0, 80.0, 87.0, 97.0 ],
+    hovertemplate: '%{y}% of players have +%{x} defense<br>%{text}% of players have +%{x} or less<br>defense range: +1 - +6',xaxis: "x4",});traces.push({
+    name: "offense",
+    x: [ 200, 300, 400, 500, 600, 700, 800 ],
+    y: [ 0, 6, 16, 50, 16, 6, 0 ],
+    text: [ 0.0, 7.0, 23.0, 73.0, 90.0, 97.0, 97.0 ],
+    hovertemplate: '%{y}% of players have +%{x} offense<br>%{text}% of players have +%{x} or less<br>offense range: +200 - +800',xaxis: "x3",});let layout = {
+      title: "Attribute distribution for R5 unit prioritizing protection, crit damage, crit chance, speed, health, defense, offense.",
+      hovermode: "closest",
+      yaxis: {
+        title: '% of players',
+      },
+      xaxis: {
+          zeroline: false,
+          showline: false,
+          autotick: true,
+          ticks: '',
+          showticklabels: false
+      },
+      xaxis2: {
+          overlaying: 'x',
+          zeroline: false,
+          showline: false,
+          autotick: true,
+          showgrid: false,
+          ticks: '',
+          showticklabels: false
+      },
+      xaxis3: {
+          overlaying: 'x',
+          zeroline: false,
+          showline: false,
+          autotick: true,
+          showgrid: false,
+          ticks: '',
+          showticklabels: false
+      },
+      xaxis4: {
+          overlaying: 'x',
+          zeroline: false,
+          showline: false,
+          autotick: true,
+          showgrid: false,
+          ticks: '',
+          showticklabels: false
+      },
+      margin: {
+          t: 60,
+          b: 0,
+      }
+}
+Plotly.newPlot('mc-2', traces, layout)
+}
+</script><h4>#4 - 5% - crit chance, crit damage, speed, protection, health, defense, offense</h4><table><tr><td class="examples"><b>Typical Mods: </b><br/>crit chance +21, crit damage +30, speed +56, protection +6905, health +3514, defense +4, offense +782<table class="mods"><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+5.88% offense</b><ul><li><b>+3 speed</b> (1)</li><li><b>+4.89% protection</b> (3)</li><li><b>+1.63% crit chance</b> (1)</li><li><b>+742 protection</b> (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+30 speed</b><ul><li><b>+1584 protection</b> (2)</li><li>+1.69% tenacity (1)</li><li><b>+413 health</b> (1)</li><li><b>+34 offense</b> (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m5" /><b>+11.75% defense</b><ul><li><b>+1.11% offense</b> (3)</li><li><b>+8 speed</b> (2)</li><li>+1.54% potency (1)</li><li><b>+3.3% protection</b> (2)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+12% crit chance</b><ul><li>+3.59% potency (2)</li><li><b>+5 speed</b> (1)</li><li><b>+29 offense</b> (1)</li><li><b>+5 defense</b> (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m5" /><b>+5.88% health</b><ul><li><b>+10 speed</b> (2)</li><li><b>+9 defense</b> (1)</li><li><b>+5.42% defense</b> (4)</li><li><b>+2.23% protection</b> (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+5.88% offense</b><ul><li><b>+2.56% protection</b> (2)</li><li><b>+26 offense</b> (1)</li><li>+1.3% potency (1)</li><li><b>+327 health</b> (1)</li></ul></div></td></tr></table></td><td class="examples"><b>Great Mods: </b><br/>crit chance +38, crit damage +30, speed +90, protection +17832, health +2025, defense +7, offense +782<table class="mods"><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m5" /><b>+8.5% offense</b><ul><li><b>+82 offense</b> (2)</li><li><b>+10 speed</b> (2)</li><li>+2.29% tenacity (1)</li><li><b>+4.56% crit chance</b> (3)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+32 speed</b><ul><li><b>+6.73% defense</b> (2)</li><li>+7.28% tenacity (3)</li><li><b>+75 offense</b> (2)</li><li><b>+1.78% crit chance</b> (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m5" /><b>+20% defense</b><ul><li><b>+87 offense</b> (3)</li><li><b>+888 protection</b> (1)</li><li><b>+13 speed</b> (3)</li><li><b>+1.35% crit chance</b> (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+20% crit chance</b><ul><li>+9.88% potency (4)</li><li><b>+418 health</b> (1)</li><li><b>+5.87% defense</b> (2)</li><li><b>+6 speed</b> (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+24% protection</b><ul><li><b>+1607 health</b> (4)</li><li><b>+11 speed</b> (2)</li><li>+2.82% tenacity (1)</li><li><b>+0.93% offense</b> (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m6" /><b>+24% protection</b><ul><li><b>+18 speed</b> (4)</li><li>+2.17% potency (1)</li><li><b>+2.77% crit chance</b> (2)</li><li><b>+31 offense</b> (1)</li></ul></div></td></tr></table></td></tr></table><div id="mc-3" style="height:500px" /><script>
+{
+let traces = [];traces.push({
+    name: "crit chance",
+    x: [ 9, 10, 11, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 23, 24, 24, 25, 26, 27, 28, 29, 30, 31, 31, 32, 33 ],
+    y: [ 0, 2, 0, 0, 2, 2, 0, 0, 2, 5, 2, 0, 0, 2, 7, 15, 5, 10, 0, 0, 5, 7, 5, 5, 5, 5, 0, 0, 2, 0 ],
+    text: [ 0.0, 3.0, 3.0, 3.0, 5.0, 8.0, 8.0, 8.0, 11.0, 16.0, 18.0, 18.0, 18.0, 21.0, 29.0, 45.0, 50.0, 61.0, 61.0, 61.0, 66.0, 74.0, 79.0, 84.0, 89.0, 95.0, 95.0, 95.0, 97.0, 97.0 ],
+    hovertemplate: '%{y}% of players have +%{x} crit chance<br>%{text}% of players have +%{x} or less<br>crit chance range: +9 - +33',xaxis: "x4",});traces.push({
+    name: "speed",
+    x: [ 30, 40, 50, 60, 70, 80, 90 ],
+    y: [ 0, 2, 15, 21, 10, 31, 13 ],
+    text: [ 0.0, 3.0, 18.0, 39.0, 50.0, 82.0, 95.0 ],
+    hovertemplate: '%{y}% of players have +%{x} speed<br>%{text}% of players have +%{x} or less<br>speed range: +30 - +90',});traces.push({
+    name: "protection",
+    x: [ 2500, 5000, 7500, 10000, 12500, 15000, 17500, 20000, 22500, 25000 ],
+    y: [ 0, 7, 7, 15, 21, 10, 13, 10, 10, 0 ],
+    text: [ 0.0, 8.0, 16.0, 32.0, 53.0, 63.0, 76.0, 87.0, 97.0, 97.0 ],
+    hovertemplate: '%{y}% of players have +%{x} protection<br>%{text}% of players have +%{x} or less<br>protection range: +2500 - +25000',xaxis: "x2",});traces.push({
+    name: "health",
+    x: [ 0, 2500, 5000, 7500 ],
+    y: [ 10, 50, 28, 5 ],
+    text: [ 11.0, 61.0, 89.0, 95.0 ],
+    hovertemplate: '%{y}% of players have +%{x} health<br>%{text}% of players have +%{x} or less<br>health range: +0 - +7500',xaxis: "x2",});traces.push({
+    name: "defense",
+    x: [ 1, 2, 3, 4, 5, 6, 7, 8 ],
+    y: [ 0, 2, 21, 42, 13, 13, 5, 0 ],
+    text: [ 0.0, 3.0, 24.0, 66.0, 79.0, 92.0, 97.0, 97.0 ],
+    hovertemplate: '%{y}% of players have +%{x} defense<br>%{text}% of players have +%{x} or less<br>defense range: +1 - +8',xaxis: "x4",});traces.push({
+    name: "offense",
+    x: [ 300, 400, 500, 600, 700, 800 ],
+    y: [ 0, 23, 26, 15, 7, 18 ],
+    text: [ 0.0, 24.0, 50.0, 66.0, 74.0, 92.0 ],
+    hovertemplate: '%{y}% of players have +%{x} offense<br>%{text}% of players have +%{x} or less<br>offense range: +300 - +800',xaxis: "x3",});let layout = {
+      title: "Attribute distribution for R5 unit prioritizing crit chance, crit damage, speed, protection, health, defense, offense.",
+      hovermode: "closest",
+      yaxis: {
+        title: '% of players',
+      },
+      xaxis: {
+          zeroline: false,
+          showline: false,
+          autotick: true,
+          ticks: '',
+          showticklabels: false
+      },
+      xaxis2: {
+          overlaying: 'x',
+          zeroline: false,
+          showline: false,
+          autotick: true,
+          showgrid: false,
+          ticks: '',
+          showticklabels: false
+      },
+      xaxis3: {
+          overlaying: 'x',
+          zeroline: false,
+          showline: false,
+          autotick: true,
+          showgrid: false,
+          ticks: '',
+          showticklabels: false
+      },
+      xaxis4: {
+          overlaying: 'x',
+          zeroline: false,
+          showline: false,
+          autotick: true,
+          showgrid: false,
+          ticks: '',
+          showticklabels: false
+      },
+      margin: {
+          t: 60,
+          b: 0,
+      }
+}
+Plotly.newPlot('mc-3', traces, layout)
+}
+</script><h2>Alliance Demographic Data</h2>Based on 1183 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="specialskill_SABINEWRENS302"><img src="https://swgoh.gg/game-asset/a/specialskill_SABINEWRENS302/" style="width: 30px" /> Demolish</td><td>Phoenix allies gain Critical Chance Up and Offense Up for 2 turns, reduce Sabine's cooldowns by 2 on a Critical Hit, Stagger all enemies for 2 turns, and for each active Phoenix ally deal 15% more damage and Expose a random enemy</td><td>202</td><td>17%</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+let trace = {
+    y: [ 32, 10, 5, 18, 10, 30, 177, 505, 23, 133, 118, 103, 0, 3, 1, 2, 5, 4, 1, 3, 0 ],
+    type: "bar",
+    name: "Number of Players"
+}
+let trace2 = {
+    y: [ 2.7049873203719357, 3.5502958579881656, 3.9729501267962806, 5.4945054945054945, 6.3398140321217245, 8.875739644970414, 23.837700760777686, 66.5257819103973, 68.46999154691463, 79.71259509721048, 89.687235841082, 98.39391377852917, 98.39391377852917, 98.64750633981404, 98.73203719357566, 98.9010989010989, 99.32375316990702, 99.66187658495352, 99.74640743871514, 100.00000000000001, 100.00000000000001 ],
+    yaxis: "y2",
+    type: "line",
+    name: "Cumulative % Players"
+}
+let layout = {
+    title: "Gear Levels",
+    xaxis: {
+        tickvals: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 ],
+        ticktext: [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "R1", "R2", "R3", "R4", "R5", "R6", "R7", "R8" ]
+    },
+    yaxis: { title: "Number of Players" },
+    yaxis2: {
+        title: "Cumulative % Players",
+        overlaying: "y",
+        side: "right"
+    }
+}
+Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
+</script><br/>
+<font size="-2">Generated 2021-01-31 03:16:09 +0000</font>
