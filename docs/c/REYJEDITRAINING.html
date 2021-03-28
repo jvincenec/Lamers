@@ -385,14 +385,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Alliance Demographic Data</h2>Based on 59 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_REYJEDITRAINING"><img src="https://swgoh.gg/game-asset/a/leaderskill_REYJEDITRAINING/" style="width: 30px" /> Inspirational Presence</td><td>When a Resistance ally uses a Special ability, all Exposed enemies lose 5% Turn Meter, which can't be Evaded or Resisted; When a Resistance ally uses a Special ability, if they aren't debuffed, reduce their Cooldowns by 1</td><td>41</td><td>69 %</td></tr><tr><td data-order="uniqueskill_REYJEDITRAINING01"><img src="https://swgoh.gg/game-asset/a/uniqueskill_REYJEDITRAINING01/" style="width: 30px" /> Virtuous Protector</td><td>When Rey suffers a debuff she has a 40% chance to Dispel all debuffs on herself</td><td>31</td><td>53 %</td></tr><tr><td data-order="uniqueskill_REYJEDITRAINING02"><img src="https://swgoh.gg/game-asset/a/uniqueskill_REYJEDITRAINING02/" style="width: 30px" /> Insight</td><td>At the end of her turn, if Rey already had Critical Damage Up, she gains Offense Up until she is damaged; at the start of each encounter, Rey gains Foresight until she Evades; when Rey Evades, she recovers 5% Health and 5% Protection</td><td>34</td><td>58 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Alliance Demographic Data</h2>Based on 98 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="leaderskill_REYJEDITRAINING"><img src="https://swgoh.gg/game-asset/a/leaderskill_REYJEDITRAINING/" style="width: 30px" /> Inspirational Presence</td><td>When a Resistance ally uses a Special ability, all Exposed enemies lose 5% Turn Meter, which can't be Evaded or Resisted; When a Resistance ally uses a Special ability, if they aren't debuffed, reduce their Cooldowns by 1</td><td>72</td><td>73 %</td></tr><tr><td data-order="uniqueskill_REYJEDITRAINING01"><img src="https://swgoh.gg/game-asset/a/uniqueskill_REYJEDITRAINING01/" style="width: 30px" /> Virtuous Protector</td><td>When Rey suffers a debuff she has a 40% chance to Dispel all debuffs on herself</td><td>58</td><td>59 %</td></tr><tr><td data-order="uniqueskill_REYJEDITRAINING02"><img src="https://swgoh.gg/game-asset/a/uniqueskill_REYJEDITRAINING02/" style="width: 30px" /> Insight</td><td>At the end of her turn, if Rey already had Critical Damage Up, she gains Offense Up until she is damaged; at the start of each encounter, Rey gains Foresight until she Evades; when Rey Evades, she recovers 5% Health and 5% Protection</td><td>64</td><td>65 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 0, 0, 0, 0, 0, 1, 0, 13, 1, 0, 8, 3, 0, 0, 2, 1, 6, 4, 1, 19, 0 ],
+    y: [ 0, 0, 0, 0, 1, 1, 1, 16, 2, 0, 14, 15, 1, 0, 4, 2, 7, 7, 2, 25, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 0.0, 0.0, 0.0, 0.0, 0.0, 1.694915254237288, 1.694915254237288, 23.72881355932203, 25.42372881355932, 25.42372881355932, 38.98305084745762, 44.06779661016948, 44.06779661016948, 44.06779661016948, 47.457627118644055, 49.15254237288134, 59.32203389830507, 66.10169491525423, 67.79661016949152, 99.99999999999999, 99.99999999999999 ],
+    y: [ 0.0, 0.0, 0.0, 0.0, 1.0204081632653061, 2.0408163265306123, 3.0612244897959187, 19.387755102040817, 21.42857142857143, 21.42857142857143, 35.714285714285715, 51.02040816326531, 52.04081632653062, 52.04081632653062, 56.122448979591844, 58.163265306122454, 65.3061224489796, 72.44897959183673, 74.48979591836735, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -412,5 +412,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2021-03-28 10:34:57 +0000</font>
+<font size="-2">Generated 2021-03-28 11:02:59 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
