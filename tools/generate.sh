@@ -57,15 +57,19 @@ ret=$?
 times 
 
 ### Hotfixes ###
+echo "==============="
+echo "HOTFIXES"
 
-# Fix character icons
+echo "Fixing character icons"
 sed -i '' "s/content:/background-size: cover; background-image:/g" docs/toons.css
 
-# Rename all "BG Alliance" to "LP Community", because html files get overwritten every time
+echo "Rebranding BGA to LPC"
+# Because html files get overwritten every time
 find docs/ -type f -name '*.html' -exec sed -i '' 's/BRG Alliance/LP Community/g' {} \;
 
+echo "Renaming Alliance to Community"
 # Remove extra "Alliance" from page names
-find docs/ -type f -name '*.html' -exec sed -i '' 's/: Alliance//g' {} \;
+find docs/ -type f -name '*.html' -exec sed -i '' 's/: Alliance/:/g' {} \;
 
 # Rename "Alliance" to "Community"
 find docs/ -type f -name '*.html' -exec sed -i '' 's/Alliance/Community/g' {} \;
