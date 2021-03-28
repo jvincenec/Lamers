@@ -52,4 +52,23 @@ time swgoh-tool --alliance docs *.json
 
 wait
 
-ret=$?; times; exit "$ret"
+ret=$?
+
+times 
+
+### Hotfixes ###
+
+# Fix character icons
+sed -i '' "s/content:/background-size: cover; background-image:/g" docs/toons.css
+
+# Rename all "BG Alliance" to "LP Community", because html files get overwritten every time
+find docs/ -type f -name '*.html' -exec sed -i '' 's/BRG Alliance/LP Community/g' {} \;
+
+# Remove extra "Alliance" from page names
+find docs/ -type f -name '*.html' -exec sed -i '' 's/: Alliance//g' {} \;
+
+# Rename "Alliance" to "Community"
+find docs/ -type f -name '*.html' -exec sed -i '' 's/Alliance/Community/g' {} \;
+
+### End of script ###
+exit "$ret"
