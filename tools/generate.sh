@@ -6,6 +6,8 @@ guilds=(
 	'oae 979789966'
 	'bad 619182389'
 	'end 845439946'
+	'in 365661424'
+	'ds 921768629'
 )
 
 # prime the pipe -- fetch the first guild
