@@ -296,14 +296,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h2>Community Demographic Data</h2>Based on 216 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_R2D2_LEGENDARY01"><img src="https://swgoh.gg/game-asset/a/uniqueskill_R2D2_LEGENDARY01/" style="width: 30px" /> Combat Analysis</td><td>While R2-D2 is active, whenever a Light Side ally scores a Critical Hit, dispel all debuffs on them</td><td>79</td><td>37 %</td></tr><tr><td data-order="uniqueskill_R2D2_LEGENDARY02"><img src="https://swgoh.gg/game-asset/a/uniqueskill_R2D2_LEGENDARY02/" style="width: 30px" /> Number Crunch</td><td>At the start of battle, and when R2-D2 is revived, other Droid, Galactic Republic, Rebel, and Resistance allies gain 10% of R2-D2's Max Protection, Offense, Max Health, and Potency until R2-D2 is defeated</td><td>100</td><td>46 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Community Demographic Data</h2>Based on 223 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_R2D2_LEGENDARY01"><img src="https://swgoh.gg/game-asset/a/uniqueskill_R2D2_LEGENDARY01/" style="width: 30px" /> Combat Analysis</td><td>While R2-D2 is active, whenever a Light Side ally scores a Critical Hit, dispel all debuffs on them</td><td>79</td><td>35 %</td></tr><tr><td data-order="uniqueskill_R2D2_LEGENDARY02"><img src="https://swgoh.gg/game-asset/a/uniqueskill_R2D2_LEGENDARY02/" style="width: 30px" /> Number Crunch</td><td>At the start of battle, and when R2-D2 is revived, other Droid, Galactic Republic, Rebel, and Resistance allies gain 10% of R2-D2's Max Protection, Offense, Max Health, and Potency until R2-D2 is defeated</td><td>103</td><td>46 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 1, 0, 2, 3, 4, 8, 10, 47, 22, 23, 20, 35, 0, 3, 3, 5, 10, 4, 0, 16, 0 ],
+    y: [ 3, 0, 0, 3, 4, 9, 9, 50, 21, 26, 20, 37, 1, 2, 3, 4, 10, 5, 0, 16, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 0.4629629629629629, 0.4629629629629629, 1.3888888888888888, 2.7777777777777777, 4.62962962962963, 8.333333333333332, 12.962962962962962, 34.72222222222222, 44.907407407407405, 55.55555555555556, 64.81481481481481, 81.0185185185185, 81.0185185185185, 82.40740740740739, 83.79629629629628, 86.11111111111109, 90.74074074074072, 92.59259259259257, 92.59259259259257, 99.99999999999997, 99.99999999999997 ],
+    y: [ 1.345291479820628, 1.345291479820628, 1.345291479820628, 2.690582959641256, 4.4843049327354265, 8.52017937219731, 12.556053811659194, 34.97757847533633, 44.394618834080724, 56.05381165919283, 65.02242152466368, 81.61434977578476, 82.06278026905831, 82.95964125560539, 84.30493273542602, 86.09865470852019, 90.58295964125561, 92.82511210762333, 92.82511210762333, 100.00000000000001, 100.00000000000001 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -323,5 +323,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2021-05-15 09:40:16 +0000</font>
+<font size="-2">Generated 2021-05-23 15:56:51 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
