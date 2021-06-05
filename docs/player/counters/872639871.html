@@ -224,7 +224,7 @@ No available counter squads.  Click for general strategy and squads to farm.
 </div>
 </td>
 </tr></tr><tr id="FO_KRU" style="background: #aaaaff">
-<td onclick="$('.counter').hide(0, function() { $('#FO_KRU_General').show() });"><div class="toT"><img class="toI squad KYLORENUNMASKED-i"/><br/>First Order (KRU L)</div></td><td colspan="3" class="verbage" style="position: relative"><div style="display: flex"><div onclick="$('.counter').hide(0, function() { $('#FO_KRU_PHOENIX').show() });" class="toT"><img class="toI softCounter HERASYNDULLAS3-i"/><br/>Phoenix</div></div></td><tr id="FO_KRU_General" class="counter toggleable">
+<td onclick="$('.counter').hide(0, function() { $('#FO_KRU_General').show() });"><div class="toT"><img class="toI squad KYLORENUNMASKED-i"/><br/>First Order (KRU L)</div></td><td colspan="3" class="verbage" style="position: relative"><div style="display: flex"><div class="gearNeeded" onclick="$('.counter').hide(0, function() { $('#FO_KRU_EWOKS').show() });" class="toT"><img class="toI hardCounter CHIEFCHIRPA-i"/><img title="Chirpa: missing zetas.  Elder: low gear.  Paploo: low gear.  Wicket: low stars.  Logray: low stars.  " src="../../i/tractor24.png"><br/>Ewoks</div><span style="background-color:#000; width:2px">&nbsp;</span><div onclick="$('.counter').hide(0, function() { $('#FO_KRU_PHOENIX').show() });" class="toT"><img class="toI softCounter HERASYNDULLAS3-i"/><br/>Phoenix</div></div></td><tr id="FO_KRU_General" class="counter toggleable">
 <td colspan="4">
 <h3>Opponent</h3>
 <div style="display: flex">
@@ -240,8 +240,29 @@ No available counter squads.  Click for general strategy and squads to farm.
 <h3>Additional Counter Teams</h3>
 <i>Click one of your counter teams (above) to see details about one of your teams.</i>
 <div style="display: flex">
-<div class="toT"><img class="toI squad CHIEFCHIRPA-i" title="Chirpa, Wicket, Elder, Paploo, Logray"/><br/>Ewoks</div><div class="toT"><img class="toI squad REYJEDITRAINING-i" title="JTR, BB-8, Scav Rey, Finn, RT"/><br/>Resistance (JTR L)</div><div class="toT"><img class="toI squad PADMEAMIDALA-i" title="Padme, JKA, Ahsoka, GK, Barriss"/><br/>Galactic Republic</div><div class="toT"><img class="toI squad SHAAKTI-i" title="Shaak Ti, Clone Sergeant, Rex, Echo (501st), Fives"/><br/>Clones (Shaak Ti L)</div><div class="toT"><img class="toI squad COMMANDERLUKESKYWALKER-i" title="CLS, Han, Chewbacca, C-3PO, R2-D2"/><br/>Rebels (CLS L)</div><div class="toT"><img class="toI squad GRIEVOUS-i" title="GG, B1, Droideka, B2, MagnaGuard"/><br/>Separatist Droids</div><div class="toT"><img class="toI squad DARTHREVAN-i" title="DR, BSF, HK-47, Sith Empire Trooper, Sith Assassin"/><br/>Sith Empire (w/o Malak)</div><div class="toT"><img class="toI squad VEERS-i" title="Veers, Starck, Range Trooper, Snowtrooper, DT"/><br/>Imperial Troopers</div><div class="toT"><img class="toI squad GEONOSIANBROODALPHA-i" title="GBA, Sun Fac, Geo Soldier, Geo Spy, Poggle"/><br/>Geonosians</div><div class="toT"><img class="toI squad MOTHERTALZIN-i" title="MT, AV, Daka, Zombie, Spirit"/><br/>Nightsisters (Talzin L)</div><div class="toT"><img class="toI squad CT7567-i" title="Rex, Wampa"/><br/>Rex/Wampa</div><div class="toT"><img class="toI squad WEDGEANTILLES-i" title="Wedge, Biggs, CLS, Han, Chewbacca"/><br/>Rebels (Danger Zone)</div>
+<div class="toT"><img class="toI squad REYJEDITRAINING-i" title="JTR, BB-8, Scav Rey, Finn, RT"/><br/>Resistance (JTR L)</div><div class="toT"><img class="toI squad PADMEAMIDALA-i" title="Padme, JKA, Ahsoka, GK, Barriss"/><br/>Galactic Republic</div><div class="toT"><img class="toI squad SHAAKTI-i" title="Shaak Ti, Clone Sergeant, Rex, Echo (501st), Fives"/><br/>Clones (Shaak Ti L)</div><div class="toT"><img class="toI squad COMMANDERLUKESKYWALKER-i" title="CLS, Han, Chewbacca, C-3PO, R2-D2"/><br/>Rebels (CLS L)</div><div class="toT"><img class="toI squad GRIEVOUS-i" title="GG, B1, Droideka, B2, MagnaGuard"/><br/>Separatist Droids</div><div class="toT"><img class="toI squad DARTHREVAN-i" title="DR, BSF, HK-47, Sith Empire Trooper, Sith Assassin"/><br/>Sith Empire (w/o Malak)</div><div class="toT"><img class="toI squad VEERS-i" title="Veers, Starck, Range Trooper, Snowtrooper, DT"/><br/>Imperial Troopers</div><div class="toT"><img class="toI squad GEONOSIANBROODALPHA-i" title="GBA, Sun Fac, Geo Soldier, Geo Spy, Poggle"/><br/>Geonosians</div><div class="toT"><img class="toI squad MOTHERTALZIN-i" title="MT, AV, Daka, Zombie, Spirit"/><br/>Nightsisters (Talzin L)</div><div class="toT"><img class="toI squad CT7567-i" title="Rex, Wampa"/><br/>Rex/Wampa</div><div class="toT"><img class="toI squad WEDGEANTILLES-i" title="Wedge, Biggs, CLS, Han, Chewbacca"/><br/>Rebels (Danger Zone)</div>
 </div>
+</td>
+</tr><tr id="FO_KRU_EWOKS" class="counter toggleable">
+<td valign="top" colspan="2">
+<h3>Opponent</h3>
+<div style="display: flex">
+    <div class="toT"><img class="toI squad KYLORENUNMASKED-i" /><br/>KRU</div><div class="toT"><img class="toI squad KYLOREN-i" /><br/>Kylo</div><div class="toT"><img class="toI squad FIRSTORDEREXECUTIONER-i" /><br/>FOE</div><div class="toT"><img class="toI squad FIRSTORDEROFFICERMALE-i" /><br/>FOO</div><div class="toT"><img class="toI squad FIRSTORDERTROOPER-i" /><br/>FOST</div>
+</div>
+
+<h3>Description</h3>
+<div class="FO_KRU-desc"></div>
+</td>
+<td colspan="2">
+<h3>Hard Counter: Ewoks 43k</h3>
+<div style="display: flex">
+    <div class="toT"><img class="toI squad CHIEFCHIRPA-i"><br/>Chirpa 7</div> <div class="toT"><img class="toI squad EWOKELDER-i"><br/>Elder 6</div> <div class="toT"><img class="toI squad PAPLOO-i"><br/>Paploo 7</div> <div class="toT"><img class="toI squad WICKET-i"><br/>Wicket 3* 6</div> <div class="toT"><img class="toI squad LOGRAY-i"><br/>Logray 4* 6</div><div class="toT"><img title="Chirpa: missing zetas.  Elder: low gear.  Paploo: low gear.  Wicket: low stars.  Logray: low stars.  " src="../../i/tractor24.png">&nbsp;Chirpa: missing zetas.  Elder: low gear.  Paploo: low gear.  Wicket: low stars.  Logray: low stars.  </div>
+</div>
+
+<h3>Subs</h3><div class="EWOKS-subs"></div>
+<h3>Strategy</h3><div class="FO_KRU-EWOKS-strat"></div>
+<h3>General Strategy</h3>
+<div class="FO_KRU-strat"></div>
 </td>
 </tr><tr id="FO_KRU_PHOENIX" class="counter toggleable">
 <td valign="top" colspan="2">
@@ -256,7 +277,7 @@ No available counter squads.  Click for general strategy and squads to farm.
 <td colspan="2">
 <h3>Counter: Phoenix 70k</h3>
 <div style="display: flex">
-    <div class="toT"><img class="toI squad HERASYNDULLAS3-i"><br/>Hera 9</div> <div class="toT"><img class="toI squad EZRABRIDGERS3-i"><br/>Ezra 9</div> <div class="toT"><img class="toI squad ZEBS3-i"><br/>Zeb 9</div> <div class="toT"><img class="toI squad KANANJARRUSS3-i"><br/>Kanan 9</div> <div class="toT"><img class="toI squad CHOPPERS3-i"><br/>Chopper 9</div>
+    <div class="toT"><img class="toI squad HERASYNDULLAS3-i"><br/>Hera 9</div> <div class="toT"><img class="toI squad EZRABRIDGERS3-i"><br/>Ezra 9</div> <div class="toT"><img class="toI squad CHOPPERS3-i"><br/>Chopper 9</div> <div class="toT"><img class="toI squad ZEBS3-i"><br/>Zeb 9</div> <div class="toT"><img class="toI squad KANANJARRUSS3-i"><br/>Kanan 9</div>
 </div>
 
 <h3>Subs</h3><div class="PHOENIX-subs"></div>
@@ -353,9 +374,7 @@ No available counter squads.  Click for general strategy and squads to farm.
 </div>
 </td>
 </tr></tr><tr id="IT" style="background: #aaaaff">
-<td onclick="$('.counter').hide(0, function() { $('#IT_General').show() });"><div class="toT"><img class="toI squad VEERS-i"/><br/>Imperial Troopers</div></td><td class="verbage">
-No available counter squads.  Click for general strategy and squads to farm.
-</td><tr id="IT_General" class="counter toggleable">
+<td onclick="$('.counter').hide(0, function() { $('#IT_General').show() });"><div class="toT"><img class="toI squad VEERS-i"/><br/>Imperial Troopers</div></td><td colspan="3" class="verbage" style="position: relative"><div style="display: flex"><div class="gearNeeded" onclick="$('.counter').hide(0, function() { $('#IT_EWOKS').show() });" class="toT"><img class="toI hardCounter CHIEFCHIRPA-i"/><img title="Chirpa: missing zetas.  Elder: low gear.  Paploo: low gear.  Wicket: low stars.  Logray: low stars.  " src="../../i/tractor24.png"><br/>Ewoks</div></div></td><tr id="IT_General" class="counter toggleable">
 <td colspan="4">
 <h3>Opponent</h3>
 <div style="display: flex">
@@ -371,8 +390,29 @@ No available counter squads.  Click for general strategy and squads to farm.
 <h3>Additional Counter Teams</h3>
 <i>Click one of your counter teams (above) to see details about one of your teams.</i>
 <div style="display: flex">
-<div class="toT"><img class="toI squad CHIEFCHIRPA-i" title="Chirpa, Wicket, Elder, Paploo, Logray"/><br/>Ewoks</div><div class="toT"><img class="toI squad SHAAKTI-i" title="Shaak Ti, Clone Sergeant, Rex, Echo (501st), Fives"/><br/>Clones (Shaak Ti L)</div><div class="toT"><img class="toI squad REYJEDITRAINING-i" title="JTR, BB-8, Scav Rey, Finn, RT"/><br/>Resistance (JTR L)</div><div class="toT"><img class="toI squad COMMANDERLUKESKYWALKER-i" title="CLS, Han, Chewbacca, Chirrut, Baze"/><br/>Rebels (CLS Trio + Chaze)</div><div class="toT"><img class="toI squad PADMEAMIDALA-i" title="Padme, JKA, Ahsoka, GK, Barriss"/><br/>Galactic Republic</div><div class="toT"><img class="toI squad DARTHTRAYA-i" title="Traya, Sion, DN, Sith Empire Trooper, Thrawn"/><br/>Sith Triumvirate</div><div class="toT"><img class="toI squad DARTHREVAN-i" title="DR, BSF, HK-47, Sith Empire Trooper, Sith Assassin"/><br/>Sith Empire (w/o Malak)</div><div class="toT"><img class="toI squad ENFYSNEST-i" title="Nest"/><br/>Enfys Nest (solo)</div><div class="toT"><img class="toI squad CT7567-i" title="Rex, Wampa"/><br/>Rex/Wampa</div><div class="toT"><img class="toI squad MAUL-i" title="Maul, Savage, Sith Empire Trooper, Sith Assassin, Dooku"/><br/>Sith (Maul L)</div><div class="toT"><img class="toI squad VEERS-i" title="Veers, Starck, Range Trooper, Snowtrooper, DT"/><br/>Imperial Troopers</div>
+<div class="toT"><img class="toI squad SHAAKTI-i" title="Shaak Ti, Clone Sergeant, Rex, Echo (501st), Fives"/><br/>Clones (Shaak Ti L)</div><div class="toT"><img class="toI squad REYJEDITRAINING-i" title="JTR, BB-8, Scav Rey, Finn, RT"/><br/>Resistance (JTR L)</div><div class="toT"><img class="toI squad COMMANDERLUKESKYWALKER-i" title="CLS, Han, Chewbacca, Chirrut, Baze"/><br/>Rebels (CLS Trio + Chaze)</div><div class="toT"><img class="toI squad PADMEAMIDALA-i" title="Padme, JKA, Ahsoka, GK, Barriss"/><br/>Galactic Republic</div><div class="toT"><img class="toI squad DARTHTRAYA-i" title="Traya, Sion, DN, Sith Empire Trooper, Thrawn"/><br/>Sith Triumvirate</div><div class="toT"><img class="toI squad DARTHREVAN-i" title="DR, BSF, HK-47, Sith Empire Trooper, Sith Assassin"/><br/>Sith Empire (w/o Malak)</div><div class="toT"><img class="toI squad ENFYSNEST-i" title="Nest"/><br/>Enfys Nest (solo)</div><div class="toT"><img class="toI squad CT7567-i" title="Rex, Wampa"/><br/>Rex/Wampa</div><div class="toT"><img class="toI squad MAUL-i" title="Maul, Savage, Sith Empire Trooper, Sith Assassin, Dooku"/><br/>Sith (Maul L)</div><div class="toT"><img class="toI squad VEERS-i" title="Veers, Starck, Range Trooper, Snowtrooper, DT"/><br/>Imperial Troopers</div>
 </div>
+</td>
+</tr><tr id="IT_EWOKS" class="counter toggleable">
+<td valign="top" colspan="2">
+<h3>Opponent</h3>
+<div style="display: flex">
+    <div class="toT"><img class="toI squad VEERS-i" /><br/>Veers</div><div class="toT"><img class="toI squad COLONELSTARCK-i" /><br/>Starck</div><div class="toT"><img class="toI squad RANGETROOPER-i" /><br/>Range Trooper</div><div class="toT"><img class="toI squad SNOWTROOPER-i" /><br/>Snowtrooper</div><div class="toT"><img class="toI squad DEATHTROOPER-i" /><br/>DT</div>
+</div>
+
+<h3>Description</h3>
+<div class="IT-desc"></div>
+</td>
+<td colspan="2">
+<h3>Hard Counter: Ewoks 43k</h3>
+<div style="display: flex">
+    <div class="toT"><img class="toI squad CHIEFCHIRPA-i"><br/>Chirpa 7</div> <div class="toT"><img class="toI squad EWOKELDER-i"><br/>Elder 6</div> <div class="toT"><img class="toI squad PAPLOO-i"><br/>Paploo 7</div> <div class="toT"><img class="toI squad WICKET-i"><br/>Wicket 3* 6</div> <div class="toT"><img class="toI squad LOGRAY-i"><br/>Logray 4* 6</div><div class="toT"><img title="Chirpa: missing zetas.  Elder: low gear.  Paploo: low gear.  Wicket: low stars.  Logray: low stars.  " src="../../i/tractor24.png">&nbsp;Chirpa: missing zetas.  Elder: low gear.  Paploo: low gear.  Wicket: low stars.  Logray: low stars.  </div>
+</div>
+
+<h3>Subs</h3><div class="EWOKS-subs"></div>
+
+<h3>General Strategy</h3>
+<div class="IT-strat"></div>
 </td>
 </tr></tr><tr id="JEDI_BASTILA" style="background: #aaaaff">
 <td onclick="$('.counter').hide(0, function() { $('#JEDI_BASTILA_General').show() });"><div class="toT"><img class="toI squad BASTILASHAN-i"/><br/>Jedi (Bastila L)</div></td><td class="verbage">
@@ -507,7 +547,7 @@ No available counter squads.  Click for general strategy and squads to farm.
 </div>
 </td>
 </tr></tr><tr id="NS_MT" style="background: #aaaaff">
-<td onclick="$('.counter').hide(0, function() { $('#NS_MT_General').show() });"><div class="toT"><img class="toI squad MOTHERTALZIN-i"/><br/>Nightsisters (Talzin L)</div></td><td colspan="3" class="verbage" style="position: relative"><div style="display: flex"><div onclick="$('.counter').hide(0, function() { $('#NS_MT_PHOENIX').show() });" class="toT"><img class="toI softCounter HERASYNDULLAS3-i"/><br/>Phoenix</div></div></td><tr id="NS_MT_General" class="counter toggleable">
+<td onclick="$('.counter').hide(0, function() { $('#NS_MT_General').show() });"><div class="toT"><img class="toI squad MOTHERTALZIN-i"/><br/>Nightsisters (Talzin L)</div></td><td colspan="3" class="verbage" style="position: relative"><div style="display: flex"><div onclick="$('.counter').hide(0, function() { $('#NS_MT_PHOENIX').show() });" class="toT"><img class="toI softCounter HERASYNDULLAS3-i"/><br/>Phoenix</div><div class="gearNeeded" onclick="$('.counter').hide(0, function() { $('#NS_MT_EWOKS').show() });" class="toT"><img class="toI softCounter CHIEFCHIRPA-i"/><img title="Chirpa: missing zetas.  Elder: low gear.  Paploo: low gear.  Wicket: low stars.  Logray: low stars.  " src="../../i/tractor24.png"><br/>Ewoks</div></div></td><tr id="NS_MT_General" class="counter toggleable">
 <td colspan="4">
 <h3>Opponent</h3>
 <div style="display: flex">
@@ -523,7 +563,7 @@ No available counter squads.  Click for general strategy and squads to farm.
 <h3>Additional Counter Teams</h3>
 <i>Click one of your counter teams (above) to see details about one of your teams.</i>
 <div style="display: flex">
-<div class="toT"><img class="toI squad COMMANDERLUKESKYWALKER-i" title="CLS, Han, Chewbacca, C-3PO, R2-D2"/><br/>Rebels (CLS L)</div><div class="toT"><img class="toI squad SHAAKTI-i" title="Shaak Ti, Clone Sergeant, Rex, Echo (501st), Fives"/><br/>Clones (Shaak Ti L)</div><div class="toT"><img class="toI squad DARTHTRAYA-i" title="Traya, Sion, DN, Sith Empire Trooper, Thrawn"/><br/>Sith Triumvirate</div><div class="toT"><img class="toI squad JEDIKNIGHTREVAN-i" title="JKR, Jolee, GMY, BS, GK"/><br/>Jedi (Revan L)</div><div class="toT"><img class="toI squad JEDIKNIGHTREVAN-i" title="JKR, Jolee, GMY, BS, HYoda"/><br/>Jedi (Revan L w/ Hoda)</div><div class="toT"><img class="toI squad PADMEAMIDALA-i" title="Padme, JKA, Ahsoka, GK, Barriss"/><br/>Galactic Republic</div><div class="toT"><img class="toI squad GEONOSIANBROODALPHA-i" title="GBA, Sun Fac, Geo Soldier, Geo Spy, Poggle"/><br/>Geonosians</div><div class="toT"><img class="toI squad EMPERORPALPATINE-i" title="EP, Vader, Tarkin, TFP, IPD"/><br/>EP L</div><div class="toT"><img class="toI squad GRANDADMIRALTHRAWN-i" title="Thrawn, Range Trooper, DT, Shoretrooper"/><br/>Thrawn Troopers</div><div class="toT"><img class="toI squad JANGOFETT-i" title="Jango, Bossk, Boba, Dengar, Zam"/><br/>Bounty Hunters (Jango L)</div><div class="toT"><img class="toI squad BOSSK-i" title="Bossk, Boba, Dengar, Jango"/><br/>Bounty Hunters (Bossk L)</div><div class="toT"><img class="toI squad BASTILASHAN-i" title="BS, Jolee, GMY, GK, Ezra"/><br/>Jedi (Bastila L)</div><div class="toT"><img class="toI squad GRIEVOUS-i" title="GG, B1, Droideka, B2, MagnaGuard"/><br/>Separatist Droids</div><div class="toT"><img class="toI squad IG88-i" title="IG-88, GG, BB-8, T3-M4, L3-37"/><br/>Droids (Anti-Malak)</div><div class="toT"><img class="toI squad KYLORENUNMASKED-i" title="KRU, Kylo, FOE, FOO, FOST"/><br/>First Order (KRU L)</div><div class="toT"><img class="toI squad ASAJVENTRESS-i" title="AV, MT, Daka, Zombie, Spirit"/><br/>Nightsisters (Asajj L)</div><div class="toT"><img class="toI squad JEDIKNIGHTREVAN-i" title="JKR, Jolee, GMY, BS, GK"/><br/>Jedi (Revan L)</div><div class="toT"><img class="toI squad DARTHREVAN-i" title="DR, BSF, HK-47, Sith Empire Trooper, Sith Assassin"/><br/>Sith Empire (w/o Malak)</div><div class="toT"><img class="toI squad VEERS-i" title="Veers, Starck, Range Trooper, Snowtrooper, DT"/><br/>Imperial Troopers</div><div class="toT"><img class="toI squad MAUL-i" title="Maul, Savage, Sith Empire Trooper, Sith Assassin, Dooku"/><br/>Sith (Maul L)</div><div class="toT"><img class="toI squad CHIEFCHIRPA-i" title="Chirpa, Wicket, Elder, Paploo, Logray"/><br/>Ewoks</div>
+<div class="toT"><img class="toI squad COMMANDERLUKESKYWALKER-i" title="CLS, Han, Chewbacca, C-3PO, R2-D2"/><br/>Rebels (CLS L)</div><div class="toT"><img class="toI squad SHAAKTI-i" title="Shaak Ti, Clone Sergeant, Rex, Echo (501st), Fives"/><br/>Clones (Shaak Ti L)</div><div class="toT"><img class="toI squad DARTHTRAYA-i" title="Traya, Sion, DN, Sith Empire Trooper, Thrawn"/><br/>Sith Triumvirate</div><div class="toT"><img class="toI squad JEDIKNIGHTREVAN-i" title="JKR, Jolee, GMY, BS, GK"/><br/>Jedi (Revan L)</div><div class="toT"><img class="toI squad JEDIKNIGHTREVAN-i" title="JKR, Jolee, GMY, BS, HYoda"/><br/>Jedi (Revan L w/ Hoda)</div><div class="toT"><img class="toI squad PADMEAMIDALA-i" title="Padme, JKA, Ahsoka, GK, Barriss"/><br/>Galactic Republic</div><div class="toT"><img class="toI squad GEONOSIANBROODALPHA-i" title="GBA, Sun Fac, Geo Soldier, Geo Spy, Poggle"/><br/>Geonosians</div><div class="toT"><img class="toI squad EMPERORPALPATINE-i" title="EP, Vader, Tarkin, TFP, IPD"/><br/>EP L</div><div class="toT"><img class="toI squad GRANDADMIRALTHRAWN-i" title="Thrawn, Range Trooper, DT, Shoretrooper"/><br/>Thrawn Troopers</div><div class="toT"><img class="toI squad JANGOFETT-i" title="Jango, Bossk, Boba, Dengar, Zam"/><br/>Bounty Hunters (Jango L)</div><div class="toT"><img class="toI squad BOSSK-i" title="Bossk, Boba, Dengar, Jango"/><br/>Bounty Hunters (Bossk L)</div><div class="toT"><img class="toI squad BASTILASHAN-i" title="BS, Jolee, GMY, GK, Ezra"/><br/>Jedi (Bastila L)</div><div class="toT"><img class="toI squad GRIEVOUS-i" title="GG, B1, Droideka, B2, MagnaGuard"/><br/>Separatist Droids</div><div class="toT"><img class="toI squad IG88-i" title="IG-88, GG, BB-8, T3-M4, L3-37"/><br/>Droids (Anti-Malak)</div><div class="toT"><img class="toI squad KYLORENUNMASKED-i" title="KRU, Kylo, FOE, FOO, FOST"/><br/>First Order (KRU L)</div><div class="toT"><img class="toI squad ASAJVENTRESS-i" title="AV, MT, Daka, Zombie, Spirit"/><br/>Nightsisters (Asajj L)</div><div class="toT"><img class="toI squad JEDIKNIGHTREVAN-i" title="JKR, Jolee, GMY, BS, GK"/><br/>Jedi (Revan L)</div><div class="toT"><img class="toI squad DARTHREVAN-i" title="DR, BSF, HK-47, Sith Empire Trooper, Sith Assassin"/><br/>Sith Empire (w/o Malak)</div><div class="toT"><img class="toI squad VEERS-i" title="Veers, Starck, Range Trooper, Snowtrooper, DT"/><br/>Imperial Troopers</div><div class="toT"><img class="toI squad MAUL-i" title="Maul, Savage, Sith Empire Trooper, Sith Assassin, Dooku"/><br/>Sith (Maul L)</div>
 </div>
 </td>
 </tr><tr id="NS_MT_PHOENIX" class="counter toggleable">
@@ -539,11 +579,32 @@ No available counter squads.  Click for general strategy and squads to farm.
 <td colspan="2">
 <h3>Counter: Phoenix 70k</h3>
 <div style="display: flex">
-    <div class="toT"><img class="toI squad HERASYNDULLAS3-i"><br/>Hera 9</div> <div class="toT"><img class="toI squad EZRABRIDGERS3-i"><br/>Ezra 9</div> <div class="toT"><img class="toI squad ZEBS3-i"><br/>Zeb 9</div> <div class="toT"><img class="toI squad KANANJARRUSS3-i"><br/>Kanan 9</div> <div class="toT"><img class="toI squad CHOPPERS3-i"><br/>Chopper 9</div>
+    <div class="toT"><img class="toI squad HERASYNDULLAS3-i"><br/>Hera 9</div> <div class="toT"><img class="toI squad EZRABRIDGERS3-i"><br/>Ezra 9</div> <div class="toT"><img class="toI squad CHOPPERS3-i"><br/>Chopper 9</div> <div class="toT"><img class="toI squad ZEBS3-i"><br/>Zeb 9</div> <div class="toT"><img class="toI squad KANANJARRUSS3-i"><br/>Kanan 9</div>
 </div>
 
 <h3>Subs</h3><div class="PHOENIX-subs"></div>
 <h3>Strategy</h3><div class="NS_MT-PHOENIX-strat"></div>
+<h3>General Strategy</h3>
+<div class="NS_MT-strat"></div>
+</td>
+</tr><tr id="NS_MT_EWOKS" class="counter toggleable">
+<td valign="top" colspan="2">
+<h3>Opponent</h3>
+<div style="display: flex">
+    <div class="toT"><img class="toI squad MOTHERTALZIN-i" /><br/>MT</div><div class="toT"><img class="toI squad ASAJVENTRESS-i" /><br/>AV</div><div class="toT"><img class="toI squad DAKA-i" /><br/>Daka</div><div class="toT"><img class="toI squad NIGHTSISTERZOMBIE-i" /><br/>Zombie</div><div class="toT"><img class="toI squad NIGHTSISTERSPIRIT-i" /><br/>Spirit</div>
+</div>
+
+<h3>Description</h3>
+<div class="NS_MT-desc"></div>
+</td>
+<td colspan="2">
+<h3>Counter: Ewoks 43k</h3>
+<div style="display: flex">
+    <div class="toT"><img class="toI squad CHIEFCHIRPA-i"><br/>Chirpa 7</div> <div class="toT"><img class="toI squad EWOKELDER-i"><br/>Elder 6</div> <div class="toT"><img class="toI squad PAPLOO-i"><br/>Paploo 7</div> <div class="toT"><img class="toI squad WICKET-i"><br/>Wicket 3* 6</div> <div class="toT"><img class="toI squad LOGRAY-i"><br/>Logray 4* 6</div><div class="toT"><img title="Chirpa: missing zetas.  Elder: low gear.  Paploo: low gear.  Wicket: low stars.  Logray: low stars.  " src="../../i/tractor24.png">&nbsp;Chirpa: missing zetas.  Elder: low gear.  Paploo: low gear.  Wicket: low stars.  Logray: low stars.  </div>
+</div>
+
+<h3>Subs</h3><div class="EWOKS-subs"></div>
+<h3>Strategy</h3><div class="NS_MT-EWOKS-strat"></div>
 <h3>General Strategy</h3>
 <div class="NS_MT-strat"></div>
 </td>
@@ -592,7 +653,7 @@ No available counter squads.  Click for general strategy and squads to farm.
 </div>
 </td>
 </tr></tr><tr id="OR_CARTH" style="background: #aaaaff">
-<td onclick="$('.counter').hide(0, function() { $('#OR_CARTH_General').show() });"><div class="toT"><img class="toI squad CARTHONASI-i"/><br/>Old Republic (Carth L)</div></td><td colspan="3" class="verbage" style="position: relative"><div style="display: flex"><div onclick="$('.counter').hide(0, function() { $('#OR_CARTH_PHOENIX').show() });" class="toT"><img class="toI hardCounter HERASYNDULLAS3-i"/><br/>Phoenix</div></div></td><tr id="OR_CARTH_General" class="counter toggleable">
+<td onclick="$('.counter').hide(0, function() { $('#OR_CARTH_General').show() });"><div class="toT"><img class="toI squad CARTHONASI-i"/><br/>Old Republic (Carth L)</div></td><td colspan="3" class="verbage" style="position: relative"><div style="display: flex"><div onclick="$('.counter').hide(0, function() { $('#OR_CARTH_PHOENIX').show() });" class="toT"><img class="toI hardCounter HERASYNDULLAS3-i"/><br/>Phoenix</div><span style="background-color:#000; width:2px">&nbsp;</span><div class="gearNeeded" onclick="$('.counter').hide(0, function() { $('#OR_CARTH_EWOKS').show() });" class="toT"><img class="toI softCounter CHIEFCHIRPA-i"/><img title="Chirpa: missing zetas.  Elder: low gear.  Paploo: low gear.  Wicket: low stars.  Logray: low stars.  " src="../../i/tractor24.png"><br/>Ewoks</div></div></td><tr id="OR_CARTH_General" class="counter toggleable">
 <td colspan="4">
 <h3>Opponent</h3>
 <div style="display: flex">
@@ -608,7 +669,7 @@ No available counter squads.  Click for general strategy and squads to farm.
 <h3>Additional Counter Teams</h3>
 <i>Click one of your counter teams (above) to see details about one of your teams.</i>
 <div style="display: flex">
-<div class="toT"><img class="toI squad KYLORENUNMASKED-i" title="KRU, Kylo, FOE, FOO, FOST"/><br/>First Order (KRU L)</div><div class="toT"><img class="toI squad REYJEDITRAINING-i" title="JTR, BB-8, Scav Rey, Finn, RT"/><br/>Resistance (JTR L)</div><div class="toT"><img class="toI squad DARTHMALAK-i" title="Malak"/><br/>Darth Malak (solo)</div><div class="toT"><img class="toI squad EMPERORPALPATINE-i" title="EP, Vader, Tarkin, TFP, IPD"/><br/>EP L</div><div class="toT"><img class="toI squad DARTHTRAYA-i" title="Traya, Sion, DN, Sith Empire Trooper, Thrawn"/><br/>Sith Triumvirate</div><div class="toT"><img class="toI squad PADMEAMIDALA-i" title="Padme, JKA, Ahsoka, GK, Barriss"/><br/>Galactic Republic</div><div class="toT"><img class="toI squad COMMANDERLUKESKYWALKER-i" title="CLS, Han, Chewbacca, C-3PO, R2-D2"/><br/>Rebels (CLS L)</div><div class="toT"><img class="toI squad BASTILASHAN-i" title="BS, Jolee, GMY, GK, Ezra"/><br/>Jedi (Bastila L)</div><div class="toT"><img class="toI squad CT7567-i" title="Rex, Wampa"/><br/>Rex/Wampa</div><div class="toT"><img class="toI squad JANGOFETT-i" title="Jango, Bossk, Boba, Dengar, Zam"/><br/>Bounty Hunters (Jango L)</div><div class="toT"><img class="toI squad GRIEVOUS-i" title="GG, B1, Droideka, B2, MagnaGuard"/><br/>Separatist Droids</div><div class="toT"><img class="toI squad GEONOSIANBROODALPHA-i" title="GBA, Sun Fac, Geo Soldier, Geo Spy, Poggle"/><br/>Geonosians</div><div class="toT"><img class="toI squad DARTHREVAN-i" title="DR, BSF, HK-47, Sith Empire Trooper, Sith Assassin"/><br/>Sith Empire (w/o Malak)</div><div class="toT"><img class="toI squad VEERS-i" title="Veers, Starck, Range Trooper, Snowtrooper, DT"/><br/>Imperial Troopers</div><div class="toT"><img class="toI squad MOTHERTALZIN-i" title="MT, AV, Daka, Zombie, Spirit"/><br/>Nightsisters (Talzin L)</div><div class="toT"><img class="toI squad CHIEFCHIRPA-i" title="Chirpa, Wicket, Elder, Paploo, Logray"/><br/>Ewoks</div><div class="toT"><img class="toI squad GRANDADMIRALTHRAWN-i" title="Thrawn, Range Trooper, DT, Shoretrooper"/><br/>Thrawn Troopers</div>
+<div class="toT"><img class="toI squad KYLORENUNMASKED-i" title="KRU, Kylo, FOE, FOO, FOST"/><br/>First Order (KRU L)</div><div class="toT"><img class="toI squad REYJEDITRAINING-i" title="JTR, BB-8, Scav Rey, Finn, RT"/><br/>Resistance (JTR L)</div><div class="toT"><img class="toI squad DARTHMALAK-i" title="Malak"/><br/>Darth Malak (solo)</div><div class="toT"><img class="toI squad EMPERORPALPATINE-i" title="EP, Vader, Tarkin, TFP, IPD"/><br/>EP L</div><div class="toT"><img class="toI squad DARTHTRAYA-i" title="Traya, Sion, DN, Sith Empire Trooper, Thrawn"/><br/>Sith Triumvirate</div><div class="toT"><img class="toI squad PADMEAMIDALA-i" title="Padme, JKA, Ahsoka, GK, Barriss"/><br/>Galactic Republic</div><div class="toT"><img class="toI squad COMMANDERLUKESKYWALKER-i" title="CLS, Han, Chewbacca, C-3PO, R2-D2"/><br/>Rebels (CLS L)</div><div class="toT"><img class="toI squad BASTILASHAN-i" title="BS, Jolee, GMY, GK, Ezra"/><br/>Jedi (Bastila L)</div><div class="toT"><img class="toI squad CT7567-i" title="Rex, Wampa"/><br/>Rex/Wampa</div><div class="toT"><img class="toI squad JANGOFETT-i" title="Jango, Bossk, Boba, Dengar, Zam"/><br/>Bounty Hunters (Jango L)</div><div class="toT"><img class="toI squad GRIEVOUS-i" title="GG, B1, Droideka, B2, MagnaGuard"/><br/>Separatist Droids</div><div class="toT"><img class="toI squad GEONOSIANBROODALPHA-i" title="GBA, Sun Fac, Geo Soldier, Geo Spy, Poggle"/><br/>Geonosians</div><div class="toT"><img class="toI squad DARTHREVAN-i" title="DR, BSF, HK-47, Sith Empire Trooper, Sith Assassin"/><br/>Sith Empire (w/o Malak)</div><div class="toT"><img class="toI squad VEERS-i" title="Veers, Starck, Range Trooper, Snowtrooper, DT"/><br/>Imperial Troopers</div><div class="toT"><img class="toI squad MOTHERTALZIN-i" title="MT, AV, Daka, Zombie, Spirit"/><br/>Nightsisters (Talzin L)</div><div class="toT"><img class="toI squad GRANDADMIRALTHRAWN-i" title="Thrawn, Range Trooper, DT, Shoretrooper"/><br/>Thrawn Troopers</div>
 </div>
 </td>
 </tr><tr id="OR_CARTH_PHOENIX" class="counter toggleable">
@@ -624,7 +685,7 @@ No available counter squads.  Click for general strategy and squads to farm.
 <td colspan="2">
 <h3>Hard Counter: Phoenix 70k</h3>
 <div style="display: flex">
-    <div class="toT"><img class="toI squad HERASYNDULLAS3-i"><br/>Hera 9</div> <div class="toT"><img class="toI squad EZRABRIDGERS3-i"><br/>Ezra 9</div> <div class="toT"><img class="toI squad ZEBS3-i"><br/>Zeb 9</div> <div class="toT"><img class="toI squad KANANJARRUSS3-i"><br/>Kanan 9</div> <div class="toT"><img class="toI squad CHOPPERS3-i"><br/>Chopper 9</div>
+    <div class="toT"><img class="toI squad HERASYNDULLAS3-i"><br/>Hera 9</div> <div class="toT"><img class="toI squad EZRABRIDGERS3-i"><br/>Ezra 9</div> <div class="toT"><img class="toI squad CHOPPERS3-i"><br/>Chopper 9</div> <div class="toT"><img class="toI squad ZEBS3-i"><br/>Zeb 9</div> <div class="toT"><img class="toI squad KANANJARRUSS3-i"><br/>Kanan 9</div>
 </div>
 
 <h3>Subs</h3><div class="PHOENIX-subs"></div>
@@ -632,10 +693,29 @@ No available counter squads.  Click for general strategy and squads to farm.
 <h3>General Strategy</h3>
 <div class="OR_CARTH-strat"></div>
 </td>
+</tr><tr id="OR_CARTH_EWOKS" class="counter toggleable">
+<td valign="top" colspan="2">
+<h3>Opponent</h3>
+<div style="display: flex">
+    <div class="toT"><img class="toI squad CARTHONASI-i" /><br/>Carth Onasi</div><div class="toT"><img class="toI squad CANDEROUSORDO-i" /><br/>Canderous</div><div class="toT"><img class="toI squad MISSIONVAO-i" /><br/>Mission</div><div class="toT"><img class="toI squad ZAALBAR-i" /><br/>Zaalbar</div><div class="toT"><img class="toI squad JUHANI-i" /><br/>Juhani</div>
+</div>
+
+<h3>Description</h3>
+<div class="OR_CARTH-desc"></div>
+</td>
+<td colspan="2">
+<h3>Counter: Ewoks 43k</h3>
+<div style="display: flex">
+    <div class="toT"><img class="toI squad CHIEFCHIRPA-i"><br/>Chirpa 7</div> <div class="toT"><img class="toI squad EWOKELDER-i"><br/>Elder 6</div> <div class="toT"><img class="toI squad PAPLOO-i"><br/>Paploo 7</div> <div class="toT"><img class="toI squad WICKET-i"><br/>Wicket 3* 6</div> <div class="toT"><img class="toI squad LOGRAY-i"><br/>Logray 4* 6</div><div class="toT"><img title="Chirpa: missing zetas.  Elder: low gear.  Paploo: low gear.  Wicket: low stars.  Logray: low stars.  " src="../../i/tractor24.png">&nbsp;Chirpa: missing zetas.  Elder: low gear.  Paploo: low gear.  Wicket: low stars.  Logray: low stars.  </div>
+</div>
+
+<h3>Subs</h3><div class="EWOKS-subs"></div>
+<h3>Strategy</h3><div class="OR_CARTH-EWOKS-strat"></div>
+<h3>General Strategy</h3>
+<div class="OR_CARTH-strat"></div>
+</td>
 </tr></tr><tr id="PHOENIX" style="background: #aaaaff">
-<td onclick="$('.counter').hide(0, function() { $('#PHOENIX_General').show() });"><div class="toT"><img class="toI squad HERASYNDULLAS3-i"/><br/>Phoenix</div></td><td class="verbage">
-No available counter squads.  Click for general strategy and squads to farm.
-</td><tr id="PHOENIX_General" class="counter toggleable">
+<td onclick="$('.counter').hide(0, function() { $('#PHOENIX_General').show() });"><div class="toT"><img class="toI squad HERASYNDULLAS3-i"/><br/>Phoenix</div></td><td colspan="3" class="verbage" style="position: relative"><div style="display: flex"><div class="gearNeeded" onclick="$('.counter').hide(0, function() { $('#PHOENIX_EWOKS').show() });" class="toT"><img class="toI softCounter CHIEFCHIRPA-i"/><img title="Chirpa: missing zetas.  Elder: low gear.  Paploo: low gear.  Wicket: low stars.  Logray: low stars.  " src="../../i/tractor24.png"><br/>Ewoks</div></div></td><tr id="PHOENIX_General" class="counter toggleable">
 <td colspan="4">
 <h3>Opponent</h3>
 <div style="display: flex">
@@ -651,8 +731,29 @@ No available counter squads.  Click for general strategy and squads to farm.
 <h3>Additional Counter Teams</h3>
 <i>Click one of your counter teams (above) to see details about one of your teams.</i>
 <div style="display: flex">
-<div class="toT"><img class="toI squad NUTEGUNRAY-i" title="Nute, Jango, Dooku"/><br/>Separatists (Nute L)</div><div class="toT"><img class="toI squad WAMPA-i" title="Wampa"/><br/>Wampa (solo)</div><div class="toT"><img class="toI squad ENFYSNEST-i" title="Nest"/><br/>Enfys Nest (solo)</div><div class="toT"><img class="toI squad GENERALHUX-i" title="Hux, Sith Trooper, FOO"/><br/>First Order (Hux L)</div><div class="toT"><img class="toI squad VEERS-i" title="Veers, Starck, Range Trooper, Snowtrooper, DT"/><br/>Imperial Troopers</div><div class="toT"><img class="toI squad EMPERORPALPATINE-i" title="EP, Vader, Tarkin, TFP, IPD"/><br/>EP L</div><div class="toT"><img class="toI squad COMMANDERLUKESKYWALKER-i" title="CLS, Han, Chewbacca, C-3PO, R2-D2"/><br/>Rebels (CLS L)</div><div class="toT"><img class="toI squad DARTHREVAN-i" title="DR, BSF, HK-47, Sith Empire Trooper, Sith Assassin"/><br/>Sith Empire (w/o Malak)</div><div class="toT"><img class="toI squad QIRA-i" title="Qira, Vandor Chewbacca, Young Han, Young Lando, L3-37"/><br/>Qi'ra L (Prepared Smugglers)</div><div class="toT"><img class="toI squad CHIEFCHIRPA-i" title="Chirpa, Wicket, Elder, Paploo, Logray"/><br/>Ewoks</div><div class="toT"><img class="toI squad MAUL-i" title="Maul, Savage, Sith Empire Trooper, Sith Assassin, Dooku"/><br/>Sith (Maul L)</div><div class="toT"><img class="toI squad CC2224-i" title="Cody, Clone Sergeant, Rex, Echo (501st), Fives"/><br/>Clones (Cody L)</div><div class="toT"><img class="toI squad QUIGONJINN-i" title="QGJ, JKA, Aayla, Ezra, HYoda"/><br/>Jedi (QGJ L)</div><div class="toT"><img class="toI squad WEDGEANTILLES-i" title="Wedge, Biggs, Fulcrum, Chirrut, Baze"/><br/>Rebels (Wiggs)</div>
+<div class="toT"><img class="toI squad NUTEGUNRAY-i" title="Nute, Jango, Dooku"/><br/>Separatists (Nute L)</div><div class="toT"><img class="toI squad WAMPA-i" title="Wampa"/><br/>Wampa (solo)</div><div class="toT"><img class="toI squad ENFYSNEST-i" title="Nest"/><br/>Enfys Nest (solo)</div><div class="toT"><img class="toI squad GENERALHUX-i" title="Hux, Sith Trooper, FOO"/><br/>First Order (Hux L)</div><div class="toT"><img class="toI squad VEERS-i" title="Veers, Starck, Range Trooper, Snowtrooper, DT"/><br/>Imperial Troopers</div><div class="toT"><img class="toI squad EMPERORPALPATINE-i" title="EP, Vader, Tarkin, TFP, IPD"/><br/>EP L</div><div class="toT"><img class="toI squad COMMANDERLUKESKYWALKER-i" title="CLS, Han, Chewbacca, C-3PO, R2-D2"/><br/>Rebels (CLS L)</div><div class="toT"><img class="toI squad DARTHREVAN-i" title="DR, BSF, HK-47, Sith Empire Trooper, Sith Assassin"/><br/>Sith Empire (w/o Malak)</div><div class="toT"><img class="toI squad QIRA-i" title="Qira, Vandor Chewbacca, Young Han, Young Lando, L3-37"/><br/>Qi'ra L (Prepared Smugglers)</div><div class="toT"><img class="toI squad MAUL-i" title="Maul, Savage, Sith Empire Trooper, Sith Assassin, Dooku"/><br/>Sith (Maul L)</div><div class="toT"><img class="toI squad CC2224-i" title="Cody, Clone Sergeant, Rex, Echo (501st), Fives"/><br/>Clones (Cody L)</div><div class="toT"><img class="toI squad QUIGONJINN-i" title="QGJ, JKA, Aayla, Ezra, HYoda"/><br/>Jedi (QGJ L)</div><div class="toT"><img class="toI squad WEDGEANTILLES-i" title="Wedge, Biggs, Fulcrum, Chirrut, Baze"/><br/>Rebels (Wiggs)</div>
 </div>
+</td>
+</tr><tr id="PHOENIX_EWOKS" class="counter toggleable">
+<td valign="top" colspan="2">
+<h3>Opponent</h3>
+<div style="display: flex">
+    <div class="toT"><img class="toI squad HERASYNDULLAS3-i" /><br/>Hera</div><div class="toT"><img class="toI squad KANANJARRUSS3-i" /><br/>Kanan</div><div class="toT"><img class="toI squad ZEBS3-i" /><br/>Zeb</div><div class="toT"><img class="toI squad SABINEWRENS3-i" /><br/>Sabine</div><div class="toT"><img class="toI squad EZRABRIDGERS3-i" /><br/>Ezra</div>
+</div>
+
+<h3>Description</h3>
+<div class="PHOENIX-desc"></div>
+</td>
+<td colspan="2">
+<h3>Counter: Ewoks 43k</h3>
+<div style="display: flex">
+    <div class="toT"><img class="toI squad CHIEFCHIRPA-i"><br/>Chirpa 7</div> <div class="toT"><img class="toI squad EWOKELDER-i"><br/>Elder 6</div> <div class="toT"><img class="toI squad PAPLOO-i"><br/>Paploo 7</div> <div class="toT"><img class="toI squad WICKET-i"><br/>Wicket 3* 6</div> <div class="toT"><img class="toI squad LOGRAY-i"><br/>Logray 4* 6</div><div class="toT"><img title="Chirpa: missing zetas.  Elder: low gear.  Paploo: low gear.  Wicket: low stars.  Logray: low stars.  " src="../../i/tractor24.png">&nbsp;Chirpa: missing zetas.  Elder: low gear.  Paploo: low gear.  Wicket: low stars.  Logray: low stars.  </div>
+</div>
+
+<h3>Subs</h3><div class="EWOKS-subs"></div>
+<h3>Strategy</h3><div class="PHOENIX-EWOKS-strat"></div>
+<h3>General Strategy</h3>
+<div class="PHOENIX-strat"></div>
 </td>
 </tr></tr><tr id="QIRA" style="background: #aaaaff">
 <td onclick="$('.counter').hide(0, function() { $('#QIRA_General').show() });"><div class="toT"><img class="toI squad QIRA-i"/><br/>Qi'ra L</div></td><td class="verbage">
@@ -929,7 +1030,7 @@ No available counter squads.  Click for general strategy and squads to farm.
 <td colspan="2">
 <h3>Counter: Phoenix 70k</h3>
 <div style="display: flex">
-    <div class="toT"><img class="toI squad HERASYNDULLAS3-i"><br/>Hera 9</div> <div class="toT"><img class="toI squad EZRABRIDGERS3-i"><br/>Ezra 9</div> <div class="toT"><img class="toI squad ZEBS3-i"><br/>Zeb 9</div> <div class="toT"><img class="toI squad KANANJARRUSS3-i"><br/>Kanan 9</div> <div class="toT"><img class="toI squad CHOPPERS3-i"><br/>Chopper 9</div>
+    <div class="toT"><img class="toI squad HERASYNDULLAS3-i"><br/>Hera 9</div> <div class="toT"><img class="toI squad EZRABRIDGERS3-i"><br/>Ezra 9</div> <div class="toT"><img class="toI squad CHOPPERS3-i"><br/>Chopper 9</div> <div class="toT"><img class="toI squad ZEBS3-i"><br/>Zeb 9</div> <div class="toT"><img class="toI squad KANANJARRUSS3-i"><br/>Kanan 9</div>
 </div>
 
 <h3>Subs</h3><div class="PHOENIX-subs"></div>
@@ -984,5 +1085,5 @@ No available counter squads.  Click for general strategy and squads to farm.
 </tr></tr></table><script>
     window.goatcounter = { path: function(p) { return p.replace(/[^/]+\.html$/, '') } }
 </script><br/>
-<font size="-2">Generated 2021-05-30 18:12:49 +0000</font>
+<font size="-2">Generated 2021-06-05 07:52:45 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

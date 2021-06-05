@@ -370,14 +370,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-2', traces, layout)
 }
-</script><h2>Community Demographic Data</h2>Based on 46 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="basicskill_GENERALSKYWALKER"><img src="https://swgoh.gg/game-asset/a/basicskill_GENERALSKYWALKER/" style="width: 30px" /> Furious Slash</td><td>If this is the first ability General Skywalker uses during his turn, he immediately uses the Special ability Telekinesis, if able</td><td>41</td><td>89 %</td></tr><tr><td data-order="leaderskill_GENERALSKYWALKER"><img src="https://swgoh.gg/game-asset/a/leaderskill_GENERALSKYWALKER/" style="width: 30px" /> General of the 501st</td><td>When an enemy gains a buff, all 501st allies gain 2% Offense (stacking) until the end of the encounter</td><td>42</td><td>91 %</td></tr><tr><td data-order="uniqueskill_GENERALSKYWALKER01"><img src="https://swgoh.gg/game-asset/a/uniqueskill_GENERALSKYWALKER01/" style="width: 30px" /> The Chosen One</td><td>If the target enemy has no Protection when General Skywalker uses an ability, reduce their current Max Health by 20% for rest of the battle (stacking, excluding raid bosses), which can't be resisted</td><td>42</td><td>91 %</td></tr><tr><td data-order="uniqueskill_GENERALSKYWALKER02"><img src="https://swgoh.gg/game-asset/a/uniqueskill_GENERALSKYWALKER02/" style="width: 30px" /> Hero with no Fear</td><td>General Skywalker has +100% counter chance and +50% Critical Chance if all allies are 501st at the start of battle</td><td>43</td><td>93 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Community Demographic Data</h2>Based on 44 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="basicskill_GENERALSKYWALKER"><img src="https://swgoh.gg/game-asset/a/basicskill_GENERALSKYWALKER/" style="width: 30px" /> Furious Slash</td><td>If this is the first ability General Skywalker uses during his turn, he immediately uses the Special ability Telekinesis, if able</td><td>41</td><td>93 %</td></tr><tr><td data-order="leaderskill_GENERALSKYWALKER"><img src="https://swgoh.gg/game-asset/a/leaderskill_GENERALSKYWALKER/" style="width: 30px" /> General of the 501st</td><td>When an enemy gains a buff, all 501st allies gain 2% Offense (stacking) until the end of the encounter</td><td>41</td><td>93 %</td></tr><tr><td data-order="uniqueskill_GENERALSKYWALKER01"><img src="https://swgoh.gg/game-asset/a/uniqueskill_GENERALSKYWALKER01/" style="width: 30px" /> The Chosen One</td><td>If the target enemy has no Protection when General Skywalker uses an ability, reduce their current Max Health by 20% for rest of the battle (stacking, excluding raid bosses), which can't be resisted</td><td>41</td><td>93 %</td></tr><tr><td data-order="uniqueskill_GENERALSKYWALKER02"><img src="https://swgoh.gg/game-asset/a/uniqueskill_GENERALSKYWALKER02/" style="width: 30px" /> Hero with no Fear</td><td>General Skywalker has +100% counter chance and +50% Critical Chance if all allies are 501st at the start of battle</td><td>42</td><td>95 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 0, 0, 0, 0, 0, 0, 1, 2, 1, 1, 6, 1, 0, 0, 1, 1, 1, 2, 2, 20, 7 ],
+    y: [ 0, 0, 0, 0, 0, 0, 0, 2, 1, 1, 5, 1, 0, 0, 1, 1, 0, 3, 2, 20, 7 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.1739130434782608, 6.521739130434782, 8.695652173913043, 10.869565217391305, 23.913043478260867, 26.08695652173913, 26.08695652173913, 26.08695652173913, 28.26086956521739, 30.434782608695652, 32.608695652173914, 36.95652173913044, 41.30434782608696, 84.78260869565219, 100.00000000000001 ],
+    y: [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 4.545454545454546, 6.818181818181818, 9.090909090909092, 20.454545454545453, 22.727272727272727, 22.727272727272727, 22.727272727272727, 25.0, 27.272727272727273, 27.272727272727273, 34.09090909090909, 38.63636363636364, 84.0909090909091, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -397,5 +397,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2021-05-30 18:12:33 +0000</font>
+<font size="-2">Generated 2021-06-05 07:52:28 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
