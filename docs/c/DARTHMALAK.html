@@ -1,12 +1,5 @@
 <meta charset="UTF-8">
-<meta name="robots" content="noindex"><style type="text/css">
-body {
- background-image: url("../i/more_faded_logo.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
-}
-</style><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
+<meta name="robots" content="noindex"><link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.1.5/css/fixedHeader.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.6/css/fixedColumns.dataTables.min.css" />
 <script type="text/javascript" language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -72,49 +65,48 @@ td.examples {
     padding: 2px;
     font-size: 85%;
 }
-</style><title>LP Community Guild Reports: Character Data: Darth Malak</title>
-<div style="display: flex; align-items:baseline"><img src="../i/simple_logo_48.jpg"/>&nbsp;<h1>Community Guild Reports: Character Data: Darth Malak</h1></div>
+</style><title>Guild Reports: Character Data: Darth Malak</title>
+<div style="display: flex; align-items:baseline"><h1>Guild Reports: Character Data: Darth Malak</h1></div>
 
 <div style="background-color: #f0f0f0; border: solid red; padding: 10px; border-radius: 10px">
 <a href="../alliance/index.html">Community</a> |
-<div style="float:right;"><a href="../r">Resources</a></div>
 <a href="../alliance/players.html">Player</a> | <a href="../alliance/characters.html">Characters</a> | <a href="../alliance/history.html">History</a> | <a href="../alliance/transfers.html">Transfers</a>
 </div>
-<br/><h1><img id="picture" src="https://swgoh.gg/game-asset/u/DARTHMALAK.png" />Community Character Data: Darth Malak</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/darth-malak/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/darth-malak/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/darth-malak/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/darth-malak/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 1735 units from the
+<br/><h1><img id="picture" src="https://game-assets.swgoh.gg/tex.charui_darthmalak.png" />Community Character Data: Darth Malak</h1><h2>swgoh.gg data</h2><ul><li><a href="https://swgoh.gg/characters/darth-malak/">abilities / character data</a></li><li><a href="https://swgoh.gg/characters/darth-malak/data/">character meta report</a></li><li><a href="https://swgoh.gg/characters/darth-malak/data/mods">mods meta report</a></li><li><a href="https://swgoh.gg/characters/darth-malak/data/stats">stats meta report</a></li></ul><h2>Mod Data</h2><h3>Mod Stat Distributions</h3>Mod stat distributions across 1942 units from the
 alliance and top guilds.  The bonuses are shown as applied to an R5 unit.
 Specific distributions are shown below by common mod configurations.<div id="mc-all" style="height:500px" /><script>
 {
 let traces = [];traces.push({
     name: "speed",
-    x: [ 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170 ],
-    y: [ 0, 1, 2, 4, 7, 9, 12, 12, 11, 11, 8, 7, 3, 3, 2, 0 ],
-    text: [ 0.0, 2.0, 5.0, 9.0, 17.0, 26.0, 38.0, 51.0, 62.0, 73.0, 82.0, 89.0, 92.0, 95.0, 98.0, 98.0 ],
-    hovertemplate: '%{y}% of players have +%{x} speed<br>%{text}% of players have +%{x} or less<br>speed range: +20 - +170',});traces.push({
+    x: [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160 ],
+    y: [ 0, 1, 2, 3, 4, 8, 9, 11, 11, 11, 12, 8, 6, 3, 2, 0 ],
+    text: [ 0.0, 1.0, 3.0, 7.0, 12.0, 20.0, 29.0, 41.0, 53.0, 64.0, 76.0, 85.0, 92.0, 95.0, 98.0, 99.0 ],
+    hovertemplate: '%{y}% of players have +%{x} speed<br>%{text}% of players have +%{x} or less<br>speed range: +10 - +160',});traces.push({
     name: "health",
-    x: [ 0, 2500, 5000, 7500, 10000, 12500, 15000, 17500, 20000, 22500, 25000, 27500, 30000 ],
-    y: [ 4, 20, 16, 12, 10, 7, 7, 5, 4, 3, 2, 1, 0 ],
-    text: [ 5.0, 25.0, 41.0, 54.0, 65.0, 73.0, 80.0, 85.0, 90.0, 94.0, 96.0, 98.0, 99.0 ],
-    hovertemplate: '%{y}% of players have +%{x} health<br>%{text}% of players have +%{x} or less<br>health range: +0 - +30000',xaxis: "x2",});traces.push({
+    x: [ 0, 2500, 5000, 7500, 10000, 12500, 15000, 17500, 20000, 22500, 25000, 27500, 30000, 32500 ],
+    y: [ 4, 18, 14, 13, 11, 8, 7, 5, 4, 4, 2, 1, 1, 0 ],
+    text: [ 5.0, 23.0, 38.0, 51.0, 63.0, 71.0, 79.0, 84.0, 89.0, 93.0, 96.0, 97.0, 98.0, 99.0 ],
+    hovertemplate: '%{y}% of players have +%{x} health<br>%{text}% of players have +%{x} or less<br>health range: +0 - +32500',xaxis: "x2",});traces.push({
     name: "protection",
-    x: [ 0, 2500, 5000, 7500, 10000, 12500, 15000, 17500, 20000, 22500, 25000, 27500, 30000, 32500, 35000, 37500, 40000, 42500, 45000, 47500, 50000, 52500, 55000, 57500, 60000, 62500, 65000, 67500, 70000, 70000, 72500, 75000, 77500, 80000, 82500 ],
-    y: [ 0, 1, 2, 2, 1, 0, 0, 1, 2, 3, 4, 3, 1, 1, 1, 5, 9, 8, 7, 4, 2, 2, 3, 5, 5, 5, 2, 1, 0, 0, 1, 1, 1, 1, 0 ],
-    text: [ 0.0, 1.0, 4.0, 6.0, 7.0, 8.0, 8.0, 9.0, 11.0, 15.0, 20.0, 23.0, 25.0, 26.0, 28.0, 33.0, 43.0, 51.0, 59.0, 63.0, 65.0, 68.0, 71.0, 77.0, 82.0, 88.0, 91.0, 93.0, 93.0, 93.0, 94.0, 96.0, 97.0, 99.0, 99.0 ],
+    x: [ 0, 2500, 5000, 7500, 10000, 12500, 15000, 17500, 20000, 22500, 25000, 27500, 30000, 32500, 35000, 37500, 40000, 42500, 45000, 47500, 50000, 52500, 55000, 57500, 60000, 62500, 65000, 67500, 70000, 72500, 75000, 77500, 80000, 82500 ],
+    y: [ 0, 1, 2, 2, 1, 0, 0, 1, 3, 4, 4, 4, 2, 1, 1, 4, 9, 9, 7, 3, 1, 1, 3, 5, 5, 4, 2, 1, 1, 1, 1, 1, 1, 0 ],
+    text: [ 0.0, 1.0, 4.0, 6.0, 8.0, 9.0, 9.0, 10.0, 13.0, 17.0, 22.0, 26.0, 28.0, 29.0, 30.0, 35.0, 45.0, 54.0, 61.0, 64.0, 66.0, 68.0, 71.0, 77.0, 82.0, 87.0, 90.0, 92.0, 93.0, 94.0, 96.0, 97.0, 98.0, 99.0 ],
     hovertemplate: '%{y}% of players have +%{x} protection<br>%{text}% of players have +%{x} or less<br>protection range: +0 - +82500',xaxis: "x2",});traces.push({
     name: "offense",
     x: [ 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400 ],
-    y: [ 0, 1, 9, 17, 22, 15, 12, 8, 3, 2, 2, 1, 0 ],
-    text: [ 0.0, 2.0, 11.0, 29.0, 51.0, 67.0, 80.0, 88.0, 92.0, 94.0, 97.0, 98.0, 98.0 ],
+    y: [ 0, 1, 9, 16, 20, 15, 13, 8, 4, 3, 2, 1, 0 ],
+    text: [ 0.0, 2.0, 11.0, 28.0, 49.0, 65.0, 78.0, 87.0, 91.0, 94.0, 96.0, 98.0, 98.0 ],
     hovertemplate: '%{y}% of players have +%{x} offense<br>%{text}% of players have +%{x} or less<br>offense range: +200 - +1400',xaxis: "x3",});traces.push({
     name: "defense",
-    x: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ],
-    y: [ 0, 1, 10, 18, 23, 19, 10, 6, 4, 2, 0 ],
-    text: [ 0.0, 1.0, 12.0, 30.0, 53.0, 73.0, 84.0, 90.0, 95.0, 98.0, 98.0 ],
-    hovertemplate: '%{y}% of players have +%{x} defense<br>%{text}% of players have +%{x} or less<br>defense range: +1 - +11',xaxis: "x4",});traces.push({
+    x: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
+    y: [ 0, 1, 9, 17, 22, 20, 10, 7, 4, 2, 1, 0 ],
+    text: [ 0.0, 1.0, 11.0, 29.0, 52.0, 72.0, 83.0, 90.0, 95.0, 97.0, 98.0, 99.0 ],
+    hovertemplate: '%{y}% of players have +%{x} defense<br>%{text}% of players have +%{x} or less<br>defense range: +1 - +12',xaxis: "x4",});traces.push({
     name: "crit chance",
-    x: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 ],
-    y: [ 13, 10, 7, 11, 7, 8, 7, 6, 6, 4, 3, 2, 2, 1, 1, 0 ],
-    text: [ 14.0, 24.0, 32.0, 43.0, 51.0, 60.0, 68.0, 74.0, 80.0, 84.0, 88.0, 91.0, 93.0, 94.0, 95.0, 96.0 ],
-    hovertemplate: '%{y}% of players have +%{x} crit chance<br>%{text}% of players have +%{x} or less<br>crit chance range: +0 - +15',xaxis: "x4",});let layout = {
+    x: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 ],
+    y: [ 13, 9, 7, 12, 7, 8, 7, 6, 5, 4, 3, 2, 2, 1, 1, 1, 0 ],
+    text: [ 14.0, 23.0, 31.0, 43.0, 51.0, 60.0, 67.0, 73.0, 79.0, 83.0, 87.0, 90.0, 92.0, 94.0, 95.0, 96.0, 97.0 ],
+    hovertemplate: '%{y}% of players have +%{x} crit chance<br>%{text}% of players have +%{x} or less<br>crit chance range: +0 - +16',xaxis: "x4",});let layout = {
       title: "",
       hovermode: "closest",
       yaxis: {
@@ -162,39 +154,39 @@ let traces = [];traces.push({
 Plotly.newPlot('mc-all', traces, layout)
 }
 </script><h3>Mod Recommendations (External)</h3><ul><li><a href="https://gaming-fans.com/2019/04/swgoh-best-mods-for-darth-malak/">https://gaming-fans.com/2019/04/swgoh-best-mods-for-darth-malak/</a></li></ul><h3>Mod Recommendations (Community + Top Guilds)</h3><p>
-Based on 1735 units.  This shows the priorities
+Based on 1942 units.  This shows the priorities
 used in assigning mods to the characters.  For example: <b>speed, offense</b>
 would prefer speed over all else and then offense next.  These are not
 necessarily good mod setups, but they are commonly used.
 
 <p>
-The example stats are shown for these mods being applied to an R5 character.<h4 id="mod0">#1 - 42 % - speed, health, protection, offense, defense</h4><table><tr><td class="examples"><b>Typical Mods: </b><br/>speed +118, health +21811, protection +45217, offense +761, defense +6<table class="mods"><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" /><b>+8,5% offense</b><ul><li>+7,34% tenacity (3)</li><li><b>+2,95% protection</b> (1)</li><li><b>+15 speed</b> (3)</li><li><b>+1,09% health</b> (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m4" /><b>+32 speed</b><ul><li><b>+3,54% protection</b> (2)</li><li>+2% crit chance (1)</li><li><b>+2,42% offense</b> (2)</li><li><b>+3,92% health</b> (3)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" /><b>+20% defense</b><ul><li><b>+6,46% protection</b> (3)</li><li><b>+12 speed</b> (2)</li><li><b>+814 health</b> (2)</li><li>+2,97% potency (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m4" /><b>+24% protection</b><ul><li><b>+7,3% defense</b> (2)</li><li><b>+11 speed</b> (2)</li><li><b>+0,89% offense</b> (1)</li><li><b>+4,6% health</b> (3)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m4" /><b>+16% health</b><ul><li><b>+27 defense</b> (2)</li><li><b>+17 speed</b> (4)</li><li>+2,34% tenacity (1)</li><li>+1,63% potency (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m4" /><b>+24% protection</b><ul><li><b>+2,18% offense</b> (2)</li><li><b>+36 offense</b> (1)</li><li><b>+14 speed</b> (3)</li><li><b>+28 defense</b> (2)</li></ul></div></td></tr></table></td><td class="examples"><b>Great Mods: </b><br/>speed +148, health +40635, protection +26194, offense +636, defense +6<table class="mods"><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" /><b>+8,5% offense</b><ul><li><b>+24 speed</b> (5)</li><li><b>+2,29% protection</b> (1)</li><li><b>+791 protection</b> (1)</li><li>+1,81% tenacity (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" /><b>+32 speed</b><ul><li>+9,85% potency (4)</li><li><b>+2,51% protection</b> (1)</li><li><b>+5% health</b> (3)</li><li><b>+1307 protection</b> (2)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" /><b>+20% defense</b><ul><li><b>+20 speed</b> (5)</li><li><b>+532 protection</b> (1)</li><li>+1,79% tenacity (1)</li><li><b>+1,32% offense</b> (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" /><b>+16% health</b><ul><li>+3,89% potency (2)</li><li><b>+1,53% offense</b> (1)</li><li><b>+23 speed</b> (5)</li><li>+2,61% tenacity (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" /><b>+24% protection</b><ul><li><b>+10,5% defense</b> (3)</li><li><b>+22 speed</b> (5)</li><li><b>+374 health</b> (1)</li><li>+6,86% potency (3)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" /><b>+16% health</b><ul><li><b>+2,96% protection</b> (1)</li><li><b>+27 speed</b> (5)</li><li><b>+754 health</b> (2)</li><li><b>+48 offense</b> (1)</li></ul></div></td></tr></table></td></tr></table><div id="mc-0" style="height:500px" /><script>
+The example stats are shown for these mods being applied to an R5 character.<h4 id="mod0">#1 - 44 % - speed, health, protection, offense, defense</h4><table><tr><td class="examples"><b>Typical Mods: </b><br/>speed +101, health +8891, protection +56092, offense +808, defense +6<table class="mods"><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m4" /><b>+8,5% offense</b><ul><li><b>+37 defense</b> (3)</li><li>+1,92% crit chance (1)</li><li><b>+11 speed</b> (2)</li><li><b>+2,99% health</b> (2)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m4" /><b>+32 speed</b><ul><li><b>+1744 protection</b> (2)</li><li>+6,08% potency (3)</li><li><b>+2,64% offense</b> (2)</li><li><b>+2,76% protection</b> (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" /><b>+20% defense</b><ul><li><b>+359 health</b> (1)</li><li><b>+38 defense</b> (3)</li><li>+7,4% tenacity (3)</li><li><b>+17 speed</b> (3)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" /><b>+23,5% protection</b><ul><li><b>+625 health</b> (2)</li><li><b>+7 defense</b> (1)</li><li><b>+69 offense</b> (2)</li><li><b>+16 speed</b> (3)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m4" /><b>+23,5% protection</b><ul><li><b>+81 offense</b> (3)</li><li>+2,22% potency (1)</li><li><b>+6 defense</b> (1)</li><li><b>+12 speed</b> (3)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" /><b>+23,5% protection</b><ul><li><b>+13 speed</b> (3)</li><li><b>+12 defense</b> (2)</li><li><b>+82 offense</b> (2)</li><li><b>+250 health</b> (1)</li></ul></div></td></tr></table></td><td class="examples"><b>Great Mods: </b><br/>speed +135, health +49838, protection +3508, offense +982, defense +5<table class="mods"><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" /><b>+8,5% offense</b><ul><li><b>+77 offense</b> (2)</li><li><b>+835 health</b> (2)</li><li><b>+2,5% protection</b> (1)</li><li><b>+22 speed</b> (5)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" /><b>+32 speed</b><ul><li>+6,97% potency (3)</li><li><b>+125 offense</b> (3)</li><li><b>+1,45% offense</b> (1)</li><li>+2,29% tenacity (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" /><b>+20% defense</b><ul><li><b>+20 speed</b> (4)</li><li><b>+898 health</b> (3)</li><li><b>+2,65% offense</b> (2)</li><li>+2,44% potency (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" /><b>+16% health</b><ul><li><b>+2,73% defense</b> (1)</li><li><b>+20 speed</b> (4)</li><li>+6,37% tenacity (3)</li><li><b>+15 defense</b> (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" /><b>+16% health</b><ul><li><b>+1656 protection</b> (2)</li><li><b>+10 defense</b> (1)</li><li><b>+817 health</b> (2)</li><li><b>+21 speed</b> (4)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m1" /><b>+16% health</b><ul><li>+4,15% tenacity (2)</li><li><b>+1292 health</b> (3)</li><li><b>+20 speed</b> (4)</li><li><b>+128 offense</b> (3)</li></ul></div></td></tr></table></td></tr></table><div id="mc-0" style="height:500px" /><script>
 {
 let traces = [];traces.push({
     name: "speed",
     x: [ 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170 ],
-    y: [ 0, 1, 2, 2, 5, 6, 10, 11, 13, 12, 9, 8, 4, 3, 2, 0 ],
-    text: [ 0.0, 2.0, 4.0, 7.0, 13.0, 20.0, 31.0, 42.0, 55.0, 68.0, 78.0, 87.0, 91.0, 95.0, 98.0, 99.0 ],
+    y: [ 0, 2, 2, 3, 6, 7, 10, 10, 12, 14, 10, 8, 4, 3, 1, 0 ],
+    text: [ 0.0, 2.0, 5.0, 9.0, 15.0, 22.0, 33.0, 44.0, 57.0, 71.0, 81.0, 89.0, 94.0, 97.0, 98.0, 98.0 ],
     hovertemplate: '%{y}% of players have +%{x} speed<br>%{text}% of players have +%{x} or less<br>speed range: +20 - +170',});traces.push({
     name: "health",
-    x: [ 0, 2500, 5000, 7500, 10000, 12500, 15000, 17500, 20000, 22500, 25000, 27500, 30000 ],
-    y: [ 3, 15, 13, 14, 11, 9, 8, 5, 5, 4, 3, 1, 0 ],
-    text: [ 3.0, 19.0, 33.0, 47.0, 59.0, 68.0, 76.0, 82.0, 88.0, 92.0, 96.0, 97.0, 98.0 ],
-    hovertemplate: '%{y}% of players have +%{x} health<br>%{text}% of players have +%{x} or less<br>health range: +0 - +30000',xaxis: "x2",});traces.push({
+    x: [ 0, 2500, 5000, 7500, 10000, 12500, 15000, 17500, 20000, 22500, 25000, 27500, 30000, 32500 ],
+    y: [ 3, 14, 12, 14, 12, 9, 8, 5, 5, 4, 3, 1, 1, 0 ],
+    text: [ 3.0, 18.0, 31.0, 45.0, 58.0, 67.0, 75.0, 81.0, 87.0, 92.0, 95.0, 97.0, 98.0, 99.0 ],
+    hovertemplate: '%{y}% of players have +%{x} health<br>%{text}% of players have +%{x} or less<br>health range: +0 - +32500',xaxis: "x2",});traces.push({
     name: "protection",
-    x: [ 0, 2500, 5000, 7500, 10000, 12500, 15000, 17500, 20000, 22500, 25000, 27500, 30000, 32500, 35000, 37500, 40000, 42500, 45000, 47500, 50000, 52500, 55000, 57500, 60000, 62500, 65000, 67500, 70000, 70000, 72500, 75000, 77500, 80000, 82500 ],
-    y: [ 0, 1, 2, 2, 1, 0, 0, 1, 3, 4, 4, 4, 2, 1, 1, 5, 7, 6, 5, 3, 1, 1, 3, 6, 6, 6, 3, 2, 0, 0, 1, 2, 1, 1, 0 ],
-    text: [ 0.0, 1.0, 4.0, 7.0, 8.0, 9.0, 9.0, 10.0, 13.0, 17.0, 22.0, 26.0, 29.0, 30.0, 31.0, 36.0, 43.0, 50.0, 55.0, 59.0, 61.0, 63.0, 66.0, 72.0, 79.0, 85.0, 89.0, 91.0, 92.0, 92.0, 93.0, 96.0, 97.0, 98.0, 99.0 ],
+    x: [ 0, 2500, 5000, 7500, 10000, 12500, 15000, 15000, 17500, 20000, 22500, 25000, 27500, 30000, 32500, 35000, 37500, 40000, 42500, 45000, 47500, 50000, 52500, 55000, 57500, 60000, 62500, 65000, 67500, 70000, 72500, 75000, 77500, 80000, 82500 ],
+    y: [ 0, 1, 2, 2, 1, 1, 0, 0, 1, 3, 5, 4, 4, 2, 1, 1, 4, 7, 7, 5, 3, 1, 1, 3, 5, 6, 5, 3, 2, 1, 1, 2, 1, 1, 0 ],
+    text: [ 0.0, 1.0, 4.0, 7.0, 8.0, 9.0, 10.0, 10.0, 11.0, 15.0, 20.0, 24.0, 29.0, 31.0, 32.0, 33.0, 38.0, 46.0, 54.0, 59.0, 62.0, 63.0, 64.0, 68.0, 74.0, 80.0, 85.0, 89.0, 91.0, 92.0, 94.0, 96.0, 97.0, 99.0, 99.0 ],
     hovertemplate: '%{y}% of players have +%{x} protection<br>%{text}% of players have +%{x} or less<br>protection range: +0 - +82500',xaxis: "x2",});traces.push({
     name: "offense",
     x: [ 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400 ],
-    y: [ 0, 1, 9, 17, 21, 14, 12, 8, 4, 2, 2, 1, 0 ],
-    text: [ 0.0, 2.0, 12.0, 30.0, 51.0, 66.0, 78.0, 87.0, 91.0, 94.0, 96.0, 97.0, 98.0 ],
+    y: [ 0, 1, 9, 17, 19, 14, 13, 8, 4, 3, 2, 1, 0 ],
+    text: [ 0.0, 2.0, 11.0, 29.0, 48.0, 63.0, 77.0, 86.0, 90.0, 93.0, 96.0, 97.0, 98.0 ],
     hovertemplate: '%{y}% of players have +%{x} offense<br>%{text}% of players have +%{x} or less<br>offense range: +200 - +1400',xaxis: "x3",});traces.push({
     name: "defense",
     x: [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ],
-    y: [ 0, 1, 11, 18, 22, 19, 10, 6, 4, 2, 1, 0 ],
-    text: [ 0.0, 2.0, 13.0, 31.0, 54.0, 73.0, 83.0, 90.0, 94.0, 97.0, 98.0, 99.0 ],
+    y: [ 0, 1, 11, 18, 21, 19, 10, 7, 5, 2, 1, 0 ],
+    text: [ 0.0, 1.0, 13.0, 31.0, 52.0, 72.0, 82.0, 89.0, 94.0, 97.0, 98.0, 99.0 ],
     hovertemplate: '%{y}% of players have +%{x} defense<br>%{text}% of players have +%{x} or less<br>defense range: +1 - +12',xaxis: "x4",});let layout = {
       title: "Attribute distribution for R5 unit prioritizing speed, health, protection, offense, defense.",
       hovermode: "closest",
@@ -242,23 +234,23 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-0', traces, layout)
 }
-</script><h4 id="mod1">#2 - 40 % - tenacity, protection, speed</h4><table><tr><td class="examples"><b>Typical Mods: </b><br/>tenacity +82, protection +46636, speed +91<table class="mods"><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" />+5,88% offense<ul><li><b>+16 speed</b> (4)</li><li><b>+819 protection</b> (1)</li><li>+74 offense (2)</li><li><b>+1,82% protection</b> (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" /><b>+32 speed</b><ul><li>+48 defense (4)</li><li>+539 health (1)</li><li>+1,51% offense (1)</li><li><b>+3,79% protection</b> (2)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" />+20% defense<ul><li><b>+17 speed</b> (3)</li><li>+78 offense (2)</li><li><b>+5,73% protection</b> (2)</li><li>+1,08% offense (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set m1" /><b>+23,5% protection</b><ul><li>+0,86% health (1)</li><li>+65 offense (2)</li><li><b>+11 speed</b> (3)</li><li>+17 defense (2)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" /><b>+24% protection</b><ul><li><b>+7,69% tenacity</b> (3)</li><li>+34 defense (3)</li><li>+1,66% offense (1)</li><li><b>+671 protection</b> (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set m1" /><b>+35% tenacity</b><ul><li><b>+15 speed</b> (3)</li><li>+3,5% offense (3)</li><li>+3,11% defense (1)</li><li><b>+2,01% protection</b> (1)</li></ul></div></td></tr></table></td><td class="examples"><b>Great Mods: </b><br/>tenacity +129, protection +43425, speed +78<table class="mods"><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" />+8,5% offense<ul><li><b>+712 protection</b> (1)</li><li>+4,96% health (3)</li><li><b>+4,6% tenacity</b> (2)</li><li><b>+12 speed</b> (2)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" /><b>+32 speed</b><ul><li>+1,59% health (1)</li><li><b>+6,76% tenacity</b> (3)</li><li><b>+2,58% protection</b> (1)</li><li>+93 offense (3)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" />+20% defense<ul><li><b>+4 speed</b> (1)</li><li>+1,12% offense (1)</li><li><b>+13,14% tenacity</b> (5)</li><li>+2,99% potency (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" /><b>+24% protection</b><ul><li><b>+2097 protection</b> (3)</li><li><b>+5,02% tenacity</b> (2)</li><li>+342 health (1)</li><li><b>+9 speed</b> (2)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" /><b>+24% protection</b><ul><li><b>+10 speed</b> (2)</li><li>+25 defense (2)</li><li><b>+4,7% tenacity</b> (2)</li><li>+71 offense (2)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" /><b>+35% tenacity</b><ul><li>+34 defense (3)</li><li>+2,01% potency (1)</li><li><b>+4,17% protection</b> (2)</li><li><b>+11 speed</b> (2)</li></ul></div></td></tr></table></td></tr></table><div id="mc-1" style="height:500px" /><script>
+</script><h4 id="mod1">#2 - 40 % - tenacity, protection, speed</h4><table><tr><td class="examples"><b>Typical Mods: </b><br/>tenacity +96, protection +55416, speed +128<table class="mods"><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" />+8,5% offense<ul><li>+13 defense (1)</li><li>+5,61% crit chance (4)</li><li>+27 offense (1)</li><li><b>+25 speed</b> (5)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" /><b>+24% protection</b><ul><li><b>+1,91% tenacity</b> (1)</li><li><b>+21 speed</b> (4)</li><li>+558 health (2)</li><li>+14,82% defense (5)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" />+20% defense<ul><li>+1704 health (4)</li><li>+82 offense (2)</li><li><b>+22 speed</b> (4)</li><li>+19 defense (2)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" /><b>+24% protection</b><ul><li><b>+17 speed</b> (4)</li><li>+4,1% potency (2)</li><li>+3,82% health (2)</li><li>+130 offense (4)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" /><b>+24% protection</b><ul><li>+83 offense (2)</li><li>+1241 health (3)</li><li>+4,73% crit chance (3)</li><li><b>+20 speed</b> (4)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" /><b>+35% tenacity</b><ul><li>+1336 health (4)</li><li><b>+23 speed</b> (5)</li><li><b>+2,7% protection</b> (1)</li><li>+30 offense (1)</li></ul></div></td></tr></table></td><td class="examples"><b>Great Mods: </b><br/>tenacity +125, protection +69121, speed +33<table class="mods"><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" />+8,5% offense<ul><li><b>+9,39% tenacity</b> (4)</li><li><b>+6 speed</b> (1)</li><li><b>+5,37% protection</b> (2)</li><li><b>+740 protection</b> (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" /><b>+24% protection</b><ul><li>+21 defense (2)</li><li><b>+1799 protection</b> (3)</li><li>+2,24% offense (2)</li><li><b>+2,03% tenacity</b> (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" />+20% defense<ul><li><b>+7,23% tenacity</b> (3)</li><li>+3,6% crit chance (2)</li><li><b>+706 protection</b> (1)</li><li><b>+8 speed</b> (2)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" /><b>+24% protection</b><ul><li><b>+7,02% tenacity</b> (3)</li><li>+1,47% health (1)</li><li><b>+5 speed</b> (1)</li><li>+6,85% potency (3)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" /><b>+24% protection</b><ul><li><b>+9 speed</b> (2)</li><li><b>+4,98% tenacity</b> (2)</li><li>+2,88% defense (1)</li><li><b>+1962 protection</b> (3)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" /><b>+35% tenacity</b><ul><li>+3,6% potency (2)</li><li>+1,83% health (1)</li><li><b>+5 speed</b> (1)</li><li><b>+8,78% protection</b> (4)</li></ul></div></td></tr></table></td></tr></table><div id="mc-1" style="height:500px" /><script>
 {
 let traces = [];traces.push({
     name: "tenacity",
-    x: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 18, 19, 20, 20, 21, 22, 23, 24, 25, 64, 65, 66, 67, 68, 69, 70, 71, 72, 72, 73, 74, 83, 84, 85, 90, 91, 92, 94, 95, 96, 100, 101, 102 ],
-    y: [ 4, 3, 3, 2, 3, 3, 2, 2, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0 ],
-    text: [ 5.0, 8.0, 11.0, 14.0, 18.0, 21.0, 24.0, 26.0, 28.0, 30.0, 31.0, 33.0, 34.0, 34.0, 34.0, 36.0, 36.0, 36.0, 37.0, 38.0, 38.0, 39.0, 40.0, 40.0, 41.0, 42.0, 43.0, 45.0, 46.0, 46.0, 47.0, 47.0, 47.0, 48.0, 48.0, 48.0, 50.0, 51.0, 51.0, 52.0, 52.0, 52.0, 54.0, 55.0, 55.0, 56.0, 57.0 ],
-    hovertemplate: '%{y}% of players have +%{x} tenacity<br>%{text}% of players have +%{x} or less<br>tenacity range: +0 - +102',});traces.push({
+    x: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 12, 13, 14, 18, 19, 20, 20, 21, 22, 23, 24, 25, 25, 26, 27, 27, 28, 29, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 83, 84, 85, 85, 86, 87, 90, 91, 92, 94, 95, 96 ],
+    y: [ 4, 3, 3, 2, 3, 3, 2, 2, 1, 2, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0 ],
+    text: [ 4.0, 7.0, 11.0, 13.0, 17.0, 20.0, 23.0, 25.0, 27.0, 29.0, 31.0, 32.0, 33.0, 33.0, 34.0, 34.0, 34.0, 36.0, 36.0, 36.0, 37.0, 38.0, 38.0, 39.0, 40.0, 40.0, 41.0, 42.0, 42.0, 43.0, 43.0, 43.0, 45.0, 45.0, 45.0, 47.0, 48.0, 49.0, 49.0, 50.0, 51.0, 51.0, 52.0, 53.0, 53.0, 54.0, 55.0, 55.0, 56.0, 57.0, 57.0, 59.0, 60.0 ],
+    hovertemplate: '%{y}% of players have +%{x} tenacity<br>%{text}% of players have +%{x} or less<br>tenacity range: +0 - +96',});traces.push({
     name: "protection",
-    x: [ 0, 2500, 5000, 7500, 10000, 12500, 15000, 17500, 20000, 22500, 25000, 27500, 30000, 32500, 35000, 37500, 40000, 42500, 45000, 47500, 50000, 52500, 55000, 57500, 60000, 62500, 65000, 67500, 70000, 72500, 75000, 77500, 80000, 82500 ],
-    y: [ 0, 1, 2, 2, 1, 0, 0, 1, 3, 4, 4, 4, 2, 1, 1, 5, 7, 7, 5, 3, 1, 1, 3, 6, 6, 6, 3, 2, 1, 1, 2, 1, 1, 0 ],
-    text: [ 0.0, 1.0, 4.0, 7.0, 8.0, 9.0, 9.0, 10.0, 13.0, 17.0, 22.0, 26.0, 28.0, 29.0, 31.0, 36.0, 43.0, 50.0, 55.0, 59.0, 61.0, 63.0, 66.0, 72.0, 79.0, 85.0, 89.0, 91.0, 92.0, 93.0, 96.0, 97.0, 98.0, 99.0 ],
+    x: [ 0, 2500, 5000, 7500, 10000, 12500, 15000, 15000, 17500, 20000, 22500, 25000, 27500, 30000, 32500, 35000, 35000, 37500, 40000, 42500, 45000, 47500, 50000, 52500, 55000, 57500, 60000, 62500, 65000, 67500, 70000, 72500, 75000, 77500, 80000, 82500 ],
+    y: [ 0, 1, 2, 2, 1, 1, 0, 0, 1, 3, 5, 4, 4, 2, 1, 0, 0, 4, 7, 8, 5, 3, 1, 1, 3, 5, 6, 5, 3, 2, 1, 1, 2, 1, 1, 0 ],
+    text: [ 0.0, 1.0, 4.0, 7.0, 8.0, 9.0, 10.0, 10.0, 11.0, 15.0, 20.0, 24.0, 29.0, 31.0, 32.0, 33.0, 33.0, 38.0, 45.0, 53.0, 59.0, 62.0, 63.0, 64.0, 68.0, 74.0, 80.0, 85.0, 88.0, 91.0, 92.0, 94.0, 96.0, 97.0, 99.0, 99.0 ],
     hovertemplate: '%{y}% of players have +%{x} protection<br>%{text}% of players have +%{x} or less<br>protection range: +0 - +82500',xaxis: "x2",});traces.push({
     name: "speed",
     x: [ 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170 ],
-    y: [ 0, 1, 2, 3, 5, 6, 10, 11, 13, 12, 9, 8, 4, 3, 2, 1 ],
-    text: [ 0.0, 2.0, 4.0, 7.0, 13.0, 20.0, 31.0, 42.0, 55.0, 68.0, 78.0, 87.0, 91.0, 95.0, 98.0, 99.0 ],
+    y: [ 0, 2, 2, 3, 6, 7, 10, 10, 12, 13, 10, 8, 4, 3, 1, 0 ],
+    text: [ 0.0, 2.0, 5.0, 9.0, 15.0, 23.0, 33.0, 44.0, 57.0, 71.0, 81.0, 89.0, 94.0, 97.0, 98.0, 98.0 ],
     hovertemplate: '%{y}% of players have +%{x} speed<br>%{text}% of players have +%{x} or less<br>speed range: +20 - +170',});let layout = {
       title: "Attribute distribution for R5 unit prioritizing tenacity, protection, speed.",
       hovermode: "closest",
@@ -306,73 +298,14 @@ let traces = [];traces.push({
 }
 Plotly.newPlot('mc-1', traces, layout)
 }
-</script><h4 id="mod2">#3 - 7 % - tenacity, crit avoidance, protection</h4><table><tr><td class="examples"><b>Typical Mods: </b><br/>tenacity +113, crit avoidance +35, protection +40679<table class="mods"><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" />+8,5% offense<ul><li><b>+1,55% protection</b> (1)</li><li>+17 speed (3)</li><li><b>+5,45% tenacity</b> (2)</li><li>+4,84% defense (2)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" /><b>+35% crit avoidance</b><ul><li><b>+4,17% tenacity</b> (2)</li><li>+6,8% defense (2)</li><li>+78 offense (2)</li><li>+823 health (2)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" />+20% defense<ul><li><b>+2453 protection</b> (3)</li><li>+35 offense (1)</li><li>+422 health (1)</li><li>+14 speed (3)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" /><b>+24% protection</b><ul><li><b>+1,62% tenacity</b> (1)</li><li>+4,71% health (3)</li><li>+11 speed (3)</li><li>+1,04% offense (1)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" /><b>+24% protection</b><ul><li>+10 speed (2)</li><li>+65 offense (2)</li><li>+2,9% potency (1)</li><li><b>+7,24% tenacity</b> (3)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" /><b>+35% tenacity</b><ul><li>+800 health (2)</li><li>+2,46% potency (1)</li><li>+15 speed (3)</li><li><b>+1462 protection</b> (2)</li></ul></div></td></tr></table></td><td class="examples"><b>Great Mods: </b><br/>tenacity +113, crit avoidance +35, protection +54459<table class="mods"><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" />+8,5% offense<ul><li><b>+7,53% tenacity</b> (3)</li><li><b>+4,77% protection</b> (2)</li><li>+1,96% health (1)</li><li>+10 speed (2)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" /><b>+35% crit avoidance</b><ul><li><b>+7,76% protection</b> (3)</li><li><b>+2,86% tenacity</b> (1)</li><li>+882 health (2)</li><li>+9 speed (2)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" />+20% defense<ul><li><b>+2,2% tenacity</b> (1)</li><li><b>+7,64% protection</b> (3)</li><li>+14 speed (3)</li><li>+33 offense (1)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" /><b>+24% protection</b><ul><li>+16 speed (3)</li><li>+4,41% potency (2)</li><li>+45 offense (1)</li><li>+3,27% health (2)</li></ul></div></td></tr><tr><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" /><b>+24% protection</b><ul><li>+85 offense (2)</li><li>+517 health (1)</li><li>+25 speed (5)</li><li><b>+6,07% tenacity</b> (3)</li></ul></div></td><td class="mod-cell"><div class="mod"><img class="mod-set priority m8" /><b>+35% tenacity</b><ul><li><b>+5,24% protection</b> (2)</li><li>+6 speed (1)</li><li>+1,73% health (1)</li><li>+157 offense (4)</li></ul></div></td></tr></table></td></tr></table><div id="mc-2" style="height:500px" /><script>
-{
-let traces = [];traces.push({
-    name: "tenacity",
-    x: [ 108, 109, 110, 111, 112, 113 ],
-    y: [ 0, 11, 11, 17, 23, 29 ],
-    text: [ 0.0, 12.0, 24.0, 41.0, 65.0, 94.0 ],
-    hovertemplate: '%{y}% of players have +%{x} tenacity<br>%{text}% of players have +%{x} or less<br>tenacity range: +108 - +113',});traces.push({
-    name: "protection",
-    x: [ 17500, 20000, 22500, 22500, 25000, 27500, 32500, 35000, 37500, 40000, 42500, 45000, 47500, 50000, 52500, 52500, 55000, 57500 ],
-    y: [ 0, 5, 0, 0, 5, 0, 0, 5, 5, 35, 11, 5, 5, 5, 0, 0, 5, 0 ],
-    text: [ 0.0, 6.0, 6.0, 6.0, 12.0, 12.0, 12.0, 18.0, 24.0, 59.0, 71.0, 76.0, 82.0, 88.0, 88.0, 88.0, 94.0, 94.0 ],
-    hovertemplate: '%{y}% of players have +%{x} protection<br>%{text}% of players have +%{x} or less<br>protection range: +17500 - +57500',xaxis: "x2",});let layout = {
-      title: "Attribute distribution for R5 unit prioritizing tenacity, crit avoidance, protection.",
-      hovermode: "closest",
-      yaxis: {
-        title: '% of players',
-      },
-      xaxis: {
-          zeroline: false,
-          showline: false,
-          autotick: true,
-          ticks: '',
-          showticklabels: false
-      },
-      xaxis2: {
-          overlaying: 'x',
-          zeroline: false,
-          showline: false,
-          autotick: true,
-          showgrid: false,
-          ticks: '',
-          showticklabels: false
-      },
-      xaxis3: {
-          overlaying: 'x',
-          zeroline: false,
-          showline: false,
-          autotick: true,
-          showgrid: false,
-          ticks: '',
-          showticklabels: false
-      },
-      xaxis4: {
-          overlaying: 'x',
-          zeroline: false,
-          showline: false,
-          autotick: true,
-          showgrid: false,
-          ticks: '',
-          showticklabels: false
-      },
-      margin: {
-          t: 60,
-          b: 0,
-      }
-}
-Plotly.newPlot('mc-2', traces, layout)
-}
-</script><h2>Community Demographic Data</h2>Based on 107 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_DARTHMALAK01"><img src="https://swgoh.gg/game-asset/a/uniqueskill_DARTHMALAK01.png" style="width: 30px" /> Gnawing Terror</td><td>Add at the end of each turn, enemies who inflicted Damage Over Time on Darth Malak or critically hit him this turn are inflicted with Fear for 1 turn, which can't be resisted or evaded</td><td>100</td><td>93 %</td></tr><tr><td data-order="uniqueskill_DARTHMALAK02"><img src="https://swgoh.gg/game-asset/a/uniqueskill_DARTHMALAK02.png" style="width: 30px" /> Jaws of Life</td><td>Add the first time Darth Malak reaches each of these thresholds, he gains a bonus turn and the cooldown of Drain Life is reset</td><td>101</td><td>94 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
+</script><h2>Community Demographic Data</h2>Based on 109 units.<table id="zetas"><thead><tr><th>Name</th><th>Description</th><th>Count</th><th>Percent</th></tr></thead><tr><td data-order="uniqueskill_DARTHMALAK01"><img src="https://swgoh.gghttps://game-assets.swgoh.gg/tex.abilityui_passive_taunt.png" style="width: 30px" /> Gnawing Terror</td><td>Add at the end of each turn, enemies who inflicted Damage Over Time on Darth Malak or critically hit him this turn are inflicted with Fear for 1 turn, which can't be resisted or evaded</td><td>101</td><td>93 %</td></tr><tr><td data-order="uniqueskill_DARTHMALAK02"><img src="https://swgoh.gghttps://game-assets.swgoh.gg/tex.abilityui_passive_darthmalak.png" style="width: 30px" /> Jaws of Life</td><td>Add the first time Darth Malak reaches each of these thresholds, he gains a bonus turn and the cooldown of Drain Life is reset</td><td>104</td><td>95 %</td></tr></table><br/><br/><div id="gearLevels-chart" style="width:80%;height:800px" /><script>
 let trace = {
-    y: [ 0, 0, 1, 0, 0, 0, 3, 0, 0, 3, 12, 8, 0, 2, 5, 2, 10, 19, 9, 33, 0 ],
+    y: [ 0, 0, 1, 0, 0, 0, 0, 2, 2, 2, 13, 6, 0, 2, 7, 2, 11, 19, 10, 32, 0 ],
     type: "bar",
     name: "Number of Players"
 }
 let trace2 = {
-    y: [ 0.0, 0.0, 0.9345794392523363, 0.9345794392523363, 0.9345794392523363, 0.9345794392523363, 3.7383177570093453, 3.7383177570093453, 3.7383177570093453, 6.5420560747663545, 17.75700934579439, 25.233644859813083, 25.233644859813083, 27.102803738317757, 31.77570093457944, 33.64485981308411, 42.99065420560748, 60.74766355140187, 69.1588785046729, 100.0, 100.0 ],
+    y: [ 0.0, 0.0, 0.9174311926605505, 0.9174311926605505, 0.9174311926605505, 0.9174311926605505, 0.9174311926605505, 2.7522935779816518, 4.587155963302752, 6.422018348623853, 18.34862385321101, 23.853211009174313, 23.853211009174313, 25.688073394495415, 32.11009174311927, 33.94495412844037, 44.03669724770643, 61.467889908256886, 70.64220183486239, 100.0, 100.0 ],
     yaxis: "y2",
     type: "line",
     name: "Cumulative % Players"
@@ -392,5 +325,5 @@ let layout = {
 }
 Plotly.newPlot('gearLevels-chart', [trace, trace2], layout)
 </script><br/>
-<font size="-2">Generated 2021-08-13 12:36:17 +0000</font>
+<font size="-2">Generated 2021-08-23 05:22:26 +0000</font>
 <script data-goatcounter="https://gorgatron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
