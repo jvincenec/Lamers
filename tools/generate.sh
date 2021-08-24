@@ -7,6 +7,8 @@ guilds=(
 	'bad 619182389'
 	'end 845439946'
 	'ds 921768629'
+	'ig 259229473'
+
 )
 
 # prime the pipe -- fetch the first guild
