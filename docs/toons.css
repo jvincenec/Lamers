@@ -89,7 +89,6 @@
 .FIRSTORDERTROOPER-i { background-size: cover; background-image:url("https://game-assets.swgoh.gg/tex.charui_firstordertrooper.png"); }
 .TIEFIGHTERFIRSTORDER-i { background-size: cover; background-image:url("https://game-assets.swgoh.gg/tex.charui_firstorder_tiefighter.png"); }
 .FIRSTORDERTIEPILOT-i { background-size: cover; background-image:url("https://game-assets.swgoh.gg/tex.charui_firstordertiepilot.png"); }
-.LORDVADER-i { background-size: cover; background-image:url("https://swgoh.gg/game-asset/a/specialskill_VADER02.png"); }
 .GAMORREANGUARD-i { background-size: cover; background-image:url("https://game-assets.swgoh.gg/tex.charui_gamorreanguard.png"); }
 .GARSAXON-i { background-size: cover; background-image:url("https://game-assets.swgoh.gg/tex.charui_gar_saxon.png"); }
 .ZEBS3-i { background-size: cover; background-image:url("https://game-assets.swgoh.gg/tex.charui_zeb_s3.png"); }
@@ -159,11 +158,13 @@
 .MILLENNIUMFALCONPRISTINE-i { background-size: cover; background-image:url("https://game-assets.swgoh.gg/tex.charui_mil_fal_pristine.png"); }
 .LOBOT-i { background-size: cover; background-image:url("https://game-assets.swgoh.gg/tex.charui_lobot.png"); }
 .LOGRAY-i { background-size: cover; background-image:url("https://game-assets.swgoh.gg/tex.charui_ewok_logray.png"); }
+.LORDVADER-i { background-size: cover; background-image:url("https://game-assets.swgoh.gg/tex.charui_lordvader.png"); }
 .LUKESKYWALKER-i { background-size: cover; background-image:url("https://game-assets.swgoh.gg/tex.charui_luke_ep4.png"); }
 .LUMINARAUNDULI-i { background-size: cover; background-image:url("https://game-assets.swgoh.gg/tex.charui_luminara.png"); }
 .MACEWINDU-i { background-size: cover; background-image:url("https://game-assets.swgoh.gg/tex.charui_macewindu.png"); }
 .MAGMATROOPER-i { background-size: cover; background-image:url("https://game-assets.swgoh.gg/tex.charui_trooperstorm_magma.png"); }
 .CAPITALMALEVOLENCE-i { background-size: cover; background-image:url("https://game-assets.swgoh.gg/tex.charui_malevolence.png"); }
+.MAULS7-i { background-size: cover; background-image:url("https://game-assets.swgoh.gg/tex.charui_maul_cyborg.png"); }
 .MISSIONVAO-i { background-size: cover; background-image:url("https://game-assets.swgoh.gg/tex.charui_mission.png"); }
 .HUMANTHUG-i { background-size: cover; background-image:url("https://game-assets.swgoh.gg/tex.charui_thug_female_01.png"); }
 .MOFFGIDEONS1-i { background-size: cover; background-image:url("https://game-assets.swgoh.gg/tex.charui_moffgideon.png"); }
